@@ -1,0 +1,26 @@
+context Core {
+    type ApplicationIdT : String(60);
+    type ApplicationPositionT : Integer;
+    type SubApplicationIdT : String(60);
+    type SubApplicationPositionT : Integer;
+    type InactiveFlagT : String(1);
+    type IconT : String(30);    
+    type LanguageT : String(1);    
+    type TextT : String(200);    
+    type SequenceT : Integer;
+    type TableIdT : String(60);
+    type TableDescT : String(60);
+    type LanguageIdT : String(2);
+    type LanguageDescT : String(20);
+    Type UserName : String(20);
+    type TabName : String(60);
+    type FieldName : String(60);
+    type ColPos : String(4);
+    type ColVisible : String(1);
+    type ColFilter : String(100);
+    type ColSort: String(5);    
+    type DefaultValue: String(100);
+    type Mandatory: String(1);
+    type FiscalYear: Integer;
+    type DataType: String(4);     
+};

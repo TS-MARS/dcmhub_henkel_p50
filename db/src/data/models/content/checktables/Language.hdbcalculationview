@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::Language" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="Language"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="SDA_T002">
+    <resourceUri>SDA_T002</resourceUri>
+  </DataSource>
+  <DataSource id="SDA_T002T">
+    <resourceUri>SDA_T002T</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews>
+  <calculationView xsi:type="Calculation:AggregationView" id="Language">
+    <viewAttributes>
+      <viewAttribute id="SPRAS"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <restrictedViewAttributes/>
+    <input node="SDA_T002"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:JoinView" id="Join_1" cardinality="C1_1" joinType="inner">
+    <viewAttributes>
+      <viewAttribute id="KEY"/>
+      <viewAttribute id="DESC"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="Language">
+      <mapping xsi:type="Calculation:AttributeMapping" target="KEY" source="SPRAS"/>
+    </input>
+    <input node="SDA_T002T">
+      <mapping xsi:type="Calculation:AttributeMapping" target="DESC" source="SPTXT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KEY" source="SPRAS"/>
+    </input>
+    <joinAttribute name="KEY"/>
+  </calculationView>
+</calculationViews>
+<logicalModel id="Join_1">
+  <attributes>
+    <attribute id="KEY" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="Join_1" columnName="KEY"/>
+    </attribute>
+    <attribute id="DESC" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPTXT"/>
+      <keyMapping columnObjectName="Join_1" columnName="DESC"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  
+    <shape expanded="true" modelObjectName="Language" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="107" y="347"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="Join_1" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="100" y="230"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape modelObjectName="Language" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="20" y="30"/>
+      <rectangleSize width="120"/>
+    </shape>
+    <shape modelObjectName="SDA_T002T" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="320" y="30"/>
+      <rectangleSize width="128"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

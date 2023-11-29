@@ -1,0 +1,108 @@
+using Core;
+
+context CS {
+
+    // Navigation List Root Applications
+    entity Application {
+        key POSITION : Core.ApplicationPositionT;
+        key APPLICATIONID : Core.ApplicationIdT;
+            ICON : Core.IconT;        
+            INACTIVE	  : Core.InactiveFlagT;
+    }
+
+    // Navigation List Child Applications
+    entity SubApplication {
+        key POSITION : Core.ApplicationPositionT;
+        key APPLICATIONID    : Core.ApplicationIdT;
+        key SUBAPPLICATIONID : Core.SubApplicationIdT;
+            INACTIVE	  : Core.InactiveFlagT;            
+    }
+
+    // Navigation List Child Applications
+    entity ApplicationText {
+        key APPLICATIONID    : Core.ApplicationIdT;
+        key LANGUAGE : Core.LanguageT;
+            TEXT      : Core.TextT;
+    }
+    // Table List for Applications
+    entity TableList {
+        key SUBAPPLICATIONID : Core.SubApplicationIdT;
+        key TABLEID          : Core.TableIdT;
+            INACTIVE	  : Core.InactiveFlagT;        
+    }
+
+    entity UiTableAttribute {
+    key USERNAME : Core.UserName;
+    key TABNAME : Core.TabName;
+    key FIELDNAME: Core.FieldName;
+        COLPOS : Core.ColPos;
+        COLVISIBLE : Core.ColVisible;
+        COLFILTER : Core.ColFilter;
+        COLSORT : Core.ColSort;
+    }
+
+    entity UiTableConfig {
+    key TABNAME : Core.TabName;
+    key FIELDNAME: Core.FieldName;
+        DEFAULT : Core.DefaultValue;
+        MANDATORY : Core.Mandatory;
+        PARAMETER : Core.InactiveFlagT;
+    }
+
+    entity UiCheckTable {
+    key FIELDNAME: Core.FieldName;
+        CHECKTABLE: Core.TabName;
+    }    
+
+    entity UiPersonalizationTable {
+    key USERNAME : Core.UserName;
+    key SUBAPPLICATIONID : Core.SubApplicationIdT;
+    key TABNAME : Core.TabName;
+    }      
+    
+    entity CustomViewText {
+        key TABNAME    : Core.TabName;
+        key LANGUAGE : Core.LanguageT;
+            TEXT      : Core.TextT;
+    }
+    entity TableText {
+        key TABNAME    : Core.TabName;
+        key LANGUAGE : Core.LanguageT;
+            TEXT      : Core.TextT;
+    }
+    entity CustomViewFieldText {
+        key FIELDNAME  : Core.FieldName;
+        key LANGUAGE : Core.LanguageT;
+            TEXT      : Core.TextT;
+    }
+    
+    entity FiscalYear {
+        key FiscalYear  : Core.FiscalYear;
+    }    
+    
+    entity FieldDataType{
+        key FieldName  : Core.FieldName;
+        	DataType : Core.DataType;
+    }    
+    view UiTableAttrView as
+        select from UiTableAttribute
+        {
+	    USERNAME as UserName,
+    	TABNAME as TabName,
+        FIELDNAME as FieldName,
+        COLPOS as ColPos,
+        COLVISIBLE as ColVisible,
+        COLFILTER as ColFilter,
+        COLSORT as ColSort
+        }; 
+
+    view UiTableConfigView as
+        select from UiTableConfig
+        {
+    	TABNAME as TabName,
+        FIELDNAME as FieldName,
+        DEFAULT as DefaultValue,
+        MANDATORY as Mandatory,
+        PARAMETER as Parameter
+        };         
+}

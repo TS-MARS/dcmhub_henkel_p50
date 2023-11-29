@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::FIAR_XD03_7" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_FIAR_XD03_7"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="P50_CV_FIAR_XD03_7">
+    <resourceUri>P50_CV_FIAR_XD03_7</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="P50_CV_FIAR_XD03_7">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_7" columnName="MANDT"/>
+    </attribute>
+    <attribute id="KUNNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUNNR"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_7" columnName="KUNNR"/>
+    </attribute>
+    <attribute id="LAND1" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LAND1"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_7" columnName="LAND1"/>
+    </attribute>
+    <attribute id="STCEG" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STCEG"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_7" columnName="STCEG"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

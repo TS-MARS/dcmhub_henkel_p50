@@ -1,0 +1,45 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:forms="sap.ui.layout.form" xmlns:m="sap.m">
+	
+													<m:Panel class="sapUiResponsiveMargin" width="auto">
+														<m:content>
+															<m:Table id="tableId" inset="false" items="{data>/rowslocal}">
+																<m:columns>
+																	<m:Column width="12em">
+																		<m:Text text="{i18n>period}"/>
+																	</m:Column>
+																	<m:Column hAlign="Right">
+																		<m:Text text="{i18n>debit}"/>
+																	</m:Column>
+																	<m:Column hAlign="Right">
+																		<m:Text text="{i18n>credit}"/>
+																	</m:Column>
+																	<m:Column hAlign="Right">
+																		<m:Text text="{i18n>balance}"/>
+																	</m:Column>
+																	<m:Column hAlign="Right">
+																		<m:Text text="{i18n>cumbal}"/>
+																	</m:Column>
+																</m:columns>
+																<m:items>
+																	<m:ColumnListItem>
+																		<m:cells>
+																			<m:ObjectIdentifier title="{data>columnPeriod}"/>
+																			<m:ObjectNumber
+																				number="{ path: 'data>columnDebit', type: 'sap.ui.model.type.Float', textAlign: 'Right', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }"
+																				state="{= ${data>columnDebit} &gt;= 0 ? 'None' : 'Error' }" unit="{data>columnCurrency}"/>
+																			<m:ObjectNumber
+																				number="{ path: 'data>columnCredit', type: 'sap.ui.model.type.Float', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }"
+																				state="{= ${data>columnCredit} &gt;= 0 ? 'None' : 'Error' }" unit="{data>columnCurrency}"/>
+																			<m:ObjectNumber
+																				number="{ path: 'data>columnBalance', type: 'sap.ui.model.type.Float', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }"
+																				state="{= ${data>columnBalance} &gt;= 0 ? 'None' : 'Error' }" unit="{data>columnCurrency}"/>
+																			<m:ObjectNumber
+																				number="{ path: 'data>columnCalc', type: 'sap.ui.model.type.Float', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }"
+																				state="{= ${data>columnCalc} &gt;= 0 ? 'None' : 'Error' }" unit="{data>columnCurrency}"/>
+																		</m:cells>
+																	</m:ColumnListItem>
+																</m:items>
+															</m:Table>
+														</m:content>
+													</m:Panel>
+</mvc:View>

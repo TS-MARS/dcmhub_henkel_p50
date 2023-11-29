@@ -1,0 +1,16 @@
+FIELDNAME,CHECKTABLE
+MANDT,Client
+MANDANT,Client
+CLIENT,Client
+RCLNT,Client
+BUKRS,Company
+RBUKRS,Company
+SPRAS,Language
+WERKS,Plant
+KUNNR,Customer
+LIFNR,Vendor
+GJAHR,FiscalYear
+MJAHR,FiscalYear
+BWKEY,ValuationArea
+KTOPL,ChartofAccounts
+RLDNR,Ledger

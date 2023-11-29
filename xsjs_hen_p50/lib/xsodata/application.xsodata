@@ -1,0 +1,24 @@
+service {
+	"core.models::Application"
+	as "ApplicationSet" key ("POSITION","APPLICATIONID") navigates ("ToChildAssctn" as "SubApplicationSet");
+	"core.models::SubApplication"
+	as "SubApplicationSet" key ("POSITION","APPLICATIONID", "SUBAPPLICATIONID") navigates ("ToTableAssctn" as "TableSet");
+	association "ToChildAssctn"
+	principal "ApplicationSet"("APPLICATIONID")
+	multiplicity "1"
+	dependent "SubApplicationSet"("APPLICATIONID")
+	multiplicity "*";
+	
+	"core.models::TableList"
+	as "TableSet" key ("SUBAPPLICATIONID", "TABLEID");	
+	association "ToTableAssctn"		
+	principal "SubApplicationSet"("SUBAPPLICATIONID")
+	multiplicity "1"
+	dependent "TableSet"("SUBAPPLICATIONID")
+	multiplicity "*";	
+}
+settings {  
+  support null;
+  content cache-control "no-store"; 
+  metadata cache-control "max-age=86401,must-revalidate";   
+}

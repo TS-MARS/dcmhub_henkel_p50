@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::FIAR_XD03_4" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_FIAR_XD03_4"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="P50_CV_FIAR_XD03_4">
+    <resourceUri>P50_CV_FIAR_XD03_4</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="P50_CV_FIAR_XD03_4">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_4" columnName="MANDT"/>
+    </attribute>
+    <attribute id="KUNNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUNNR"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_4" columnName="KUNNR"/>
+    </attribute>
+    <attribute id="BANKS" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BANKS"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_4" columnName="BANKS"/>
+    </attribute>
+    <attribute id="BANKL" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BANKL"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_4" columnName="BANKL"/>
+    </attribute>
+    <attribute id="BANKN" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BANKN"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_4" columnName="BANKN"/>
+    </attribute>
+    <attribute id="BKONT" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BKONT"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_4" columnName="BKONT"/>
+    </attribute>
+    <attribute id="BVTYP" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BVTYP"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_4" columnName="BVTYP"/>
+    </attribute>
+    <attribute id="XEZER" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XEZER"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_4" columnName="XEZER"/>
+    </attribute>
+    <attribute id="BKREF" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BKREF"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_4" columnName="BKREF"/>
+    </attribute>
+    <attribute id="KOINH" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOINH"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_4" columnName="KOINH"/>
+    </attribute>
+    <attribute id="EBPP_ACCNAME" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EBPP_ACCNAME"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_4" columnName="EBPP_ACCNAME"/>
+    </attribute>
+    <attribute id="EBPP_BVSTATUS" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EBPP_BVSTATUS"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_4" columnName="EBPP_BVSTATUS"/>
+    </attribute>
+    <attribute id="KOVON" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOVON"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_4" columnName="KOVON"/>
+    </attribute>
+    <attribute id="KOBIS" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOBIS"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_4" columnName="KOBIS"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

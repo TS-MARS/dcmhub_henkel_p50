@@ -1,0 +1,54 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:core="sap.ui.core" xmlns:v="sap.ui.comp.variants">
+	<Dialog title="{i18n>keyfilter}">
+		<content>
+			<!-- variant Management Start-->
+			<v:VariantManagement defaultVariantKey="*standard*" save="onSaveVariant" select="onChangeVariant" manage="onManageVariant" variantItems="{variants>/}" class="sapUiSmallMargin">
+				<v:variantItems>
+					<v:VariantItem key="{variants>}" text="{variants>}"></v:VariantItem>
+				</v:variantItems>
+			</v:VariantManagement>
+			<!-- variant Management End-->			
+			<l:VerticalLayout content="{ path: '/'}">
+				<Table inset="false" items="{ path: 'columns',templateShareable: false}" class="sapUiResponsiveContentPadding">
+					<headerToolbar>
+						<OverflowToolbar>
+							<content>
+								<Title text="{columns/0/column_tab} {columns/0/column_tab_desc}" level="H2"/>
+							</content>
+								<ToolbarSpacer/>
+								<Button icon="sap-icon://table-view" press="onFilter"/>							
+						</OverflowToolbar>
+					</headerToolbar>
+					<columns>
+						<Column>
+							<Text text="{i18n>name}"/>
+						</Column>
+						<Column  visible="false">
+						</Column>							
+						<Column>
+							<Text text="{i18n>filterfrom}"/>
+						</Column>
+					</columns>
+					<items>
+					
+						<ColumnListItem>
+							<cells>
+								<Label text="{column_name}" labelFor="{column_name}" required="{column_mandatory}" tooltip="{column_property} {column_type}"/>
+								<Label text="{column_property}" visible="false"/>
+								<MultiInput type="Text" showSuggestion="true" value="{column_filter}" required="{column_mandatory}"
+								submit="onChange" showValueHelp="true" valueHelpRequest="showSearchHelp">
+								</MultiInput>
+							</cells>
+						</ColumnListItem>
+					</items>
+				</Table>
+			</l:VerticalLayout>
+		</content>
+			<buttons>
+			<Button text="OK" press="onPressOkSelectionKey"></Button>
+			<Button text="Close" press="onPressCloseSelectionKey"></Button>
+			<!--<Button text="Background" press="onPressBackgroundSelectionKey"></Button>-->
+			</buttons>
+
+	</Dialog>
+</core:FragmentDefinition>

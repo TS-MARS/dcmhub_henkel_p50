@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::Ledger" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Aggregation" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="Ledger"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="SDA_T881">
+    <resourceUri>SDA_T881</resourceUri>
+  </DataSource>
+  <DataSource id="SDA_T881T">
+    <resourceUri>SDA_T881T</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews>
+  <calculationView xsi:type="Calculation:JoinView" id="Join_1" cardinality="C1_1" joinType="textTable" languageColumn="LANGU">
+    <viewAttributes>
+      <viewAttribute id="MANDT"/>
+      <viewAttribute id="KEY"/>
+      <viewAttribute id="DESC"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="SDA_T881">
+      <mapping xsi:type="Calculation:AttributeMapping" target="MANDT" source="MANDT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KEY" source="RLDNR"/>
+    </input>
+    <input node="SDA_T881T">
+      <mapping xsi:type="Calculation:AttributeMapping" target="DESC" source="NAME"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="MANDT" source="MANDT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KEY" source="RLDNR"/>
+    </input>
+    <joinAttribute name="MANDT"/>
+    <joinAttribute name="KEY"/>
+  </calculationView>
+</calculationViews>
+<logicalModel id="Join_1">
+  <attributes>
+    <attribute id="KEY" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RLDNR"/>
+      <keyMapping columnObjectName="Join_1" columnName="KEY"/>
+    </attribute>
+    <attribute id="DESC" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAME"/>
+      <keyMapping columnObjectName="Join_1" columnName="DESC"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  
+    <shape expanded="true" modelObjectName="Join_1" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="94" y="217"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape modelObjectName="SDA_T881" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="20" y="30"/>
+      <rectangleSize width="140"/>
+    </shape>
+    <shape modelObjectName="SDA_T881T" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="320" y="30"/>
+      <rectangleSize width="126"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

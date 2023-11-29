@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::PP_CS15" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_PP_CS15"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="P50_CV_PP_CS15">
+    <resourceUri>P50_CV_PP_CS15</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="P50_CV_PP_CS15">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="P50_CV_PP_CS15" columnName="MANDT"/>
+    </attribute>
+    <attribute id="MATNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MATNR"/>
+      <keyMapping columnObjectName="P50_CV_PP_CS15" columnName="MATNR"/>
+    </attribute>
+    <attribute id="WERKS" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WERKS"/>
+      <keyMapping columnObjectName="P50_CV_PP_CS15" columnName="WERKS"/>
+    </attribute>
+    <attribute id="STLAN" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STLAN"/>
+      <keyMapping columnObjectName="P50_CV_PP_CS15" columnName="STLAN"/>
+    </attribute>
+    <attribute id="STLNR" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STLNR"/>
+      <keyMapping columnObjectName="P50_CV_PP_CS15" columnName="STLNR"/>
+    </attribute>
+    <attribute id="STLAL" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STLAL"/>
+      <keyMapping columnObjectName="P50_CV_PP_CS15" columnName="STLAL"/>
+    </attribute>
+    <attribute id="LOSVN" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOSVN"/>
+      <keyMapping columnObjectName="P50_CV_PP_CS15" columnName="LOSVN"/>
+    </attribute>
+    <attribute id="LOSBS" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOSBS"/>
+      <keyMapping columnObjectName="P50_CV_PP_CS15" columnName="LOSBS"/>
+    </attribute>
+    <attribute id="ANDAT" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANDAT"/>
+      <keyMapping columnObjectName="P50_CV_PP_CS15" columnName="ANDAT"/>
+    </attribute>
+    <attribute id="ANNAM" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANNAM"/>
+      <keyMapping columnObjectName="P50_CV_PP_CS15" columnName="ANNAM"/>
+    </attribute>
+    <attribute id="AEDAT" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AEDAT"/>
+      <keyMapping columnObjectName="P50_CV_PP_CS15" columnName="AEDAT"/>
+    </attribute>
+    <attribute id="AENAM" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENAM"/>
+      <keyMapping columnObjectName="P50_CV_PP_CS15" columnName="AENAM"/>
+    </attribute>
+    <attribute id="CSLTY" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CSLTY"/>
+      <keyMapping columnObjectName="P50_CV_PP_CS15" columnName="CSLTY"/>
+    </attribute>
+    <attribute id="MANDT_1" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT_1"/>
+      <keyMapping columnObjectName="P50_CV_PP_CS15" columnName="MANDT_1"/>
+    </attribute>
+    <attribute id="MATNR_1" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MATNR_1"/>
+      <keyMapping columnObjectName="P50_CV_PP_CS15" columnName="MATNR_1"/>
+    </attribute>
+    <attribute id="SPRAS" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="P50_CV_PP_CS15" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="MAKTX" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAKTX"/>
+      <keyMapping columnObjectName="P50_CV_PP_CS15" columnName="MAKTX"/>
+    </attribute>
+    <attribute id="MAKTG" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAKTG"/>
+      <keyMapping columnObjectName="P50_CV_PP_CS15" columnName="MAKTG"/>
+    </attribute>
+    <attribute id="MANDT_2" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT_2"/>
+      <keyMapping columnObjectName="P50_CV_PP_CS15" columnName="MANDT_2"/>
+    </attribute>
+    <attribute id="STLAN_1" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STLAN_1"/>
+      <keyMapping columnObjectName="P50_CV_PP_CS15" columnName="STLAN_1"/>
+    </attribute>
+    <attribute id="PMPFE" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PMPFE"/>
+      <keyMapping columnObjectName="P50_CV_PP_CS15" columnName="PMPFE"/>
+    </attribute>
+    <attribute id="PMPKO" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PMPKO"/>
+      <keyMapping columnObjectName="P50_CV_PP_CS15" columnName="PMPKO"/>
+    </attribute>
+    <attribute id="PMPKA" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PMPKA"/>
+      <keyMapping columnObjectName="P50_CV_PP_CS15" columnName="PMPKA"/>
+    </attribute>
+    <attribute id="PMPRV" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PMPRV"/>
+      <keyMapping columnObjectName="P50_CV_PP_CS15" columnName="PMPRV"/>
+    </attribute>
+    <attribute id="PMPVS" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PMPVS"/>
+      <keyMapping columnObjectName="P50_CV_PP_CS15" columnName="PMPVS"/>
+    </attribute>
+    <attribute id="PMPIN" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PMPIN"/>
+      <keyMapping columnObjectName="P50_CV_PP_CS15" columnName="PMPIN"/>
+    </attribute>
+    <attribute id="PMPER" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PMPER"/>
+      <keyMapping columnObjectName="P50_CV_PP_CS15" columnName="PMPER"/>
+    </attribute>
+    <attribute id="MANDT_3" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT_3"/>
+      <keyMapping columnObjectName="P50_CV_PP_CS15" columnName="MANDT_3"/>
+    </attribute>
+    <attribute id="SPRAS_1" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS_1"/>
+      <keyMapping columnObjectName="P50_CV_PP_CS15" columnName="SPRAS_1"/>
+    </attribute>
+    <attribute id="STLAN_2" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STLAN_2"/>
+      <keyMapping columnObjectName="P50_CV_PP_CS15" columnName="STLAN_2"/>
+    </attribute>
+    <attribute id="ANTXT" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANTXT"/>
+      <keyMapping columnObjectName="P50_CV_PP_CS15" columnName="ANTXT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

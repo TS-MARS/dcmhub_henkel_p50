@@ -1,0 +1,46 @@
+<core:FragmentDefinition
+	xmlns="sap.ui.comp.valuehelpdialog"
+	xmlns:m="sap.m"
+	xmlns:fb="sap.ui.comp.filterbar"
+	xmlns:core="sap.ui.core">
+	<ValueHelpDialog
+		title="{i18n>version}"
+		ok=".onValueHelpOkPressVersion"
+		cancel=".onValueHelpCancelPressVersion"
+		afterClose=".onValueHelpAfterCloseVersion"
+		supportRanges="true"
+		key="VERSN"
+		descriptionKey="VERSN"
+			supportMultiselect="false"
+	>
+		<filterBar>
+			<fb:FilterBar advancedMode="true" search="onFilterBarSearchVersion">
+				<fb:filterGroupItems>
+					
+					<fb:FilterGroupItem
+						groupName="__$INTERNAL$"
+						name="MANDT"
+						label="{i18n>client}"
+						visibleInFilterBar="true"
+					>
+						<fb:control>
+							<m:Input name="MANDT" />
+						</fb:control>
+					</fb:FilterGroupItem>
+					
+						<fb:FilterGroupItem
+						groupName="__$INTERNAL$"
+						name="VERSN"
+						label="{i18n>version}"
+						visibleInFilterBar="true"
+					>
+						<fb:control>
+							<m:Input name="VERSN" />
+						</fb:control>
+					</fb:FilterGroupItem>
+
+				</fb:filterGroupItems>
+			</fb:FilterBar>
+		</filterBar>
+	</ValueHelpDialog>
+</core:FragmentDefinition>

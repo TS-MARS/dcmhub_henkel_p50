@@ -1,0 +1,46 @@
+<core:FragmentDefinition
+	xmlns="sap.ui.comp.valuehelpdialog"
+	xmlns:m="sap.m"
+	xmlns:fb="sap.ui.comp.filterbar"
+	xmlns:core="sap.ui.core">
+	<ValueHelpDialog
+		title="{i18n>chart}"
+		ok=".onValueHelpOkPressChart"
+		cancel=".onValueHelpCancelPressChart"
+		afterClose=".onValueHelpAfterCloseChart"
+		supportRanges="true"
+		key="KTOPL"
+		descriptionKey="KTOPL"
+		supportMultiselect="false"
+	>
+		<filterBar>
+			<fb:FilterBar advancedMode="true" search="onFilterBarSearchChart">
+				<fb:filterGroupItems>
+					
+					<fb:FilterGroupItem
+						groupName="__$INTERNAL$"
+						name="MANDT"
+						label="{i18n>client}"
+						visibleInFilterBar="true"
+					>
+						<fb:control>
+							<m:Input name="MANDT" />
+						</fb:control>
+					</fb:FilterGroupItem>
+					
+						<fb:FilterGroupItem
+						groupName="__$INTERNAL$"
+						name="KTOPL"
+						label="{i18n>chart}"
+						visibleInFilterBar="true"
+					>
+						<fb:control>
+							<m:Input name="KTOPL" />
+						</fb:control>
+					</fb:FilterGroupItem>
+
+				</fb:filterGroupItems>
+			</fb:FilterBar>
+		</filterBar>
+	</ValueHelpDialog>
+</core:FragmentDefinition>

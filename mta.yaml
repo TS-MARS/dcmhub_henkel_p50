@@ -1,0 +1,112 @@
+_schema-version: '2.1'
+ID: dcmhub_hen_p50
+version: 0.0.1
+#--- Template History ---#
+# Version ; Comments
+# 0.0.1   ; no rank views, extended log out idle time
+#
+#------------------------#
+modules:
+  - name: dcmhub_hen_p50-db
+    type: hdb
+    path: db
+    parameters:
+      memory: 256M
+      disk-quota: 256M
+    properties:
+      SAP_JWT_TRUST_ACL:
+        - clientid: '*'
+          identityzone: '*'
+    requires:
+      - name: dcmhub_hen_p50-hdi-container
+      - name: cross-container-service
+        group: SERVICE_REPLACEMENTS
+        properties:
+          key: ServiceName_1
+          service: '~{the-service-name}'
+  - name: xsjs_hen_p50
+    type: nodejs
+    path: xsjs_hen_p50
+    parameters:
+      memory: 1024M    
+    properties:
+      SESSION_TIMEOUT: 15
+      INCOMING_CONNECTION_TIMEOUT: 900000
+      CORS:
+        - uriPattern: .
+          allowedMethods:
+            - GET
+            - POST
+          allowedOrigin:
+            - host: '*'
+      SAP_JWT_TRUST_ACL:
+        - clientid: '*'
+          identityzone: '*'
+    provides:
+      - name: xsjs_api
+        properties:
+          url: '${default-url}'
+    requires:
+      - name: dcmhub_hen_p50-hdi-container
+      - name: dcmhub_hen_p50-db
+      - name: dcmhub_hen_p50-uaa
+      - name: dcmhub_hen_p50-fs          
+  - name: tool_hen_p50
+    type: html5
+    path: tool_hen_p50
+    parameters:
+      memory: 1024M
+    requires:
+      - name: flp-tool_hen_p50-client
+      - name: dcmhub_hen_p50-uaa
+      - name: dcmhub_hen_p50-ui5
+      - name: xsjs_api
+        group: destinations
+        properties:
+          name: xsjs_api
+          url: '~{url}'
+          forwardAuthToken: true
+          timeout: 900000
+    properties:
+      SESSION_TIMEOUT: 15
+      INCOMING_CONNECTION_TIMEOUT: 900000    
+      CORS:
+        - uriPattern: .
+          allowedMethods:
+            - GET
+            - POST
+          allowedOrigin:
+            - host: '*'
+      SAP_JWT_TRUST_ACL:
+        - clientid: '*'
+          identityzone: '*'
+  
+resources:
+  - name: dcmhub_hen_p50-hdi-container
+    type: com.sap.xs.hdi-container
+    properties:
+      hdi-container-name: '${service-name}'
+  - name: dcmhub_hen_p50-ui5
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: sapui5_sb
+      service-plan: sapui5-1.71
+  - name: dcmhub_hen_p50-uaa
+    type: org.cloudfoundry.existing-service
+    parameters:
+      service-name: portal-uaa-dcmhubflp
+  - name: cross-container-service
+    type: org.cloudfoundry.existing-service
+    parameters:
+      service-name: DCMHUB-HEN-P50
+    properties:
+      the-service-name: '${service-name}'
+  - name: flp-tool_hen_p50-client
+    type: com.sap.portal.site-content
+    parameters:
+      config:
+        siteId: dcmhubflp
+  - name: dcmhub_hen_p50-fs
+    type: com.sap.xs.fs
+    parameters:
+      service-name: FILEDIR_P50

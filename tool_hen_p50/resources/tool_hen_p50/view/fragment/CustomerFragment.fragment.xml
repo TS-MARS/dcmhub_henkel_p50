@@ -1,0 +1,54 @@
+<core:FragmentDefinition
+	xmlns="sap.ui.comp.valuehelpdialog"
+	xmlns:m="sap.m"
+	xmlns:fb="sap.ui.comp.filterbar"
+	xmlns:core="sap.ui.core">
+	<ValueHelpDialog
+		title="{i18n>customer}"
+		ok=".onValueHelpOkPressCustomer"
+		cancel=".onValueHelpCancelPressCustomer"
+		afterClose=".onValueHelpAfterCloseCustomer"
+		supportRanges="true"
+		key="KUNNR"
+		descriptionKey="NAME1"
+		supportMultiselect="false"
+	>
+		<filterBar>
+			<fb:FilterBar advancedMode="true" search="onFilterBarSearchCustomer">
+				<fb:filterGroupItems>
+					<fb:FilterGroupItem
+						groupName="__$INTERNAL$"
+						name="MANDT"
+						label="{i18n>client}"
+						visibleInFilterBar="true"
+					>
+						<fb:control>
+							<m:Input name="MANDT" />
+						</fb:control>
+					</fb:FilterGroupItem>
+					<fb:FilterGroupItem
+						groupName="__$INTERNAL$"
+						name="KUNNR"
+						label="{i18n>customer}"
+						visibleInFilterBar="true"
+					>
+						<fb:control>
+							<m:Input name="KUNNR" />
+						</fb:control>
+					</fb:FilterGroupItem>
+
+					<fb:FilterGroupItem
+						groupName="__$INTERNAL$"
+						name="NAME1"
+						label="{i18n>customername}"
+						visibleInFilterBar="true"
+					>
+						<fb:control>
+							<m:Input name="NAME1" />
+						</fb:control>
+					</fb:FilterGroupItem>
+				</fb:filterGroupItems>
+			</fb:FilterBar>
+		</filterBar>
+	</ValueHelpDialog>
+</core:FragmentDefinition>

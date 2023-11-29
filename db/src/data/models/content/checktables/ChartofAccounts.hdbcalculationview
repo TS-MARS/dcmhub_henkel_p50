@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::ChartofAccounts" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="ChartofAccounts"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="SDA_T004">
+    <resourceUri>SDA_T004</resourceUri>
+  </DataSource>
+  <DataSource id="SDA_T004T">
+    <resourceUri>SDA_T004T</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews>
+  <calculationView xsi:type="Calculation:JoinView" id="Join_1" cardinality="C1_1" joinType="textTable" languageColumn="SPRAS">
+    <viewAttributes>
+      <viewAttribute id="MANDT"/>
+      <viewAttribute id="KEY"/>
+      <viewAttribute id="DESC"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="SDA_T004">
+      <mapping xsi:type="Calculation:AttributeMapping" target="MANDT" source="MANDT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KEY" source="KTOPL"/>
+    </input>
+    <input node="SDA_T004T">
+      <mapping xsi:type="Calculation:AttributeMapping" target="DESC" source="KTPLT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="MANDT" source="MANDT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KEY" source="KTOPL"/>
+    </input>
+    <joinAttribute name="MANDT"/>
+    <joinAttribute name="KEY"/>
+  </calculationView>
+</calculationViews>
+<logicalModel id="Join_1">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="Join_1" columnName="MANDT"/>
+    </attribute>
+    <attribute id="KEY" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTOPL"/>
+      <keyMapping columnObjectName="Join_1" columnName="KEY"/>
+    </attribute>
+    <attribute id="DESC" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTPLT"/>
+      <keyMapping columnObjectName="Join_1" columnName="DESC"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  
+    <shape expanded="true" modelObjectName="Join_1" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="105" y="244"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape modelObjectName="SDA_T004" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="20" y="30"/>
+      <rectangleSize width="147"/>
+    </shape>
+    <shape modelObjectName="SDA_T004T" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="320" y="30"/>
+      <rectangleSize width="126"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

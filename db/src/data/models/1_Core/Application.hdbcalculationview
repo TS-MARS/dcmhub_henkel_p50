@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::Application" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="false" defaultClient="$$client$$" runWithInvokerPrivileges="true">
+<descriptions defaultDescription="Application"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="CS.Application">
+    <resourceUri>CS.Application</resourceUri>
+  </DataSource>
+  <DataSource id="CS.ApplicationText">
+    <resourceUri>CS.ApplicationText</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews>
+  <calculationView xsi:type="Calculation:JoinView" id="Join_1" cardinality="C1_1" joinType="textTable" languageColumn="LANGUAGE">
+    <viewAttributes>
+      <viewAttribute id="APPLICATIONID"/>
+      <viewAttribute id="POSITION"/>
+      <viewAttribute id="INACTIVE"/>
+      <viewAttribute id="ICON"/>
+      <viewAttribute id="TEXT"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <restrictedViewAttributes/>
+    <input node="CS.Application">
+      <mapping xsi:type="Calculation:AttributeMapping" target="APPLICATIONID" source="APPLICATIONID"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="POSITION" source="POSITION"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="INACTIVE" source="INACTIVE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ICON" source="ICON"/>
+    </input>
+    <input node="CS.ApplicationText">
+      <mapping xsi:type="Calculation:AttributeMapping" target="TEXT" source="TEXT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="APPLICATIONID" source="APPLICATIONID"/>
+    </input>
+    <joinAttribute name="APPLICATIONID"/>
+  </calculationView>
+</calculationViews>
+<logicalModel id="Join_1" filterExpressionLanguage="SQL">
+  <attributes>
+    <attribute id="POSITION" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POSITION"/>
+      <keyMapping columnObjectName="Join_1" columnName="POSITION"/>
+    </attribute>
+    <attribute id="APPLICATIONID" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="APPLICATIONID"/>
+      <keyMapping columnObjectName="Join_1" columnName="APPLICATIONID"/>
+    </attribute>
+    <attribute id="INACTIVE" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INACTIVE"/>
+      <keyMapping columnObjectName="Join_1" columnName="INACTIVE"/>
+    </attribute>
+    <attribute id="ICON" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ICON"/>
+      <keyMapping columnObjectName="Join_1" columnName="ICON"/>
+    </attribute>
+    <attribute id="TEXT" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TEXT"/>
+      <keyMapping columnObjectName="Join_1" columnName="TEXT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+
+  <filter>&quot;INACTIVE&quot; is null</filter>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+    <shape expanded="true" modelObjectName="Join_1" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="97" y="244"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape modelObjectName="CS.Application" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="20" y="30"/>
+      <rectangleSize width="168.92431640625"/>
+    </shape>
+    <shape modelObjectName="CS.ApplicationText" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="320" y="30"/>
+      <rectangleSize width="173.119140625"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

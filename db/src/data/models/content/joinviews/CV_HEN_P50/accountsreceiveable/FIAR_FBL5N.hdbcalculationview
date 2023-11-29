@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::FIAR_FBL5N" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_FIAR_FBL5N"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="P50_CV_FIAR_FBL5N">
+    <resourceUri>P50_CV_FIAR_FBL5N</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="P50_CV_FIAR_FBL5N">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_FBL5N" columnName="MANDT"/>
+    </attribute>
+    <attribute id="BUKRS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_FBL5N" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="KUNNR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUNNR"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_FBL5N" columnName="KUNNR"/>
+    </attribute>
+    <attribute id="NAME1" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAME1"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_FBL5N" columnName="NAME1"/>
+    </attribute>
+    <attribute id="UMSKS" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMSKS"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_FBL5N" columnName="UMSKS"/>
+    </attribute>
+    <attribute id="UMSKZ" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMSKZ"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_FBL5N" columnName="UMSKZ"/>
+    </attribute>
+    <attribute id="AUGDT" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUGDT"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_FBL5N" columnName="AUGDT"/>
+    </attribute>
+    <attribute id="AUGBL" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUGBL"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_FBL5N" columnName="AUGBL"/>
+    </attribute>
+    <attribute id="ZUONR" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZUONR"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_FBL5N" columnName="ZUONR"/>
+    </attribute>
+    <attribute id="GJAHR" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GJAHR"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_FBL5N" columnName="GJAHR"/>
+    </attribute>
+    <attribute id="BELNR" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BELNR"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_FBL5N" columnName="BELNR"/>
+    </attribute>
+    <attribute id="BUZEI" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUZEI"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_FBL5N" columnName="BUZEI"/>
+    </attribute>
+    <attribute id="BUDAT" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUDAT"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_FBL5N" columnName="BUDAT"/>
+    </attribute>
+    <attribute id="BLDAT" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BLDAT"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_FBL5N" columnName="BLDAT"/>
+    </attribute>
+    <attribute id="WAERS" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WAERS"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_FBL5N" columnName="WAERS"/>
+    </attribute>
+    <attribute id="BLART" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BLART"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_FBL5N" columnName="BLART"/>
+    </attribute>
+    <attribute id="BSCHL" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BSCHL"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_FBL5N" columnName="BSCHL"/>
+    </attribute>
+    <attribute id="SHKZG" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SHKZG"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_FBL5N" columnName="SHKZG"/>
+    </attribute>
+    <attribute id="GSBER" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GSBER"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_FBL5N" columnName="GSBER"/>
+    </attribute>
+    <attribute id="MWSKZ" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSKZ"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_FBL5N" columnName="MWSKZ"/>
+    </attribute>
+    <attribute id="SKFBT" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SKFBT"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_FBL5N" columnName="SKFBT"/>
+    </attribute>
+    <attribute id="ZFBDT" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZFBDT"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_FBL5N" columnName="ZFBDT"/>
+    </attribute>
+    <attribute id="DMBTR" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DMBTR"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_FBL5N" columnName="DMBTR"/>
+    </attribute>
+    <attribute id="WRBTR" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WRBTR"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_FBL5N" columnName="WRBTR"/>
+    </attribute>
+    <attribute id="HKONT" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HKONT"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_FBL5N" columnName="HKONT"/>
+    </attribute>
+    <attribute id="SGTXT" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SGTXT"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_FBL5N" columnName="SGTXT"/>
+    </attribute>
+    <attribute id="ValueFC" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ValueFC"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_FBL5N" columnName="ValueFC"/>
+    </attribute>
+    <attribute id="ValueHC" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ValueHC"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_FBL5N" columnName="ValueHC"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

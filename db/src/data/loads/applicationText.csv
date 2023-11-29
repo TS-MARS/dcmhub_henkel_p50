@@ -1,0 +1,474 @@
+APPLICATIONID,LANGUAGE,TEXT
+CA,E,Cross-Application Components
+CO,E,Controlling
+FI,E,Financials
+FIAA,E,Asset Accounting
+FIAP,E,Accounts Payable
+FIAR,E,Accounts Receiveable
+FICA,E,General Accounting
+FIGL,E,General Ledger Accounting
+HR,E,Human Resource
+MM,E,Purchasing
+PM,E,Plant Maintenance
+PP,E,Production planning
+PS,E,Project Systems
+QM,E,Quality Management
+SD,E,Sales and distribution
+SAP,E,SAP Tables
+CT04,E,Characteristics
+SU01D,E,User Display
+CU03,E,Display dependency
+CU43,E,Display Configuration Profile
+OY01,E,Customize: set up countries
+SCC4,E,Client display
+F_20,E,Customer master data
+S_P6B_12000150,E,Special Purpose Ledger
+SU01,E,User Maintenance
+KE5Z,E,Profit Center: Actual Line Items
+ME81,E,Analysis of Order Values
+CL03,E,Display Class
+CACRFU,E,Cross Function
+2KEE,E,Profit Center: Totals Record display
+CO_AUFK,E,CO-line items for orders 
+CO26,E,Order Item
+CO_COBRA,E,CO Accounting Rule 
+CO_COBK,E,CO-Object: Document Header
+CO_COBRB,E,CO accounting split 
+CO_COEP,E,Line item according to period 
+COOIS,E,Order information system
+CO_COSP,E,Total costs - external postings 
+CO_COSS,E,Total costs - internal postings 
+FSE3,E,Financial Statement Version
+GCS6,E,Local Retained Earnings Accounts
+KA23,E,Display cost elements
+KAL7,E,Reconciliation Ledger Cost Flow Overview
+KB13N,E,Display Manual Repostings of Costs
+KB23N,E,Display direct activity 
+KBH3,E,Statistical Key Figure Group display
+KE24,E,Actual Line Items display
+KE53,E,Profit center Master Data
+KK03,E,Statistical Key Figure Master data display
+KKAQ,E,Work in Process: Collective Processing display
+KKBC_ORD,E,Analyze Order: Target/Actual
+KO03,E,CO internal order
+KO8B,E,Settlement Document
+KO8N,E,Number Range for Settlement documents CO
+KOB1,E,Orders: Actual Cost Line Items 
+KS13,E,Display cost center 
+KSAI,E,Accrual Calculation: Assigment by Controlling Area
+KSAJ,E,Accrual Calculation: T=A Credit
+KSB1,E,Cost Centers: Actual Cost Line Items
+KSBT,E,Cost Center: Activity Type Prices
+KVBI,E,Sales Documents: Line Items Actual
+OKV1,E,Variance Keys Orders
+OKV2,E,Variance Keys Cost Objects
+S_ALR_87009746,E,Profit Center: Receivables
+S_ALR_87009747,E,Profit Center: Payables
+S_ALR_87013104,E,Sales Orders costs
+S_ALR_87013531,E,Project Costs: Costs/revenues/expenditures/receipts
+S_ALR_87013602,E,Cost Elements: Obj. type in columns
+S_ALR_87013632,E,Cost Centers: Average Costs
+TPC4,E,Programs for Authorization Check
+COCRFU,E,CO Cross Function
+FIFI0001,E,Index of G/L accounts 
+FIFI0002,E,Cust. balances special general ledger 
+FBCJ,E,Cash Journal
+FBCJC2,E,Cash Journal Transaction Names
+FBCJC0,E,Cash Journal
+S_AL0_96000497,E,Document Relationship Browser - FI document
+S_ALR_87012326,E,Chart of G/L accounts
+FD10N,E,Customer balances
+FBL5N,E,Cust. Line items
+XD03,E,Cust. Master Data
+FBD3,E,Display recurring entry
+S_ALR_87101140,E,Documents only CPD data
+RFBELJ00,E,Compact document journal
+FB03L,E,FI documents
+FB04,E,FI Documents Change History
+FI03,E,Bank master record
+FF_6,E,Account statement
+RFUMSV00,E,Advance return for tax on sales purchases
+S_ALR_807012357,E,Tax return Sum
+AB03,E,Asset Header and Position Documents
+AS03,E,Assets master data
+AW01N,E,Assets master- and transaction data
+OAV9,E,Asset History Sheet Group and Name
+S_ALR_87012037,E,Asset Account Changes
+S_ALR_87012039,E,Asset Transactions per Costcenter
+OITA,E,Investment profil display
+S_ALR_87011963,E,Assets master- and transaction data
+S_ALR_87012011,E,Asset Write-Up 
+S_ALR_87012048,E,Asset transactions 
+S_ALR_87012056,E,Directory of unposted Assets
+S_ALR_87012050,E,Asset acquisitions 
+S_ALR_87012052,E,Asset retirements
+S_ALR_87012054,E,Asset transfers
+S_ALR_87101171,E,Asset Class Changes
+S_ALR_87012058,E,List of Origins of Asset Charges - Analysis of Retirement Revenue
+S_P99_41000192,E,Booked Depriciation per Assest and Periode
+S_ALR_87012930,E,Guarantee of origin Asset encumbrances 
+FIAACRFU,E,FIAA Cross Function
+FBL1N,E,Vendor items
+FK04,E,Vendor-Masterdata Changes
+FK10N,E,Vend. balances
+MKVZ,E,Text: Purchasing document types
+S_ALR_87012093,E,Vend. revenues
+XK03,E,Vendor master
+FIAPCRFU,E,FIAP Cross Function
+FD04,E,Debitor- Masteradata Change
+S_AL0_96000490,E,Billing document: Header data 
+FIARCRFU,E,FIAR Cross Function
+CXN5,E,Assignment Company Codes / Business Areas
+FAGL_ACTIVATION,E,Activation Flag new General Ledger 
+FB03,E,documents cust. vend. G/L acc. [FB03]
+FBN1,E,Number Ranges for FI 
+OB41,E,Text: Posting Key
+OB13,E,Text: Chart of account 
+OB58,E,Financial statement version
+FTXA,E,Text: Tax code
+S_ALR_87009853,E,Account Details from Historical Accu. Balance Audit Trail
+OBY6,E,Text: Company code
+OBA7,E,Text: FI document type
+S_ALR_87012365,E,Tax Information Country Details 
+FICACRFU,E,FICA Cross Function
+FAGLB03,E,G/L account
+FAGLL03,E,G/L account line items
+FS10N,E,G/L Account Balances
+FS03,E,G/L account (main & company code)
+FS04,E,G/L Account Changes
+FSP0,E,G/L account master (chart of accounts)
+KL03,E,Display activity type
+ME2K,E,Purchasing doc/ account
+S_ALR_87009815,E,G/L account balances
+S_ALR_87100988,E,Structured Account Balances
+FIGLCRFU,E,FIGL Cross Function
+PA20,E,Personal master data 
+CKMPCD,E,Price Change Document 
+CKM3,E,Material Calculation 
+CK13N,E,Items unit costing 
+CV03N,E,Allocated documents 
+J1A5,E,Warehouse Stock display 
+CKMTOPSTOCKVAL,E,Material with Highest Inventory Value 
+CKMTOPPRICEDIF,E,Material w. Largest Difference in MAP in Current or Previous Period 
+MM_KONV_1,E,Purchasing conditions 
+LT24,E,WM transfer order header 
+LI05,E,Inventory History for Storage Bin 
+LS26,E,Evaluation of Quant Inventory 
+MM0018,E,Material movements 
+MB59,E,Material document & movements 
+MB5S,E,GR/IR Balances 
+LX18,E,Statistics for Inventory Differences 
+MB56,E,Display changes batch list 
+MBBS,E,Valuated Project Stock 
+MBGR,E,Material Documts with Reason f. Mvt 
+MC$4,E,Purchasing 
+MB5W,E,List of Stock Values: Balances 
+ME0M,E,Source List display 
+ME13,E,Purchasing info record 
+ME14,E,Purchasing Info Record Changes 
+ME1P,E,Purchase Order Price History 
+ME23N,E,Purchase orders 
+ME2B,E,Transport order 
+ME2C,E,Purchansing Documents for Material Group 
+ME33K,E,Display Contract 
+ME2J,E,Purchasing documents for project 
+ME3C,E,Purchasing Contracts to Material Group/ Vendor 
+ME33L,E,Scheduling Agreement Delivery Schedule 
+ME53N,E,Purchase requisition 
+ME43,E,Requests 
+ME48,E,Offers 
+MIR4,E,Invoices (purchasing) 
+ME5J,E,Purchase requisition for the project 
+MI24,E,Inventory list 
+MI12,E,Inventory Documents Changes 
+MM03,E,Material master 
+MR11SHOW,E,Display/Cancel Account Maintenance Document 
+MMBE,E,Material storage location data 
+MR33,E,Layer display 
+MR35,E,FIFO Results display 
+MR39,E,Purchase order change history 
+S_AL0_96000496,E,Incoming invoice (item) 
+MRL7,E,Display Pool Formation 
+MR51,E,Material - posting document item 
+MMCRFU,E,MM Cross Function
+QM11,E,Service notification
+PMCRFU,E,PM Cross Function
+CO03,E,Production order 
+CA03,E,Routing 
+CM0,E,Work center 
+CO14,E,Confirmation 
+CS03,E,Bill of materials
+CS63,E,Display order BOM 
+CS73,E,Project Material List (BOM) 
+CS15,E,Use of materials 
+PPCRFU,E,PP Cross Function
+CN42N,E,Project definition 
+CN43N,E,PSP element master data 
+CN41,E,Project Information System
+CJI3,E,Project Line Items Actual Costs 
+CJI5_1,E,Project Line Item Commitment [CJI5]
+S_ALR_87005104,E,Calculation scheme display 
+PSPRFU,E,PS Cross Function
+QA33,E,Inspection lot 
+QDL3,E,Quality level 
+QM03,E,Display notification 
+QI03,E,Q info record 
+SD_KONV,E,KA conditions (transaction data) 
+SD_S002,E,VIS sales office statistics 
+MCTC,E,VIS material analysis 
+MCTE,E,VIS Sales Organisation analysis 
+MCTK,E,VIS Delivery Plant analysis 
+V_26,E,List of sales documents by object status 
+V_23,E,Release Sales Orders for Billing 
+SDD1,E,Duplicate Sales Documents in Period 
+SDBLBDDL,E,List of blocked invoices 
+VA05,E,Customer orders 
+VA03,E,Sales Order display 
+VA23,E,Quotations display 
+VA33_1,E,Scheduling Agreement SD display
+VB8,E,List of Rebate Agreements 
+VA43_1,E,Contract SD display
+VD03,E,Debtior-customer master data Sales area 
+VF03,E,SD invoices 
+VL03N,E,Delivery SD 
+VF05,E,Billing document list 
+SDCRFU,E,SD Cross Function
+CA,D,AnwenderÃ¼b. Komponenten
+CO,D,Kostenrechnung
+FI,D,Finanzwesen
+FIAA,D,Anlagenbuchhaltung
+FIAP,D,Kreditorenbuchhaltung
+FIAR,D,Debitorenbuchhaltung
+FICA,D,Buchhaltung
+FIGL,D,Hauptbuchhaltung
+HR,D,Personalwesen
+MM,D,Materialwirtschaft
+PM,D,Instandhaltung
+PP,D,Produktionsplanung und -steuerung
+PS,D,Projektabwicklung
+QM,D,QualtitÃ¤smanagement
+SD,D,Vertrieb
+SAP,D,SAP Tabellen
+CT04,D,Merkmalverwaltung 
+SU01D,D,Benutzerpflege 
+CU03,D,Beziehungen anzeigen 
+CU43,D,Konfigurations Profil 
+OY01,D,Text: Laenderbezeichnung
+SCC4,D,Mandant anzeigen 
+F_20,D,Debitoren-Kunden-Stammdaten 
+S_P6B_12000150,D, Auswertung von Aenderungsprotokollen 
+SU01,D,Profile 
+KE5Z,D,Einzelposten Profit Center 
+ME81,D,Bestellung Material 
+CL03,D,Klasseninformationen 
+CACRFU,D,Ãœbergrf. Funktion CA
+2KEE,D,Profit Center: Summensaetze 
+CO_AUFK,D,CO-Einzelposten zu Auftraegen 
+CO26,D,Auftragspositionen 
+CO_COBRA,D,CO Abr.Vorschrift 
+CO_COBK,D,CO-Object: Belegkopf 
+CO_COBRB,D,CO Abr.Aufteilung 
+CO_COEP,D,Einzelposten periodenbezogen 
+COOIS,D,Auftragsinformationssystem 
+CO_COSP,D,Summen_Kosten - externe Buchungen 
+CO_COSS,D,Summen Kosten - interne Buchungen 
+FSE3,D,Kontengruppe / Bilanzstruktur anzeigen 
+GCS6,D,Fix- Ergebnisvortragskonten global 
+KA23,D,Kostenarten anzeigen 
+KAL7,D,Uebersicht Kostenfluesse 
+KB13N,D,Manuelle Umbuchungen anzeigen 
+KB23N,D,Direkte Leistungsverrechnung Anzeigen 
+KBH3,D,Stat. Kennzahlengruppe anzeigen 
+KE24,D,Einzelpostenanzeige - Ist 
+KE53,D,Profit Center Stammdaten 
+KK03,D,Statistische Kennzahlen anzeigen 
+KKAQ,D,Ware in Arbeit: Anzeige Sammelverarbeitung 
+KKBC_ORD,D,Analysieren Auftrag Soll/Ist-Vergleich 
+KL03,D,Leistungsarten anzeigen 
+KO03,D,CO Innenauftrag 
+KO8B,D,Abrechnungsbeleg 
+KO8N,D,Nummerkreisintervalle CO-Abrechnung 
+KOB1,D,Auftraege Einzelposten Istkosten 
+KS13,D,Kostenstelle Stammdaten
+KSAI,D,Abgrenzungen: Zuordnung pro Kostenrechnungskreis 
+KSAJ,D,Abgrenzung: Soll=Ist Entlastung 
+KSB1,D,Kostenstellen Einzelposten Istkosten anzeigen 
+KSBT,D,Kostenstellen: Leistungstarife 
+KVBI,D,Verkaufsbeleg Einzelposten Istkosten 
+OKV1,D,Abweichungsschluessel Auftraege anzeigen 
+OKV2,D,Abweichungsschluessel Kostentraeger anzeigen 
+S_ALR_87009746,D,Profit Center: Drilldown Forderungen 
+S_ALR_87009747,D,Profit Center: Drilldown Verbindlichkeiten 
+S_ALR_87013104,D,Kundenauftragsselektion externe Kosten 
+S_ALR_87013531,D,Projekt Kosten (Erloese/Ausgaben/Einnahmen) 
+S_ALR_87013602,D,Kostenarten: Objektart KSt / Auftr / Projekt / Andere 
+S_ALR_87013632,D,Kostenstellen durschschnittl. externe Kosten selektieren 
+TPC4,D,TPC4 Programme f?r Berechtigungspruefung 
+COCRFU,D,Ãœbergrf. Funktion CO
+FIFI0001,D,Sachkontenverzeichnis 
+FIFI0002,D,Debitor Salden Sonderhauptbuch 
+OB58,D,Bilanz GuV Struktur 
+FBCJ,D,Kassenbuch 
+FBCJC2,D,Kassenbuch Transaktionsnamen 
+FBCJC0,D,Kassenbuch Journal 
+S_AL0_96000497,D,Document Relationship Browser - Buchhaltungsbeleg 
+FSP0,D,Sachkontenstamm (Kontenplan) 
+S_ALR_87012326,D,Sachkontoliste 
+FD10N,D,Debitor Salden / Kontenanalyse 
+FBL5N,D,Deb. Ausgleichsbuchung 
+XD03,D,Debitor-Kunden-Stammdaten / Debitorenverzeichnis / Adressliste 
+FBD3,D,FI Dauerbuchungsbelege 
+S_ALR_87101140,D,Belege nur CPD-Daten 
+RFBELJ00,D,Belegkompaktjournal 
+FB03L,D,Buchungsbeleg Detail 
+FB04,D,FI Buchungsbelege Belegaenderungen 
+FI03,D,Bankenverzeichnis 
+FF_6,D,Kontenauszug 
+RFUMSV00,D,Umsatzsteuerzahlen 
+S_ALR_807012357,D,Umsatzsteuerzahlen Summen 
+AB03,D,Anlagenbuchungen Kopf und Positionen 
+AS03,D,Anlagen-Stammdaten 
+AW01N,D,Anlagen Stamm- und Bewegungsdaten 
+OAV9,D,Sicht Anlagengittergruppe und -bezeichnung 
+S_ALR_87012037,D,Anlagenstamm Aenderungsbelege 
+S_ALR_87012039,D,Anlagenbewegungen per Kostenbereich 
+OITA,D,Investitionsprofil anzeigen 
+S_ALR_87011963,D,Anlagenbestand 
+S_ALR_87012011,D,Anlagen Zuschreibungen 
+S_ALR_87012048,D,Anlagenbewegungen 
+S_ALR_87012056,D,Verzeichniss unbebuchter Anlagen 
+S_ALR_87012050,D,Anlagen Zukaeufe 
+S_ALR_87012052,D,Anlagenabgaenge
+S_ALR_87012054,D,Anlagenumbuchungen 
+S_ALR_87101171,D,Anlagenklasse Aenderungsbelege 
+S_ALR_87012058,D,Herkunftsnachweis von Anlagenbelastungen / Abgangserloesanalyse 
+S_P99_41000192,D,Gebuchte Abschreibungen pro Anlage und Periode 
+S_ALR_87012930,D,Herkunftsnachweis Anlagenbelastungen 
+FIAACRFU,D,Ãœbergrf. Funktion FIAA
+FBL1N,D,Kreditor Einzelposten
+FK04,D,Kreditoren-Stammdaten Aenderungen 
+FK10N,D,Kreditor Salden 
+MKVZ,D,Equipment - Lieferantenstamm 
+S_ALR_87012093,D,Kred. Umsaetze 
+XK03,D,Kreditor-Lieferanten-Stamm 
+FIAPCRFU,D,Ãœbergrf. Funktion FIAP
+FD04,D,Debitoren-Stammdaten Aenderungen 
+S_AL0_96000490,D,Faktura 
+FIARCRFU,D,Ãœbergrf. Funktion FIAR
+CXN5,D,Zuordnung Buchungskreise/Geschaeftsbereiche 
+FAGL_ACTIVATION,D,Aktivierung Neue Hauptbuchhaltung 
+FB03,D,FI Buchungsbelege 
+FBN1,D,Nummernkreisintervalle FI 
+OB41,D,Text: Buchungsschluessel 
+OB13,D,Text: Kontenplan 
+FTXA,D,Text: Steuerkennzeichen 
+S_ALR_87009853,D,Kontenniederschrift aus kumulierter klassischer Kontenschreibung 
+OBY6,D,Text: Buchungskreis 
+OBA7,D,Text: FI Belegarten 
+S_ALR_87012365,D,Steuerinformationen Land Details 
+FICACRFU,D,Ãœbergrf. Funktion FICA
+FAGLB03,D,G/L Account
+FAGLL03,D,Sachkonten Einzelposten 
+FS10N,D,Sachkonto Verkehrszahlen 
+FS03,D,Sachkonten-Stammdaten 
+FS04,D,Sachkonten-Stammdaten Aenderungen 
+ME2K,D,Einkaufsbeleg / Bestellungen / WE/RE Saldenliste 
+S_ALR_87009815,D,Hauptbuchkonten Verkehrszahlen 
+S_ALR_87100988,D,Strukturierte Saldenliste Summe per Bilanzposition 
+FIGLCRFU,D,Ãœbergrf. Funktion FIGL
+PA20,D,Personalstammdaten 
+CKMPCD,D,Preisaenderungsbeleg anzeigen 
+CKM3,D,Materialkalkulation 
+CK13N,D,Einzelkalkulation (Steuerung + Summen) 
+CV03N,D,Dokumente Suchen 
+J1A5,D,Lagerbestand anzeigen 
+CKMTOPSTOCKVAL,D,Materialien mit hoechstem Bestandswert 
+CKMTOPPRICEDIF,D,Material mit hoechster V-Preis-Differenz 
+MM_KONV_1,D,EK-Konditionen 
+LT24,D,Transportauftrag 
+LI05,D,Inventurhistorie zum Lagerplatz 
+LS26,D,Auswertung Quantinventur 
+MM0018,D,Materialbewegungen 
+MB59,D,Materialbeleg & Materialbewegungen 
+MB5S,D,WE/RE Saldenliste 
+LX18,D,Statistik Inventurdifferenzen 
+MB56,D,Chargenverwendungsnachweis anzeigen 
+MBBS,D,Bewerteten Sonderbestand anzeigen 
+MBGR,D,MatBeleg zum Grund der Bewegung 
+MC$4,D,Einkauf / Umsatz nach Lieferant / Warengruppen- und Materialanalyse 
+MB5W,D,Bestandswertliste 
+ME0M,D,Orderbuch anzeigen 
+ME13,D,Einkaufsinfosatz 
+ME14,D,Infosatz Aenderungen 
+ME1P,D,Bestellpreisentwicklung 
+ME23N,D,Einkaufsbestellungen 
+ME2B,D,Transportauftrag 
+ME2C,D,Bestellungen zur Warengruppe/Lieferwerk 
+ME33K,D,Kontrakt anzeigen 
+ME2J,D,Einkaufsbelege zum Projekt 
+ME3C,D,Rahmenvertraege zu Warengruppe/Kontierung/Lieferant/Material 
+ME33L,D,Lieferplan anzeigen 
+ME53N,D,Bestellanforderung 
+ME43,D,Anfragen 
+ME48,D,Angebote 
+MIR4,D,Rechnungen (Kopf) 
+ME5J,D,Bestellanforderung zum Projekt 
+MI24,D,Inventurliste 
+MI12,D,Inventur Aenderungsbelege 
+MM03,D,Materialstamm 
+MR11SHOW,D,Anzeige/Storno Kontenpflegebeleg 
+MMBE,D,Material Lagerortdaten / Inventurdaten / Bestandesuebersicht 
+MR33,D,Layer anzeigen 
+MR35,D,Bewertungsdaten anzeigen 
+MR39,D,Bestellungen Aenderungen 
+S_AL0_96000496,D,Rechnung (Positionen) / Logistische Rechnungspruefung 
+MRL7,D,Gruppenbildung anzeigen 
+MR51,D,Buchaltungsbeleg zum Material 
+MMCRFU,D,Ãœbergrf. Funktion MM
+QM11,D,Service Meldung
+PMCRFU,D,Ãœbergrf. Funktion PM
+CO03,D,Produktionsauftrag 
+CA03,D,Arbeitsplan 
+CM0,D,Arbeitsplatz 
+CO14,D,Rueckmeldung 
+CS03,D,Materialstueckliste
+CS63,D,Auftragsstueckliste anzeigen 
+CS73,D,Projektstueckliste 
+CS15,D,Materialverwendung 
+PPCRFU,D,Ãœbergrf. Funktion PP
+CN42N,D,Projektdefinition 
+CN43N,D,PSP-Element Stammdaten 
+CN41,D,Projektinformationssystem 
+CJI3,D,Projekt Einzelposten Istkosten 
+CJI5_1,D,Projekt Einzelposten Obligo
+S_ALR_87005104,D,Kalkulationsschema anzeigen 
+PSPRFU,D,Ãœbergrf. Funktion PS
+QA33,D,Prueflossatz 
+QDL3,D,Qualitaetslage anzeigen 
+QM03,D,Meldungen 
+QI03,D,Q-Infosatz anzeigen 
+SD_KONV,D,KA Konditionen (Vorgangsdaten) 
+SD_S002,D,VIS Verkaufsbueraustatistik 
+MCTC,D,VIS Materialanalyse 
+MCTE,D,VIS VkOrg-Analyse 
+MCTK,D,VIS Versandstelle-Analyse 
+V_26,D,Liste Verkaufsbelege nach Objektstatus
+V_23,D,Zur Faktura gesperrte Verkaufsbelege
+SDD1,D,Doppelte Verkaufsbelege im Zeitraum 
+SDBLBDDL,D,Liste gesperrte Fakturen 
+VA05,D,Kundenauftraege 
+VA03,D,Kundenauftrag anzeigen 
+VA23,D,Angebote / Angebotsliste anzeigen 
+VA33_1,D,Lieferplan / Lieferplanliste anzeigen
+VB8,D,Liste Bonusabsprachen
+VA43_1,D,#NVKontrakt / Kontraktliste anzeigen SD
+VD03,D,Debitor-Kunden-Stammdaten Vetriebsbereiche 
+VF03,D,SD-Fakturen 
+VL03N,D,Lieferungen SD 
+VF05,D,Fakturen Liste 
+SDCRFU,D,Ãœbergrf. Funktion SD
+FV,E,Favourites
+SYS,E,System
+SYS,D,System
+SYS0006,E,Systems
+SYS0006,D,Systems

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::MM_MIR4_ALL" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_MM_MIR4_ALL"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="P50_CV_MM_MIR4_ALL">
+    <resourceUri>P50_CV_MM_MIR4_ALL</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="P50_CV_MM_MIR4_ALL">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_ALL" columnName="MANDT"/>
+    </attribute>
+    <attribute id="BELNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BELNR"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_ALL" columnName="BELNR"/>
+    </attribute>
+    <attribute id="GJAHR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GJAHR"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_ALL" columnName="GJAHR"/>
+    </attribute>
+    <attribute id="BLART" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BLART"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_ALL" columnName="BLART"/>
+    </attribute>
+    <attribute id="BLDAT" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BLDAT"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_ALL" columnName="BLDAT"/>
+    </attribute>
+    <attribute id="BUDAT" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUDAT"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_ALL" columnName="BUDAT"/>
+    </attribute>
+    <attribute id="USNAM" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USNAM"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_ALL" columnName="USNAM"/>
+    </attribute>
+    <attribute id="VGART" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VGART"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_ALL" columnName="VGART"/>
+    </attribute>
+    <attribute id="XBLNR" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBLNR"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_ALL" columnName="XBLNR"/>
+    </attribute>
+    <attribute id="BUKRS" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_ALL" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="LIFNR" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LIFNR"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_ALL" columnName="LIFNR"/>
+    </attribute>
+    <attribute id="WAERS" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WAERS"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_ALL" columnName="WAERS"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

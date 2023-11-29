@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::TableFieldLabel" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true" defaultClient="$$client$$">
+<descriptions defaultDescription="TableFieldLabel"/>
+<localVariables>
+  <variable id="IP_TABNAME" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="VARCHAR" length="13" mandatory="true">
+      <valueDomain type="empty"/>
+      <selection multiLine="false" type="Single"/>
+    </variableProperties>
+  </variable>
+  <variable id="IP_DDLANGUAGE" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="VARCHAR" length="13" mandatory="false">
+      <valueDomain type="empty"/>
+      <selection multiLine="false" type="Single"/>
+      <defaultRange lowValue="E"/>
+    </variableProperties>
+  </variable>
+
+  <variable id="IP_KEYFLAG" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="NVARCHAR" length="1" scale="NaN" mandatory="false">
+      <valueDomain type="AttributeValue">
+        <attribute name="KEYFLAG"/>
+      </valueDomain>
+      <selection multiLine="false" type="Single"/>
+      <defaultRange lowValue="*"/>
+    </variableProperties>
+  </variable>
+</localVariables>
+<variableMappings/>
+<dataSources>
+  <DataSource id="CS.TableList">
+    <resourceUri>CS.TableList</resourceUri>
+  </DataSource>
+  <DataSource id="CS.UiTableConfig">
+    <resourceUri>CS.UiTableConfig</resourceUri>
+  </DataSource>
+  <DataSource id="CS.UiCheckTable">
+    <resourceUri>CS.UiCheckTable</resourceUri>
+  </DataSource>
+  <DataSource id="VIEW_COLUMNS">
+    <resourceUri>VIEW_COLUMNS</resourceUri>
+  </DataSource>
+  <DataSource id="CS.FieldDataType">
+    <resourceUri>CS.FieldDataType</resourceUri>
+  </DataSource>
+  <DataSource id="CS.CustomViewFieldText">
+    <resourceUri>CS.CustomViewFieldText</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews>
+  <calculationView xsi:type="Calculation:AggregationView" id="Projection_2" filterExpressionLanguage="SQL">
+    <viewAttributes>
+      <viewAttribute id="TABLEID"/></viewAttributes>
+    <calculatedViewAttributes/>
+    <restrictedViewAttributes/>
+    <input node="CS.TableList"/>
+    <filter>&quot;TABLEID&quot; = '$$IP_TABNAME$$'</filter>
+  </calculationView>
+  <calculationView xsi:type="Calculation:JoinView" id="Join_3" cardinality="C1_1" joinType="leftOuter">
+    <viewAttributes>
+      <viewAttribute id="TABNAME"/>
+      <viewAttribute id="POSITION"/>
+      <viewAttribute id="FIELDNAME"/>
+      <viewAttribute id="KEYFLAG"/>
+      <viewAttribute id="DDTEXT"/>
+      <viewAttribute id="REPTEXT"/>
+      <viewAttribute id="SCRTEXT_S"/>
+      <viewAttribute id="SCRTEXT_M"/>
+      <viewAttribute id="SCRTEXT_L"/>
+      <viewAttribute id="DDLANGUAGE"/>
+      <viewAttribute id="DEFAULT"/>
+      <viewAttribute id="MANDATORY"/>
+    
+      <viewAttribute id="PARAMETER"/>
+      <viewAttribute id="FIELDDATATYPE"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="Union_2">
+      <mapping xsi:type="Calculation:AttributeMapping" target="TABNAME" source="TABNAME"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="FIELDNAME" source="FIELDNAME"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="POSITION" source="POSITION"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KEYFLAG" source="KEYFLAG"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="DDTEXT" source="DDTEXT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="REPTEXT" source="REPTEXT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="SCRTEXT_S" source="SCRTEXT_S"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="SCRTEXT_M" source="SCRTEXT_M"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="SCRTEXT_L" source="SCRTEXT_L"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="DDLANGUAGE" source="DDLANGUAGE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="FIELDDATATYPE" source="FIELDDATATYPE"/>
+    </input>
+    <input node="CS.UiTableConfig">
+      <mapping xsi:type="Calculation:AttributeMapping" target="DEFAULT" source="DEFAULT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="MANDATORY" source="MANDATORY"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="PARAMETER" source="PARAMETER"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TABNAME" source="TABNAME"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="FIELDNAME" source="FIELDNAME"/>
+    </input>
+    <joinAttribute name="TABNAME"/>
+    <joinAttribute name="FIELDNAME"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:UnionView" id="Union_2" filterExpressionLanguage="COLUMN_ENGINE">
+    <viewAttributes>
+      <viewAttribute id="TABNAME"/>
+      <viewAttribute id="FIELDNAME"/>
+      <viewAttribute id="POSITION"/>
+      <viewAttribute id="KEYFLAG"/>
+      <viewAttribute id="DDTEXT"/>
+      <viewAttribute id="REPTEXT"/>
+      <viewAttribute id="SCRTEXT_S"/>
+      <viewAttribute id="SCRTEXT_M"/>
+      <viewAttribute id="SCRTEXT_L"/>
+      <viewAttribute id="DDLANGUAGE"/>
+    
+      <viewAttribute id="COLUMN_SQL_TYPE"/>
+      <viewAttribute id="DataType"/>
+    </viewAttributes>
+    <calculatedViewAttributes>
+      <calculatedViewAttribute id="FIELDDATATYPE" datatype="NVARCHAR" length="30" expressionLanguage="COLUMN_ENGINE">
+        <formula>if( isnull(&quot;DataType&quot;), &quot;COLUMN_SQL_TYPE&quot;, &quot;DataType&quot;)</formula>
+      </calculatedViewAttribute>
+    </calculatedViewAttributes>
+    <input node="Join_1_3" emptyUnionBehavior="NO_ROW">
+      <mapping xsi:type="Calculation:AttributeMapping" target="TABNAME" source="CC_TABNAME"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="POSITION" source="ORDER"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="FIELDNAME" source="COLUMN_NAME"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KEYFLAG" source="KEY"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="DDTEXT" source="CC_TEXT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="REPTEXT" source="CC_TEXT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="SCRTEXT_S" source="CC_TEXT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="SCRTEXT_M" source="CC_TEXT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="SCRTEXT_L" source="CC_TEXT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="DDLANGUAGE" source="CC_SPRAS"/>
+    
+      <mapping xsi:type="Calculation:AttributeMapping" target="COLUMN_SQL_TYPE" source="COLUMN_SQL_TYPE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="DataType" source="DataType"/>
+    </input>
+    <filter>(in(&quot;TABNAME&quot;,'$$IP_TABNAME$$')) and
+(in(&quot;KEYFLAG&quot;,'$$IP_KEYFLAG$$') or match (&quot;KEYFLAG&quot;,'$$IP_KEYFLAG$$'))</filter>
+  </calculationView>
+  <calculationView xsi:type="Calculation:JoinView" id="CheckTable" cardinality="CN_N" joinType="leftOuter">
+    <viewAttributes>
+      <viewAttribute id="TABNAME"/>
+      <viewAttribute id="POSITION"/>
+      <viewAttribute id="FIELDNAME"/>
+      <viewAttribute id="KEYFLAG"/>
+      <viewAttribute id="DDTEXT"/>
+      <viewAttribute id="REPTEXT"/>
+      <viewAttribute id="SCRTEXT_S"/>
+      <viewAttribute id="SCRTEXT_M"/>
+      <viewAttribute id="SCRTEXT_L"/>
+      <viewAttribute id="DDLANGUAGE"/>
+      <viewAttribute id="DEFAULT"/>
+      <viewAttribute id="MANDATORY"/>
+      <viewAttribute id="PARAMETER"/>
+      <viewAttribute id="CHECKTABLE"/>
+      <viewAttribute id="FIELDDATATYPE"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="Join_3">
+      <mapping xsi:type="Calculation:AttributeMapping" target="FIELDNAME" source="FIELDNAME"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TABNAME" source="TABNAME"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="POSITION" source="POSITION"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KEYFLAG" source="KEYFLAG"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="DDTEXT" source="DDTEXT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="REPTEXT" source="REPTEXT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="SCRTEXT_S" source="SCRTEXT_S"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="SCRTEXT_M" source="SCRTEXT_M"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="SCRTEXT_L" source="SCRTEXT_L"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="DDLANGUAGE" source="DDLANGUAGE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="DEFAULT" source="DEFAULT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="MANDATORY" source="MANDATORY"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="PARAMETER" source="PARAMETER"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="FIELDDATATYPE" source="FIELDDATATYPE"/>
+    </input>
+    <input node="CS.UiCheckTable">
+      <mapping xsi:type="Calculation:AttributeMapping" target="CHECKTABLE" source="CHECKTABLE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="FIELDNAME" source="FIELDNAME"/>
+    </input>
+    <joinAttribute name="FIELDNAME"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:UnionView" id="Union_3">
+    <viewAttributes>
+      <viewAttribute id="SCHEMA_NAME"/>
+      <viewAttribute id="COLUMN_NAME"/>
+      <viewAttribute id="ORDER"/>
+      <viewAttribute id="COLUMN_SQL_TYPE"/>
+      <viewAttribute id="CC_TABNAME"/>
+      <viewAttribute id="KEY"/>
+      <viewAttribute id="CC_SPRAS"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="Projection_3" emptyUnionBehavior="NO_ROW">
+      <mapping xsi:type="Calculation:AttributeMapping" target="SCHEMA_NAME" source="SCHEMA_NAME"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="COLUMN_NAME" source="COLUMN_NAME"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ORDER" source="ORDER"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="COLUMN_SQL_TYPE" source="COLUMN_SQL_TYPE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="CC_TABNAME" source="CC_TABNAME"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KEY" source="KEY"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="CC_SPRAS" source="CC_SPRAS"/>
+    </input>
+  </calculationView>
+  <calculationView xsi:type="Calculation:ProjectionView" id="Projection_3" filterExpressionLanguage="COLUMN_ENGINE">
+    <viewAttributes>
+      <viewAttribute id="SCHEMA_NAME"/>
+      <viewAttribute id="COLUMN_NAME"/>
+      <viewAttribute id="VIEW_NAME"/>
+      <viewAttribute id="VIEW_OID"/>
+      <viewAttribute id="POSITION"/>
+      <viewAttribute id="DATA_TYPE_ID"/>
+      <viewAttribute id="DATA_TYPE_NAME"/>
+      <viewAttribute id="OFFSET"/>
+      <viewAttribute id="LENGTH"/>
+      <viewAttribute id="SCALE"/>
+      <viewAttribute id="IS_NULLABLE"/>
+      <viewAttribute id="DEFAULT_VALUE"/>
+      <viewAttribute id="COLLATION"/>
+      <viewAttribute id="COMMENTS"/>
+      <viewAttribute id="MAX_VALUE"/>
+      <viewAttribute id="MIN_VALUE"/>
+      <viewAttribute id="CS_DATA_TYPE_ID"/>
+      <viewAttribute id="CS_DATA_TYPE_NAME"/>
+      <viewAttribute id="DDIC_DATA_TYPE_ID"/>
+      <viewAttribute id="DDIC_DATA_TYPE_NAME"/>
+      <viewAttribute id="COMPRESSION_TYPE"/>
+      <viewAttribute id="INDEX_TYPE"/>
+      <viewAttribute id="COLUMN_ID"/>
+      <viewAttribute id="PRELOAD"/>
+      <viewAttribute id="GENERATED_ALWAYS_AS"/>
+      <viewAttribute id="HAS_SCHEMA_FLEXIBILITY"/>
+      <viewAttribute id="FUZZY_SEARCH_INDEX"/>
+      <viewAttribute id="FUZZY_SEARCH_MODE"/>
+      <viewAttribute id="MEMORY_THRESHOLD"/>
+      <viewAttribute id="LOAD_UNIT"/>
+      <viewAttribute id="GENERATION_TYPE"/>
+      <viewAttribute id="IS_CACHABLE"/>
+      <viewAttribute id="IS_CACHE_KEY"/>
+      <viewAttribute id="ROW_ORDER_POSITION"/>
+      <viewAttribute id="IS_HIDDEN"/>
+      <viewAttribute id="IS_MASKED"/>
+      <viewAttribute id="MASK_EXPRESSION"/>
+      <viewAttribute id="CLIENTSIDE_ENCRYPTION_STATUS"/>
+      <viewAttribute id="CLIENTSIDE_ENCRYPTION_COLUMN_KEY_ID"/>
+      <viewAttribute id="CLIENTSIDE_ENCRYPTION_MODE"/>
+      <viewAttribute id="PERSISTENT_MEMORY"/>
+      <viewAttribute id="NUMA_NODE_INDEXES"/>
+    </viewAttributes>
+    <calculatedViewAttributes>
+      <calculatedViewAttribute id="ORDER" datatype="INTEGER" expressionLanguage="SQL">
+        <formula>&quot;POSITION&quot;</formula>
+      </calculatedViewAttribute>
+    
+      <calculatedViewAttribute id="COLUMN_SQL_TYPE" datatype="VARCHAR" length="512" expressionLanguage="COLUMN_ENGINE">
+    
+        <formula>if(isnull(&quot;SCALE&quot;), &quot;DATA_TYPE_NAME&quot;+'('+string(&quot;LENGTH&quot;)+ ')', &quot;DATA_TYPE_NAME&quot;+'('+string(&quot;LENGTH&quot;)+ ','+string(&quot;SCALE&quot;)+')')</formula>
+    
+      </calculatedViewAttribute>
+      <calculatedViewAttribute id="CC_TABNAME" datatype="NVARCHAR" length="512" expressionLanguage="COLUMN_ENGINE">
+        <formula>midstr(&quot;VIEW_NAME&quot;, 14)</formula>
+      </calculatedViewAttribute>
+      <calculatedViewAttribute id="KEY" datatype="NVARCHAR" length="1" expressionLanguage="SQL">
+        <formula>'X'</formula>
+      </calculatedViewAttribute>
+      <calculatedViewAttribute id="CC_SPRAS" datatype="VARCHAR" length="13" expressionLanguage="SQL">
+        <formula>'$$IP_DDLANGUAGE$$'</formula>
+      </calculatedViewAttribute></calculatedViewAttributes>
+    <input node="VIEW_COLUMNS"/>
+    <filter>match(&quot;VIEW_NAME&quot;,'core.models::*') and
+&quot;CC_TABNAME&quot; = '$$IP_TABNAME$$'</filter>
+  </calculationView>
+  <calculationView xsi:type="Calculation:JoinView" id="Join_1_1" cardinality="C1_1" joinType="leftOuter" multiJoinNode="Join_1" multiJoinCentralTable="Projection_2" multiJoinOrder="Outside In">
+    <viewAttributes>
+      <viewAttribute id="CC_TABNAME"/>
+      <viewAttribute id="ORDER"/>
+      <viewAttribute id="COLUMN_NAME"/>
+      <viewAttribute id="KEY"/>
+      <viewAttribute id="CC_SPRAS"/>
+      <viewAttribute id="COLUMN_SQL_TYPE"/>
+      <viewAttribute id="DataType"/>
+      <viewAttribute id="SCHEMA_NAME"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="Union_3">
+      <mapping xsi:type="Calculation:AttributeMapping" target="CC_TABNAME" source="CC_TABNAME"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="COLUMN_NAME" source="COLUMN_NAME"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KEY" source="KEY"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="CC_SPRAS" source="CC_SPRAS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="SCHEMA_NAME" source="SCHEMA_NAME"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ORDER" source="ORDER"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="COLUMN_SQL_TYPE" source="COLUMN_SQL_TYPE"/>
+    </input>
+    <input node="CS.FieldDataType">
+      <mapping xsi:type="Calculation:AttributeMapping" target="DataType" source="DataType"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="COLUMN_NAME" source="FieldName"/>
+    </input>
+    <joinAttribute name="COLUMN_NAME"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:JoinView" id="Join_1_2" cardinality="C1_1" joinType="leftOuter" multiJoinNode="Join_1" multiJoinCentralTable="Projection_2" multiJoinOrder="Outside In">
+    <viewAttributes>
+      <viewAttribute id="CC_TABNAME"/>
+      <viewAttribute id="ORDER"/>
+      <viewAttribute id="COLUMN_NAME"/>
+      <viewAttribute id="KEY"/>
+      <viewAttribute id="CC_SPRAS"/>
+      <viewAttribute id="COLUMN_SQL_TYPE"/>
+      <viewAttribute id="DataType"/>
+      <viewAttribute id="TEXT"/>
+      <viewAttribute id="SCHEMA_NAME"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="Join_1_1">
+      <mapping xsi:type="Calculation:AttributeMapping" target="CC_TABNAME" source="CC_TABNAME"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ORDER" source="ORDER"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="COLUMN_NAME" source="COLUMN_NAME"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KEY" source="KEY"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="CC_SPRAS" source="CC_SPRAS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="COLUMN_SQL_TYPE" source="COLUMN_SQL_TYPE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="DataType" source="DataType"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="SCHEMA_NAME" source="SCHEMA_NAME"/>
+    </input>
+    <input node="CS.CustomViewFieldText">
+      <mapping xsi:type="Calculation:AttributeMapping" target="TEXT" source="TEXT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="COLUMN_NAME" source="FIELDNAME"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="CC_SPRAS" source="LANGUAGE"/>
+    </input>
+    <joinAttribute name="COLUMN_NAME"/>
+    <joinAttribute name="CC_SPRAS"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:JoinView" id="Join_1_3" cardinality="C1_N" joinType="inner" multiJoinNode="Join_1" multiJoinCentralTable="Projection_2" multiJoinOrder="Outside In">
+    <viewAttributes>
+      <viewAttribute id="CC_TABNAME"/>
+      <viewAttribute id="ORDER"/>
+      <viewAttribute id="COLUMN_NAME"/>
+      <viewAttribute id="KEY"/>
+      <viewAttribute id="CC_SPRAS"/>
+      <viewAttribute id="COLUMN_SQL_TYPE"/>
+      <viewAttribute id="DataType"/>
+      <viewAttribute id="TEXT"/>
+      <viewAttribute id="SCHEMA_NAME"/>
+      <viewAttribute hidden="true" id="JOIN$TABLEID$CC_TABNAME"/>
+    </viewAttributes>
+    <calculatedViewAttributes>
+      <calculatedViewAttribute id="CC_TEXT" datatype="NVARCHAR" length="60" expressionLanguage="COLUMN_ENGINE">
+        <formula>if(isNull(&quot;TEXT&quot;),&quot;COLUMN_NAME&quot;,&quot;TEXT&quot;)</formula>
+      </calculatedViewAttribute>
+    </calculatedViewAttributes>
+    <input node="Projection_2">
+      <mapping xsi:type="Calculation:AttributeMapping" target="JOIN$TABLEID$CC_TABNAME" source="TABLEID"/>
+    </input>
+    <input node="Join_1_2">
+      <mapping xsi:type="Calculation:AttributeMapping" target="CC_TABNAME" source="CC_TABNAME"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ORDER" source="ORDER"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="COLUMN_NAME" source="COLUMN_NAME"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KEY" source="KEY"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="CC_SPRAS" source="CC_SPRAS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="COLUMN_SQL_TYPE" source="COLUMN_SQL_TYPE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="DataType" source="DataType"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TEXT" source="TEXT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="SCHEMA_NAME" source="SCHEMA_NAME"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="JOIN$TABLEID$CC_TABNAME" source="CC_TABNAME"/>
+    </input>
+    <joinAttribute name="JOIN$TABLEID$CC_TABNAME"/>
+  </calculationView>
+</calculationViews>
+<logicalModel id="CheckTable">
+  <attributes>
+    <attribute id="TABNAME" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TABNAME"/>
+      <keyMapping columnObjectName="CheckTable" columnName="TABNAME"/>
+    </attribute>
+    <attribute id="POSITION" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POSITION"/>
+      <keyMapping columnObjectName="CheckTable" columnName="POSITION"/>
+    </attribute>
+    <attribute id="FIELDNAME" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FIELDNAME"/>
+      <keyMapping columnObjectName="CheckTable" columnName="FIELDNAME"/>
+    </attribute>
+    <attribute id="KEYFLAG" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KEYFLAG"/>
+      <keyMapping columnObjectName="CheckTable" columnName="KEYFLAG"/>
+    </attribute>
+    <attribute id="DDTEXT" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DDTEXT"/>
+      <keyMapping columnObjectName="CheckTable" columnName="DDTEXT"/>
+    </attribute>
+    <attribute id="REPTEXT" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REPTEXT"/>
+      <keyMapping columnObjectName="CheckTable" columnName="REPTEXT"/>
+    </attribute>
+    <attribute id="SCRTEXT_S" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SCRTEXT_S"/>
+      <keyMapping columnObjectName="CheckTable" columnName="SCRTEXT_S"/>
+    </attribute>
+    <attribute id="SCRTEXT_M" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SCRTEXT_M"/>
+      <keyMapping columnObjectName="CheckTable" columnName="SCRTEXT_M"/>
+    </attribute>
+    <attribute id="SCRTEXT_L" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SCRTEXT_L"/>
+      <keyMapping columnObjectName="CheckTable" columnName="SCRTEXT_L"/>
+    </attribute>
+    <attribute id="DDLANGUAGE" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DDLANGUAGE"/>
+      <keyMapping columnObjectName="CheckTable" columnName="DDLANGUAGE"/>
+    </attribute>
+  
+    <attribute id="DEFAULT" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DEFAULT"/>
+  
+      <keyMapping columnObjectName="CheckTable" columnName="DEFAULT"/>
+  
+    </attribute>
+    <attribute id="MANDATORY" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDATORY"/>
+      <keyMapping columnObjectName="CheckTable" columnName="MANDATORY"/>
+    </attribute>
+  
+    <attribute id="PARAMETER" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PARAMETER"/>
+  
+      <keyMapping columnObjectName="CheckTable" columnName="PARAMETER"/>
+  
+    </attribute>
+    <attribute id="CHECKTABLE" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CHECKTABLE"/>
+      <keyMapping columnObjectName="CheckTable" columnName="CHECKTABLE"/>
+    </attribute>
+    <attribute id="TYPE" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FIELDDATATYPE"/>
+      <keyMapping columnObjectName="CheckTable" columnName="FIELDDATATYPE"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/></logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="225" y="112"/>
+    
+      <rectangleSize width="160"/>
+    </shape>
+  
+    <shape expanded="true" modelObjectName="Projection_2" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="301" y="831"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="Join_3" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="223" y="376"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape modelObjectName="Union_2" modelObjectNameSpace="Join_3" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="20" y="30"/>
+      <rectangleSize width="163"/>
+    </shape>
+    <shape modelObjectName="CS.UiTableConfig" modelObjectNameSpace="Join_3" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="320" y="30"/>
+      <rectangleSize width="164"/>
+    </shape>
+    <shape expanded="true" modelObjectName="Union_2" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="216" y="536"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="CheckTable" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="223" y="236"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape modelObjectName="Join_3" modelObjectNameSpace="CheckTable" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="20" y="30"/>
+      <rectangleSize width="163"/>
+    </shape>
+    <shape modelObjectName="CS.UiCheckTable" modelObjectNameSpace="CheckTable" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="320" y="30"/>
+      <rectangleSize width="162"/>
+    </shape>
+    <shape expanded="true" modelObjectName="Union_3" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="91" y="841"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="Projection_3" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="92" y="956"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+  
+  
+  
+    <shape expanded="true" modelObjectName="Join_1" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="216" y="661"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape modelObjectName="CS.CustomViewFieldText" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput" multiJoinViewNodeName="Join_1">
+      <upperLeftCorner x="620" y="30"/>
+      <rectangleSize width="207"/>
+    </shape>
+    <shape modelObjectName="Union_3" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput" multiJoinViewNodeName="Join_1">
+      <upperLeftCorner x="320" y="30"/>
+      <rectangleSize width="250"/>
+    </shape>
+    <shape modelObjectName="CS.FieldDataType" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput" multiJoinViewNodeName="Join_1">
+      <upperLeftCorner x="690" y="229"/>
+      <rectangleSize width="165"/>
+    </shape>
+  
+  
+    <shape modelObjectName="Projection_2" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput" multiJoinViewNodeName="Join_1">
+      <upperLeftCorner x="20" y="30"/>
+      <rectangleSize width="191"/>
+    </shape></shapes>
+</layout>
+</Calculation:scenario>

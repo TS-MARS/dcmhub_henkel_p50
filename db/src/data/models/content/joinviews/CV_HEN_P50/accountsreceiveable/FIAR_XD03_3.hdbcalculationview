@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::FIAR_XD03_3" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_FIAR_XD03_3"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="P50_CV_FIAR_XD03_3">
+    <resourceUri>P50_CV_FIAR_XD03_3</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="P50_CV_FIAR_XD03_3">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_3" columnName="MANDT"/>
+    </attribute>
+    <attribute id="KUNNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUNNR"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_3" columnName="KUNNR"/>
+    </attribute>
+    <attribute id="BUKRS" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_3" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="MABER" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MABER"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_3" columnName="MABER"/>
+    </attribute>
+    <attribute id="MAHNA" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAHNA"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_3" columnName="MAHNA"/>
+    </attribute>
+    <attribute id="MANSP" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANSP"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_3" columnName="MANSP"/>
+    </attribute>
+    <attribute id="MADAT" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MADAT"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_3" columnName="MADAT"/>
+    </attribute>
+    <attribute id="MAHNS" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MAHNS"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_3" columnName="MAHNS"/>
+    </attribute>
+    <attribute id="KNRMA" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNRMA"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_3" columnName="KNRMA"/>
+    </attribute>
+    <attribute id="GMVDT" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GMVDT"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_3" columnName="GMVDT"/>
+    </attribute>
+    <attribute id="BUSAB" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUSAB"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_3" columnName="BUSAB"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

@@ -1,0 +1,37 @@
+<core:FragmentDefinition
+	xmlns="sap.ui.comp.valuehelpdialog"
+	xmlns:m="sap.m"
+	xmlns:fb="sap.ui.comp.filterbar"
+	xmlns:core="sap.ui.core">
+	<ValueHelpDialog
+		title="{i18n>year}"
+		ok=".onValueHelpOkPressYear"
+		cancel=".onValueHelpCancelPressYear"
+		afterClose=".onValueHelpAfterCloseYear"
+		supportRanges="true"
+		key="GJAHR"
+		descriptionKey="GJAHR"
+			supportMultiselect="false"
+	>
+		<filterBar>
+			<fb:FilterBar advancedMode="true" search="onFilterBarSearchYear">
+				<fb:filterGroupItems>
+					
+					<fb:FilterGroupItem
+						groupName="__$INTERNAL$"
+						name="GJAHR"
+						label="{i18n>year}"
+						visibleInFilterBar="true"
+					>
+						<fb:control>
+							<m:Input name="GJAHR" />
+						</fb:control>
+					</fb:FilterGroupItem>
+					
+					
+
+				</fb:filterGroupItems>
+			</fb:FilterBar>
+		</filterBar>
+	</ValueHelpDialog>
+</core:FragmentDefinition>

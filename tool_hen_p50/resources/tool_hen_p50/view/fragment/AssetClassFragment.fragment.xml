@@ -1,0 +1,45 @@
+<core:FragmentDefinition
+	xmlns="sap.ui.comp.valuehelpdialog"
+	xmlns:m="sap.m"
+	xmlns:fb="sap.ui.comp.filterbar"
+	xmlns:core="sap.ui.core">
+	<ValueHelpDialog
+		title="{i18n>assetclass}"
+		ok=".onValueHelpOkPressAssetClass"
+		cancel=".onValueHelpCancelPressAssetClass"
+		afterClose=".onValueHelpAfterCloseAssetClass"
+		supportRanges="true"
+		key="ANLKL"
+		descriptionKey="ANLKL"
+		supportMultiselect="false"
+	>
+		<filterBar>
+			<fb:FilterBar advancedMode="true" search="onFilterBarSearchAssetClass">
+				<fb:filterGroupItems>
+					<fb:FilterGroupItem
+						groupName="__$INTERNAL$"
+						name="MANDT"
+						label="{i18n>client}"
+						visibleInFilterBar="true"
+					>
+						<fb:control>
+							<m:Input name="MANDT" />
+						</fb:control>
+					</fb:FilterGroupItem>
+					
+
+					<fb:FilterGroupItem
+						groupName="__$INTERNAL$"
+						name="ANLKL"
+						label="{i18n>assetclass}"
+						visibleInFilterBar="true"
+					>
+						<fb:control>
+							<m:Input name="ANLKL" />
+						</fb:control>
+					</fb:FilterGroupItem>
+				</fb:filterGroupItems>
+			</fb:FilterBar>
+		</filterBar>
+	</ValueHelpDialog>
+</core:FragmentDefinition>

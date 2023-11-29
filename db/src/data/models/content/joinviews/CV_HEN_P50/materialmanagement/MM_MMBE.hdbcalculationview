@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::MM_MMBE" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_MM_MMBE"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="P50_CV_MM_MMBE">
+    <resourceUri>P50_CV_MM_MMBE</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="P50_CV_MM_MMBE">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="MANDT"/>
+    </attribute>
+    <attribute id="BWKEY" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWKEY"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="BWKEY"/>
+    </attribute>
+    <attribute id="BUKRS" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="WERKS" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WERKS"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="WERKS"/>
+    </attribute>
+    <attribute id="NAME1" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAME1"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="NAME1"/>
+    </attribute>
+    <attribute id="MATNR" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MATNR"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="MATNR"/>
+    </attribute>
+    <attribute id="LGORT" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LGORT"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="LGORT"/>
+    </attribute>
+    <attribute id="LGOBE" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LGOBE"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="LGOBE"/>
+    </attribute>
+    <attribute id="LFGJA" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LFGJA"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="LFGJA"/>
+    </attribute>
+    <attribute id="LFMON" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LFMON"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="LFMON"/>
+    </attribute>
+    <attribute id="LABST" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LABST"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="LABST"/>
+    </attribute>
+    <attribute id="LABST_DISP" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LABST_DISP"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="LABST_DISP"/>
+    </attribute>
+    <attribute id="UMLME" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMLME"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="UMLME"/>
+    </attribute>
+    <attribute id="UMLME_DISP" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMLME_DISP"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="UMLME_DISP"/>
+    </attribute>
+    <attribute id="INSME" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INSME"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="INSME"/>
+    </attribute>
+    <attribute id="INSME_DISP" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INSME_DISP"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="INSME_DISP"/>
+    </attribute>
+    <attribute id="EINME" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EINME"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="EINME"/>
+    </attribute>
+    <attribute id="EINME_DISP" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EINME_DISP"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="EINME_DISP"/>
+    </attribute>
+    <attribute id="SPEME" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPEME"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="SPEME"/>
+    </attribute>
+    <attribute id="SPEME_DISP" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPEME_DISP"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="SPEME_DISP"/>
+    </attribute>
+    <attribute id="RETME" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RETME"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="RETME"/>
+    </attribute>
+    <attribute id="RETME_DISP" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RETME_DISP"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="RETME_DISP"/>
+    </attribute>
+    <attribute id="VMLAB" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VMLAB"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="VMLAB"/>
+    </attribute>
+    <attribute id="VMLAB_DISP" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VMLAB_DISP"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="VMLAB_DISP"/>
+    </attribute>
+    <attribute id="VMUML" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VMUML"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="VMUML"/>
+    </attribute>
+    <attribute id="VMUML_DISP" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VMUML_DISP"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="VMUML_DISP"/>
+    </attribute>
+    <attribute id="VMINS" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VMINS"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="VMINS"/>
+    </attribute>
+    <attribute id="VMINS_DISP" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VMINS_DISP"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="VMINS_DISP"/>
+    </attribute>
+    <attribute id="VMEIN" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VMEIN"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="VMEIN"/>
+    </attribute>
+    <attribute id="VMEIN_DISP" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VMEIN_DISP"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="VMEIN_DISP"/>
+    </attribute>
+    <attribute id="VMSPE" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VMSPE"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="VMSPE"/>
+    </attribute>
+    <attribute id="VMSPE_DISP" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VMSPE_DISP"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="VMSPE_DISP"/>
+    </attribute>
+    <attribute id="VMRET" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VMRET"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="VMRET"/>
+    </attribute>
+    <attribute id="VMRET_DISP" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VMRET_DISP"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="VMRET_DISP"/>
+    </attribute>
+    <attribute id="KZILL" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZILL"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="KZILL"/>
+    </attribute>
+    <attribute id="KZILQ" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZILQ"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="KZILQ"/>
+    </attribute>
+    <attribute id="KZILE" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZILE"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="KZILE"/>
+    </attribute>
+    <attribute id="KZILS" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZILS"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="KZILS"/>
+    </attribute>
+    <attribute id="KZVLL" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZVLL"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="KZVLL"/>
+    </attribute>
+    <attribute id="KZVLQ" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZVLQ"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="KZVLQ"/>
+    </attribute>
+    <attribute id="KZVLE" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZVLE"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="KZVLE"/>
+    </attribute>
+    <attribute id="KZVLS" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZVLS"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="KZVLS"/>
+    </attribute>
+    <attribute id="EKORG" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EKORG"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="EKORG"/>
+    </attribute>
+    <attribute id="VKORG" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VKORG"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="VKORG"/>
+    </attribute>
+    <attribute id="PSTAT" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSTAT"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="PSTAT"/>
+    </attribute>
+    <attribute id="LVORM" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LVORM"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="LVORM"/>
+    </attribute>
+    <attribute id="SPERR" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPERR"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="SPERR"/>
+    </attribute>
+    <attribute id="DISKZ" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DISKZ"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="DISKZ"/>
+    </attribute>
+    <attribute id="LSOBS" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LSOBS"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="LSOBS"/>
+    </attribute>
+    <attribute id="LMINB" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMINB"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="LMINB"/>
+    </attribute>
+    <attribute id="LMINB_DISP" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMINB_DISP"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="LMINB_DISP"/>
+    </attribute>
+    <attribute id="LBSTF" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LBSTF"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="LBSTF"/>
+    </attribute>
+    <attribute id="LBSTF_DISP" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LBSTF_DISP"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="LBSTF_DISP"/>
+    </attribute>
+    <attribute id="HERKL" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HERKL"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="HERKL"/>
+    </attribute>
+    <attribute id="EXPPG" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EXPPG"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="EXPPG"/>
+    </attribute>
+    <attribute id="EXVER" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EXVER"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="EXVER"/>
+    </attribute>
+    <attribute id="LGPBE" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LGPBE"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="LGPBE"/>
+    </attribute>
+    <attribute id="KLABS" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KLABS"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="KLABS"/>
+    </attribute>
+    <attribute id="KLABS_DISP" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KLABS_DISP"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="KLABS_DISP"/>
+    </attribute>
+    <attribute id="KINSM" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KINSM"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="KINSM"/>
+    </attribute>
+    <attribute id="KINSM_DISP" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KINSM_DISP"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="KINSM_DISP"/>
+    </attribute>
+    <attribute id="KEINM" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KEINM"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="KEINM"/>
+    </attribute>
+    <attribute id="KEINM_DISP" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KEINM_DISP"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="KEINM_DISP"/>
+    </attribute>
+    <attribute id="KSPEM" order="64" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSPEM"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="KSPEM"/>
+    </attribute>
+    <attribute id="KSPEM_DISP" order="65" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSPEM_DISP"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="KSPEM_DISP"/>
+    </attribute>
+    <attribute id="DLINL" order="66" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DLINL"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="DLINL"/>
+    </attribute>
+    <attribute id="PRCTL" order="67" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRCTL"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="PRCTL"/>
+    </attribute>
+    <attribute id="ERSDA" order="68" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERSDA"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="ERSDA"/>
+    </attribute>
+    <attribute id="VKLAB" order="69" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VKLAB"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="VKLAB"/>
+    </attribute>
+    <attribute id="VKUML" order="70" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VKUML"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="VKUML"/>
+    </attribute>
+    <attribute id="LWMKB" order="71" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LWMKB"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="LWMKB"/>
+    </attribute>
+    <attribute id="BSKRF" order="72" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BSKRF"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="BSKRF"/>
+    </attribute>
+    <attribute id="MDRUE" order="73" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MDRUE"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="MDRUE"/>
+    </attribute>
+    <attribute id="MDJIN" order="74" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MDJIN"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="MDJIN"/>
+    </attribute>
+    <attribute id="SPART" order="75" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPART"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="SPART"/>
+    </attribute>
+    <attribute id="XLONG" order="76" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XLONG"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="XLONG"/>
+    </attribute>
+    <attribute id="XBUFX" order="77" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBUFX"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="XBUFX"/>
+    </attribute>
+    <attribute id="DISKZ_1" order="78" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DISKZ_1"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="DISKZ_1"/>
+    </attribute>
+    <attribute id="XBLGO" order="79" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBLGO"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="XBLGO"/>
+    </attribute>
+    <attribute id="XRESS" order="80" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XRESS"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="XRESS"/>
+    </attribute>
+    <attribute id="XHUPF" order="81" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XHUPF"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="XHUPF"/>
+    </attribute>
+    <attribute id="PARLG" order="82" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PARLG"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="PARLG"/>
+    </attribute>
+    <attribute id="VKORG_1" order="83" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VKORG_1"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="VKORG_1"/>
+    </attribute>
+    <attribute id="VTWEG" order="84" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VTWEG"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="VTWEG"/>
+    </attribute>
+    <attribute id="VSTEL" order="85" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VSTEL"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="VSTEL"/>
+    </attribute>
+    <attribute id="LIFNR" order="86" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LIFNR"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="LIFNR"/>
+    </attribute>
+    <attribute id="KUNNR" order="87" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUNNR"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="KUNNR"/>
+    </attribute>
+    <attribute id="SOURCING" order="88" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SOURCING"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="SOURCING"/>
+    </attribute>
+    <attribute id="MGVLAUPD" order="89" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MGVLAUPD"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="MGVLAUPD"/>
+    </attribute>
+    <attribute id="VSTEL_1" order="90" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VSTEL_1"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="VSTEL_1"/>
+    </attribute>
+    <attribute id="MGVUPD" order="91" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MGVUPD"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="MGVUPD"/>
+    </attribute>
+    <attribute id="MISCH" order="92" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MISCH"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="MISCH"/>
+    </attribute>
+    <attribute id="PKOSA" order="93" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PKOSA"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="PKOSA"/>
+    </attribute>
+    <attribute id="NSCHEMA" order="94" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NSCHEMA"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="NSCHEMA"/>
+    </attribute>
+    <attribute id="NODETYPE" order="95" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NODETYPE"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="NODETYPE"/>
+    </attribute>
+    <attribute id="DVSART" order="96" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DVSART"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="DVSART"/>
+    </attribute>
+    <attribute id="ACHVM" order="97" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ACHVM"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="ACHVM"/>
+    </attribute>
+    <attribute id="FPRFW" order="98" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FPRFW"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="FPRFW"/>
+    </attribute>
+    <attribute id="VTBFI" order="99" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VTBFI"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="VTBFI"/>
+    </attribute>
+    <attribute id="J_1BBRANCH" order="100" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1BBRANCH"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="J_1BBRANCH"/>
+    </attribute>
+    <attribute id="BETOL" order="101" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BETOL"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="BETOL"/>
+    </attribute>
+    <attribute id="TXNAM_MA3" order="102" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXNAM_MA3"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="TXNAM_MA3"/>
+    </attribute>
+    <attribute id="TXNAM_MA2" order="103" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXNAM_MA2"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="TXNAM_MA2"/>
+    </attribute>
+    <attribute id="TXNAM_MA1" order="104" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXNAM_MA1"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="TXNAM_MA1"/>
+    </attribute>
+    <attribute id="LET03" order="105" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LET03"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="LET03"/>
+    </attribute>
+    <attribute id="LET02" order="106" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LET02"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="LET02"/>
+    </attribute>
+    <attribute id="LET01" order="107" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LET01"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="LET01"/>
+    </attribute>
+    <attribute id="BZQHL" order="108" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BZQHL"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="BZQHL"/>
+    </attribute>
+    <attribute id="TAXIW" order="109" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TAXIW"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="TAXIW"/>
+    </attribute>
+    <attribute id="ZONE1" order="110" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZONE1"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="ZONE1"/>
+    </attribute>
+    <attribute id="BZIRK" order="111" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BZIRK"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="BZIRK"/>
+    </attribute>
+    <attribute id="VLFKZ" order="112" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VLFKZ"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="VLFKZ"/>
+    </attribute>
+    <attribute id="CHAZV_OLD" order="113" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CHAZV_OLD"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="CHAZV_OLD"/>
+    </attribute>
+    <attribute id="AWSLS" order="114" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AWSLS"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="AWSLS"/>
+    </attribute>
+    <attribute id="WKSOP" order="115" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WKSOP"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="WKSOP"/>
+    </attribute>
+    <attribute id="SPRAS" order="116" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="SPART_1" order="117" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPART_1"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="SPART_1"/>
+    </attribute>
+    <attribute id="VTWEG_1" order="118" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VTWEG_1"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="VTWEG_1"/>
+    </attribute>
+    <attribute id="TXJCD" order="119" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXJCD"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="TXJCD"/>
+    </attribute>
+    <attribute id="IWERK" order="120" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IWERK"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="IWERK"/>
+    </attribute>
+    <attribute id="ADRNR" order="121" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADRNR"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="ADRNR"/>
+    </attribute>
+    <attribute id="CITYC" order="122" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CITYC"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="CITYC"/>
+    </attribute>
+    <attribute id="COUNC" order="123" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COUNC"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="COUNC"/>
+    </attribute>
+    <attribute id="REGIO" order="124" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REGIO"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="REGIO"/>
+    </attribute>
+    <attribute id="LAND1" order="125" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LAND1"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="LAND1"/>
+    </attribute>
+    <attribute id="BEDPL" order="126" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEDPL"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="BEDPL"/>
+    </attribute>
+    <attribute id="KORDB" order="127" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KORDB"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="KORDB"/>
+    </attribute>
+    <attribute id="KKOWK" order="128" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KKOWK"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="KKOWK"/>
+    </attribute>
+    <attribute id="CHAZV" order="129" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CHAZV"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="CHAZV"/>
+    </attribute>
+    <attribute id="ORT01" order="130" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ORT01"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="ORT01"/>
+    </attribute>
+    <attribute id="PSTLZ" order="131" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSTLZ"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="PSTLZ"/>
+    </attribute>
+    <attribute id="PFACH" order="132" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PFACH"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="PFACH"/>
+    </attribute>
+    <attribute id="STRAS" order="133" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STRAS"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="STRAS"/>
+    </attribute>
+    <attribute id="NAME2" order="134" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAME2"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="NAME2"/>
+    </attribute>
+    <attribute id="FABKL" order="135" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FABKL"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="FABKL"/>
+    </attribute>
+    <attribute id="BWMOD" order="136" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWMOD"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="BWMOD"/>
+    </attribute>
+    <attribute id="XBKNG" order="137" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBKNG"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="XBKNG"/>
+    </attribute>
+    <attribute id="MLBWA" order="138" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MLBWA"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="MLBWA"/>
+    </attribute>
+    <attribute id="MLBWV" order="139" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MLBWV"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="MLBWV"/>
+    </attribute>
+    <attribute id="XVKBW" order="140" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XVKBW"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="XVKBW"/>
+    </attribute>
+    <attribute id="ERKLAERKOM" order="141" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERKLAERKOM"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="ERKLAERKOM"/>
+    </attribute>
+    <attribute id="UPROF" order="142" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UPROF"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="UPROF"/>
+    </attribute>
+    <attribute id="WBPRO" order="143" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WBPRO"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="WBPRO"/>
+    </attribute>
+    <attribute id="MLAST" order="144" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MLAST"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="MLAST"/>
+    </attribute>
+    <attribute id="MLASV" order="145" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MLASV"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="MLASV"/>
+    </attribute>
+    <attribute id="BDIFP" order="146" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BDIFP"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="BDIFP"/>
+    </attribute>
+    <attribute id="XLBPD" order="147" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XLBPD"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="XLBPD"/>
+    </attribute>
+    <attribute id="XEWRX" order="148" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XEWRX"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="XEWRX"/>
+    </attribute>
+    <attribute id="X2FDO" order="149" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="X2FDO"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="X2FDO"/>
+    </attribute>
+    <attribute id="PRSFR" order="150" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRSFR"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="PRSFR"/>
+    </attribute>
+    <attribute id="MLCCS" order="151" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MLCCS"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="MLCCS"/>
+    </attribute>
+    <attribute id="XEFRE" order="152" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XEFRE"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="XEFRE"/>
+    </attribute>
+    <attribute id="EFREJ" order="153" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EFREJ"/>
+      <keyMapping columnObjectName="P50_CV_MM_MMBE" columnName="EFREJ"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

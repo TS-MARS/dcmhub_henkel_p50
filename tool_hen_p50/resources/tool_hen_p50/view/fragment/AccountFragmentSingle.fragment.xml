@@ -1,0 +1,54 @@
+<core:FragmentDefinition
+	xmlns="sap.ui.comp.valuehelpdialog"
+	xmlns:m="sap.m"
+	xmlns:fb="sap.ui.comp.filterbar"
+	xmlns:core="sap.ui.core">
+	<ValueHelpDialog
+		title="{i18n>account}"
+		ok=".onValueHelpOkPressAccount"
+		cancel=".onValueHelpCancelPressAccount"
+		afterClose=".onValueHelpAfterCloseAccount"
+		supportRanges="true"
+		key="SAKNR"
+		descriptionKey="SAKNR"   
+		supportMultiselect="false"
+	>
+		<filterBar>
+			<fb:FilterBar advancedMode="true" search="onFilterBarSearchAccount">
+				<fb:filterGroupItems>
+					<fb:FilterGroupItem
+						groupName="__$INTERNAL$"
+						name="MANDT"
+						label="{i18n>client}"
+						visibleInFilterBar="true"
+					>
+						<fb:control>
+							<m:Input name="MANDT" />
+						</fb:control>
+					</fb:FilterGroupItem>
+					<fb:FilterGroupItem
+						groupName="__$INTERNAL$"
+						name="KTOPL"
+						label="{i18n>chartofaccounts}"
+						visibleInFilterBar="true"
+					>
+						<fb:control>
+							<m:Input name="KTOPL" />
+						</fb:control>
+					</fb:FilterGroupItem>
+
+					<fb:FilterGroupItem
+						groupName="__$INTERNAL$"
+						name="SAKNR"
+						label="{i18n>account}"
+						visibleInFilterBar="true"
+					>
+						<fb:control>
+							<m:Input name="SAKNR" />
+						</fb:control>
+					</fb:FilterGroupItem>
+				</fb:filterGroupItems>
+			</fb:FilterBar>
+		</filterBar>
+	</ValueHelpDialog>
+</core:FragmentDefinition>

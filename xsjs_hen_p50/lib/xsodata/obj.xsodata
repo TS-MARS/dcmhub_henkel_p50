@@ -1,0 +1,17 @@
+service {
+
+"core.models::documentObj" as "obj" 
+with ("NAME","STEXT")
+key ("NAME","STEXT")
+parameters via key and entity;
+}
+
+annotations {
+   enable OData4SAP;
+}
+
+settings {  
+  limits 
+      max_records = 999999, 
+      max_expanded_records = 99999; 
+}

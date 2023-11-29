@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::FICA_FB03L" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_FICA_FB03L"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="P50_CV_FICA_FB03L">
+    <resourceUri>P50_CV_FICA_FB03L</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="P50_CV_FICA_FB03L">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="MANDT"/>
+    </attribute>
+    <attribute id="BUKRS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="BELNR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BELNR"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="BELNR"/>
+    </attribute>
+    <attribute id="GJAHR" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GJAHR"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="GJAHR"/>
+    </attribute>
+    <attribute id="BUZEI" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUZEI"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="BUZEI"/>
+    </attribute>
+    <attribute id="BLART" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BLART"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="BLART"/>
+    </attribute>
+    <attribute id="BLDAT" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BLDAT"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="BLDAT"/>
+    </attribute>
+    <attribute id="BUDAT" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUDAT"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="BUDAT"/>
+    </attribute>
+    <attribute id="MONAT" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MONAT"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="MONAT"/>
+    </attribute>
+    <attribute id="XBLNR" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBLNR"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="XBLNR"/>
+    </attribute>
+    <attribute id="BKTXT" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BKTXT"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="BKTXT"/>
+    </attribute>
+    <attribute id="BSCHL" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BSCHL"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="BSCHL"/>
+    </attribute>
+    <attribute id="KOART" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOART"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="KOART"/>
+    </attribute>
+    <attribute id="SHKZG" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SHKZG"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="SHKZG"/>
+    </attribute>
+    <attribute id="MWSKZ" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSKZ"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="MWSKZ"/>
+    </attribute>
+    <attribute id="SAKNR" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAKNR"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="SAKNR"/>
+    </attribute>
+    <attribute id="HKONT" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HKONT"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="HKONT"/>
+    </attribute>
+    <attribute id="KUNNR" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUNNR"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="KUNNR"/>
+    </attribute>
+    <attribute id="LIFNR" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LIFNR"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="LIFNR"/>
+    </attribute>
+    <attribute id="DMBTR" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DMBTR"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="DMBTR"/>
+    </attribute>
+    <attribute id="HWAER" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HWAER"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="HWAER"/>
+    </attribute>
+    <attribute id="WRBTR" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WRBTR"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="WRBTR"/>
+    </attribute>
+    <attribute id="WAERS" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WAERS"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="WAERS"/>
+    </attribute>
+    <attribute id="KTOSL" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTOSL"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="KTOSL"/>
+    </attribute>
+    <attribute id="ZUONR" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZUONR"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="ZUONR"/>
+    </attribute>
+    <attribute id="SGTXT" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SGTXT"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="SGTXT"/>
+    </attribute>
+    <attribute id="KOKRS" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOKRS"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="KOKRS"/>
+    </attribute>
+    <attribute id="KOSTL" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOSTL"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="KOSTL"/>
+    </attribute>
+    <attribute id="AUFNR" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFNR"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="AUFNR"/>
+    </attribute>
+    <attribute id="VBELN" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBELN"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="VBELN"/>
+    </attribute>
+    <attribute id="ANLN1" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLN1"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="ANLN1"/>
+    </attribute>
+    <attribute id="AWSYS" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AWSYS"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="AWSYS"/>
+    </attribute>
+    <attribute id="AWKEY" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AWKEY"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="AWKEY"/>
+    </attribute>
+    <attribute id="AWTYP" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AWTYP"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="AWTYP"/>
+    </attribute>
+    <attribute id="ValueFC" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ValueFC"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="ValueFC"/>
+    </attribute>
+    <attribute id="ValueHC" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ValueHC"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="ValueHC"/>
+    </attribute>
+    <attribute id="ValueHC2" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ValueHC2"/>
+      <keyMapping columnObjectName="P50_CV_FICA_FB03L" columnName="ValueHC2"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

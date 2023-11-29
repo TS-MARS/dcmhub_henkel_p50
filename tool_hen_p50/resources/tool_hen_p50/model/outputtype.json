@@ -1,0 +1,13 @@
+{
+	"default": "PDF",
+	"outputtype": [
+		{
+			"name": "PDF",
+			"key": "PDF"
+		},
+		{
+			"name": "XLSX",
+			"key": "XLSX"
+		}
+	]
+}

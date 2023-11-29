@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::QM_QA33_3" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_QM_QA33_3"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="P50_CV_QM_QA33_3">
+    <resourceUri>P50_CV_QM_QA33_3</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="P50_CV_QM_QA33_3">
+  <attributes>
+    <attribute id="MANDANT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDANT"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_3" columnName="MANDANT"/>
+    </attribute>
+    <attribute id="PRUEFLOS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRUEFLOS"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_3" columnName="PRUEFLOS"/>
+    </attribute>
+    <attribute id="ZAEHLER" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZAEHLER"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_3" columnName="ZAEHLER"/>
+    </attribute>
+    <attribute id="TYP" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TYP"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_3" columnName="TYP"/>
+    </attribute>
+    <attribute id="MBLNR" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MBLNR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_3" columnName="MBLNR"/>
+    </attribute>
+    <attribute id="MJAHR" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MJAHR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_3" columnName="MJAHR"/>
+    </attribute>
+    <attribute id="ZEILE" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZEILE"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_3" columnName="ZEILE"/>
+    </attribute>
+    <attribute id="CPUDT" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CPUDT"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_3" columnName="CPUDT"/>
+    </attribute>
+    <attribute id="CPUTM" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CPUTM"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_3" columnName="CPUTM"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

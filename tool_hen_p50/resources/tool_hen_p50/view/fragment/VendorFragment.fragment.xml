@@ -1,0 +1,54 @@
+<core:FragmentDefinition
+	xmlns="sap.ui.comp.valuehelpdialog"
+	xmlns:m="sap.m"
+	xmlns:fb="sap.ui.comp.filterbar"
+	xmlns:core="sap.ui.core">
+	<ValueHelpDialog
+		title="{i18n>vendor}"
+		ok=".onValueHelpOkPressVendor"
+		cancel=".onValueHelpCancelPressVendor"
+		afterClose=".onValueHelpAfterCloseVendor"
+		supportRanges="true"
+		key="LIFNR"
+		descriptionKey="NAME1"
+		supportMultiselect="false"
+	>
+		<filterBar>
+			<fb:FilterBar advancedMode="true" search="onFilterBarSearchVendor">
+				<fb:filterGroupItems>
+					<fb:FilterGroupItem
+						groupName="__$INTERNAL$"
+						name="MANDT"
+						label="{i18n>client}"
+						visibleInFilterBar="true"
+					>
+						<fb:control>
+							<m:Input name="MANDT" />
+						</fb:control>
+					</fb:FilterGroupItem>
+					<fb:FilterGroupItem
+						groupName="__$INTERNAL$"
+						name="LIFNR"
+						label="{i18n>vendor}"
+						visibleInFilterBar="true"
+					>
+						<fb:control>
+							<m:Input name="LIFNR" />
+						</fb:control>
+					</fb:FilterGroupItem>
+
+					<fb:FilterGroupItem
+						groupName="__$INTERNAL$"
+						name="NAME1"
+						label="{i18n>vendorname}"
+						visibleInFilterBar="true"
+					>
+						<fb:control>
+							<m:Input name="NAME1" />
+						</fb:control>
+					</fb:FilterGroupItem>
+				</fb:filterGroupItems>
+			</fb:FilterBar>
+		</filterBar>
+	</ValueHelpDialog>
+</core:FragmentDefinition>

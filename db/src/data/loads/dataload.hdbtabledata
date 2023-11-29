@@ -1,0 +1,127 @@
+{
+	"format_version": 1,
+	"imports": [
+	{
+		"target_table": "CS.Application",
+		"source_data": {
+			"data_type": "CSV",
+			"file_name": "Application.csv",
+			"has_header": true,
+			"dialect": "HANA",
+			"type_config": {
+				"delimiter": ","
+			}
+		}		
+	},
+	
+	{
+		"target_table": "CS.SubApplication",
+		"source_data": {
+			"data_type": "CSV",
+			"file_name": "SubApplication.csv",
+			"has_header": true,
+			"dialect": "HANA",
+			"type_config": {
+				"delimiter": ","
+			}
+		}	
+	},
+
+	{
+		"target_table": "CS.ApplicationText",
+		"source_data": {
+			"data_type": "CSV",
+			"file_name": "applicationText.csv",
+			"has_header": true,
+			"dialect": "HANA",
+			"type_config": {
+				"delimiter": ","
+			}
+		}	
+	},
+	{
+		"target_table": "CS.TableText",
+		"source_data": {
+			"data_type": "CSV",
+			"file_name": "TableText.csv",
+			"has_header": true,
+			"dialect": "HANA",
+			"type_config": {
+				"delimiter": ","
+			}
+		}	
+	},	
+	{
+		"target_table": "CS.CustomViewFieldText",
+		"source_data": {
+			"data_type": "CSV",
+			"file_name": "customFieldText.csv",
+			"has_header": true,
+			"dialect": "HANA",
+			"type_config": {
+				"delimiter": ","
+			}
+		}	
+	},	
+	{
+		"target_table": "CS.TableList",
+		"source_data": {
+			"data_type": "CSV",
+			"file_name": "Table.csv",
+			"has_header": true,
+			"dialect": "HANA",
+			"type_config": {
+				"delimiter": ","
+			}
+		}	
+	},
+	{
+		"target_table": "CS.UiTableConfig",
+		"source_data": {
+			"data_type": "CSV",
+			"file_name": "TableConfig.csv",
+			"has_header": true,
+			"dialect": "HANA",
+			"type_config": {
+				"delimiter": ","
+			}
+		}	
+	},
+	{
+		"target_table": "CS.UiCheckTable",
+		"source_data": {
+			"data_type": "CSV",
+			"file_name": "CheckTable.csv",
+			"has_header": true,
+			"dialect": "HANA",
+			"type_config": {
+				"delimiter": ","
+			}
+		}	
+	},
+	{
+		"target_table": "CS.FiscalYear",
+		"source_data": {
+			"data_type": "CSV",
+			"file_name": "FiscalYear.csv",
+			"has_header": true,
+			"dialect": "HANA",
+			"type_config": {
+				"delimiter": ","
+			}
+		}	
+	},
+	{
+		"target_table": "CS.FieldDataType",
+		"source_data": {
+			"data_type": "CSV",
+			"file_name": "DataType.csv",
+			"has_header": true,
+			"dialect": "HANA",
+			"type_config": {
+				"delimiter": ","
+			}
+		}	
+	}		
+	]
+}		

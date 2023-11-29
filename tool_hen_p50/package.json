@@ -1,0 +1,14 @@
+{
+	"name": "tool_hen_p50-approuter",
+	"engines": {
+		"node": "^12"
+	},
+	"dependencies": {
+		"@sap/site-app-server": "^1.17.x",
+		"@sap/approuter": "7.1.0"
+	},
+	"scripts": {
+		"start": "node node_modules/@sap/site-app-server/index.js",
+		"dontstart": "node node_modules/@sap/approuter/approuter.js"
+	}
+}

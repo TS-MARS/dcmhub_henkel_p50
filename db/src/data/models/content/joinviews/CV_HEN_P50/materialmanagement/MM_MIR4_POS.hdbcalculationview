@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::MM_MIR4_POS" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_MM_MIR4_POS"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="P50_CV_MM_MIR4_POS">
+    <resourceUri>P50_CV_MM_MIR4_POS</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="P50_CV_MM_MIR4_POS">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="MANDT"/>
+    </attribute>
+    <attribute id="BELNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BELNR"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="BELNR"/>
+    </attribute>
+    <attribute id="GJAHR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GJAHR"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="GJAHR"/>
+    </attribute>
+    <attribute id="BUZEI" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUZEI"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="BUZEI"/>
+    </attribute>
+    <attribute id="COBL_NR" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="COBL_NR"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="COBL_NR"/>
+    </attribute>
+    <attribute id="WRBTR" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WRBTR"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="WRBTR"/>
+    </attribute>
+    <attribute id="ANLN1" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLN1"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="ANLN1"/>
+    </attribute>
+    <attribute id="ANLN2" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLN2"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="ANLN2"/>
+    </attribute>
+    <attribute id="APLZL" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="APLZL"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="APLZL"/>
+    </attribute>
+    <attribute id="AUFNR" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFNR"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="AUFNR"/>
+    </attribute>
+    <attribute id="DABRZ" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DABRZ"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="DABRZ"/>
+    </attribute>
+    <attribute id="FIPOS" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FIPOS"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="FIPOS"/>
+    </attribute>
+    <attribute id="FISTL" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FISTL"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="FISTL"/>
+    </attribute>
+    <attribute id="FKBER" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FKBER"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="FKBER"/>
+    </attribute>
+    <attribute id="GEBER" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GEBER"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="GEBER"/>
+    </attribute>
+    <attribute id="GRANT_NBR" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GRANT_NBR"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="GRANT_NBR"/>
+    </attribute>
+    <attribute id="GSBER" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GSBER"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="GSBER"/>
+    </attribute>
+    <attribute id="IMKEY" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IMKEY"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="IMKEY"/>
+    </attribute>
+    <attribute id="KOKRS" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOKRS"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="KOKRS"/>
+    </attribute>
+    <attribute id="KOSTL" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOSTL"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="KOSTL"/>
+    </attribute>
+    <attribute id="KSTRG" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSTRG"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="KSTRG"/>
+    </attribute>
+    <attribute id="PAOBJNR" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PAOBJNR"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="PAOBJNR"/>
+    </attribute>
+    <attribute id="PRCTR" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRCTR"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="PRCTR"/>
+    </attribute>
+    <attribute id="PS_PSP_PNR" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PS_PSP_PNR"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="PS_PSP_PNR"/>
+    </attribute>
+    <attribute id="RECID" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RECID"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="RECID"/>
+    </attribute>
+    <attribute id="SAKNR" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAKNR"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="SAKNR"/>
+    </attribute>
+    <attribute id="SGTXT" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SGTXT"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="SGTXT"/>
+    </attribute>
+    <attribute id="TXJCD" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXJCD"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="TXJCD"/>
+    </attribute>
+    <attribute id="VBELN" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBELN"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="VBELN"/>
+    </attribute>
+    <attribute id="VBELP" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBELP"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="VBELP"/>
+    </attribute>
+    <attribute id="VPTNR" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VPTNR"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="VPTNR"/>
+    </attribute>
+    <attribute id="YYKOMNR_HK" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="YYKOMNR_HK"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="YYKOMNR_HK"/>
+    </attribute>
+    <attribute id="MENGE" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MENGE"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="MENGE"/>
+    </attribute>
+    <attribute id="MWSKZ" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSKZ"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="MWSKZ"/>
+    </attribute>
+    <attribute id="ZEKKN" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZEKKN"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="ZEKKN"/>
+    </attribute>
+    <attribute id="BPMNG" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BPMNG"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="BPMNG"/>
+    </attribute>
+    <attribute id="XUNPL" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XUNPL"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="XUNPL"/>
+    </attribute>
+    <attribute id="LSTAR" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LSTAR"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="LSTAR"/>
+    </attribute>
+    <attribute id="PRZNR" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRZNR"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="PRZNR"/>
+    </attribute>
+    <attribute id="AUFPL" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFPL"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="AUFPL"/>
+    </attribute>
+    <attribute id="BUKRS" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="SHKZG" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SHKZG"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="SHKZG"/>
+    </attribute>
+    <attribute id="BZDAT" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BZDAT"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="BZDAT"/>
+    </attribute>
+    <attribute id="BNKAN_FW" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BNKAN_FW"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="BNKAN_FW"/>
+    </attribute>
+    <attribute id="XNEGP" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XNEGP"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="XNEGP"/>
+    </attribute>
+    <attribute id="ERLKZ" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERLKZ"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="ERLKZ"/>
+    </attribute>
+    <attribute id="FIKRS" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FIKRS"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="FIKRS"/>
+    </attribute>
+    <attribute id="KBLNR" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KBLNR"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="KBLNR"/>
+    </attribute>
+    <attribute id="KBLPOS" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KBLPOS"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="KBLPOS"/>
+    </attribute>
+    <attribute id="PARGB" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PARGB"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="PARGB"/>
+    </attribute>
+    <attribute id="PERNR" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PERNR"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="PERNR"/>
+    </attribute>
+    <attribute id="XSKRL" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSKRL"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="XSKRL"/>
+    </attribute>
+    <attribute id="NPLNR" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NPLNR"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="NPLNR"/>
+    </attribute>
+    <attribute id="VORNR" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VORNR"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="VORNR"/>
+    </attribute>
+    <attribute id="ZUONR" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZUONR"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="ZUONR"/>
+    </attribute>
+    <attribute id="MEINS" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEINS"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="MEINS"/>
+    </attribute>
+    <attribute id="MWART" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWART"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="MWART"/>
+    </attribute>
+    <attribute id="FWBAS" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FWBAS"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="FWBAS"/>
+    </attribute>
+    <attribute id="HWBAS" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HWBAS"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="HWBAS"/>
+    </attribute>
+    <attribute id="ABPER" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABPER"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="ABPER"/>
+    </attribute>
+    <attribute id="LEDAT" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LEDAT"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="LEDAT"/>
+    </attribute>
+    <attribute id="MENGE_F" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MENGE_F"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="MENGE_F"/>
+    </attribute>
+    <attribute id="BPMNG_F" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BPMNG_F"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="BPMNG_F"/>
+    </attribute>
+    <attribute id="WERKS" order="64" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WERKS"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="WERKS"/>
+    </attribute>
+    <attribute id="BUDGET_PD" order="65" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUDGET_PD"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="BUDGET_PD"/>
+    </attribute>
+    <attribute id="MEASURE" order="66" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEASURE"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="MEASURE"/>
+    </attribute>
+    <attribute id="FMFGUS_KEY" order="67" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FMFGUS_KEY"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="FMFGUS_KEY"/>
+    </attribute>
+    <attribute id="KOART" order="68" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOART"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="KOART"/>
+    </attribute>
+    <attribute id="SPGRS" order="69" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPGRS"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="SPGRS"/>
+    </attribute>
+    <attribute id="AA_FINAL_IND" order="70" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AA_FINAL_IND"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="AA_FINAL_IND"/>
+    </attribute>
+    <attribute id="AA_FINAL_QTY" order="71" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AA_FINAL_QTY"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="AA_FINAL_QTY"/>
+    </attribute>
+    <attribute id="AA_FINAL_QTY_F" order="72" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AA_FINAL_QTY_F"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="AA_FINAL_QTY_F"/>
+    </attribute>
+    <attribute id="PARKED_QTY" order="73" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PARKED_QTY"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="PARKED_QTY"/>
+    </attribute>
+    <attribute id="PARKED_QTY_F" order="74" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PARKED_QTY_F"/>
+      <keyMapping columnObjectName="P50_CV_MM_MIR4_POS" columnName="PARKED_QTY_F"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

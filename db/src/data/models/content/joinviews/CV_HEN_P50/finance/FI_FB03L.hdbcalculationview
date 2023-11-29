@@ -1,0 +1,2267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::FI_FB03L" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_FI_FB03L"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="P50_CV_FI_FB03L">
+    <resourceUri>P50_CV_FI_FB03L</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="P50_CV_FI_FB03L">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="MANDT"/>
+    </attribute>
+    <attribute id="BUKRS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="BELNR" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BELNR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BELNR"/>
+    </attribute>
+    <attribute id="GJAHR" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GJAHR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="GJAHR"/>
+    </attribute>
+    <attribute id="BLART" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BLART"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BLART"/>
+    </attribute>
+    <attribute id="BLDAT" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BLDAT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BLDAT"/>
+    </attribute>
+    <attribute id="BUDAT" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUDAT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BUDAT"/>
+    </attribute>
+    <attribute id="MONAT" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MONAT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="MONAT"/>
+    </attribute>
+    <attribute id="CPUDT" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CPUDT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="CPUDT"/>
+    </attribute>
+    <attribute id="CPUTM" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CPUTM"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="CPUTM"/>
+    </attribute>
+    <attribute id="AEDAT" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AEDAT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="AEDAT"/>
+    </attribute>
+    <attribute id="UPDDT" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UPDDT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="UPDDT"/>
+    </attribute>
+    <attribute id="WWERT" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WWERT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="WWERT"/>
+    </attribute>
+    <attribute id="USNAM" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="USNAM"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="USNAM"/>
+    </attribute>
+    <attribute id="TCODE" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TCODE"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="TCODE"/>
+    </attribute>
+    <attribute id="BVORG" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BVORG"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BVORG"/>
+    </attribute>
+    <attribute id="XBLNR" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBLNR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XBLNR"/>
+    </attribute>
+    <attribute id="DBBLG" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DBBLG"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DBBLG"/>
+    </attribute>
+    <attribute id="STBLG" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STBLG"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="STBLG"/>
+    </attribute>
+    <attribute id="STJAH" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STJAH"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="STJAH"/>
+    </attribute>
+    <attribute id="BKTXT" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BKTXT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BKTXT"/>
+    </attribute>
+    <attribute id="WAERS" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WAERS"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="WAERS"/>
+    </attribute>
+    <attribute id="KURSF" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KURSF"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="KURSF"/>
+    </attribute>
+    <attribute id="KZWRS" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZWRS"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="KZWRS"/>
+    </attribute>
+    <attribute id="KZKRS" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZKRS"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="KZKRS"/>
+    </attribute>
+    <attribute id="BSTAT" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BSTAT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BSTAT"/>
+    </attribute>
+    <attribute id="XNETB" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XNETB"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XNETB"/>
+    </attribute>
+    <attribute id="FRATH" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FRATH"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="FRATH"/>
+    </attribute>
+    <attribute id="XRUEB" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XRUEB"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XRUEB"/>
+    </attribute>
+    <attribute id="GLVOR" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GLVOR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="GLVOR"/>
+    </attribute>
+    <attribute id="GRPID" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GRPID"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="GRPID"/>
+    </attribute>
+    <attribute id="DOKID" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DOKID"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DOKID"/>
+    </attribute>
+    <attribute id="ARCID" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ARCID"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ARCID"/>
+    </attribute>
+    <attribute id="IBLAR" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IBLAR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="IBLAR"/>
+    </attribute>
+    <attribute id="AWTYP" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AWTYP"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="AWTYP"/>
+    </attribute>
+    <attribute id="AWKEY" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AWKEY"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="AWKEY"/>
+    </attribute>
+    <attribute id="FIKRS" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FIKRS"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="FIKRS"/>
+    </attribute>
+    <attribute id="HWAER" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HWAER"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="HWAER"/>
+    </attribute>
+    <attribute id="HWAE2" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HWAE2"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="HWAE2"/>
+    </attribute>
+    <attribute id="HWAE3" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HWAE3"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="HWAE3"/>
+    </attribute>
+    <attribute id="KURS2" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KURS2"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="KURS2"/>
+    </attribute>
+    <attribute id="KURS3" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KURS3"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="KURS3"/>
+    </attribute>
+    <attribute id="BASW2" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BASW2"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BASW2"/>
+    </attribute>
+    <attribute id="BASW3" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BASW3"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BASW3"/>
+    </attribute>
+    <attribute id="UMRD2" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMRD2"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="UMRD2"/>
+    </attribute>
+    <attribute id="UMRD3" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMRD3"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="UMRD3"/>
+    </attribute>
+    <attribute id="XSTOV" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSTOV"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XSTOV"/>
+    </attribute>
+    <attribute id="STODT" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STODT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="STODT"/>
+    </attribute>
+    <attribute id="XMWST" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XMWST"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XMWST"/>
+    </attribute>
+    <attribute id="CURT2" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CURT2"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="CURT2"/>
+    </attribute>
+    <attribute id="CURT3" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CURT3"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="CURT3"/>
+    </attribute>
+    <attribute id="KUTY2" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUTY2"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="KUTY2"/>
+    </attribute>
+    <attribute id="KUTY3" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUTY3"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="KUTY3"/>
+    </attribute>
+    <attribute id="XSNET" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSNET"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XSNET"/>
+    </attribute>
+    <attribute id="AUSBK" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUSBK"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="AUSBK"/>
+    </attribute>
+    <attribute id="XUSVR" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XUSVR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XUSVR"/>
+    </attribute>
+    <attribute id="DUEFL" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DUEFL"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DUEFL"/>
+    </attribute>
+    <attribute id="AWSYS" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AWSYS"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="AWSYS"/>
+    </attribute>
+    <attribute id="TXKRS" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXKRS"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="TXKRS"/>
+    </attribute>
+    <attribute id="CTXKRS" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CTXKRS"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="CTXKRS"/>
+    </attribute>
+    <attribute id="LOTKZ" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOTKZ"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="LOTKZ"/>
+    </attribute>
+    <attribute id="XWVOF" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XWVOF"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XWVOF"/>
+    </attribute>
+    <attribute id="STGRD" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STGRD"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="STGRD"/>
+    </attribute>
+    <attribute id="PPNAM" order="64" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PPNAM"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PPNAM"/>
+    </attribute>
+    <attribute id="PPDAT" order="65" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PPDAT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PPDAT"/>
+    </attribute>
+    <attribute id="PPTME" order="66" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PPTME"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PPTME"/>
+    </attribute>
+    <attribute id="BRNCH" order="67" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BRNCH"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BRNCH"/>
+    </attribute>
+    <attribute id="NUMPG" order="68" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NUMPG"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="NUMPG"/>
+    </attribute>
+    <attribute id="ADISC" order="69" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADISC"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ADISC"/>
+    </attribute>
+    <attribute id="XREF1_HD" order="70" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XREF1_HD"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XREF1_HD"/>
+    </attribute>
+    <attribute id="XREF2_HD" order="71" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XREF2_HD"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XREF2_HD"/>
+    </attribute>
+    <attribute id="XREVERSAL" order="72" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XREVERSAL"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XREVERSAL"/>
+    </attribute>
+    <attribute id="REINDAT" order="73" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REINDAT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="REINDAT"/>
+    </attribute>
+    <attribute id="RLDNR" order="74" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RLDNR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="RLDNR"/>
+    </attribute>
+    <attribute id="LDGRP" order="75" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LDGRP"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="LDGRP"/>
+    </attribute>
+    <attribute id="PROPMANO" order="76" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROPMANO"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PROPMANO"/>
+    </attribute>
+    <attribute id="XBLNR_ALT" order="77" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBLNR_ALT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XBLNR_ALT"/>
+    </attribute>
+    <attribute id="VATDATE" order="78" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VATDATE"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="VATDATE"/>
+    </attribute>
+    <attribute id="DOCCAT" order="79" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DOCCAT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DOCCAT"/>
+    </attribute>
+    <attribute id="XSPLIT" order="80" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSPLIT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XSPLIT"/>
+    </attribute>
+    <attribute id="CASH_ALLOC" order="81" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CASH_ALLOC"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="CASH_ALLOC"/>
+    </attribute>
+    <attribute id="FOLLOW_ON" order="82" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FOLLOW_ON"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="FOLLOW_ON"/>
+    </attribute>
+    <attribute id="XREORG" order="83" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XREORG"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XREORG"/>
+    </attribute>
+    <attribute id="SUBSET" order="84" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SUBSET"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="SUBSET"/>
+    </attribute>
+    <attribute id="KURST" order="85" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KURST"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="KURST"/>
+    </attribute>
+    <attribute id="KURSX" order="86" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KURSX"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="KURSX"/>
+    </attribute>
+    <attribute id="KUR2X" order="87" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUR2X"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="KUR2X"/>
+    </attribute>
+    <attribute id="KUR3X" order="88" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUR3X"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="KUR3X"/>
+    </attribute>
+    <attribute id="XMCA" order="89" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XMCA"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XMCA"/>
+    </attribute>
+    <attribute id="RESUBMISSION" order="90" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RESUBMISSION"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="RESUBMISSION"/>
+    </attribute>
+    <attribute id="/SAPF15/STATUS" order="91" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="/SAPF15/STATUS"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="/SAPF15/STATUS"/>
+    </attribute>
+    <attribute id="PSOTY" order="92" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSOTY"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PSOTY"/>
+    </attribute>
+    <attribute id="PSOAK" order="93" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSOAK"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PSOAK"/>
+    </attribute>
+    <attribute id="PSOKS" order="94" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSOKS"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PSOKS"/>
+    </attribute>
+    <attribute id="PSOSG" order="95" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSOSG"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PSOSG"/>
+    </attribute>
+    <attribute id="PSOFN" order="96" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSOFN"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PSOFN"/>
+    </attribute>
+    <attribute id="INTFORM" order="97" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INTFORM"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="INTFORM"/>
+    </attribute>
+    <attribute id="INTDATE" order="98" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INTDATE"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="INTDATE"/>
+    </attribute>
+    <attribute id="PSOBT" order="99" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSOBT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PSOBT"/>
+    </attribute>
+    <attribute id="PSOZL" order="100" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSOZL"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PSOZL"/>
+    </attribute>
+    <attribute id="PSODT" order="101" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSODT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PSODT"/>
+    </attribute>
+    <attribute id="PSOTM" order="102" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSOTM"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PSOTM"/>
+    </attribute>
+    <attribute id="FM_UMART" order="103" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FM_UMART"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="FM_UMART"/>
+    </attribute>
+    <attribute id="CCINS" order="104" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CCINS"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="CCINS"/>
+    </attribute>
+    <attribute id="CCNUM" order="105" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CCNUM"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="CCNUM"/>
+    </attribute>
+    <attribute id="SSBLK" order="106" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SSBLK"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="SSBLK"/>
+    </attribute>
+    <attribute id="BATCH" order="107" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BATCH"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BATCH"/>
+    </attribute>
+    <attribute id="SNAME" order="108" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SNAME"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="SNAME"/>
+    </attribute>
+    <attribute id="SAMPLED" order="109" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAMPLED"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="SAMPLED"/>
+    </attribute>
+    <attribute id="EXCLUDE_FLAG" order="110" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EXCLUDE_FLAG"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="EXCLUDE_FLAG"/>
+    </attribute>
+    <attribute id="BLIND" order="111" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BLIND"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BLIND"/>
+    </attribute>
+    <attribute id="OFFSET_STATUS" order="112" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OFFSET_STATUS"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="OFFSET_STATUS"/>
+    </attribute>
+    <attribute id="OFFSET_REFER_DAT" order="113" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OFFSET_REFER_DAT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="OFFSET_REFER_DAT"/>
+    </attribute>
+    <attribute id="PENRC" order="114" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PENRC"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PENRC"/>
+    </attribute>
+    <attribute id="KNUMV" order="115" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNUMV"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="KNUMV"/>
+    </attribute>
+    <attribute id="PYBASTYP" order="116" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PYBASTYP"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PYBASTYP"/>
+    </attribute>
+    <attribute id="PYBASNO" order="117" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PYBASNO"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PYBASNO"/>
+    </attribute>
+    <attribute id="PYBASDAT" order="118" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PYBASDAT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PYBASDAT"/>
+    </attribute>
+    <attribute id="PYIBAN" order="119" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PYIBAN"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PYIBAN"/>
+    </attribute>
+    <attribute id="INWARDNO_HD" order="120" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INWARDNO_HD"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="INWARDNO_HD"/>
+    </attribute>
+    <attribute id="INWARDDT_HD" order="121" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INWARDDT_HD"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="INWARDDT_HD"/>
+    </attribute>
+    <attribute id="YFEXCL" order="122" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="YFEXCL"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="YFEXCL"/>
+    </attribute>
+    <attribute id="YFNAME" order="123" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="YFNAME"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="YFNAME"/>
+    </attribute>
+    <attribute id="YFDATE" order="124" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="YFDATE"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="YFDATE"/>
+    </attribute>
+    <attribute id="YFPROG" order="125" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="YFPROG"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="YFPROG"/>
+    </attribute>
+    <attribute id="DFUDT" order="126" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DFUDT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DFUDT"/>
+    </attribute>
+    <attribute id="DFUTM" order="127" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DFUTM"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DFUTM"/>
+    </attribute>
+    <attribute id="YY_TIMES_1" order="128" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="YY_TIMES_1"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="YY_TIMES_1"/>
+    </attribute>
+    <attribute id="ZZFCRM" order="129" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZZFCRM"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ZZFCRM"/>
+    </attribute>
+    <attribute id="MANDT_1" order="130" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT_1"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="MANDT_1"/>
+    </attribute>
+    <attribute id="BUKRS_1" order="131" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS_1"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BUKRS_1"/>
+    </attribute>
+    <attribute id="BELNR_1" order="132" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BELNR_1"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BELNR_1"/>
+    </attribute>
+    <attribute id="GJAHR_1" order="133" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GJAHR_1"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="GJAHR_1"/>
+    </attribute>
+    <attribute id="BUZEI" order="134" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUZEI"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BUZEI"/>
+    </attribute>
+    <attribute id="BUZID" order="135" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUZID"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BUZID"/>
+    </attribute>
+    <attribute id="AUGDT" order="136" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUGDT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="AUGDT"/>
+    </attribute>
+    <attribute id="AUGCP" order="137" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUGCP"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="AUGCP"/>
+    </attribute>
+    <attribute id="AUGBL" order="138" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUGBL"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="AUGBL"/>
+    </attribute>
+    <attribute id="BSCHL" order="139" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BSCHL"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BSCHL"/>
+    </attribute>
+    <attribute id="KOART" order="140" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOART"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="KOART"/>
+    </attribute>
+    <attribute id="UMSKZ" order="141" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMSKZ"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="UMSKZ"/>
+    </attribute>
+    <attribute id="UMSKS" order="142" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMSKS"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="UMSKS"/>
+    </attribute>
+    <attribute id="ZUMSK" order="143" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZUMSK"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ZUMSK"/>
+    </attribute>
+    <attribute id="SHKZG" order="144" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SHKZG"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="SHKZG"/>
+    </attribute>
+    <attribute id="GSBER" order="145" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GSBER"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="GSBER"/>
+    </attribute>
+    <attribute id="PARGB" order="146" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PARGB"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PARGB"/>
+    </attribute>
+    <attribute id="MWSKZ" order="147" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSKZ"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="MWSKZ"/>
+    </attribute>
+    <attribute id="QSSKZ" order="148" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QSSKZ"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="QSSKZ"/>
+    </attribute>
+    <attribute id="DMBTR" order="149" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DMBTR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DMBTR"/>
+    </attribute>
+    <attribute id="WRBTR" order="150" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WRBTR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="WRBTR"/>
+    </attribute>
+    <attribute id="KZBTR" order="151" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZBTR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="KZBTR"/>
+    </attribute>
+    <attribute id="PSWBT" order="152" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSWBT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PSWBT"/>
+    </attribute>
+    <attribute id="PSWSL" order="153" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSWSL"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PSWSL"/>
+    </attribute>
+    <attribute id="TXBHW" order="154" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXBHW"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="TXBHW"/>
+    </attribute>
+    <attribute id="TXBFW" order="155" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXBFW"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="TXBFW"/>
+    </attribute>
+    <attribute id="MWSTS" order="156" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSTS"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="MWSTS"/>
+    </attribute>
+    <attribute id="WMWST" order="157" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WMWST"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="WMWST"/>
+    </attribute>
+    <attribute id="HWBAS" order="158" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HWBAS"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="HWBAS"/>
+    </attribute>
+    <attribute id="FWBAS" order="159" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FWBAS"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="FWBAS"/>
+    </attribute>
+    <attribute id="HWZUZ" order="160" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HWZUZ"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="HWZUZ"/>
+    </attribute>
+    <attribute id="FWZUZ" order="161" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FWZUZ"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="FWZUZ"/>
+    </attribute>
+    <attribute id="SHZUZ" order="162" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SHZUZ"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="SHZUZ"/>
+    </attribute>
+    <attribute id="STEKZ" order="163" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STEKZ"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="STEKZ"/>
+    </attribute>
+    <attribute id="MWART" order="164" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWART"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="MWART"/>
+    </attribute>
+    <attribute id="TXGRP" order="165" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXGRP"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="TXGRP"/>
+    </attribute>
+    <attribute id="KTOSL" order="166" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTOSL"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="KTOSL"/>
+    </attribute>
+    <attribute id="QSSHB" order="167" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QSSHB"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="QSSHB"/>
+    </attribute>
+    <attribute id="KURSR" order="168" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KURSR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="KURSR"/>
+    </attribute>
+    <attribute id="GBETR" order="169" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GBETR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="GBETR"/>
+    </attribute>
+    <attribute id="BDIFF" order="170" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BDIFF"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BDIFF"/>
+    </attribute>
+    <attribute id="BDIF2" order="171" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BDIF2"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BDIF2"/>
+    </attribute>
+    <attribute id="VALUT" order="172" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VALUT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="VALUT"/>
+    </attribute>
+    <attribute id="ZUONR" order="173" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZUONR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ZUONR"/>
+    </attribute>
+    <attribute id="SGTXT" order="174" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SGTXT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="SGTXT"/>
+    </attribute>
+    <attribute id="ZINKZ" order="175" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZINKZ"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ZINKZ"/>
+    </attribute>
+    <attribute id="VBUND" order="176" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBUND"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="VBUND"/>
+    </attribute>
+    <attribute id="BEWAR" order="177" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEWAR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BEWAR"/>
+    </attribute>
+    <attribute id="ALTKT" order="178" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ALTKT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ALTKT"/>
+    </attribute>
+    <attribute id="VORGN" order="179" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VORGN"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="VORGN"/>
+    </attribute>
+    <attribute id="FDLEV" order="180" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FDLEV"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="FDLEV"/>
+    </attribute>
+    <attribute id="FDGRP" order="181" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FDGRP"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="FDGRP"/>
+    </attribute>
+    <attribute id="FDWBT" order="182" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FDWBT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="FDWBT"/>
+    </attribute>
+    <attribute id="FDTAG" order="183" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FDTAG"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="FDTAG"/>
+    </attribute>
+    <attribute id="FKONT" order="184" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FKONT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="FKONT"/>
+    </attribute>
+    <attribute id="KOKRS" order="185" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOKRS"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="KOKRS"/>
+    </attribute>
+    <attribute id="KOSTL" order="186" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOSTL"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="KOSTL"/>
+    </attribute>
+    <attribute id="PROJN" order="187" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROJN"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PROJN"/>
+    </attribute>
+    <attribute id="AUFNR" order="188" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFNR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="AUFNR"/>
+    </attribute>
+    <attribute id="VBELN" order="189" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBELN"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="VBELN"/>
+    </attribute>
+    <attribute id="VBEL2" order="190" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBEL2"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="VBEL2"/>
+    </attribute>
+    <attribute id="POSN2" order="191" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POSN2"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="POSN2"/>
+    </attribute>
+    <attribute id="ETEN2" order="192" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ETEN2"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ETEN2"/>
+    </attribute>
+    <attribute id="ANLN1" order="193" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLN1"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ANLN1"/>
+    </attribute>
+    <attribute id="ANLN2" order="194" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLN2"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ANLN2"/>
+    </attribute>
+    <attribute id="ANBWA" order="195" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANBWA"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ANBWA"/>
+    </attribute>
+    <attribute id="BZDAT" order="196" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BZDAT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BZDAT"/>
+    </attribute>
+    <attribute id="PERNR" order="197" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PERNR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PERNR"/>
+    </attribute>
+    <attribute id="XUMSW" order="198" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XUMSW"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XUMSW"/>
+    </attribute>
+    <attribute id="XHRES" order="199" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XHRES"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XHRES"/>
+    </attribute>
+    <attribute id="XKRES" order="200" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XKRES"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XKRES"/>
+    </attribute>
+    <attribute id="XOPVW" order="201" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XOPVW"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XOPVW"/>
+    </attribute>
+    <attribute id="XCPDD" order="202" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XCPDD"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XCPDD"/>
+    </attribute>
+    <attribute id="XSKST" order="203" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSKST"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XSKST"/>
+    </attribute>
+    <attribute id="XSAUF" order="204" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSAUF"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XSAUF"/>
+    </attribute>
+    <attribute id="XSPRO" order="205" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSPRO"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XSPRO"/>
+    </attribute>
+    <attribute id="XSERG" order="206" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSERG"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XSERG"/>
+    </attribute>
+    <attribute id="XFAKT" order="207" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XFAKT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XFAKT"/>
+    </attribute>
+    <attribute id="XUMAN" order="208" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XUMAN"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XUMAN"/>
+    </attribute>
+    <attribute id="XANET" order="209" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XANET"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XANET"/>
+    </attribute>
+    <attribute id="XSKRL" order="210" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSKRL"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XSKRL"/>
+    </attribute>
+    <attribute id="XINVE" order="211" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XINVE"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XINVE"/>
+    </attribute>
+    <attribute id="XPANZ" order="212" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XPANZ"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XPANZ"/>
+    </attribute>
+    <attribute id="XAUTO" order="213" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XAUTO"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XAUTO"/>
+    </attribute>
+    <attribute id="XNCOP" order="214" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XNCOP"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XNCOP"/>
+    </attribute>
+    <attribute id="XZAHL" order="215" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XZAHL"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XZAHL"/>
+    </attribute>
+    <attribute id="SAKNR" order="216" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAKNR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="SAKNR"/>
+    </attribute>
+    <attribute id="HKONT" order="217" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HKONT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="HKONT"/>
+    </attribute>
+    <attribute id="KUNNR" order="218" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUNNR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="KUNNR"/>
+    </attribute>
+    <attribute id="LIFNR" order="219" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LIFNR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="LIFNR"/>
+    </attribute>
+    <attribute id="FILKD" order="220" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FILKD"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="FILKD"/>
+    </attribute>
+    <attribute id="XBILK" order="221" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBILK"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XBILK"/>
+    </attribute>
+    <attribute id="GVTYP" order="222" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GVTYP"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="GVTYP"/>
+    </attribute>
+    <attribute id="HZUON" order="223" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HZUON"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="HZUON"/>
+    </attribute>
+    <attribute id="ZFBDT" order="224" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZFBDT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ZFBDT"/>
+    </attribute>
+    <attribute id="ZTERM" order="225" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZTERM"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ZTERM"/>
+    </attribute>
+    <attribute id="ZBD1T" order="226" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZBD1T"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ZBD1T"/>
+    </attribute>
+    <attribute id="ZBD2T" order="227" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZBD2T"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ZBD2T"/>
+    </attribute>
+    <attribute id="ZBD3T" order="228" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZBD3T"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ZBD3T"/>
+    </attribute>
+    <attribute id="ZBD1P" order="229" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZBD1P"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ZBD1P"/>
+    </attribute>
+    <attribute id="ZBD2P" order="230" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZBD2P"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ZBD2P"/>
+    </attribute>
+    <attribute id="SKFBT" order="231" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SKFBT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="SKFBT"/>
+    </attribute>
+    <attribute id="SKNTO" order="232" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SKNTO"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="SKNTO"/>
+    </attribute>
+    <attribute id="WSKTO" order="233" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WSKTO"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="WSKTO"/>
+    </attribute>
+    <attribute id="ZLSCH" order="234" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZLSCH"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ZLSCH"/>
+    </attribute>
+    <attribute id="ZLSPR" order="235" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZLSPR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ZLSPR"/>
+    </attribute>
+    <attribute id="ZBFIX" order="236" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZBFIX"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ZBFIX"/>
+    </attribute>
+    <attribute id="HBKID" order="237" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HBKID"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="HBKID"/>
+    </attribute>
+    <attribute id="BVTYP" order="238" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BVTYP"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BVTYP"/>
+    </attribute>
+    <attribute id="NEBTR" order="239" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NEBTR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="NEBTR"/>
+    </attribute>
+    <attribute id="MWSK1" order="240" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSK1"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="MWSK1"/>
+    </attribute>
+    <attribute id="DMBT1" order="241" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DMBT1"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DMBT1"/>
+    </attribute>
+    <attribute id="WRBT1" order="242" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WRBT1"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="WRBT1"/>
+    </attribute>
+    <attribute id="MWSK2" order="243" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSK2"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="MWSK2"/>
+    </attribute>
+    <attribute id="DMBT2" order="244" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DMBT2"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DMBT2"/>
+    </attribute>
+    <attribute id="WRBT2" order="245" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WRBT2"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="WRBT2"/>
+    </attribute>
+    <attribute id="MWSK3" order="246" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSK3"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="MWSK3"/>
+    </attribute>
+    <attribute id="DMBT3" order="247" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DMBT3"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DMBT3"/>
+    </attribute>
+    <attribute id="WRBT3" order="248" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WRBT3"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="WRBT3"/>
+    </attribute>
+    <attribute id="REBZG" order="249" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REBZG"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="REBZG"/>
+    </attribute>
+    <attribute id="REBZJ" order="250" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REBZJ"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="REBZJ"/>
+    </attribute>
+    <attribute id="REBZZ" order="251" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REBZZ"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="REBZZ"/>
+    </attribute>
+    <attribute id="REBZT" order="252" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REBZT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="REBZT"/>
+    </attribute>
+    <attribute id="ZOLLT" order="253" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZOLLT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ZOLLT"/>
+    </attribute>
+    <attribute id="ZOLLD" order="254" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZOLLD"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ZOLLD"/>
+    </attribute>
+    <attribute id="LZBKZ" order="255" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LZBKZ"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="LZBKZ"/>
+    </attribute>
+    <attribute id="LANDL" order="256" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LANDL"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="LANDL"/>
+    </attribute>
+    <attribute id="DIEKZ" order="257" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DIEKZ"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DIEKZ"/>
+    </attribute>
+    <attribute id="SAMNR" order="258" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SAMNR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="SAMNR"/>
+    </attribute>
+    <attribute id="ABPER" order="259" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABPER"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ABPER"/>
+    </attribute>
+    <attribute id="VRSKZ" order="260" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VRSKZ"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="VRSKZ"/>
+    </attribute>
+    <attribute id="VRSDT" order="261" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VRSDT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="VRSDT"/>
+    </attribute>
+    <attribute id="DISBN" order="262" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DISBN"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DISBN"/>
+    </attribute>
+    <attribute id="DISBJ" order="263" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DISBJ"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DISBJ"/>
+    </attribute>
+    <attribute id="DISBZ" order="264" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DISBZ"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DISBZ"/>
+    </attribute>
+    <attribute id="WVERW" order="265" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WVERW"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="WVERW"/>
+    </attribute>
+    <attribute id="ANFBN" order="266" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANFBN"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ANFBN"/>
+    </attribute>
+    <attribute id="ANFBJ" order="267" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANFBJ"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ANFBJ"/>
+    </attribute>
+    <attribute id="ANFBU" order="268" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANFBU"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ANFBU"/>
+    </attribute>
+    <attribute id="ANFAE" order="269" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANFAE"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ANFAE"/>
+    </attribute>
+    <attribute id="BLNBT" order="270" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BLNBT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BLNBT"/>
+    </attribute>
+    <attribute id="BLNKZ" order="271" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BLNKZ"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BLNKZ"/>
+    </attribute>
+    <attribute id="BLNPZ" order="272" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BLNPZ"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BLNPZ"/>
+    </attribute>
+    <attribute id="MSCHL" order="273" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MSCHL"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="MSCHL"/>
+    </attribute>
+    <attribute id="MANSP" order="274" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANSP"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="MANSP"/>
+    </attribute>
+    <attribute id="MADAT" order="275" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MADAT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="MADAT"/>
+    </attribute>
+    <attribute id="MANST" order="276" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANST"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="MANST"/>
+    </attribute>
+    <attribute id="MABER" order="277" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MABER"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="MABER"/>
+    </attribute>
+    <attribute id="ESRNR" order="278" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ESRNR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ESRNR"/>
+    </attribute>
+    <attribute id="ESRRE" order="279" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ESRRE"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ESRRE"/>
+    </attribute>
+    <attribute id="ESRPZ" order="280" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ESRPZ"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ESRPZ"/>
+    </attribute>
+    <attribute id="KLIBT" order="281" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KLIBT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="KLIBT"/>
+    </attribute>
+    <attribute id="QSZNR" order="282" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QSZNR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="QSZNR"/>
+    </attribute>
+    <attribute id="QBSHB" order="283" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QBSHB"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="QBSHB"/>
+    </attribute>
+    <attribute id="QSFBT" order="284" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QSFBT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="QSFBT"/>
+    </attribute>
+    <attribute id="NAVHW" order="285" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAVHW"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="NAVHW"/>
+    </attribute>
+    <attribute id="NAVFW" order="286" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAVFW"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="NAVFW"/>
+    </attribute>
+    <attribute id="MATNR" order="287" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MATNR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="MATNR"/>
+    </attribute>
+    <attribute id="WERKS" order="288" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WERKS"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="WERKS"/>
+    </attribute>
+    <attribute id="MENGE" order="289" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MENGE"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="MENGE"/>
+    </attribute>
+    <attribute id="MENGE_DISP" order="290" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MENGE_DISP"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="MENGE_DISP"/>
+    </attribute>
+    <attribute id="MEINS" order="291" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEINS"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="MEINS"/>
+    </attribute>
+    <attribute id="ERFMG" order="292" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERFMG"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ERFMG"/>
+    </attribute>
+    <attribute id="ERFMG_DISP" order="293" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERFMG_DISP"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ERFMG_DISP"/>
+    </attribute>
+    <attribute id="ERFME" order="294" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERFME"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ERFME"/>
+    </attribute>
+    <attribute id="BPMNG" order="295" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BPMNG"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BPMNG"/>
+    </attribute>
+    <attribute id="BPMNG_DISP" order="296" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BPMNG_DISP"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BPMNG_DISP"/>
+    </attribute>
+    <attribute id="BPRME" order="297" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BPRME"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BPRME"/>
+    </attribute>
+    <attribute id="EBELN" order="298" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EBELN"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="EBELN"/>
+    </attribute>
+    <attribute id="EBELP" order="299" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EBELP"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="EBELP"/>
+    </attribute>
+    <attribute id="ZEKKN" order="300" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZEKKN"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ZEKKN"/>
+    </attribute>
+    <attribute id="ELIKZ" order="301" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ELIKZ"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ELIKZ"/>
+    </attribute>
+    <attribute id="VPRSV" order="302" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VPRSV"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="VPRSV"/>
+    </attribute>
+    <attribute id="PEINH" order="303" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PEINH"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PEINH"/>
+    </attribute>
+    <attribute id="BWKEY" order="304" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWKEY"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BWKEY"/>
+    </attribute>
+    <attribute id="BWTAR" order="305" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWTAR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BWTAR"/>
+    </attribute>
+    <attribute id="BUSTW" order="306" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUSTW"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BUSTW"/>
+    </attribute>
+    <attribute id="REWRT" order="307" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REWRT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="REWRT"/>
+    </attribute>
+    <attribute id="REWWR" order="308" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REWWR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="REWWR"/>
+    </attribute>
+    <attribute id="BONFB" order="309" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BONFB"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BONFB"/>
+    </attribute>
+    <attribute id="BUALT" order="310" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUALT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BUALT"/>
+    </attribute>
+    <attribute id="PSALT" order="311" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSALT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PSALT"/>
+    </attribute>
+    <attribute id="NPREI" order="312" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NPREI"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="NPREI"/>
+    </attribute>
+    <attribute id="TBTKZ" order="313" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TBTKZ"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="TBTKZ"/>
+    </attribute>
+    <attribute id="SPGRP" order="314" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPGRP"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="SPGRP"/>
+    </attribute>
+    <attribute id="SPGRM" order="315" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPGRM"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="SPGRM"/>
+    </attribute>
+    <attribute id="SPGRT" order="316" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPGRT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="SPGRT"/>
+    </attribute>
+    <attribute id="SPGRG" order="317" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPGRG"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="SPGRG"/>
+    </attribute>
+    <attribute id="SPGRV" order="318" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPGRV"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="SPGRV"/>
+    </attribute>
+    <attribute id="SPGRQ" order="319" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPGRQ"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="SPGRQ"/>
+    </attribute>
+    <attribute id="STCEG" order="320" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STCEG"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="STCEG"/>
+    </attribute>
+    <attribute id="EGBLD" order="321" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EGBLD"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="EGBLD"/>
+    </attribute>
+    <attribute id="EGLLD" order="322" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EGLLD"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="EGLLD"/>
+    </attribute>
+    <attribute id="RSTGR" order="323" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RSTGR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="RSTGR"/>
+    </attribute>
+    <attribute id="RYACQ" order="324" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RYACQ"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="RYACQ"/>
+    </attribute>
+    <attribute id="RPACQ" order="325" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RPACQ"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="RPACQ"/>
+    </attribute>
+    <attribute id="RDIFF" order="326" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RDIFF"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="RDIFF"/>
+    </attribute>
+    <attribute id="RDIF2" order="327" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RDIF2"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="RDIF2"/>
+    </attribute>
+    <attribute id="PRCTR" order="328" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRCTR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PRCTR"/>
+    </attribute>
+    <attribute id="XHKOM" order="329" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XHKOM"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XHKOM"/>
+    </attribute>
+    <attribute id="VNAME" order="330" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VNAME"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="VNAME"/>
+    </attribute>
+    <attribute id="RECID" order="331" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RECID"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="RECID"/>
+    </attribute>
+    <attribute id="EGRUP" order="332" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EGRUP"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="EGRUP"/>
+    </attribute>
+    <attribute id="VPTNR" order="333" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VPTNR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="VPTNR"/>
+    </attribute>
+    <attribute id="VERTT" order="334" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERTT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="VERTT"/>
+    </attribute>
+    <attribute id="VERTN" order="335" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERTN"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="VERTN"/>
+    </attribute>
+    <attribute id="VBEWA" order="336" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBEWA"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="VBEWA"/>
+    </attribute>
+    <attribute id="DEPOT" order="337" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DEPOT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DEPOT"/>
+    </attribute>
+    <attribute id="TXJCD" order="338" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXJCD"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="TXJCD"/>
+    </attribute>
+    <attribute id="IMKEY" order="339" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IMKEY"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="IMKEY"/>
+    </attribute>
+    <attribute id="DABRZ" order="340" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DABRZ"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DABRZ"/>
+    </attribute>
+    <attribute id="POPTS" order="341" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="POPTS"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="POPTS"/>
+    </attribute>
+    <attribute id="FIPOS" order="342" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FIPOS"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="FIPOS"/>
+    </attribute>
+    <attribute id="KSTRG" order="343" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSTRG"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="KSTRG"/>
+    </attribute>
+    <attribute id="NPLNR" order="344" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NPLNR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="NPLNR"/>
+    </attribute>
+    <attribute id="AUFPL" order="345" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFPL"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="AUFPL"/>
+    </attribute>
+    <attribute id="APLZL" order="346" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="APLZL"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="APLZL"/>
+    </attribute>
+    <attribute id="PROJK" order="347" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PROJK"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PROJK"/>
+    </attribute>
+    <attribute id="PAOBJNR" order="348" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PAOBJNR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PAOBJNR"/>
+    </attribute>
+    <attribute id="PASUBNR" order="349" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PASUBNR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PASUBNR"/>
+    </attribute>
+    <attribute id="SPGRS" order="350" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPGRS"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="SPGRS"/>
+    </attribute>
+    <attribute id="SPGRC" order="351" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPGRC"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="SPGRC"/>
+    </attribute>
+    <attribute id="BTYPE" order="352" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BTYPE"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BTYPE"/>
+    </attribute>
+    <attribute id="ETYPE" order="353" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ETYPE"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ETYPE"/>
+    </attribute>
+    <attribute id="XEGDR" order="354" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XEGDR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XEGDR"/>
+    </attribute>
+    <attribute id="LNRAN" order="355" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LNRAN"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="LNRAN"/>
+    </attribute>
+    <attribute id="HRKFT" order="356" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HRKFT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="HRKFT"/>
+    </attribute>
+    <attribute id="DMBE2" order="357" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DMBE2"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DMBE2"/>
+    </attribute>
+    <attribute id="DMBE3" order="358" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DMBE3"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DMBE3"/>
+    </attribute>
+    <attribute id="DMB21" order="359" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DMB21"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DMB21"/>
+    </attribute>
+    <attribute id="DMB22" order="360" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DMB22"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DMB22"/>
+    </attribute>
+    <attribute id="DMB23" order="361" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DMB23"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DMB23"/>
+    </attribute>
+    <attribute id="DMB31" order="362" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DMB31"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DMB31"/>
+    </attribute>
+    <attribute id="DMB32" order="363" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DMB32"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DMB32"/>
+    </attribute>
+    <attribute id="DMB33" order="364" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DMB33"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DMB33"/>
+    </attribute>
+    <attribute id="MWST2" order="365" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWST2"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="MWST2"/>
+    </attribute>
+    <attribute id="MWST3" order="366" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWST3"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="MWST3"/>
+    </attribute>
+    <attribute id="NAVH2" order="367" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAVH2"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="NAVH2"/>
+    </attribute>
+    <attribute id="NAVH3" order="368" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAVH3"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="NAVH3"/>
+    </attribute>
+    <attribute id="SKNT2" order="369" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SKNT2"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="SKNT2"/>
+    </attribute>
+    <attribute id="SKNT3" order="370" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SKNT3"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="SKNT3"/>
+    </attribute>
+    <attribute id="BDIF3" order="371" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BDIF3"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BDIF3"/>
+    </attribute>
+    <attribute id="RDIF3" order="372" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RDIF3"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="RDIF3"/>
+    </attribute>
+    <attribute id="HWMET" order="373" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HWMET"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="HWMET"/>
+    </attribute>
+    <attribute id="GLUPM" order="374" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GLUPM"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="GLUPM"/>
+    </attribute>
+    <attribute id="XRAGL" order="375" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XRAGL"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XRAGL"/>
+    </attribute>
+    <attribute id="UZAWE" order="376" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UZAWE"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="UZAWE"/>
+    </attribute>
+    <attribute id="LOKKT" order="377" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOKKT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="LOKKT"/>
+    </attribute>
+    <attribute id="FISTL" order="378" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FISTL"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="FISTL"/>
+    </attribute>
+    <attribute id="GEBER" order="379" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GEBER"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="GEBER"/>
+    </attribute>
+    <attribute id="STBUK" order="380" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STBUK"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="STBUK"/>
+    </attribute>
+    <attribute id="TXBH2" order="381" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXBH2"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="TXBH2"/>
+    </attribute>
+    <attribute id="TXBH3" order="382" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXBH3"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="TXBH3"/>
+    </attribute>
+    <attribute id="PPRCT" order="383" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PPRCT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PPRCT"/>
+    </attribute>
+    <attribute id="XREF1" order="384" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XREF1"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XREF1"/>
+    </attribute>
+    <attribute id="XREF2" order="385" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XREF2"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XREF2"/>
+    </attribute>
+    <attribute id="KBLNR" order="386" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KBLNR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="KBLNR"/>
+    </attribute>
+    <attribute id="KBLPOS" order="387" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KBLPOS"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="KBLPOS"/>
+    </attribute>
+    <attribute id="STTAX" order="388" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STTAX"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="STTAX"/>
+    </attribute>
+    <attribute id="FKBER" order="389" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FKBER"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="FKBER"/>
+    </attribute>
+    <attribute id="OBZEI" order="390" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBZEI"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="OBZEI"/>
+    </attribute>
+    <attribute id="XNEGP" order="391" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XNEGP"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XNEGP"/>
+    </attribute>
+    <attribute id="YYKOMNR_HK" order="392" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="YYKOMNR_HK"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="YYKOMNR_HK"/>
+    </attribute>
+    <attribute id="YY_TIMES_1_1" order="393" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="YY_TIMES_1_1"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="YY_TIMES_1_1"/>
+    </attribute>
+    <attribute id="RFZEI" order="394" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RFZEI"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="RFZEI"/>
+    </attribute>
+    <attribute id="CCBTC" order="395" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CCBTC"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="CCBTC"/>
+    </attribute>
+    <attribute id="KKBER" order="396" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KKBER"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="KKBER"/>
+    </attribute>
+    <attribute id="EMPFB" order="397" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EMPFB"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="EMPFB"/>
+    </attribute>
+    <attribute id="XREF3" order="398" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XREF3"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XREF3"/>
+    </attribute>
+    <attribute id="DTWS1" order="399" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DTWS1"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DTWS1"/>
+    </attribute>
+    <attribute id="DTWS2" order="400" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DTWS2"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DTWS2"/>
+    </attribute>
+    <attribute id="DTWS3" order="401" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DTWS3"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DTWS3"/>
+    </attribute>
+    <attribute id="DTWS4" order="402" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DTWS4"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DTWS4"/>
+    </attribute>
+    <attribute id="GRICD" order="403" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GRICD"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="GRICD"/>
+    </attribute>
+    <attribute id="GRIRG" order="404" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GRIRG"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="GRIRG"/>
+    </attribute>
+    <attribute id="GITYP" order="405" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GITYP"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="GITYP"/>
+    </attribute>
+    <attribute id="XPYPR" order="406" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XPYPR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XPYPR"/>
+    </attribute>
+    <attribute id="KIDNO" order="407" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KIDNO"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="KIDNO"/>
+    </attribute>
+    <attribute id="ABSBT" order="408" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABSBT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ABSBT"/>
+    </attribute>
+    <attribute id="IDXSP" order="409" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IDXSP"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="IDXSP"/>
+    </attribute>
+    <attribute id="LINFV" order="410" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LINFV"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="LINFV"/>
+    </attribute>
+    <attribute id="KONTT" order="411" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KONTT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="KONTT"/>
+    </attribute>
+    <attribute id="KONTL" order="412" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KONTL"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="KONTL"/>
+    </attribute>
+    <attribute id="TXDAT" order="413" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXDAT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="TXDAT"/>
+    </attribute>
+    <attribute id="AGZEI" order="414" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AGZEI"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="AGZEI"/>
+    </attribute>
+    <attribute id="PYCUR" order="415" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PYCUR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PYCUR"/>
+    </attribute>
+    <attribute id="PYAMT" order="416" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PYAMT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PYAMT"/>
+    </attribute>
+    <attribute id="BUPLA" order="417" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUPLA"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BUPLA"/>
+    </attribute>
+    <attribute id="SECCO" order="418" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SECCO"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="SECCO"/>
+    </attribute>
+    <attribute id="LSTAR" order="419" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LSTAR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="LSTAR"/>
+    </attribute>
+    <attribute id="CESSION_KZ" order="420" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CESSION_KZ"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="CESSION_KZ"/>
+    </attribute>
+    <attribute id="PRZNR" order="421" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRZNR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PRZNR"/>
+    </attribute>
+    <attribute id="PPDIFF" order="422" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PPDIFF"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PPDIFF"/>
+    </attribute>
+    <attribute id="PPDIF2" order="423" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PPDIF2"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PPDIF2"/>
+    </attribute>
+    <attribute id="PPDIF3" order="424" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PPDIF3"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PPDIF3"/>
+    </attribute>
+    <attribute id="PENLC1" order="425" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PENLC1"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PENLC1"/>
+    </attribute>
+    <attribute id="PENLC2" order="426" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PENLC2"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PENLC2"/>
+    </attribute>
+    <attribute id="PENLC3" order="427" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PENLC3"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PENLC3"/>
+    </attribute>
+    <attribute id="PENFC" order="428" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PENFC"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PENFC"/>
+    </attribute>
+    <attribute id="PENDAYS" order="429" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PENDAYS"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PENDAYS"/>
+    </attribute>
+    <attribute id="PENRC_1" order="430" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PENRC_1"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PENRC_1"/>
+    </attribute>
+    <attribute id="GRANT_NBR" order="431" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GRANT_NBR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="GRANT_NBR"/>
+    </attribute>
+    <attribute id="SCTAX" order="432" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SCTAX"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="SCTAX"/>
+    </attribute>
+    <attribute id="FKBER_LONG" order="433" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FKBER_LONG"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="FKBER_LONG"/>
+    </attribute>
+    <attribute id="GMVKZ" order="434" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GMVKZ"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="GMVKZ"/>
+    </attribute>
+    <attribute id="SRTYPE" order="435" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SRTYPE"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="SRTYPE"/>
+    </attribute>
+    <attribute id="INTRENO" order="436" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INTRENO"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="INTRENO"/>
+    </attribute>
+    <attribute id="MEASURE" order="437" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MEASURE"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="MEASURE"/>
+    </attribute>
+    <attribute id="AUGGJ" order="438" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUGGJ"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="AUGGJ"/>
+    </attribute>
+    <attribute id="PPA_EX_IND" order="439" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PPA_EX_IND"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PPA_EX_IND"/>
+    </attribute>
+    <attribute id="DOCLN" order="440" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DOCLN"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DOCLN"/>
+    </attribute>
+    <attribute id="SEGMENT" order="441" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SEGMENT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="SEGMENT"/>
+    </attribute>
+    <attribute id="PSEGMENT" order="442" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSEGMENT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PSEGMENT"/>
+    </attribute>
+    <attribute id="PFKBER" order="443" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PFKBER"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PFKBER"/>
+    </attribute>
+    <attribute id="HKTID" order="444" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HKTID"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="HKTID"/>
+    </attribute>
+    <attribute id="KSTAR" order="445" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSTAR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="KSTAR"/>
+    </attribute>
+    <attribute id="XLGCLR" order="446" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XLGCLR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XLGCLR"/>
+    </attribute>
+    <attribute id="TAXPS" order="447" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TAXPS"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="TAXPS"/>
+    </attribute>
+    <attribute id="PAYS_PROV" order="448" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PAYS_PROV"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PAYS_PROV"/>
+    </attribute>
+    <attribute id="PAYS_TRAN" order="449" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PAYS_TRAN"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PAYS_TRAN"/>
+    </attribute>
+    <attribute id="MNDID" order="450" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MNDID"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="MNDID"/>
+    </attribute>
+    <attribute id="XFRGE_BSEG" order="451" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XFRGE_BSEG"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XFRGE_BSEG"/>
+    </attribute>
+    <attribute id="SQUAN" order="452" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SQUAN"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="SQUAN"/>
+    </attribute>
+    <attribute id="ACROBJTYPE" order="453" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ACROBJTYPE"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ACROBJTYPE"/>
+    </attribute>
+    <attribute id="ACROBJ_ID" order="454" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ACROBJ_ID"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ACROBJ_ID"/>
+    </attribute>
+    <attribute id="ACRSOBJ_ID" order="455" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ACRSOBJ_ID"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ACRSOBJ_ID"/>
+    </attribute>
+    <attribute id="ACRITMTYPE" order="456" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ACRITMTYPE"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ACRITMTYPE"/>
+    </attribute>
+    <attribute id="PGEBER" order="457" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PGEBER"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PGEBER"/>
+    </attribute>
+    <attribute id="PGRANT_NBR" order="458" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PGRANT_NBR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PGRANT_NBR"/>
+    </attribute>
+    <attribute id="BUDGET_PD" order="459" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUDGET_PD"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BUDGET_PD"/>
+    </attribute>
+    <attribute id="PBUDGET_PD" order="460" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PBUDGET_PD"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PBUDGET_PD"/>
+    </attribute>
+    <attribute id="J_1TPBUPL" order="461" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="J_1TPBUPL"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="J_1TPBUPL"/>
+    </attribute>
+    <attribute id="PEROP_BEG" order="462" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PEROP_BEG"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PEROP_BEG"/>
+    </attribute>
+    <attribute id="PEROP_END" order="463" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PEROP_END"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PEROP_END"/>
+    </attribute>
+    <attribute id="FASTPAY" order="464" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FASTPAY"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="FASTPAY"/>
+    </attribute>
+    <attribute id="IGNR_IVREF" order="465" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IGNR_IVREF"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="IGNR_IVREF"/>
+    </attribute>
+    <attribute id="FMFGUS_KEY" order="466" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FMFGUS_KEY"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="FMFGUS_KEY"/>
+    </attribute>
+    <attribute id="FMXDOCNR" order="467" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FMXDOCNR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="FMXDOCNR"/>
+    </attribute>
+    <attribute id="FMXYEAR" order="468" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FMXYEAR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="FMXYEAR"/>
+    </attribute>
+    <attribute id="FMXDOCLN" order="469" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FMXDOCLN"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="FMXDOCLN"/>
+    </attribute>
+    <attribute id="FMXZEKKN" order="470" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FMXZEKKN"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="FMXZEKKN"/>
+    </attribute>
+    <attribute id="PRODPER" order="471" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRODPER"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PRODPER"/>
+    </attribute>
+    <attribute id="GST_PART" order="472" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GST_PART"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="GST_PART"/>
+    </attribute>
+    <attribute id="PLC_SUP" order="473" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLC_SUP"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PLC_SUP"/>
+    </attribute>
+    <attribute id="HSN_SAC" order="474" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HSN_SAC"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="HSN_SAC"/>
+    </attribute>
+    <attribute id="INWARD_NO" order="475" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INWARD_NO"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="INWARD_NO"/>
+    </attribute>
+    <attribute id="INWARD_DT" order="476" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INWARD_DT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="INWARD_DT"/>
+    </attribute>
+    <attribute id="GROUND_NO" order="477" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GROUND_NO"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="GROUND_NO"/>
+    </attribute>
+    <attribute id="GROUND_DT" order="478" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GROUND_DT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="GROUND_DT"/>
+    </attribute>
+    <attribute id="GROUND_TYP" order="479" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GROUND_TYP"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="GROUND_TYP"/>
+    </attribute>
+    <attribute id="PYMTKEY" order="480" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PYMTKEY"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PYMTKEY"/>
+    </attribute>
+    <attribute id="MANDT_2" order="481" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT_2"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="MANDT_2"/>
+    </attribute>
+    <attribute id="BUKRS_2" order="482" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS_2"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BUKRS_2"/>
+    </attribute>
+    <attribute id="BUTXT" order="483" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUTXT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BUTXT"/>
+    </attribute>
+    <attribute id="ORT01" order="484" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ORT01"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ORT01"/>
+    </attribute>
+    <attribute id="LAND1" order="485" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LAND1"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="LAND1"/>
+    </attribute>
+    <attribute id="WAERS_1" order="486" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WAERS_1"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="WAERS_1"/>
+    </attribute>
+    <attribute id="SPRAS" order="487" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="KTOPL" order="488" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTOPL"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="KTOPL"/>
+    </attribute>
+    <attribute id="WAABW" order="489" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WAABW"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="WAABW"/>
+    </attribute>
+    <attribute id="PERIV" order="490" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PERIV"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PERIV"/>
+    </attribute>
+    <attribute id="KOKFI" order="491" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOKFI"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="KOKFI"/>
+    </attribute>
+    <attribute id="RCOMP" order="492" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RCOMP"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="RCOMP"/>
+    </attribute>
+    <attribute id="ADRNR" order="493" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADRNR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="ADRNR"/>
+    </attribute>
+    <attribute id="STCEG_1" order="494" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STCEG_1"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="STCEG_1"/>
+    </attribute>
+    <attribute id="FIKRS_1" order="495" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FIKRS_1"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="FIKRS_1"/>
+    </attribute>
+    <attribute id="XFMCO" order="496" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XFMCO"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XFMCO"/>
+    </attribute>
+    <attribute id="XFMCB" order="497" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XFMCB"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XFMCB"/>
+    </attribute>
+    <attribute id="XFMCA" order="498" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XFMCA"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XFMCA"/>
+    </attribute>
+    <attribute id="TXJCD_1" order="499" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXJCD_1"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="TXJCD_1"/>
+    </attribute>
+    <attribute id="FMHRDATE" order="500" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FMHRDATE"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="FMHRDATE"/>
+    </attribute>
+    <attribute id="BUVAR" order="501" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUVAR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BUVAR"/>
+    </attribute>
+    <attribute id="FDBUK" order="502" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FDBUK"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="FDBUK"/>
+    </attribute>
+    <attribute id="XFDIS" order="503" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XFDIS"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XFDIS"/>
+    </attribute>
+    <attribute id="XVALV" order="504" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XVALV"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XVALV"/>
+    </attribute>
+    <attribute id="XSKFN" order="505" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSKFN"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XSKFN"/>
+    </attribute>
+    <attribute id="KKBER_1" order="506" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KKBER_1"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="KKBER_1"/>
+    </attribute>
+    <attribute id="XMWSN" order="507" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XMWSN"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XMWSN"/>
+    </attribute>
+    <attribute id="MREGL" order="508" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MREGL"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="MREGL"/>
+    </attribute>
+    <attribute id="XGSBE" order="509" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XGSBE"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XGSBE"/>
+    </attribute>
+    <attribute id="XGJRV" order="510" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XGJRV"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XGJRV"/>
+    </attribute>
+    <attribute id="XKDFT" order="511" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XKDFT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XKDFT"/>
+    </attribute>
+    <attribute id="XPROD" order="512" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XPROD"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XPROD"/>
+    </attribute>
+    <attribute id="XEINK" order="513" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XEINK"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XEINK"/>
+    </attribute>
+    <attribute id="XJVAA" order="514" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XJVAA"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XJVAA"/>
+    </attribute>
+    <attribute id="XVVWA" order="515" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XVVWA"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XVVWA"/>
+    </attribute>
+    <attribute id="XSLTA" order="516" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSLTA"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XSLTA"/>
+    </attribute>
+    <attribute id="XFDMM" order="517" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XFDMM"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XFDMM"/>
+    </attribute>
+    <attribute id="XFDSD" order="518" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XFDSD"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XFDSD"/>
+    </attribute>
+    <attribute id="XEXTB" order="519" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XEXTB"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XEXTB"/>
+    </attribute>
+    <attribute id="EBUKR" order="520" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EBUKR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="EBUKR"/>
+    </attribute>
+    <attribute id="KTOP2" order="521" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTOP2"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="KTOP2"/>
+    </attribute>
+    <attribute id="UMKRS" order="522" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMKRS"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="UMKRS"/>
+    </attribute>
+    <attribute id="BUKRS_GLOB" order="523" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS_GLOB"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BUKRS_GLOB"/>
+    </attribute>
+    <attribute id="FSTVA" order="524" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FSTVA"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="FSTVA"/>
+    </attribute>
+    <attribute id="OPVAR" order="525" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OPVAR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="OPVAR"/>
+    </attribute>
+    <attribute id="XCOVR" order="526" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XCOVR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XCOVR"/>
+    </attribute>
+    <attribute id="TXKRS_1" order="527" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXKRS_1"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="TXKRS_1"/>
+    </attribute>
+    <attribute id="WFVAR" order="528" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WFVAR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="WFVAR"/>
+    </attribute>
+    <attribute id="XBBBF" order="529" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBBBF"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XBBBF"/>
+    </attribute>
+    <attribute id="XBBBE" order="530" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBBBE"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XBBBE"/>
+    </attribute>
+    <attribute id="XBBBA" order="531" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBBBA"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XBBBA"/>
+    </attribute>
+    <attribute id="XBBKO" order="532" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBBKO"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XBBKO"/>
+    </attribute>
+    <attribute id="XSTDT" order="533" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSTDT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XSTDT"/>
+    </attribute>
+    <attribute id="MWSKV" order="534" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSKV"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="MWSKV"/>
+    </attribute>
+    <attribute id="MWSKA" order="535" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSKA"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="MWSKA"/>
+    </attribute>
+    <attribute id="IMPDA" order="536" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IMPDA"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="IMPDA"/>
+    </attribute>
+    <attribute id="XNEGP_1" order="537" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XNEGP_1"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XNEGP_1"/>
+    </attribute>
+    <attribute id="XKKBI" order="538" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XKKBI"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XKKBI"/>
+    </attribute>
+    <attribute id="WT_NEWWT" order="539" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WT_NEWWT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="WT_NEWWT"/>
+    </attribute>
+    <attribute id="PP_PDATE" order="540" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PP_PDATE"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PP_PDATE"/>
+    </attribute>
+    <attribute id="INFMT" order="541" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INFMT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="INFMT"/>
+    </attribute>
+    <attribute id="FSTVARE" order="542" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FSTVARE"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="FSTVARE"/>
+    </attribute>
+    <attribute id="KOPIM" order="543" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOPIM"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="KOPIM"/>
+    </attribute>
+    <attribute id="DKWEG" order="544" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DKWEG"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DKWEG"/>
+    </attribute>
+    <attribute id="OFFSACCT" order="545" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OFFSACCT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="OFFSACCT"/>
+    </attribute>
+    <attribute id="BAPOVAR" order="546" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BAPOVAR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="BAPOVAR"/>
+    </attribute>
+    <attribute id="XCOS" order="547" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XCOS"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XCOS"/>
+    </attribute>
+    <attribute id="XCESSION" order="548" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XCESSION"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XCESSION"/>
+    </attribute>
+    <attribute id="XSPLT" order="549" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSPLT"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XSPLT"/>
+    </attribute>
+    <attribute id="SURCCM" order="550" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SURCCM"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="SURCCM"/>
+    </attribute>
+    <attribute id="DTPROV" order="551" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DTPROV"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DTPROV"/>
+    </attribute>
+    <attribute id="DTAMTC" order="552" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DTAMTC"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DTAMTC"/>
+    </attribute>
+    <attribute id="DTTAXC" order="553" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DTTAXC"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DTTAXC"/>
+    </attribute>
+    <attribute id="DTTDSP" order="554" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DTTDSP"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DTTDSP"/>
+    </attribute>
+    <attribute id="DTAXR" order="555" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DTAXR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="DTAXR"/>
+    </attribute>
+    <attribute id="XVATDATE" order="556" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XVATDATE"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XVATDATE"/>
+    </attribute>
+    <attribute id="PST_PER_VAR" order="557" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PST_PER_VAR"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="PST_PER_VAR"/>
+    </attribute>
+    <attribute id="XBBSC" order="558" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBBSC"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="XBBSC"/>
+    </attribute>
+    <attribute id="F_OBSOLETE" order="559" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="F_OBSOLETE"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="F_OBSOLETE"/>
+    </attribute>
+    <attribute id="FM_DERIVE_ACC" order="560" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FM_DERIVE_ACC"/>
+      <keyMapping columnObjectName="P50_CV_FI_FB03L" columnName="FM_DERIVE_ACC"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

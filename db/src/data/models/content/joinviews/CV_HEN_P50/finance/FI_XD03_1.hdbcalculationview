@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::FI_XD03_1" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_FI_XD03_1"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="P50_CV_FI_XD03_1">
+    <resourceUri>P50_CV_FI_XD03_1</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="P50_CV_FI_XD03_1">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="P50_CV_FI_XD03_1" columnName="MANDT"/>
+    </attribute>
+    <attribute id="KUNNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUNNR"/>
+      <keyMapping columnObjectName="P50_CV_FI_XD03_1" columnName="KUNNR"/>
+    </attribute>
+    <attribute id="BUKRS" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="P50_CV_FI_XD03_1" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="LAND1" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LAND1"/>
+      <keyMapping columnObjectName="P50_CV_FI_XD03_1" columnName="LAND1"/>
+    </attribute>
+    <attribute id="NAME1" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAME1"/>
+      <keyMapping columnObjectName="P50_CV_FI_XD03_1" columnName="NAME1"/>
+    </attribute>
+    <attribute id="ORT01" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ORT01"/>
+      <keyMapping columnObjectName="P50_CV_FI_XD03_1" columnName="ORT01"/>
+    </attribute>
+    <attribute id="PSTLZ" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSTLZ"/>
+      <keyMapping columnObjectName="P50_CV_FI_XD03_1" columnName="PSTLZ"/>
+    </attribute>
+    <attribute id="SORTL" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SORTL"/>
+      <keyMapping columnObjectName="P50_CV_FI_XD03_1" columnName="SORTL"/>
+    </attribute>
+    <attribute id="STRAS" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STRAS"/>
+      <keyMapping columnObjectName="P50_CV_FI_XD03_1" columnName="STRAS"/>
+    </attribute>
+    <attribute id="TELF1" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TELF1"/>
+      <keyMapping columnObjectName="P50_CV_FI_XD03_1" columnName="TELF1"/>
+    </attribute>
+    <attribute id="TELFX" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TELFX"/>
+      <keyMapping columnObjectName="P50_CV_FI_XD03_1" columnName="TELFX"/>
+    </attribute>
+    <attribute id="BBBNR" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BBBNR"/>
+      <keyMapping columnObjectName="P50_CV_FI_XD03_1" columnName="BBBNR"/>
+    </attribute>
+    <attribute id="BBSNR" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BBSNR"/>
+      <keyMapping columnObjectName="P50_CV_FI_XD03_1" columnName="BBSNR"/>
+    </attribute>
+    <attribute id="BRSCH" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BRSCH"/>
+      <keyMapping columnObjectName="P50_CV_FI_XD03_1" columnName="BRSCH"/>
+    </attribute>
+    <attribute id="BUBKZ" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUBKZ"/>
+      <keyMapping columnObjectName="P50_CV_FI_XD03_1" columnName="BUBKZ"/>
+    </attribute>
+    <attribute id="ERDAT" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERDAT"/>
+      <keyMapping columnObjectName="P50_CV_FI_XD03_1" columnName="ERDAT"/>
+    </attribute>
+    <attribute id="ERNAM" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERNAM"/>
+      <keyMapping columnObjectName="P50_CV_FI_XD03_1" columnName="ERNAM"/>
+    </attribute>
+    <attribute id="KTOKD" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTOKD"/>
+      <keyMapping columnObjectName="P50_CV_FI_XD03_1" columnName="KTOKD"/>
+    </attribute>
+    <attribute id="KUKLA" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUKLA"/>
+      <keyMapping columnObjectName="P50_CV_FI_XD03_1" columnName="KUKLA"/>
+    </attribute>
+    <attribute id="LIFNR" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LIFNR"/>
+      <keyMapping columnObjectName="P50_CV_FI_XD03_1" columnName="LIFNR"/>
+    </attribute>
+    <attribute id="LOEVM" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOEVM"/>
+      <keyMapping columnObjectName="P50_CV_FI_XD03_1" columnName="LOEVM"/>
+    </attribute>
+    <attribute id="SPRAS" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="P50_CV_FI_XD03_1" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="LZONE" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LZONE"/>
+      <keyMapping columnObjectName="P50_CV_FI_XD03_1" columnName="LZONE"/>
+    </attribute>
+    <attribute id="STCEG" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STCEG"/>
+      <keyMapping columnObjectName="P50_CV_FI_XD03_1" columnName="STCEG"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

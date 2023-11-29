@@ -1,0 +1,42 @@
+<core:FragmentDefinition xmlns:smartTable="sap.ui.comp.smarttable" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:tnt="sap.tnt"
+	xmlns:table="sap.ui.table" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout">
+	<Dialog title="{i18n>viewsetting}">	
+		<content>
+			<l:VerticalLayout>
+					<table:Table id="tableFull" columns="{tables>/columns}" enableCellFilter="true" enableCustomFilter="true" enableColumnReordering="false"
+						showColumnVisibilityMenu="false" visibleRowCount="30" threshold="100000" fixedBottomRowCount="1" sort="handleSort" filter="handleFilter">
+						<table:extension>
+							<OverflowToolbar>
+								<Title text="{tables>/columns/0/column_tab} {tables>/columns/0/column_tab_desc} ({/0/count})" />
+								<ToolbarSpacer/>
+								<Button icon="sap-icon://action-settings" press="onSettingButtonPressed">
+									<layoutData>
+										<OverflowToolbarLayoutData priority="NeverOverflow"/>
+									</layoutData>
+								</Button>
+								<Button icon="sap-icon://exit-full-screen" press="onFullScreenClose"/>	
+								<!--Begin 0901 -->
+									<Button icon="sap-icon://excel-attachment" press="onExcelButtonPressed" tooltip="Excel">
+										<layoutData>
+											<OverflowToolbarLayoutData priority="NeverOverflow"/>
+										</layoutData>
+									</Button>
+								<!--End 0901 -->								
+							</OverflowToolbar>
+						</table:extension>
+						<table:rowSettingsTemplate>
+							<table:RowSettings highlight="{= ${Color} === 'X' ? 'Success' : 'None'}" navigated="{navigated}"/>
+						</table:rowSettingsTemplate>						
+						<table:columns>
+							<table:Column width="{tables>column_width}" filterProperty="{tables>column_name}" sortProperty="{tables>column_name}" visible="{tables>column_visible}">
+								<Label text="{tables>column_name}"/>
+								<table:template>
+									<Text text="{tables>column_property}" wrapping="false" renderWhitespace="false"/>
+								</table:template>
+							</table:Column>
+						</table:columns>
+					</table:Table>
+				</l:VerticalLayout>	
+		</content>				
+	</Dialog>	
+</core:FragmentDefinition>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::FIAR_XD03_13" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_FIAR_XD03_13"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="P50_CV_FIAR_XD03_13">
+    <resourceUri>P50_CV_FIAR_XD03_13</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="P50_CV_FIAR_XD03_13">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_13" columnName="MANDT"/>
+    </attribute>
+    <attribute id="KUNNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUNNR"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_13" columnName="KUNNR"/>
+    </attribute>
+    <attribute id="BUKRS" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_13" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="VKORG" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VKORG"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_13" columnName="VKORG"/>
+    </attribute>
+    <attribute id="VTWEG" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VTWEG"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_13" columnName="VTWEG"/>
+    </attribute>
+    <attribute id="SPART" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPART"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_13" columnName="SPART"/>
+    </attribute>
+    <attribute id="LAND1" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LAND1"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_13" columnName="LAND1"/>
+    </attribute>
+    <attribute id="NAME1" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAME1"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_13" columnName="NAME1"/>
+    </attribute>
+    <attribute id="NAME2" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAME2"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_13" columnName="NAME2"/>
+    </attribute>
+    <attribute id="ORT01" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ORT01"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_13" columnName="ORT01"/>
+    </attribute>
+    <attribute id="PSTLZ" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSTLZ"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_13" columnName="PSTLZ"/>
+    </attribute>
+    <attribute id="REGIO" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REGIO"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_13" columnName="REGIO"/>
+    </attribute>
+    <attribute id="SORTL" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SORTL"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_13" columnName="SORTL"/>
+    </attribute>
+    <attribute id="STRAS" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STRAS"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_13" columnName="STRAS"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

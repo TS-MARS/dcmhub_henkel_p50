@@ -1,0 +1,54 @@
+<core:FragmentDefinition
+	xmlns="sap.ui.comp.valuehelpdialog"
+	xmlns:m="sap.m"
+	xmlns:fb="sap.ui.comp.filterbar"
+	xmlns:core="sap.ui.core">
+	<ValueHelpDialog
+		title="{i18n>doctype}"
+		ok=".onValueHelpOkPressDoctype"
+		cancel=".onValueHelpCancelPressDoctype"
+		afterClose=".onValueHelpAfterCloseDoctype"
+		supportRanges="true"
+		key="BLART"
+		descriptionKey="LTEXT"
+		supportMultiselect="true"
+	>
+		<filterBar>
+			<fb:FilterBar advancedMode="true" search="onFilterBarSearchDoctype">
+				<fb:filterGroupItems>
+					<fb:FilterGroupItem
+						groupName="__$INTERNAL$"
+						name="MANDT"
+						label="{i18n>client}"
+						visibleInFilterBar="true"
+					>
+						<fb:control>
+							<m:Input name="MANDT" />
+						</fb:control>
+					</fb:FilterGroupItem>
+					<fb:FilterGroupItem
+						groupName="__$INTERNAL$"
+						name="BLART"
+						label="{i18n>doctype}"
+						visibleInFilterBar="true"
+					>
+						<fb:control>
+							<m:Input name="BLART" />
+						</fb:control>
+					</fb:FilterGroupItem>
+
+					<fb:FilterGroupItem
+						groupName="__$INTERNAL$"
+						name="LTEXT"
+						label="{i18n>text}"
+						visibleInFilterBar="true"
+					>
+						<fb:control>
+							<m:Input name="LTEXT" />
+						</fb:control>
+					</fb:FilterGroupItem>
+				</fb:filterGroupItems>
+			</fb:FilterBar>
+		</filterBar>
+	</ValueHelpDialog>
+</core:FragmentDefinition>

@@ -1,0 +1,22 @@
+service  { 
+
+//Check tables
+"core.models::Client" as "client" keys generate local "GENID";
+"core.models::Company" as "company" keys generate local "GENID";
+"core.models::Language" as "language" keys generate local "GENID";
+"core.models::Plant" as "plant" keys generate local "GENID";
+"core.models::Customer" as "customer" keys generate local "GENID";
+"core.models::Vendor" as "vendor" keys generate local "GENID";
+"core.models::ValuationArea" as "valuationarea" keys generate local "GENID";
+"core.models::ChartofAccounts" as "chartofaccounts" keys generate local "GENID";
+"core.models::FiscalYear" as "fiscalyear" keys generate local "GENID";
+"core.models::Ledger" as "ledger" keys generate local "GENID";
+}
+settings {  
+  support null; 
+  content cache-control "max-age=1604800,must-revalidate";  
+  metadata cache-control "max-age=1604800,must-revalidate"; 
+  limits 
+      max_records = 500000,
+      max_expanded_records = 500000;
+}

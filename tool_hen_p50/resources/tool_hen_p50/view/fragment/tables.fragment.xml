@@ -1,0 +1,61 @@
+<core:FragmentDefinition xmlns:smartTable="sap.ui.comp.smarttable" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:tnt="sap.tnt"
+	xmlns:table="sap.ui.table" xmlns:core="sap.ui.core">
+	<Panel content="{ path: '/table' , templateShareable: false}" visible="false" class="sapUiNoContentPadding">
+		<headerToolbar>
+			<OverflowToolbar >
+				<Button icon="sap-icon://nav-back" press="onTableNavBack"/>
+			</OverflowToolbar>
+		</headerToolbar>
+		<Panel visible="false">
+			<content>
+				<!--<smartTable:SmartTable tableType="Table" useExportToExcel="true" beforeExport="onBeforeExport" useVariantManagement="true"-->
+				<!--	useTablePersonalisation="true" header="Line Items" showRowCount="false" persistencyKey="SmartTableAnalytical_Explored"-->
+				<!--	enableAutoBinding="true" class="sapUiResponsiveContentPadding">-->
+					<table:Table columns="{path: 'tables>/columns',templateShareable:false}" enableCellFilter="false" enableCustomFilter="false" enableColumnReordering="false"
+						showColumnVisibilityMenu="false" visibleRowCount="15" threshold="100000" fixedBottomRowCount="1" sort="handleSort" filter="handleFilter">
+						<table:extension>
+							<OverflowToolbar>
+								<Title text="{tables>/columns/0/column_tab} {tables>/columns/0/column_tab_desc} ({/0/count})" />
+								<ToolbarSpacer/>
+								<Button icon="sap-icon://add-favorite" press="callCreateFav">
+									<layoutData>
+										<OverflowToolbarLayoutData priority="NeverOverflow"/>
+									</layoutData>
+								</Button>
+								<Button icon="sap-icon://unfavorite" press="callRemoveFav">
+									<layoutData>
+										<OverflowToolbarLayoutData priority="NeverOverflow"/>
+									</layoutData>
+								</Button>									
+								<Button icon="sap-icon://action-settings" press="onSettingButtonPressed">
+									<layoutData>
+										<OverflowToolbarLayoutData priority="NeverOverflow"/>
+									</layoutData>
+								</Button>
+								<Button icon="sap-icon://full-screen" press="onFullScreenPressed"/>	
+								<!--Begin 0901 -->
+									<Button icon="sap-icon://excel-attachment" press="onExcelButtonPressed" tooltip="Excel">
+										<layoutData>
+											<OverflowToolbarLayoutData priority="NeverOverflow"/>
+										</layoutData>
+									</Button>
+								<!--End 0901 -->								
+							</OverflowToolbar>
+						</table:extension>
+						<table:rowSettingsTemplate>
+							<table:RowSettings highlight="{= ${Color} === 'X' ? 'Success' : 'None'}" navigated="{navigated}"/>
+						</table:rowSettingsTemplate>
+						<table:columns>
+							<table:Column width="{tables>column_width}" filterProperty="{tables>column_property}" sortProperty="{tables>column_property}" visible="{tables>column_visible}">
+								<Label text="{tables>column_name}" tooltip="{tables>column_property} {tables>column_type}"/>
+								<table:template>
+									<Text text="{tables>column_property}" wrapping="false" renderWhitespace="false"/>
+								</table:template>
+							</table:Column>
+						</table:columns>
+					</table:Table>
+				<!--</smartTable:SmartTable>-->
+			</content>
+		</Panel>
+	</Panel>
+</core:FragmentDefinition>

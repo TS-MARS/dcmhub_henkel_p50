@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::ZTRUE_GJAHR" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="ZTRUE_GJAHR"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="SDA_BKPF">
+    <resourceUri>SDA_BKPF</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews>
+  <calculationView xsi:type="Calculation:AggregationView" id="BKPF">
+    <viewAttributes>
+      <viewAttribute id="GJAHR"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <restrictedViewAttributes/>
+    <input node="SDA_BKPF"/>
+  </calculationView>
+</calculationViews>
+<logicalModel id="BKPF">
+  <attributes>
+    <attribute id="GJAHR" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GJAHR"/>
+      <keyMapping columnObjectName="BKPF" columnName="GJAHR"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+
+  <sortAttributes>
+
+    <sortAttribute id="GJAHR" direction="ASC"/>
+
+  </sortAttributes>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  
+    <shape expanded="true" modelObjectName="BKPF" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="100" y="219"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

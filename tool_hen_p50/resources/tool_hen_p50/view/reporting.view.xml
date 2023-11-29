@@ -1,0 +1,66 @@
+<mvc:View controllerName="tool_hen_p50.controller.reporting" xmlns:smartTable="sap.ui.comp.smarttable" xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc" xmlns:tnt="sap.tnt" xmlns:table="sap.ui.table" height="100%">
+	<Page showNavButton="true" title="Module Browser" navButtonPress="onNavButtonPressMain">
+		<content>
+			<tnt:ToolPage id="toolPage">
+				<tnt:header>
+					<tnt:ToolHeader>
+						<Button id="sideNavigationToggleButton" icon="sap-icon://menu2" type="Transparent" press=".onSideNavButtonPress">
+							<layoutData>
+								<OverflowToolbarLayoutData priority="NeverOverflow"/>
+							</layoutData>
+						</Button>
+					</tnt:ToolHeader>
+				</tnt:header>
+				<tnt:sideContent width="320px">
+					<tnt:SideNavigation expanded="true">
+						<tnt:NavigationList id="IdNavigationList" items="{path: '/ApplicationSet',templateShareable: false}">
+							<tnt:NavigationListItem text="{TEXT}" items="{path: 'SubApplicationSet',templateShareable: false}" key="{APPLICATIONID}" icon="{ICON}" expanded="false">
+								<tnt:NavigationListItem text="{SUBAPPLICATIONID} {TEXT}" key="{SUBAPPLICATIONID}" select=".onItemSelect"/>
+							</tnt:NavigationListItem>
+						</tnt:NavigationList>
+						<tnt:fixedItem>
+							<tnt:NavigationList>
+								<tnt:NavigationListItem text="Application Settings" icon="sap-icon://employee" select=".onSettingSelect"/>
+							</tnt:NavigationList>
+						</tnt:fixedItem>						
+					</tnt:SideNavigation>
+				</tnt:sideContent>
+				<tnt:mainContents>
+					<NavContainer id="pageContainer" initialPage="page1">
+						<pages>
+							<ScrollContainer id="page1" horizontal="false" vertical="true" height="100%">
+								<TabContainer id="myTableTabContainer" class="sapUiResponsiveContentPadding sapUiResponsivePadding--header" itemClose="itemCloseHandler">
+									<items >
+									</items>
+								</TabContainer>
+						</ScrollContainer>								
+							<Page id="page2" showNavButton="true" navButtonPress="onNavButtonPress">
+								<content>
+									<Panel content="{ path: '/table',templateShareable:false}" id="myTabContainer">
+										<Panel>
+											<headerToolbar>
+												<OverflowToolbar >
+													<Title text="{TableId} {TableDescription}"/>
+												</OverflowToolbar>
+											</headerToolbar>
+											<content>
+
+											</content>
+										</Panel>
+									</Panel>
+								</content>
+							</Page>
+						</pages>
+					</NavContainer>
+				</tnt:mainContents>
+			</tnt:ToolPage>
+		</content>
+		<footer>
+			<Toolbar>
+				<ToolbarSpacer/>
+				<Button id="nextButtonId" type="Emphasized" text="Next" press="onPressNext"/>
+			</Toolbar>
+		</footer>
+	</Page>
+</mvc:View>

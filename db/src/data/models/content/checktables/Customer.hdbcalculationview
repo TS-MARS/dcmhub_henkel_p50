@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::Customer" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="Customer"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="SDA_KNA1">
+    <resourceUri>SDA_KNA1</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews>
+  <calculationView xsi:type="Calculation:AggregationView" id="Customer">
+    <viewAttributes>
+      <viewAttribute id="MANDT"/>
+      <viewAttribute id="KEY"/>
+      <viewAttribute id="DESC"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <restrictedViewAttributes/>
+    <input node="SDA_KNA1">
+      <mapping xsi:type="Calculation:AttributeMapping" target="KEY" source="KUNNR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="DESC" source="NAME1"/>
+    </input>
+  </calculationView>
+</calculationViews>
+<logicalModel id="Customer">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="Customer" columnName="MANDT"/>
+    </attribute>
+    <attribute id="KEY" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KEY"/>
+      <keyMapping columnObjectName="Customer" columnName="KEY"/>
+    </attribute>
+    <attribute id="DESC" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DESC"/>
+      <keyMapping columnObjectName="Customer" columnName="DESC"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="92" y="112"/>
+    
+      <rectangleSize width="160"/>
+    </shape>
+  
+    <shape expanded="true" modelObjectName="Customer" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="92" y="217"/>
+      <rectangleSize height="30" width="160"/>
+    </shape></shapes>
+</layout>
+</Calculation:scenario>

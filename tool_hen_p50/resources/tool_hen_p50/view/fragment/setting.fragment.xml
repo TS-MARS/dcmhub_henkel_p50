@@ -1,0 +1,33 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout">
+	<P13nDialog showReset="false"  ok="onPressOk" cancel="onPressClose" 
+		class="sapUiSizeCompact">
+		<panels>
+			<P13nColumnsPanel  items="{path: 'tables>/columns'}" columnsItems="{path: 'tables>/columns'}">
+				<items>
+					<P13nItem columnKey="{tables>column_property}" text="{tables>column_name}"/>
+				</items>
+				<columnsItems>
+					<P13nColumnsItem columnKey="{tables>column_property}" visible="{tables>column_visible}" index="{tables>column_index}"/>
+				</columnsItems>
+			</P13nColumnsPanel>
+			
+			<P13nFilterPanel  items="{path: 'tables>/columns'}" filterItems="{path: 'tables>columns'}" addFilterItem="addFilterItem" removeFilterItem="removeFilterItem">
+				<items>
+					<P13nItem columnKey="{tables>column_property}" text="{tables>column_name}"/>
+				</items>
+				<filterItems>
+					<P13nFilterItem columnKey="{tables>column_property}" text="{tables>column_name}"/>
+				</filterItems>
+			</P13nFilterPanel>
+			
+			<P13nSortPanel  items="{path: 'tables>/columns'}" sortItems="{path: 'tables>columns'}" addSortItem="addSortItem" removeSortItem="removeSortItem">
+				<items>
+					<P13nItem columnKey="{tables>column_property}" text="{tables>column_name}"/>
+				</items>
+				<sortItems>
+					<P13nSortItem columnKey="{tables>column_property}" text="{tables>column_name}"/>
+				</sortItems>
+			</P13nSortPanel>
+		</panels>
+	</P13nDialog>
+</core:FragmentDefinition>

@@ -1,0 +1,18 @@
+service {
+
+"core.models::CV_attachments_OT" as "attach"
+with ("FILENAME_CUSTOM", "FILENAME_ETL", "FILENAME_CR", "CONTENT_REP", "FILETYPE", "OBJNO", "DESCRIPTION",  "CREATE_USER", "CREATE_DATE")
+key ("FILENAME_CUSTOM", "FILENAME_ETL", "FILENAME_CR", "CONTENT_REP", "FILETYPE", "OBJNO", "DESCRIPTION",  "CREATE_USER", "CREATE_DATE")
+parameters via key and entity;
+
+}
+
+annotations {
+   enable OData4SAP;
+}
+
+settings {  
+  limits 
+      max_records = 999999, 
+      max_expanded_records = 99999; 
+}

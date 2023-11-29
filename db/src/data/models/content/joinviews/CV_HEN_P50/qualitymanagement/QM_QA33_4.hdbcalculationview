@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::QM_QA33_4" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_QM_QA33_4"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="P50_CV_QM_QA33_4">
+    <resourceUri>P50_CV_QM_QA33_4</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="P50_CV_QM_QA33_4">
+  <attributes>
+    <attribute id="MANDANT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDANT"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_4" columnName="MANDANT"/>
+    </attribute>
+    <attribute id="PRUEFLOS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRUEFLOS"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_4" columnName="PRUEFLOS"/>
+    </attribute>
+    <attribute id="KZART" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZART"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_4" columnName="KZART"/>
+    </attribute>
+    <attribute id="ZAEHLER" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZAEHLER"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_4" columnName="ZAEHLER"/>
+    </attribute>
+    <attribute id="VKATART" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VKATART"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_4" columnName="VKATART"/>
+    </attribute>
+    <attribute id="VWERKS" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VWERKS"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_4" columnName="VWERKS"/>
+    </attribute>
+    <attribute id="VAUSWAHLMG" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VAUSWAHLMG"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_4" columnName="VAUSWAHLMG"/>
+    </attribute>
+    <attribute id="VCODEGRP" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VCODEGRP"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_4" columnName="VCODEGRP"/>
+    </attribute>
+    <attribute id="VCODE" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VCODE"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_4" columnName="VCODE"/>
+    </attribute>
+    <attribute id="VERSIONAM" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERSIONAM"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_4" columnName="VERSIONAM"/>
+    </attribute>
+    <attribute id="VERSIONCD" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERSIONCD"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_4" columnName="VERSIONCD"/>
+    </attribute>
+    <attribute id="VBEWERTUNG" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VBEWERTUNG"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_4" columnName="VBEWERTUNG"/>
+    </attribute>
+    <attribute id="DBEWERTUNG" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DBEWERTUNG"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_4" columnName="DBEWERTUNG"/>
+    </attribute>
+    <attribute id="VFOLGEAKTI" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VFOLGEAKTI"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_4" columnName="VFOLGEAKTI"/>
+    </attribute>
+    <attribute id="QKENNZAHL" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QKENNZAHL"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_4" columnName="QKENNZAHL"/>
+    </attribute>
+    <attribute id="LTEXTKZ" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LTEXTKZ"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_4" columnName="LTEXTKZ"/>
+    </attribute>
+    <attribute id="VNAME" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VNAME"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_4" columnName="VNAME"/>
+    </attribute>
+    <attribute id="VDATUM" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VDATUM"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_4" columnName="VDATUM"/>
+    </attribute>
+    <attribute id="VEZEITERF" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VEZEITERF"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_4" columnName="VEZEITERF"/>
+    </attribute>
+    <attribute id="VAENAME" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VAENAME"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_4" columnName="VAENAME"/>
+    </attribute>
+    <attribute id="VAEDATUM" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VAEDATUM"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_4" columnName="VAEDATUM"/>
+    </attribute>
+    <attribute id="VEZEITAEN" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VEZEITAEN"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_4" columnName="VEZEITAEN"/>
+    </attribute>
+    <attribute id="STAFO" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAFO"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_4" columnName="STAFO"/>
+    </attribute>
+    <attribute id="TEILLOS" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TEILLOS"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_4" columnName="TEILLOS"/>
+    </attribute>
+    <attribute id="VORGLFNR" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VORGLFNR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_4" columnName="VORGLFNR"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

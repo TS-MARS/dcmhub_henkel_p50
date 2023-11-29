@@ -1,0 +1,46 @@
+<core:FragmentDefinition
+	xmlns="sap.ui.comp.valuehelpdialog"
+	xmlns:m="sap.m"
+	xmlns:fb="sap.ui.comp.filterbar"
+	xmlns:core="sap.ui.core">
+	<ValueHelpDialog
+		title="{i18n>language}"
+		ok=".onValueHelpOkPressLanguage"
+		cancel=".onValueHelpCancelPressLanguage"
+		afterClose=".onValueHelpAfterCloseLanguage"
+		supportRanges="true"
+		key="SPRAS"
+		descriptionKey="SPRAS"
+			supportMultiselect="false"
+	>
+		<filterBar>
+			<fb:FilterBar advancedMode="true" search="onFilterBarSearchLanguage">
+				<fb:filterGroupItems>
+					
+					<fb:FilterGroupItem
+						groupName="__$INTERNAL$"
+						name="SPRAS"
+						label="{i18n>language}"
+						visibleInFilterBar="true"
+					>
+						<fb:control>
+							<m:Input name="SPRAS" />
+						</fb:control>
+					</fb:FilterGroupItem>
+					
+						<fb:FilterGroupItem
+						groupName="__$INTERNAL$"
+						name="LAISO"
+						label="{i18n>language}"
+						visibleInFilterBar="true"
+					>
+						<fb:control>
+							<m:Input name="LAISO" />
+						</fb:control>
+					</fb:FilterGroupItem>
+
+				</fb:filterGroupItems>
+			</fb:FilterBar>
+		</filterBar>
+	</ValueHelpDialog>
+</core:FragmentDefinition>

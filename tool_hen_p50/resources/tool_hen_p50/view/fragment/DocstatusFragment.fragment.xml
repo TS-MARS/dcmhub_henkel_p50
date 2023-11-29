@@ -1,0 +1,35 @@
+<core:FragmentDefinition
+	xmlns="sap.ui.comp.valuehelpdialog"
+	xmlns:m="sap.m"
+	xmlns:fb="sap.ui.comp.filterbar"
+	xmlns:core="sap.ui.core">
+	<ValueHelpDialog
+		title="{i18n>docstatus}"
+		ok=".onValueHelpOkPressDocstatus"
+		cancel=".onValueHelpCancelPressDocstatus"
+		afterClose=".onValueHelpAfterCloseDocstatus"
+		supportRanges="true"
+		key="DOMVALUE_L"
+		descriptionKey="DOMVALUE_L"
+		supportMultiselect="true"
+		
+	>
+		<filterBar>
+			<fb:FilterBar advancedMode="true" search="onFilterBarSearchDocstatus">
+				<fb:filterGroupItems>
+					<fb:FilterGroupItem
+						groupName="__$INTERNAL$"
+						name="MANDT"
+						label="{i18n>documentstatus}"
+						visibleInFilterBar="true"
+					>
+						<fb:control>
+							<m:Input name="DOMVALUE_L" />
+						</fb:control>
+					</fb:FilterGroupItem>
+					
+				</fb:filterGroupItems>
+			</fb:FilterBar>
+		</filterBar>
+	</ValueHelpDialog>
+</core:FragmentDefinition>

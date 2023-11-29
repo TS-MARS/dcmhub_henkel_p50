@@ -1,0 +1,20 @@
+{
+  "BIMC_DIMENSIONS": {
+    "target": {
+      "object": "BIMC_DIMENSIONS",
+      "schema": "_SYS_BI"
+    }
+  },
+  "BIMC_PROPERTIES_VIEW": {
+    "target": {
+      "object": "BIMC_PROPERTIES_VIEW",
+      "schema": "_SYS_BI"
+    }
+  },
+  "VIEW_COLUMNS": {
+    "target": {
+      "object": "VIEW_COLUMNS",
+      "schema": "SYS"
+    }
+  }  
+} 

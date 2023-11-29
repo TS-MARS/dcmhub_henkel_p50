@@ -1,0 +1,9 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<BusyDialog
+		title="Downloading"
+		text="... now downloading to Excel"
+		showCancelButton="true"
+		close="onDialogExcelClosed" />
+</core:FragmentDefinition>

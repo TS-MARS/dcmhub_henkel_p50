@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::TableList" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true" runWithInvokerPrivileges="false">
+<descriptions defaultDescription="Table"/>
+<localVariables>
+  <variable id="APPLICATIONUSER" type="session"/>
+</localVariables>
+<variableMappings/>
+<dataSources>
+  <DataSource id="CS.TableText">
+    <resourceUri>CS.TableText</resourceUri>
+  </DataSource>
+  <DataSource id="CS.UiPersonalizationTable">
+    <resourceUri>CS.UiPersonalizationTable</resourceUri>
+  </DataSource>
+  <DataSource id="CS.TableList">
+    <resourceUri>CS.TableList</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews>
+  <calculationView xsi:type="Calculation:JoinView" id="TableList" cardinality="C1_1" joinType="textTable" languageColumn="LANGUAGE">
+    <viewAttributes>
+      <viewAttribute id="TEXT"/>
+    
+      <viewAttribute id="TABNAME"/>
+      <viewAttribute id="SUBAPPLICATIONID"/>
+      <viewAttribute id="FAV"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="Join_1">
+      <mapping xsi:type="Calculation:AttributeMapping" target="SUBAPPLICATIONID" source="SUBAPPLICATIONID"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TABNAME" source="TABNAME"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="FAV" source="FAV"/>
+    </input>
+    <input node="CS.TableText">
+      <mapping xsi:type="Calculation:AttributeMapping" target="TEXT" source="TEXT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TABNAME" source="TABNAME"/>
+    </input>
+    <joinAttribute name="TABNAME"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:JoinView" id="Join_1" cardinality="C1_1" joinType="leftOuter">
+    <viewAttributes>
+      <viewAttribute id="SUBAPPLICATIONID"/>
+      <viewAttribute id="TABNAME"/>
+      <viewAttribute id="TABNAME_1"/>
+    </viewAttributes>
+    <calculatedViewAttributes>
+      <calculatedViewAttribute id="FAV" datatype="NVARCHAR" length="13" expressionLanguage="COLUMN_ENGINE">
+        <formula>if(isnull(&quot;TABNAME_1&quot;), 'false', 'true')</formula>
+      </calculatedViewAttribute>
+    </calculatedViewAttributes>
+    <input node="Union_1">
+      <mapping xsi:type="Calculation:AttributeMapping" target="SUBAPPLICATIONID" source="SUBAPPLICATIONID"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TABNAME" source="TABNAME"/>
+    </input>
+    <input node="Projection_1">
+      <mapping xsi:type="Calculation:AttributeMapping" target="TABNAME_1" source="TABNAME"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TABNAME" source="TABNAME"/>
+    </input>
+    <joinAttribute name="TABNAME"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:UnionView" id="Union_1">
+    <viewAttributes>
+      <viewAttribute id="SUBAPPLICATIONID"/>
+      <viewAttribute id="TABNAME"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="Projection_1" emptyUnionBehavior="NO_ROW">
+      <mapping xsi:type="Calculation:AttributeMapping" target="SUBAPPLICATIONID" source="SUBAPPLICATIONID"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TABNAME" source="TABNAME"/>
+    </input>
+    <input node="Projection_2" emptyUnionBehavior="NO_ROW">
+      <mapping xsi:type="Calculation:AttributeMapping" target="TABNAME" source="TABLEID"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="SUBAPPLICATIONID" source="SUBAPPLICATIONID"/>
+    </input>
+  </calculationView>
+  <calculationView xsi:type="Calculation:ProjectionView" id="Projection_1" filterExpressionLanguage="SQL">
+    <viewAttributes>
+      <viewAttribute id="TABNAME"/>
+      <viewAttribute id="SUBAPPLICATIONID"/>
+      <viewAttribute id="USERNAME"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="CS.UiPersonalizationTable"/>
+    <filter>&quot;USERNAME&quot; = '??APPLICATIONUSER??'</filter>
+  </calculationView>
+  <calculationView xsi:type="Calculation:ProjectionView" id="Projection_2" filterExpressionLanguage="SQL">
+    <viewAttributes>
+      <viewAttribute id="TABLEID"/>
+      <viewAttribute id="SUBAPPLICATIONID"/>
+      <viewAttribute id="INACTIVE"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="CS.TableList"/>
+    <filter>&quot;INACTIVE&quot; is null</filter>
+  </calculationView>
+</calculationViews>
+<logicalModel id="TableList">
+  <attributes>
+    <attribute id="SUBAPPLICATIONID" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SUBAPPLICATIONID"/>
+      <keyMapping columnObjectName="TableList" columnName="SUBAPPLICATIONID"/>
+    </attribute>
+    <attribute id="TABLEID" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TABNAME"/>
+      <keyMapping columnObjectName="TableList" columnName="TABNAME"/>
+    </attribute>
+    <attribute id="DDTEXT" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TEXT"/>
+      <keyMapping columnObjectName="TableList" columnName="TEXT"/>
+    </attribute>
+  
+    <attribute id="FAV" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CC_1"/>
+  
+      <keyMapping columnObjectName="TableList" columnName="FAV"/>
+  
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/></logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="243" y="112"/>
+    
+      <rectangleSize width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="TableList" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="243" y="217"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape modelObjectName="Join_1" modelObjectNameSpace="TableList" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="320" y="30"/>
+      <rectangleSize width="147"/>
+    </shape>
+  
+    <shape modelObjectName="CS.TableText" modelObjectNameSpace="TableList" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="620" y="30"/>
+      <rectangleSize width="250"/>
+    </shape>
+    <shape expanded="true" modelObjectName="Join_1" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="222" y="376"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape modelObjectName="Union_1" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="20" y="30"/>
+      <rectangleSize width="250"/>
+    </shape>
+    <shape modelObjectName="Projection_1" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="620" y="30"/>
+      <rectangleSize width="191"/>
+    </shape>
+  
+    <shape expanded="true" modelObjectName="Union_1" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="222" y="496"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="Projection_1" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="92" y="636"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="Projection_2" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="302" y="636"/>
+      <rectangleSize height="30" width="160"/>
+    </shape></shapes>
+</layout>
+</Calculation:scenario>

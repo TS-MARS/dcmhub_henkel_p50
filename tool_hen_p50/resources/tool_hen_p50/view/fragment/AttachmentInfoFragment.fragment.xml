@@ -1,0 +1,43 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:core="sap.ui.core">
+	<Dialog title="Info">
+		<content>
+			<l:VerticalLayout>
+				<Table inset="false" items="{info>/info}" class="sapUiResponsiveContentPadding"
+					fixedLayout="Strict">
+					<headerToolbar>
+						<OverflowToolbar>
+							<content>
+								<Title text="Information" level="H2"/>
+							</content>
+						</OverflowToolbar>
+					</headerToolbar>
+					<columns>
+						<Column width="20rem">
+							<Text text="SAP Object"/>
+						</Column>
+						<Column width="20rem">
+							<Text text="ID Combination"/>
+						</Column>
+						<Column width="20rem">
+							<Text text="Description"/>
+						</Column>
+					</columns>
+					<items>
+					
+						<ColumnListItem>
+							<cells>
+								<Label text="{info>sapobject}"/>
+								<Label text="{info>id}" />
+								<Label text="{info>desc}" />
+							</cells>
+						</ColumnListItem>
+					</items>
+				</Table>
+			</l:VerticalLayout>
+		</content>
+			<buttons>
+			<Button text="Close" press="onPressCloseAttachmentInfo"></Button>
+			</buttons>
+
+	</Dialog>
+</core:FragmentDefinition>

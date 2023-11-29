@@ -1,0 +1,234 @@
+{
+	"_version": "1.17.0",
+	"sap.app": {
+		"id": "tool_hen_p50",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"sourceTemplate": {
+			"id": "ui5template.basicSAPUI5ApplicationProject",
+			"version": "1.38.11"
+		},
+		"crossNavigation": {
+					"inbounds": {
+						"tool_hen_p50Show": {
+							"title": "Decommision Hub",
+							"icon": "sap-icon://share-2",
+							"semanticObject": "tool_hen_p50",
+							"action": "show",
+							"deviceTypes": {
+								"desktop": true,
+								"tablet": true,
+								"phone": true
+							}
+						}
+					},
+					"outbounds": {}
+				},		
+		"dataSources": {
+			"navigationService": {
+				"preload": true,
+				"uri": "../xsodata/application.xsodata/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/metadata.xml"
+				}
+			},
+			"toolTableService": {
+				"uri": "../xsodata/tooltableservice.xsodata/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/metadata.xml"
+				}
+			},
+				"personalization": {
+				"uri": "../xsodata/fav.xsodata/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/metadata.xml"
+				}
+			},
+				"searchhelp": {
+				"uri": "../xsodata/searchhelp.xsodata/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/metadata.xml"
+				}
+			}
+		}
+	},
+	"sap.ui": {
+		"fullWidth":true,
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		}
+	},
+	"sap.ui5": {
+	"componentName": "tool_hen_p50",		
+		"flexEnabled": false,
+		"rootView": {
+			"viewName": "tool_hen_p50.view.launchpad",
+			"type": "XML",
+			"async": true
+		},
+		"dependencies": {
+			"minUI5Version": "1.71.0",
+			"libs": {
+				"sap.ui.layout": {},
+				"sap.ui.core": {},
+				"sap.m": {},
+				"sap.tnt" :{},
+				"sap.ui.table":{},
+				"sap.ui.comp":{}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": false
+		},
+		"models": {
+			"navigationSet": {
+				"type" : "sap.ui.model.odata.v2.ODataModel",
+				"dataSource": "navigationService",
+				"defaultBindingMode": "TwoWay",
+				"preload": true
+			},
+			"toolTableServiceSet": {
+				"type" : "sap.ui.model.odata.v2.ODataModel",				
+				"dataSource": "toolTableService",
+				"defaultBindingMode": "TwoWay",
+				"preload": true
+			},				
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "tool_hen_p50.i18n.i18n"
+				}
+			},
+			"@i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"uri": "i18n/i18n.properties"
+			},
+			"persModel": {
+				"type" : "sap.ui.model.odata.v2.ODataModel",				
+				"dataSource": "personalization",
+				"preload": true,
+				"settings":{
+					"defaultBindingMode": "TwoWay",
+					"json": true,
+					"useBatch":false,
+					"defaultUpdateMethod": "PUT"
+				}
+			},
+			"searchModel": {
+				"type" : "sap.ui.model.odata.v2.ODataModel",				
+				"dataSource": "searchhelp",
+				"preload": true,
+				"settings":{
+					"defaultBindingMode": "TwoWay",
+					"json": true
+				}
+			}		
+		},
+		"resources": {
+			"css": [
+				{
+					"uri": "css/style.css?portalInterceptorAppId=tool_hen_p50"
+				}
+			],
+			"js": [
+				{
+					"uri": "util/xlsx.full.min.js"
+				}
+			]
+		},
+		"routing": {
+			"config": {
+				"fullWidth": true,
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"async": true,
+				"viewPath": "tool_hen_p50.view",
+				"controlAggregation": "pages",
+				"controlId": "app",
+				"clearControlAggregation": false
+			},
+			"routes": [
+				{
+					"name": "launchpad",
+					"pattern": "launchpad",
+					"target": [
+						"launchpad"
+					]
+				},
+				{
+					"name": "reporting",
+					"pattern": "reporting",
+					"target": [
+						"reporting"
+					]
+				},
+				{
+					"name": "adhocQuery",
+					"pattern": "adhocQuery",
+					"target": [
+						"adhocQuery"
+					]
+				}
+			],
+			"targets": {
+				"launchpad": {
+					"viewType": "XML",
+					"transition": "fade",
+					"clearControlAggregation": false,
+					"viewId": "launchpad",
+					"viewName": "launchpad"
+				},
+				"reporting": {
+					"viewType": "XML",
+					"transition": "fade",
+					"clearControlAggregation": false,
+					"viewId": "reporting",
+					"viewName": "reporting"
+				},
+				"adhocQuery": {
+					"viewType": "XML",
+					"transition": "fade",
+					"clearControlAggregation": false,
+					"viewId": "adhocQuery",
+					"viewName": "adhocQuery"
+				}
+			}
+		},
+		"config": {
+                "sapFiori2Adaptation": true
+                }
+	},
+	"sap.platform.cf": {
+      "oAuthScopes": ["$XSAPPNAME.Display_P50"]	
+	},			
+	"sap.platform.runtime": {
+	"componentProperties": {
+			"url": "/"
+		}
+	}	
+}

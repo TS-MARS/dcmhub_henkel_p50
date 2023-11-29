@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::QM_QA33_1" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_QM_QA33_1"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="P50_CV_QM_QA33_1">
+    <resourceUri>P50_CV_QM_QA33_1</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="P50_CV_QM_QA33_1">
+  <attributes>
+    <attribute id="MANDANT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDANT"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="MANDANT"/>
+    </attribute>
+    <attribute id="PRUEFLOS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRUEFLOS"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="PRUEFLOS"/>
+    </attribute>
+    <attribute id="MANDT" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="MANDT"/>
+    </attribute>
+    <attribute id="WERK" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WERK"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="WERK"/>
+    </attribute>
+    <attribute id="ART" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ART"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="ART"/>
+    </attribute>
+    <attribute id="LOSMENGE" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOSMENGE"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LOSMENGE"/>
+    </attribute>
+    <attribute id="LOSMENGE_DISP" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOSMENGE_DISP"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LOSMENGE_DISP"/>
+    </attribute>
+    <attribute id="SPRACHE" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRACHE"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="SPRACHE"/>
+    </attribute>
+    <attribute id="HERKUNFT" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HERKUNFT"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="HERKUNFT"/>
+    </attribute>
+    <attribute id="ART_1" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ART_1"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="ART_1"/>
+    </attribute>
+    <attribute id="HERKUNFT_1" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HERKUNFT_1"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="HERKUNFT_1"/>
+    </attribute>
+    <attribute id="OBJNR" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJNR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="OBJNR"/>
+    </attribute>
+    <attribute id="OBTYP" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBTYP"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="OBTYP"/>
+    </attribute>
+    <attribute id="STSMA" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STSMA"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STSMA"/>
+    </attribute>
+    <attribute id="QMATAUTH" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QMATAUTH"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="QMATAUTH"/>
+    </attribute>
+    <attribute id="STAT11" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT11"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT11"/>
+    </attribute>
+    <attribute id="INSMK" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INSMK"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="INSMK"/>
+    </attribute>
+    <attribute id="STAT01" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT01"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT01"/>
+    </attribute>
+    <attribute id="STAT02" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT02"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT02"/>
+    </attribute>
+    <attribute id="STAT04" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT04"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT04"/>
+    </attribute>
+    <attribute id="STAT06" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT06"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT06"/>
+    </attribute>
+    <attribute id="STAT07" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT07"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT07"/>
+    </attribute>
+    <attribute id="STAT08" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT08"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT08"/>
+    </attribute>
+    <attribute id="STAT09" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT09"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT09"/>
+    </attribute>
+    <attribute id="STAT10" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT10"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT10"/>
+    </attribute>
+    <attribute id="STAT14" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT14"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT14"/>
+    </attribute>
+    <attribute id="STAT16" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT16"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT16"/>
+    </attribute>
+    <attribute id="STAT18" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT18"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT18"/>
+    </attribute>
+    <attribute id="STAT19" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT19"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT19"/>
+    </attribute>
+    <attribute id="STAT20" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT20"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT20"/>
+    </attribute>
+    <attribute id="STAT21" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT21"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT21"/>
+    </attribute>
+    <attribute id="STAT22" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT22"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT22"/>
+    </attribute>
+    <attribute id="STAT23" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT23"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT23"/>
+    </attribute>
+    <attribute id="STAT24" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT24"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT24"/>
+    </attribute>
+    <attribute id="STAT25" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT25"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT25"/>
+    </attribute>
+    <attribute id="STAT29" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT29"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT29"/>
+    </attribute>
+    <attribute id="STAT26" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT26"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT26"/>
+    </attribute>
+    <attribute id="STAT27" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT27"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT27"/>
+    </attribute>
+    <attribute id="STAT28" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT28"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT28"/>
+    </attribute>
+    <attribute id="STAT31" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT31"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT31"/>
+    </attribute>
+    <attribute id="STAT34" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT34"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT34"/>
+    </attribute>
+    <attribute id="STAT35" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT35"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT35"/>
+    </attribute>
+    <attribute id="STAT45" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT45"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT45"/>
+    </attribute>
+    <attribute id="STAT46" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT46"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT46"/>
+    </attribute>
+    <attribute id="STAT47" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT47"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT47"/>
+    </attribute>
+    <attribute id="STAT48" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT48"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT48"/>
+    </attribute>
+    <attribute id="STAT49" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT49"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT49"/>
+    </attribute>
+    <attribute id="STAT50" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT50"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT50"/>
+    </attribute>
+    <attribute id="KZSKIPLOT" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZSKIPLOT"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="KZSKIPLOT"/>
+    </attribute>
+    <attribute id="DYN" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DYN"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="DYN"/>
+    </attribute>
+    <attribute id="HPZ" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HPZ"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="HPZ"/>
+    </attribute>
+    <attribute id="EIN" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EIN"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="EIN"/>
+    </attribute>
+    <attribute id="ANZSN" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANZSN"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="ANZSN"/>
+    </attribute>
+    <attribute id="KZDYNERF" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZDYNERF"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="KZDYNERF"/>
+    </attribute>
+    <attribute id="DYNHEAD" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DYNHEAD"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="DYNHEAD"/>
+    </attribute>
+    <attribute id="STPRVER" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STPRVER"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STPRVER"/>
+    </attribute>
+    <attribute id="EXTNUM" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EXTNUM"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="EXTNUM"/>
+    </attribute>
+    <attribute id="STAFO" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAFO"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAFO"/>
+    </attribute>
+    <attribute id="STAT30" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT30"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT30"/>
+    </attribute>
+    <attribute id="QINFSTATUS" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QINFSTATUS"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="QINFSTATUS"/>
+    </attribute>
+    <attribute id="ENSTEHDAT" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ENSTEHDAT"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="ENSTEHDAT"/>
+    </attribute>
+    <attribute id="ENTSTEZEIT" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ENTSTEZEIT"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="ENTSTEZEIT"/>
+    </attribute>
+    <attribute id="ERSTELLER" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERSTELLER"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="ERSTELLER"/>
+    </attribute>
+    <attribute id="ERSTELDAT" order="64" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERSTELDAT"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="ERSTELDAT"/>
+    </attribute>
+    <attribute id="ERSTELZEIT" order="65" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERSTELZEIT"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="ERSTELZEIT"/>
+    </attribute>
+    <attribute id="AENDERER" order="66" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENDERER"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="AENDERER"/>
+    </attribute>
+    <attribute id="AENDERDAT" order="67" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENDERDAT"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="AENDERDAT"/>
+    </attribute>
+    <attribute id="AENDERZEIT" order="68" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENDERZEIT"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="AENDERZEIT"/>
+    </attribute>
+    <attribute id="PASTRTERM" order="69" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PASTRTERM"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="PASTRTERM"/>
+    </attribute>
+    <attribute id="PASTRZEIT" order="70" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PASTRZEIT"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="PASTRZEIT"/>
+    </attribute>
+    <attribute id="PAENDTERM" order="71" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PAENDTERM"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="PAENDTERM"/>
+    </attribute>
+    <attribute id="PAENDZEIT" order="72" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PAENDZEIT"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="PAENDZEIT"/>
+    </attribute>
+    <attribute id="PLNTY" order="73" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLNTY"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="PLNTY"/>
+    </attribute>
+    <attribute id="PLNNR" order="74" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLNNR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="PLNNR"/>
+    </attribute>
+    <attribute id="PPLVERW" order="75" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PPLVERW"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="PPLVERW"/>
+    </attribute>
+    <attribute id="PLNAL" order="76" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLNAL"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="PLNAL"/>
+    </attribute>
+    <attribute id="ZAEHL" order="77" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZAEHL"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="ZAEHL"/>
+    </attribute>
+    <attribute id="ZKRIZ" order="78" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZKRIZ"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="ZKRIZ"/>
+    </attribute>
+    <attribute id="STAT15" order="79" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT15"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT15"/>
+    </attribute>
+    <attribute id="SLWBEZ" order="80" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SLWBEZ"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="SLWBEZ"/>
+    </attribute>
+    <attribute id="STAT13" order="81" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT13"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT13"/>
+    </attribute>
+    <attribute id="PPKZTLZU" order="82" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PPKZTLZU"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="PPKZTLZU"/>
+    </attribute>
+    <attribute id="ZAEHL1" order="83" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZAEHL1"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="ZAEHL1"/>
+    </attribute>
+    <attribute id="PRBNAVERF" order="84" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRBNAVERF"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="PRBNAVERF"/>
+    </attribute>
+    <attribute id="PRBNAVV" order="85" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRBNAVV"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="PRBNAVV"/>
+    </attribute>
+    <attribute id="STAT12" order="86" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT12"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT12"/>
+    </attribute>
+    <attribute id="SELMATNR" order="87" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SELMATNR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="SELMATNR"/>
+    </attribute>
+    <attribute id="SELREVLV" order="88" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SELREVLV"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="SELREVLV"/>
+    </attribute>
+    <attribute id="SELWERK" order="89" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SELWERK"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="SELWERK"/>
+    </attribute>
+    <attribute id="SELLIFNR" order="90" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SELLIFNR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="SELLIFNR"/>
+    </attribute>
+    <attribute id="STAT17" order="91" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT17"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT17"/>
+    </attribute>
+    <attribute id="SELHERST" order="92" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SELHERST"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="SELHERST"/>
+    </attribute>
+    <attribute id="SELKUNNR" order="93" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SELKUNNR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="SELKUNNR"/>
+    </attribute>
+    <attribute id="SELPPLVERW" order="94" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SELPPLVERW"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="SELPPLVERW"/>
+    </attribute>
+    <attribute id="GUELTIGAB" order="95" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GUELTIGAB"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="GUELTIGAB"/>
+    </attribute>
+    <attribute id="AUFNR" order="96" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFNR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="AUFNR"/>
+    </attribute>
+    <attribute id="AUFPL" order="97" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFPL"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="AUFPL"/>
+    </attribute>
+    <attribute id="CUOBJ" order="98" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CUOBJ"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="CUOBJ"/>
+    </attribute>
+    <attribute id="CUOBJ_CH" order="99" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CUOBJ_CH"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="CUOBJ_CH"/>
+    </attribute>
+    <attribute id="VERID" order="100" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERID"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="VERID"/>
+    </attribute>
+    <attribute id="SA_AUFNR" order="101" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SA_AUFNR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="SA_AUFNR"/>
+    </attribute>
+    <attribute id="KUNNR" order="102" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUNNR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="KUNNR"/>
+    </attribute>
+    <attribute id="LIFNR" order="103" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LIFNR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LIFNR"/>
+    </attribute>
+    <attribute id="HERSTELLER" order="104" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HERSTELLER"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="HERSTELLER"/>
+    </attribute>
+    <attribute id="EMATNR" order="105" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EMATNR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="EMATNR"/>
+    </attribute>
+    <attribute id="MATNR" order="106" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MATNR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="MATNR"/>
+    </attribute>
+    <attribute id="REVLV" order="107" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REVLV"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="REVLV"/>
+    </attribute>
+    <attribute id="XCHPF" order="108" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XCHPF"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="XCHPF"/>
+    </attribute>
+    <attribute id="CHARG" order="109" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CHARG"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="CHARG"/>
+    </attribute>
+    <attribute id="LAGORTCHRG" order="110" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LAGORTCHRG"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LAGORTCHRG"/>
+    </attribute>
+    <attribute id="ZEUGNISBIS" order="111" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZEUGNISBIS"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="ZEUGNISBIS"/>
+    </attribute>
+    <attribute id="VFDAT" order="112" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VFDAT"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="VFDAT"/>
+    </attribute>
+    <attribute id="LICHN" order="113" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LICHN"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LICHN"/>
+    </attribute>
+    <attribute id="SOBKZ" order="114" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SOBKZ"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="SOBKZ"/>
+    </attribute>
+    <attribute id="PS_PSP_PNR" order="115" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PS_PSP_PNR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="PS_PSP_PNR"/>
+    </attribute>
+    <attribute id="KDAUF" order="116" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KDAUF"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="KDAUF"/>
+    </attribute>
+    <attribute id="KDPOS" order="117" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KDPOS"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="KDPOS"/>
+    </attribute>
+    <attribute id="EKORG" order="118" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EKORG"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="EKORG"/>
+    </attribute>
+    <attribute id="EBELN" order="119" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EBELN"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="EBELN"/>
+    </attribute>
+    <attribute id="EBELP" order="120" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EBELP"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="EBELP"/>
+    </attribute>
+    <attribute id="ETENR" order="121" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ETENR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="ETENR"/>
+    </attribute>
+    <attribute id="BLART" order="122" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BLART"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="BLART"/>
+    </attribute>
+    <attribute id="MJAHR" order="123" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MJAHR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="MJAHR"/>
+    </attribute>
+    <attribute id="MBLNR" order="124" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MBLNR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="MBLNR"/>
+    </attribute>
+    <attribute id="ZEILE" order="125" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZEILE"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="ZEILE"/>
+    </attribute>
+    <attribute id="BUDAT" order="126" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUDAT"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="BUDAT"/>
+    </attribute>
+    <attribute id="BWART" order="127" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BWART"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="BWART"/>
+    </attribute>
+    <attribute id="WERKVORG" order="128" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WERKVORG"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="WERKVORG"/>
+    </attribute>
+    <attribute id="LAGORTVORG" order="129" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LAGORTVORG"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LAGORTVORG"/>
+    </attribute>
+    <attribute id="LGNUM" order="130" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LGNUM"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LGNUM"/>
+    </attribute>
+    <attribute id="LGTYP" order="131" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LGTYP"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LGTYP"/>
+    </attribute>
+    <attribute id="LGPLA" order="132" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LGPLA"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LGPLA"/>
+    </attribute>
+    <attribute id="LS_KDAUF" order="133" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LS_KDAUF"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LS_KDAUF"/>
+    </attribute>
+    <attribute id="LS_KDPOS" order="134" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LS_KDPOS"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LS_KDPOS"/>
+    </attribute>
+    <attribute id="LS_VBELN" order="135" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LS_VBELN"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LS_VBELN"/>
+    </attribute>
+    <attribute id="LS_POSNR" order="136" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LS_POSNR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LS_POSNR"/>
+    </attribute>
+    <attribute id="LS_ABRVW" order="137" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LS_ABRVW"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LS_ABRVW"/>
+    </attribute>
+    <attribute id="LS_ROUTE" order="138" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LS_ROUTE"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LS_ROUTE"/>
+    </attribute>
+    <attribute id="LS_LLAND" order="139" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LS_LLAND"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LS_LLAND"/>
+    </attribute>
+    <attribute id="LS_KUNAG" order="140" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LS_KUNAG"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LS_KUNAG"/>
+    </attribute>
+    <attribute id="LS_VKORG" order="141" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LS_VKORG"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LS_VKORG"/>
+    </attribute>
+    <attribute id="LS_KDMAT" order="142" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LS_KDMAT"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LS_KDMAT"/>
+    </attribute>
+    <attribute id="SPRACHE_1" order="143" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRACHE_1"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="SPRACHE_1"/>
+    </attribute>
+    <attribute id="KTEXTLOS" order="144" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTEXTLOS"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="KTEXTLOS"/>
+    </attribute>
+    <attribute id="LTEXTKZ" order="145" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LTEXTKZ"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LTEXTKZ"/>
+    </attribute>
+    <attribute id="KTEXTMAT" order="146" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTEXTMAT"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="KTEXTMAT"/>
+    </attribute>
+    <attribute id="ZUSMKZAEHL" order="147" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZUSMKZAEHL"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="ZUSMKZAEHL"/>
+    </attribute>
+    <attribute id="OFFENNLZMK" order="148" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OFFENNLZMK"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="OFFENNLZMK"/>
+    </attribute>
+    <attribute id="OFFEN_LZMK" order="149" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OFFEN_LZMK"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="OFFEN_LZMK"/>
+    </attribute>
+    <attribute id="MENGENEINH" order="150" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MENGENEINH"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="MENGENEINH"/>
+    </attribute>
+    <attribute id="ANZGEB" order="151" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANZGEB"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="ANZGEB"/>
+    </attribute>
+    <attribute id="ANZGEB_DISP" order="152" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANZGEB_DISP"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="ANZGEB_DISP"/>
+    </attribute>
+    <attribute id="GEBEH" order="153" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GEBEH"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="GEBEH"/>
+    </attribute>
+    <attribute id="LVS_STIKZ" order="154" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LVS_STIKZ"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LVS_STIKZ"/>
+    </attribute>
+    <attribute id="LVS_STIMG" order="155" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LVS_STIMG"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LVS_STIMG"/>
+    </attribute>
+    <attribute id="LVS_STIMG_DISP" order="156" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LVS_STIMG_DISP"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LVS_STIMG_DISP"/>
+    </attribute>
+    <attribute id="GESSTICHPR" order="157" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GESSTICHPR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="GESSTICHPR"/>
+    </attribute>
+    <attribute id="GESSTICHPR_DISP" order="158" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GESSTICHPR_DISP"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="GESSTICHPR_DISP"/>
+    </attribute>
+    <attribute id="EINHPROBE" order="159" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EINHPROBE"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="EINHPROBE"/>
+    </attribute>
+    <attribute id="DYNREGEL" order="160" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DYNREGEL"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="DYNREGEL"/>
+    </attribute>
+    <attribute id="STAT44" order="161" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT44"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT44"/>
+    </attribute>
+    <attribute id="PRSTUFE" order="162" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRSTUFE"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="PRSTUFE"/>
+    </attribute>
+    <attribute id="PRSCHAERFE" order="163" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRSCHAERFE"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="PRSCHAERFE"/>
+    </attribute>
+    <attribute id="LMENGE01" order="164" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMENGE01"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LMENGE01"/>
+    </attribute>
+    <attribute id="LMENGE01_DISP" order="165" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMENGE01_DISP"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LMENGE01_DISP"/>
+    </attribute>
+    <attribute id="LMENGE02" order="166" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMENGE02"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LMENGE02"/>
+    </attribute>
+    <attribute id="LMENGE02_DISP" order="167" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMENGE02_DISP"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LMENGE02_DISP"/>
+    </attribute>
+    <attribute id="LMENGE03" order="168" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMENGE03"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LMENGE03"/>
+    </attribute>
+    <attribute id="LMENGE03_DISP" order="169" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMENGE03_DISP"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LMENGE03_DISP"/>
+    </attribute>
+    <attribute id="LMENGE04" order="170" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMENGE04"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LMENGE04"/>
+    </attribute>
+    <attribute id="LMENGE04_DISP" order="171" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMENGE04_DISP"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LMENGE04_DISP"/>
+    </attribute>
+    <attribute id="LMENGE05" order="172" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMENGE05"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LMENGE05"/>
+    </attribute>
+    <attribute id="LMENGE05_DISP" order="173" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMENGE05_DISP"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LMENGE05_DISP"/>
+    </attribute>
+    <attribute id="LMENGE06" order="174" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMENGE06"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LMENGE06"/>
+    </attribute>
+    <attribute id="LMENGE06_DISP" order="175" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMENGE06_DISP"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LMENGE06_DISP"/>
+    </attribute>
+    <attribute id="MATNRNEU" order="176" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MATNRNEU"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="MATNRNEU"/>
+    </attribute>
+    <attribute id="CHARGNEU" order="177" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CHARGNEU"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="CHARGNEU"/>
+    </attribute>
+    <attribute id="LMENGE07" order="178" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMENGE07"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LMENGE07"/>
+    </attribute>
+    <attribute id="LMENGE07_DISP" order="179" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMENGE07_DISP"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LMENGE07_DISP"/>
+    </attribute>
+    <attribute id="LMENGE08" order="180" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMENGE08"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LMENGE08"/>
+    </attribute>
+    <attribute id="LMENGE08_DISP" order="181" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMENGE08_DISP"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LMENGE08_DISP"/>
+    </attribute>
+    <attribute id="LMENGE09" order="182" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMENGE09"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LMENGE09"/>
+    </attribute>
+    <attribute id="LMENGE09_DISP" order="183" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMENGE09_DISP"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LMENGE09_DISP"/>
+    </attribute>
+    <attribute id="LMENGEZUB" order="184" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMENGEZUB"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LMENGEZUB"/>
+    </attribute>
+    <attribute id="LMENGEZUB_DISP" order="185" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMENGEZUB_DISP"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LMENGEZUB_DISP"/>
+    </attribute>
+    <attribute id="LMENGELZ" order="186" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMENGELZ"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LMENGELZ"/>
+    </attribute>
+    <attribute id="LMENGELZ_DISP" order="187" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMENGELZ_DISP"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LMENGELZ_DISP"/>
+    </attribute>
+    <attribute id="LMENGEPR" order="188" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMENGEPR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LMENGEPR"/>
+    </attribute>
+    <attribute id="LMENGEPR_DISP" order="189" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMENGEPR_DISP"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LMENGEPR_DISP"/>
+    </attribute>
+    <attribute id="LMENGEZER" order="190" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMENGEZER"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LMENGEZER"/>
+    </attribute>
+    <attribute id="LMENGEZER_DISP" order="191" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMENGEZER_DISP"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LMENGEZER_DISP"/>
+    </attribute>
+    <attribute id="LMENGEIST" order="192" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMENGEIST"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LMENGEIST"/>
+    </attribute>
+    <attribute id="LMENGEIST_DISP" order="193" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMENGEIST_DISP"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LMENGEIST_DISP"/>
+    </attribute>
+    <attribute id="LMENGESCH" order="194" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMENGESCH"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LMENGESCH"/>
+    </attribute>
+    <attribute id="LMENGESCH_DISP" order="195" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LMENGESCH_DISP"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LMENGESCH_DISP"/>
+    </attribute>
+    <attribute id="LTEXTKZBB" order="196" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LTEXTKZBB"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LTEXTKZBB"/>
+    </attribute>
+    <attribute id="ANTEIL" order="197" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANTEIL"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="ANTEIL"/>
+    </attribute>
+    <attribute id="QKZVERF" order="198" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QKZVERF"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="QKZVERF"/>
+    </attribute>
+    <attribute id="STAT03" order="199" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT03"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT03"/>
+    </attribute>
+    <attribute id="QPMATLOS" order="200" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QPMATLOS"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="QPMATLOS"/>
+    </attribute>
+    <attribute id="AUFNR_CO" order="201" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFNR_CO"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="AUFNR_CO"/>
+    </attribute>
+    <attribute id="KZVBR" order="202" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZVBR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="KZVBR"/>
+    </attribute>
+    <attribute id="KNTTP" order="203" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNTTP"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="KNTTP"/>
+    </attribute>
+    <attribute id="PSTYP" order="204" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PSTYP"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="PSTYP"/>
+    </attribute>
+    <attribute id="STAT05" order="205" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT05"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT05"/>
+    </attribute>
+    <attribute id="KOSTL" order="206" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOSTL"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="KOSTL"/>
+    </attribute>
+    <attribute id="AUFPS" order="207" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUFPS"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="AUFPS"/>
+    </attribute>
+    <attribute id="ANLN1" order="208" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLN1"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="ANLN1"/>
+    </attribute>
+    <attribute id="ANLN2" order="209" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLN2"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="ANLN2"/>
+    </attribute>
+    <attribute id="KONT_PSPNR" order="210" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KONT_PSPNR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="KONT_PSPNR"/>
+    </attribute>
+    <attribute id="NPLNR" order="211" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NPLNR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="NPLNR"/>
+    </attribute>
+    <attribute id="APLZL" order="212" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="APLZL"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="APLZL"/>
+    </attribute>
+    <attribute id="KONT_KDAUF" order="213" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KONT_KDAUF"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="KONT_KDAUF"/>
+    </attribute>
+    <attribute id="KONT_KDPOS" order="214" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KONT_KDPOS"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="KONT_KDPOS"/>
+    </attribute>
+    <attribute id="IMKEY" order="215" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IMKEY"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="IMKEY"/>
+    </attribute>
+    <attribute id="DABRZ" order="216" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DABRZ"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="DABRZ"/>
+    </attribute>
+    <attribute id="KSTRG" order="217" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KSTRG"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="KSTRG"/>
+    </attribute>
+    <attribute id="PAOBJNR" order="218" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PAOBJNR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="PAOBJNR"/>
+    </attribute>
+    <attribute id="PRCTR" order="219" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRCTR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="PRCTR"/>
+    </attribute>
+    <attribute id="GSBER" order="220" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GSBER"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="GSBER"/>
+    </attribute>
+    <attribute id="KONTO" order="221" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KONTO"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="KONTO"/>
+    </attribute>
+    <attribute id="KOKRS" order="222" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOKRS"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="KOKRS"/>
+    </attribute>
+    <attribute id="BUKRS" order="223" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="SERNP" order="224" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SERNP"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="SERNP"/>
+    </attribute>
+    <attribute id="LOS_REF" order="225" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOS_REF"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LOS_REF"/>
+    </attribute>
+    <attribute id="BEARBSTATU" order="226" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BEARBSTATU"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="BEARBSTATU"/>
+    </attribute>
+    <attribute id="STAT32" order="227" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT32"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT32"/>
+    </attribute>
+    <attribute id="STAT33" order="228" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT33"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT33"/>
+    </attribute>
+    <attribute id="STAT36" order="229" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT36"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT36"/>
+    </attribute>
+    <attribute id="STAT37" order="230" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT37"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT37"/>
+    </attribute>
+    <attribute id="STAT38" order="231" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT38"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT38"/>
+    </attribute>
+    <attribute id="STAT39" order="232" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT39"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT39"/>
+    </attribute>
+    <attribute id="STAT40" order="233" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT40"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT40"/>
+    </attribute>
+    <attribute id="STAT41" order="234" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT41"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT41"/>
+    </attribute>
+    <attribute id="STAT42" order="235" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT42"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT42"/>
+    </attribute>
+    <attribute id="STAT43" order="236" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STAT43"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STAT43"/>
+    </attribute>
+    <attribute id="MENGU" order="237" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MENGU"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="MENGU"/>
+    </attribute>
+    <attribute id="KZPZADR" order="238" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZPZADR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="KZPZADR"/>
+    </attribute>
+    <attribute id="KZPRADR" order="239" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZPRADR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="KZPRADR"/>
+    </attribute>
+    <attribute id="ZUSCH" order="240" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZUSCH"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="ZUSCH"/>
+    </attribute>
+    <attribute id="ZUSTD" order="241" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZUSTD"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="ZUSTD"/>
+    </attribute>
+    <attribute id="KZERSTLIEF" order="242" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZERSTLIEF"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="KZERSTLIEF"/>
+    </attribute>
+    <attribute id="KZERSTMUST" order="243" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZERSTMUST"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="KZERSTMUST"/>
+    </attribute>
+    <attribute id="ADDON_DUMMY" order="244" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADDON_DUMMY"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="ADDON_DUMMY"/>
+    </attribute>
+    <attribute id="WARPL" order="245" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WARPL"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="WARPL"/>
+    </attribute>
+    <attribute id="WAPOS" order="246" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WAPOS"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="WAPOS"/>
+    </attribute>
+    <attribute id="ABNUM" order="247" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABNUM"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="ABNUM"/>
+    </attribute>
+    <attribute id="STRAT" order="248" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STRAT"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STRAT"/>
+    </attribute>
+    <attribute id="PPLVERW_1" order="249" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PPLVERW_1"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="PPLVERW_1"/>
+    </attribute>
+    <attribute id="BILDS" order="250" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BILDS"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="BILDS"/>
+    </attribute>
+    <attribute id="VEMENGE" order="251" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VEMENGE"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="VEMENGE"/>
+    </attribute>
+    <attribute id="VEVERSION" order="252" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VEVERSION"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="VEVERSION"/>
+    </attribute>
+    <attribute id="VEDATUM" order="253" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VEDATUM"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="VEDATUM"/>
+    </attribute>
+    <attribute id="KZVEWERKS" order="254" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZVEWERKS"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="KZVEWERKS"/>
+    </attribute>
+    <attribute id="KZPZDR" order="255" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZPZDR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="KZPZDR"/>
+    </attribute>
+    <attribute id="KZPADR" order="256" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZPADR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="KZPADR"/>
+    </attribute>
+    <attribute id="KZMESSAGE" order="257" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KZMESSAGE"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="KZMESSAGE"/>
+    </attribute>
+    <attribute id="STSMA_1" order="258" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STSMA_1"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STSMA_1"/>
+    </attribute>
+    <attribute id="ERFSICHT" order="259" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERFSICHT"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="ERFSICHT"/>
+    </attribute>
+    <attribute id="STEUS" order="260" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STEUS"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="STEUS"/>
+    </attribute>
+    <attribute id="QMART" order="261" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="QMART"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="QMART"/>
+    </attribute>
+    <attribute id="VORNR" order="262" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VORNR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="VORNR"/>
+    </attribute>
+    <attribute id="PRART" order="263" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRART"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="PRART"/>
+    </attribute>
+    <attribute id="EINEMELD" order="264" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EINEMELD"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="EINEMELD"/>
+    </attribute>
+    <attribute id="AUART" order="265" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AUART"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="AUART"/>
+    </attribute>
+    <attribute id="KURZTEXT" order="266" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KURZTEXT"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="KURZTEXT"/>
+    </attribute>
+    <attribute id="LTXA1" order="267" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LTXA1"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="LTXA1"/>
+    </attribute>
+    <attribute id="HERKTXT" order="268" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HERKTXT"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_1" columnName="HERKTXT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

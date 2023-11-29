@@ -1,0 +1,22 @@
+<core:FragmentDefinition
+	xmlns="sap.ui.comp.valuehelpdialog"
+	xmlns:m="sap.m"
+	xmlns:fb="sap.ui.comp.filterbar"
+	xmlns:core="sap.ui.core">
+	<ValueHelpDialog
+		title="Search Help"
+		ok=".onValueHelpOkPress"
+		cancel=".onValueHelpCancelPress"
+		afterClose=".onValueHelpAfterClose"
+		supportRanges="true"
+		key="Key"
+		descriptionKey="Name"
+		supportMultiselect="true"
+
+	>
+		<filterBar>
+			<fb:FilterBar advancedMode="true" search="onFilterBarSearchGeneral">
+			</fb:FilterBar>
+		</filterBar>
+	</ValueHelpDialog>
+</core:FragmentDefinition>

@@ -1,0 +1,30 @@
+{
+	"welcomeFile": "index.html",
+	"authenticationMethod": "route",
+	"routes": [{
+		"source": "(.*)(.xsjs)",
+		"destination": "xsjs_api",
+		"csrfProtection": false,
+		"authenticationType": "xsuaa"
+
+	}, 
+	{
+		"source": "(.*)(.xsodata)",
+		"destination": "xsjs_api",
+		"authenticationType": "xsuaa"
+	},
+	{
+		"source": "^/(.*)$",
+		"localDir": "resources/tool_hen_p50",
+		"authenticationType": "xsuaa",
+		"scope": {
+			"GET": "$XSAPPNAME.Display_P50",
+			"default": "$XSAPPNAME.Display_P50"
+		}		
+
+	}],
+	"logout": {
+		"logoutEndpoint": "/logout",
+		"logoutPage": "/logoff.html"
+	}	
+}

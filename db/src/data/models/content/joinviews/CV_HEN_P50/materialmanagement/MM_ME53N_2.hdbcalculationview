@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::MM_ME53N_2" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_MM_ME53N_2"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="P50_CV_MM_ME53N_2">
+    <resourceUri>P50_CV_MM_ME53N_2</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="P50_CV_MM_ME53N_2">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="P50_CV_MM_ME53N_2" columnName="MANDT"/>
+    </attribute>
+    <attribute id="RELID" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RELID"/>
+      <keyMapping columnObjectName="P50_CV_MM_ME53N_2" columnName="RELID"/>
+    </attribute>
+    <attribute id="TDOBJECT" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TDOBJECT"/>
+      <keyMapping columnObjectName="P50_CV_MM_ME53N_2" columnName="TDOBJECT"/>
+    </attribute>
+    <attribute id="TDNAME" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TDNAME"/>
+      <keyMapping columnObjectName="P50_CV_MM_ME53N_2" columnName="TDNAME"/>
+    </attribute>
+    <attribute id="TDID" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TDID"/>
+      <keyMapping columnObjectName="P50_CV_MM_ME53N_2" columnName="TDID"/>
+    </attribute>
+    <attribute id="TDSPRAS" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TDSPRAS"/>
+      <keyMapping columnObjectName="P50_CV_MM_ME53N_2" columnName="TDSPRAS"/>
+    </attribute>
+    <attribute id="ZEILE" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ZEILE"/>
+      <keyMapping columnObjectName="P50_CV_MM_ME53N_2" columnName="ZEILE"/>
+    </attribute>
+    <attribute id="TDFORMAT" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TDFORMAT"/>
+      <keyMapping columnObjectName="P50_CV_MM_ME53N_2" columnName="TDFORMAT"/>
+    </attribute>
+    <attribute id="TDLINE" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TDLINE"/>
+      <keyMapping columnObjectName="P50_CV_MM_ME53N_2" columnName="TDLINE"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

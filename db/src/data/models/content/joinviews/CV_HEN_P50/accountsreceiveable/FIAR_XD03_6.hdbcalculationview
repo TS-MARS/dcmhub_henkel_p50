@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::FIAR_XD03_6" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_FIAR_XD03_6"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="P50_CV_FIAR_XD03_6">
+    <resourceUri>P50_CV_FIAR_XD03_6</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="P50_CV_FIAR_XD03_6">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_6" columnName="MANDT"/>
+    </attribute>
+    <attribute id="KUNNR" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KUNNR"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_6" columnName="KUNNR"/>
+    </attribute>
+    <attribute id="BUKRS" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_6" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="WITHT" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WITHT"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_6" columnName="WITHT"/>
+    </attribute>
+    <attribute id="WT_WITHCD" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WT_WITHCD"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_6" columnName="WT_WITHCD"/>
+    </attribute>
+    <attribute id="WT_AGENT" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WT_AGENT"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_6" columnName="WT_AGENT"/>
+    </attribute>
+    <attribute id="WT_AGTDF" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WT_AGTDF"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_6" columnName="WT_AGTDF"/>
+    </attribute>
+    <attribute id="WT_AGTDT" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WT_AGTDT"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_6" columnName="WT_AGTDT"/>
+    </attribute>
+    <attribute id="WT_WTSTCD" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WT_WTSTCD"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_6" columnName="WT_WTSTCD"/>
+    </attribute>
+    <attribute id="WT_EXNR" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WT_EXNR"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_6" columnName="WT_EXNR"/>
+    </attribute>
+    <attribute id="WT_EXRT" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WT_EXRT"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_6" columnName="WT_EXRT"/>
+    </attribute>
+    <attribute id="WT_EXDF" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WT_EXDF"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_6" columnName="WT_EXDF"/>
+    </attribute>
+    <attribute id="WT_EXDT" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WT_EXDT"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_6" columnName="WT_EXDT"/>
+    </attribute>
+    <attribute id="WT_WTEXRS" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WT_WTEXRS"/>
+      <keyMapping columnObjectName="P50_CV_FIAR_XD03_6" columnName="WT_WTEXRS"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

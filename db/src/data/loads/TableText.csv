@@ -1,0 +1,2573 @@
+TABNAME,LANGUAGE,TEXT
+A004,D,Material
+A004,E,Material
+A005,D,Kunde/Material
+A005,E,Customer/Material
+A017,D,Materialinfosatz (werksspezifisch)
+A017,E,Material Info Record (Plant-Specific)
+ADCP,D,Zuordnung Person/Adresse (Business Address Services)
+ADCP,E,Person/Address Assignment (Business Address Services)
+ADR6,D,E-Mail-Adressen (Business Address Services)
+ADR6,E,E-Mail Addresses (Business Address Services)
+ADRC,D,Adressen (Business Address Services)
+ADRC,E,Addresses (Business Address Services)
+ADRP,D,Personen (Business Address Services)
+ADRP,E,Persons (Business Address Services)
+AENR,D,Ã„nderungsstammsatz
+AENR,E,Change Master
+AENV,D,Ã„nderungsdienst: Objekttypen zu Ã„nderungsstamm
+AENV,E,ECH: Object Types for Change Master
+AEOI,D,Ã„nderungsdienst: ObjektverwaltungssÃ¤tze zu Ã„nderungsstamm
+AEOI,E,ECH: Object Management Records for Change Master
+AEPF,D,ECM: GÃ¼ltigkeit
+AEPF,E,ECM: effectivity
+AFAB,D,Netzplan - Anordnungsbeziehungen
+AFAB,E,Network - Relationships
+AFFH,E,PRT assignment data for the work order
+AFFL,D,Werkauftragsfolge
+AFFL,E,Work order sequence
+AFIH,D,Auftragskopf Instandhaltung
+AFIH,E,Maintenance order header
+AFKO,D,Auftragskopfdaten PPS-AuftrÃ¤ge
+AFKO,E,Order Header Data PP Orders
+AFPO,D,Auftragsposition
+AFPO,E,Order item
+AFRU,D,AuftragsrÃ¼ckmeldungen
+AFRU,E,Order Confirmations
+AFVC,D,Auftragsarbeitsvorgang
+AFVC,E,Operation within an order
+AFVU,D,DB-Struktur der Benutzerfelder des Arbeitsvorganges
+AFVU,E,DB structure of the user fields of the operation
+AFVV,D,DB-Struktur des Arbeitsvorgangs Mengen/Termine/Werte
+AFVV,E,DB structure of the quantities/dates/values in the operation
+AGR_USERS,D,Zuordnung Rollen zu Benutzern
+AGR_USERS,E,Assignment of roles to users
+ANEA,D,Anlagen-Einzelposten anteilige Werte
+ANEA,E,Asset Line Items for Proportional Values
+ANEK,D,Belegkopf Anlagenbuchung
+ANEK,E,Document Header Asset Posting
+ANEP,D,Anlagen-Einzelposten
+ANEP,E,Asset Line Items
+ANKA,D,Anlagenklassen: Allgemeine Daten
+ANKA,E,Asset classes:  general data
+ANKT,D,Anlagenklassen: Beschreibung
+ANKT,E,Asset classes: Description
+ANLA,D,Anlagenstammsatz-Segment
+ANLA,E,Asset Master Record Segment
+ANLB,D,Abschreibungsparameter
+ANLB,E,Depreciation terms
+ANLC,D,Anlagen-Wertfelder
+ANLC,E,Asset Value Fields
+ANLH,D,Anlagen-Hauptnummer
+ANLH,E,Main asset number
+ANLP,D,Anlagen-Periodenwerte
+ANLP,E,Asset Periodic Values
+ANLT,D,Anlagentexte
+ANLT,E,Asset Texts
+ANLV,D,Versicherungsdaten
+ANLV,E,Insurance data
+ANLZ,D,Valutierte Anlagen-Zuordnungen
+ANLZ,E,Time-Dependent Asset Allocations
+ASMD,E,Service Master: Basic Data
+ASMDT,E,Service Short Texts
+AUAK,D,Belegkopf fÃ¼r Abrechnung
+AUAK,E,Document Header for Settlement
+AUFK,D,Auftragsstammdaten
+AUFK,E,Order master data
+AUFK_WO,E,
+AUSP,D,AusprÃ¤gungswerte der Sachmerkmale
+AUSP,E,Characteristic Values
+BHT_STXL_TEXT,E,LongText
+BFOD_A,D,FI-Nachbelastung Bilanz: Debitoren-Posten
+BFOD_A,E,FI Subsequent BA/PC Adjustment: Customer Items
+BFOK_A,D,FI-Nachbelastung Bilanz: Kreditoren-Posten
+BFOK_A,E,FI subsequent BA/PC adjustment: Vendor items
+BKPF,D,Belegkopf fÃ¼r Buchhaltung
+BKPF,E,Accounting Document Header
+BNKA,D,Bankenstamm
+BNKA,E,Bank master record
+BSAD,D,Buchhaltung: SekundÃ¤rindex fÃ¼r Debitoren (ausgebl. Posten)
+BSAD,E,Accounting: Secondary Index for Customers (Cleared Items)
+BSAK,D,Buchhaltung: SekundÃ¤rindex fÃ¼r Kreditoren (ausgegl. Posten
+BSAK,E,Accounting: Secondary Index for Vendors (Cleared Items)
+BSAS,D,Buchhaltung: SekundÃ¤rindex fÃ¼r Sachkonten (ausgegl. Posten
+BSAS,E,Accounting: Secondary Index for G/L Accounts (Cleared Items)
+BSEC,D,Belegsegment CPD-Daten
+BSEC,E,One-Time Account Data Document Segment
+BSEG,D,Belegsegment Buchhaltung
+BSEG,E,Accounting Document Segment
+BSET,D,Belegsegment Steuerdaten
+BSET,E,Tax Data Document Segment
+BSID,D,Buchhaltung: SekundÃ¤rindex fÃ¼r Debitoren
+BSID,E,Accounting: Secondary Index for Customers
+BSIK,D,Buchhaltung: SekundÃ¤rindex fÃ¼r Kreditoren
+BSIK,E,Accounting: Secondary Index for Vendors
+BSIM,D,SekundÃ¤rindex Belege zum Material
+BSIM,E,Secondary Index Documents for Material
+BSIS,D,Buchhaltung: SekundÃ¤rindex fÃ¼r Sachkonten
+BSIS,E,Accounting: Secondary Index for G/L Accounts
+CA0001,D,Merkmale 
+CA0001,E,Characteristic 
+CA0002,D,Klassen Zuordnung 
+CA0002,E,Class assignments 
+CA0003,D,Abhaenigkeit Zuordnung 
+CA0003,E,Dependencies assignments 
+CA0004,D,Systemstatus 
+CA0004,E,System status 
+CA0005,D,Anwender-Status 
+CA0005,E,User status 
+CA0006,D,Langtext: Anzeige 
+CA0006,E,Long text: Display 
+CA0007,D,Text: Domaenenfestwerte 
+CA0007,E,Text: Domain fixed values 
+CABN,D,Merkmal
+CABN,E,Characteristic
+CABNT,D,Texte fÃ¼r Merkmale
+CABNT,E,Characteristic Descriptions
+CAWN,D,Merkmalwerte
+CAWN,E,Characteristic values
+CAWNT,D,Texte fÃ¼r Werte
+CAWNT,E,Value Texts
+CA_CL03_1,D,Klasseninformationen [CL03]
+CA_CL03_1,E,Display class [CL03]
+CA_CL03_2,D,Aenderungsstamm [CL03] [CL03]
+CA_CL03_2,E,Change master  [CL03]
+CA_CL03_3,D,Aenderungsbelegkopf [CL03]
+CA_CL03_3,E,Change document header [CL03]
+CA_CL03_4,D,Aenderungsbelegpositionen [CL03]
+CA_CL03_4,E,Change document items [CL03]
+CA_CL03_5,D,Klasseninformationen Kopf [CL03]
+CA_CL03_5,E,Class Header Data [CL03]
+CA_CL03_6,D,Merkmale zu Klassen [CL03]
+CA_CL03_6,E,Characteristics of Class [CL03]
+CA_CT04,D,Merkmalverwaltung / Zuordnungstabelle: Objekt zu Klasse [CT04]
+CA_CT04,E,Characteristics / Allocation Table: Object to Class [CT04]
+CA_CT04_1,D,Merkmalverwaltung [CT04]
+CA_CT04_1,E,Characteristics [CT04]
+CA_CT04_2,D,Merkmalverwaltung / Merkmal [CT04]
+CA_CT04_2,E,Characteristics  [CT04]
+CA_CT04_3,D,Merkmalverwaltung/ Merkmalswerte [CT04]
+CA_CT04_3,E,Characteristics/ Characteristic values [CT04]
+CA_CU03,D,Beziehungen anzeigen [CU03]
+CA_CU03,E,Display dependency [CU03]
+CA_CU43,D,Konfigurations Profil [CU43]
+CA_CU43,E,Display configuration profile [CU43]
+CA_CUKN,D,Dependency editor 
+CA_CUKN,E,Dependency editor 
+CA_DRAT,D,Text: Dokuinfosaetze 
+CA_DRAT,E,Text: Document info records 
+CA_EKPO,D,Bestellung Material Positionen 
+CA_EKPO,E,Orders material position
+CA_F_20,D,Debitoren-Kunden-Stammdaten [F.20]
+CA_F_20,E,Customer master data [F.20]
+CA_KE5Z,D,Einzelposten Profit Center [KE5Z]
+CA_KE5Z,E,Profit center line item [KE5Z]
+CA_LFA1,D,Kreditoren-Lieferanten-Stammdaten 
+CA_LFA1,E,Vendor master data 
+CA_MAKT,D,Text: Materialkurztexte 
+CA_MAKT,E,Text: Material descriptions 
+CA_ME81,D,Bestellung Material [ME81]
+CA_ME81,E,Order Material [ME81]
+CA_OY01,D,Text: Laenderbezeichnung [OY01 ]
+CA_OY01,E,Text: Country names [OY01 ]
+CA_SCC4,D,Mandant anzeigen [SCC4]
+CA_SCC4,E,Client display [SCC4]
+CA_STXH,D,Langtext: Selektion 
+CA_STXH,E,Long text: Selection 
+CA_STXL_1,D,Descriptive text of the modified header 
+CA_STXL_1,E,Descriptive text of the modified header 
+CA_STXL_2,D,Langtext: Anzeige 
+CA_STXL_2,E,Long text: Display 
+CA_STXL_3,D,Langtext Anzeige 
+CA_STXL_3,E,Long text display 
+CA_SU01,D,Profile [SU01]
+CA_SU01,E,User autorizations [SU01]
+CA_SU01D_1,D,Benutzerpflege [SU01D]
+CA_SU01D_1,E,User maintenance [SU01D]
+CA_SU01D_2,D,Rollen [SU01D]
+CA_SU01D_2,E,User roles [SU01D]
+CA_S_P6B_12000150,D,Auswertung von Aenderungsprotokollen [S_P6B_12000150]
+CA_S_P6B_12000150,E,Evaluating Change Logs [S_P6B_12000150]
+CA_T001L,D,Text: Lagerort-Daten 
+CA_T001L,E,Text: Storage location data 
+CA_T001W,D,Text: Werk 
+CA_T001W,E,Text: Plant 
+CA_T005,D,Text: Laenderdaten 
+CA_T005,E,Text: Country data 
+CA_T006A,D,Text: int. Masseinheit 
+CA_T006A,E,Text: Unit of measurement 
+CA_T023T,D,Text: Warengruppen 
+CA_T023T,E,Text: Material group 
+CA_T024X,D,Text: Labor/ Buero 
+CA_T024X,E,Text: Laboratory/ design office 
+CA_T148T,D,Text: Sonderbestand Typen 
+CA_T148T,E,Text: Special stock types 
+CA_T300T,D,Text: Lagernummer 
+CA_T300T,E,Text: Stock number 
+CA_TCURT,D,Text: Waehrung 
+CA_TCURT,E,Text: Currency 
+CA_TJ01T,D,Text: betriebswirtschaftliche Vorgaenge 
+CA_TJ01T,E,Text: Business transaction 
+CA_TJ02T,D,Text: Systemstatus 
+CA_TJ02T,E,Text: System status 
+CA_TJ30T,D,Text: Anwenderstatus 
+CA_TJ30T,E,Text: User status 
+CA_TOA01,D,Dokumente 
+CA_TOA01,E,Documents 
+CA_TTXIT,D,Text: Langtext: Id 
+CA_TTXIT,E,Text: Long text: Id 
+CDHDR,D,Ã„nderungsbelegkopf
+CDHDR,E,Change document header
+CDPOS,D,Ã„nderungsbelegpositionen
+CDPOS,E,Change document items
+CEPC,D,Stammdatentabelle von Profit Centern
+CEPC,E,Profit Center Master Data Table
+CEPCT,D,Buchungskreiszuordnung von Profit Centern
+CEPCT,E,Assignment of Profit Centers to a Company Code
+CEPC_BUKRS,D,Profit-Center-Stammdaten Texte
+CEPC_BUKRS,E,Texts for Profit Center Master Data
+CHVW,D,Tabelle CHVW fÃ¼r Chargenverwendungsnachweis
+CHVW,E,Table CHVW for Batch Where-Used List
+CKHS,D,Kopf - Einzelkalkulation (Steuerung + Summen)
+CKHS,E,Header: Unit Costing (Control + Totals)
+CKIS,D,Positionen Einzelkalkulation/Einzelnachweis Erz.kalkulatio
+CKIS,E,Items Unit Costing/Itemization Product Costing
+CK_BSEG,E,
+CK_BSET,E,
+CO001,D,Kosten/Erloese/Ausgaben/Einnahmen 
+CO001,E,Costs/Revenues/Expenses/Income 
+CO002,D,Projekt-Einzelposten 
+CO002,E,Project line items 
+CO003,D,Stammdatenverzeichnis Innenauftraege 
+CO003,E,Master data directory internal order 
+CO004,D,Statusinformationen (Ergebnisliste) 
+CO004,E,status information (result list) 
+CO0300,E,
+COBK,D,CO-Objekt: Belegkopf
+COBK,E,CO Object: Document Header
+COBRA,D,Abrechnungsvorschrift Auftragsabrechnung
+COBRA,E,Settlement Rule for Order Settlement
+COBRB,D,Aufteilungsregeln Abrechnungsvorschrift Auftragsabrechnung
+COBRB,E,Distribution Rules Settlement Rule Order Settlement
+COEP,D,CO-Objekt: Einzelposten periodenbezogen
+COEP,E,CO Object: Line Items (by Period)
+COEPL,D,CO-Objekt: Einzelposten Leistungsarten Periodenbezogen
+COEPL,E,CO Object: Line Items for Activity Types (by Period)
+COEPR,E,CO Object: Line Items for Stat. Key Figs (by Period)
+COFIT,D,SummensÃ¤tze Abstimmledger
+COFIT,E,Totals Records for Reconciliation Ledger
+COKR,D,CO-Objekt: Steuerungsdaten Statistische GrÃ¶ÃŸen
+COKR,E,CO Object: Control Data for Statistical Key Figures
+COSL,D,CO-Objekt: Summen Leistungsarten
+COSL,E,CO Object: Activity Type Totals
+COSP,D,CO-Objekt: Summen Kosten - externe Buchungen
+COSP,E,CO Object: Cost Totals for External Postings
+COSPP,D,Ãœbernahme der COSP-Tabelle Auftrag auf Projekt
+COSPP,E,Transfer of the Order in the COSP Table to the Project
+COSR,D,CO-Objekt: Summen Statistische Kennzahlen
+COSR,E,CO Object: Statistical Key Figure Totals
+COSS,D,CO-Objekt: Summen Kosten - interne Buchungen
+COSS,E,CO Object: Cost Totals for Internal Postings
+COST,D,CO-Objekt: Summen Tarife
+COST,E,CO Object: Price Totals
+COVPR,E,Generierte Tabelle zu einem View
+CO_2KEE,D,Profit Center: Summensaetze [2KEE]
+CO_2KEE,E,Profit Center: Totals Record display [2KEE]
+CO_AUFK_1,D,CO-Einzelposten zu Auftraegen 
+CO_AUFK_1,E,CO-line items for orders 
+CO_CO26_1,D,Arbeitsvorgang [CO26]
+CO_CO26_1,E,DB structure of the user fields of the operation [CO26]
+CO_CO26_2,D,Allgemeine Materialdaten [CO26]
+CO_CO26_2,E,General material data [CO26]
+CO_CO26_3,D,Werksdaten zum Material [CO26]
+CO_CO26_3,E,General material [CO26]
+CO_CO26_4,D,Einzelstatus pro Objekt [CO26]
+CO_CO26_4,E,Individual object status [CO26]
+CO_CO26_5,D,Systemstatus [CO26]
+CO_CO26_5,E,System status [CO26]
+CO_CO26_6,D,Anwenderstatus [CO26]
+CO_CO26_6,E,User status [CO26]
+CO_CO26_7,D,Materialverwaltungssatz [CO26]
+CO_CO26_7,E,Material control [CO26]
+CO_COBK_1,D,CO-Object: Belegkopf 
+CO_COBK_1,E,CO-Object: Document Header
+CO_COBRA_1,D,CO Abr.Vorschrift 
+CO_COBRA_1,E,CO Accounting Rule 
+CO_COBRA_3,D,Abrechnungsvorschrift Auftragsabrechnung 
+CO_COBRA_3,E,Accounting rules order settlement 
+CO_COBRB,D,Aufteilungsregeln Abrechnungsvorschrift Auftragsabrechnung 
+CO_COBRB,E,CO accounting split 
+CO_COBRB_1,D,CO Abr.Aufteilung 
+CO_COBRB_1,E,Splitting rules order settlement 
+CO_COEPL,D,CO-Objekt: Einzelposten/ LArt/Perioden 
+CO_COEPL,E,CO object: Line items (by period) 
+CO_COEP_1,D,Einzelposten periodenbezogen 
+CO_COEP_1,E,Line item according to period 
+CO_COKR,D,Statistische Groessen 
+CO_COKR,E,Statistical values 
+CO_COOIS_1,D,Auftragsinformationssystem [COOIS/ CO26]
+CO_COOIS_1,E,Order information system [COOIS / CO26]
+CO_COSL,D,Summen Leistungsarten 
+CO_COSL,E,Activity types totals 
+CO_COSP_4,D,Summen_Kosten - externe Buchungen 
+CO_COSP_4,E,Total costs - external postings 
+CO_COSR,D,Summen Statistischer Kennzahlen 
+CO_COSR,E,Statistical Key figure totals 
+CO_COSS_1,D,Summen Kosten - interne Buchungen 
+CO_COSS_1,E,Total costs - internal postings 
+CO_CSKA,D,Kostenarten 
+CO_CSKA,E,cost elements 
+CO_CSKS,D,CO-Einzelbelege nach Kostenstelle 
+CO_CSKS,E,CO-single document by cost center 
+CO_CSKT,D,Text: Kostenstellen 
+CO_CSKT,E,Text: Cost center 
+CO_CSKU,D,Text: Kostenarten 
+CO_CSKU,E,Text: Cost element 
+CO_CSSL,D,Kostenstelle/ Leistungsart 
+CO_CSSL,E,Cost center/ activity type 
+CO_FSE3,D,Kontengruppe / Bilanzstruktur anzeigen [FSE3]
+CO_FSE3,E,Financial Statement Version [FSE3]
+CO_GCS6,D,Fix- Ergebnisvortragskonten global [GCS6]
+CO_GCS6,E,Local Retained Earnings Accounts [GCS6]
+CO_KA23,D,Kostenarten anzeigen [KA23/ KA03]
+CO_KA23,E,Display cost elements [KA23 / KA03]
+CO_KAL7,D,Uebersicht Kostenfluesse [KAL7]
+CO_KAL7,E,Reconciliation Ledger Cost Flow Overview [KAL7]
+CO_KB13N,D,Manuelle Umbuchung von PrimÃƒ?Ã‚Â¤rkosten anzeigen [KB13N]
+CO_KB13N,E,Display Manual Repostings of Costs [KB13N]
+CO_KB13N_1,D,Manuelle Umbuchungen anzeigen [KB13N]
+CO_KB13N_1,E,Show manual transfers [KB13N]
+CO_KB23N,D,Direkte Leistungsverrechnung Anzeigen [KB23N]
+CO_KB23N,E,Display direct activity [KB23N]
+CO_KBH3,D,Stat. Kennzahlengruppe anzeigen [KBH3]
+CO_KBH3,E,Statistical Key Figure Group display [KBH3]
+CO_KE24,D,Einzelpostenanzeige - Ist [KE24]
+CO_KE24,E,Actual Line Items display [KE24]
+CO_KE53_1,D,Profit Center Stammdaten [KE53]
+CO_KE53_1,E,Profit center Master Data [KE53]
+CO_KE53_2,D,Profit Center/ Buchungskreis [KE53]
+CO_KE53_2,E,Profit center [KE53]
+CO_KE5Z,D,Profit-Center Einzelposten [KE5Z]
+CO_KE5Z,E,Profit center single items [KE5Z]
+CO_KK03,D,Statistische Kennzahlen anzeigen [KK03]
+CO_KK03,E,Statistical Key Figure Master data display [KK03]
+CO_KKAQ,D,Ware in Arbeit: Anzeige Sammelverarbeitung [KKAQ]
+CO_KKAQ,E,Work in Process: Collective Processing display [KKAQ]
+CO_KKBC_ORD,D,Analysieren Auftrag Soll/Ist-Vergleich [KKBC_ORD]
+CO_KKBC_ORD,E,Analyze Order: Target/Actual-Comparison [KKBC_ORD]
+CO_KKBC_ORD_1,D,Analysieren Auftrag Soll/Ist-Vergleich Entlastung [KKBC_ORD]
+CO_KKBC_ORD_1,E,Analyze Order: Target/Actual Discharge [KKBC_ORD]
+CO_KL03,D,Leistungsarten anzeigen [KL03/ KL13]
+CO_KL03,E,Display activity type [KL03 / KL13]
+CO_KO03,D,CO Innenauftrag [KO03]
+CO_KO03,E,CO internal order [KO03]
+CO_KO8B,D,Abrechnungsbeleg [KO8B]
+CO_KO8B,E,Settlement Document [KO8B]
+CO_KO8B_1,D,Abrechnungsvorschrift anzeigen [KO8B]
+CO_KO8B_1,E,Distribution Rules Settlement Rule Order Settlement [KO8B]
+CO_KO8N,D,Nummerkreisintervalle CO-Abrechnung [KO8N]
+CO_KO8N,E,Number Range for Settlement documents CO [KO8N]
+CO_KOB1,D,Auftraege Einzelposten Istkosten [KOB1]
+CO_KOB1,E,Orders: Actual Cost Line Items [KOB1]
+CO_KS13,D,Kostenstelle Stammdaten [KS03/ KS13]
+CO_KS13,E,Display cost center [KS03 / KS13]
+CO_KSAI,D,Abgrenzungen: Zuordnung pro Kostenrechnungskreis [KSAI]
+CO_KSAI,E,Accrual Calculation: Assigment by Controlling Area [KSAI]
+CO_KSAI_1,D,Abgrenzungen Details: Zuordnung pro Kostenrechnungskreis [KSAI]
+CO_KSAI_1,E,Accrual Calculation Details: Assigment by Controlling Area [KSAI]
+CO_KSAJ,D,Abgrenzung: Soll=Ist Entlastung [KSAJ]
+CO_KSAJ,E,Accrual Calculation: T=A Credit [KSAJ]
+CO_KSB1,D,CO-Einzelposten [KSB1]
+CO_KSB1,E,CO line items [KSB1]
+CO_KSB1_2,D,Kostenstellen Einzelposten Istkosten anzeigen [KSB1]
+CO_KSB1_2,E,Cost Centers: Actual Cost Line Items [KSB1]
+CO_KSB1_ALL,E,CO_KSB1_ALL
+CO_KSBT,D,Kostenstellen: Leistungstarife [KSBT]
+CO_KSBT,E,Cost Center: Activity Type Prices [KSBT]
+CO_KVBI,D,Verkaufsbeleg Einzelposten Istkosten [KVBI]
+CO_KVBI,E,Sales Documents: Line Items Actual [KVBI]
+CO_MARD,D,Lagerortdaten zum Material 
+CO_MARD,E,Storage location data for the material 
+CO_OKV1,D,Abweichungsschluessel Auftraege anzeigen [OKV1]
+CO_OKV1,E,Variance Keys Orders [OKV1]
+CO_OKV2,D,Abweichungsschluessel Kostentraeger anzeigen [OKV2]
+CO_OKV2,E,Variance Keys Cost Objects [OKV2]
+CO_ONRFS,D,Objektnummernindex Finanzstelle 
+CO_ONRFS,E,Object number index for commitment funds center 
+CO_S_ALR_87009746,D,Profit Center: Drilldown Forderungen [S_ALR_87009746]
+CO_S_ALR_87009746,E,Profit Center: Receivables [S_ALR_87009746]
+CO_S_ALR_87009747,D,Profit Center: Drilldown Verbindlichkeiten [S_ALR_87009747]
+CO_S_ALR_87009747,E,Profit Center: Payables [S_ALR_87009747]
+CO_S_ALR_87013104,D,Kundenauftragsselektion externe Kosten [S_ALR_87013104]
+CO_S_ALR_87013104,E,Sales Orders external costs [S_ALR_87013104]
+CO_S_ALR_87013104_1,D,Kundenauftragsselektion interne Kosten [S_ALR_87013104]
+CO_S_ALR_87013104_1,E,Sales Orders internal costs [S_ALR_87013104]
+CO_S_ALR_87013531,D,Projekt Kosten (Erloese/Ausgaben/Einnahmen) [S_ALR_87013531/ S_ALR_87013568]
+CO_S_ALR_87013531,E,Project Costs: Costs/revenues/expenditures/receipts [S_ALR_87013531 / S_ALR_87013568]
+CO_S_ALR_87013602,D,Kostenarten: Objektart KSt/ Auftr/ Projekt/ Andere [S_ALR_87013602]
+CO_S_ALR_87013602,E,Cost Elements: Obj. type in columns [S_ALR_87013602]
+CO_S_ALR_87013632,D,Kostenstellen durschschnittl. externe Kosten selektieren [S_ALR_87013632]
+CO_S_ALR_87013632,E,Cost Centers: Average external Costs [S_ALR_87013632]
+CO_S_ALR_87013632_1,D,Kostenstellen durschschnittl. interne Kosten selektieren [S_ALR_87013632]
+CO_S_ALR_87013632_1,E,Cost Centers: Average internal Costs [S_ALR_87013632]
+CO_T003P,D,Text: Auftragsarten CO 
+CO_T003P,E,Text: Order type CO 
+CO_TFKBT,D,Text: Funktionsbereiche 
+CO_TFKBT,E,Text: Functional areas 
+CO_TKT05,D,Text: Kostenstellentypen 
+CO_TKT05,E,Text: Cost center types 
+CO_TPC4,D,Programme f?r Berechtigungspruefung [TPC4]
+CO_TPC4,E,Programs for Authorization Check [TPC4]
+CRCA,D,Arbeitsplatz KapazitÃ¤tszuordnung
+CRCA,E,Work Center Capacity Allocation
+CRCO,D,Arbeitsplatz Kostenstellenzuordnung
+CRCO,E,Assignment of Work Center to Cost Center
+CRHD,D,Arbeitsplatz Kopf
+CRHD,E,Work Center Header
+CRID,D,Production resource - entities
+CRID,E,CIM Resource - Entities
+CRTX,D,Arbeitsplatz/ Fertigungshilfsmittel Kurzbezeichnung
+CRTX,E,Text for the Work Center or Production Resource/Tool
+CSKA,D,Kostenarten (KontenplanabhÃ¤ngige Daten)
+CSKA,E,Cost Elements (Data Dependent on Chart of Accounts)
+CSKB,D,Kostenarten (KostenrechnungskreisabhÃ¤ngige Daten)
+CSKB,E,Cost Elements (Data Dependent on Controlling Area)
+CSKS,D,Kostenstellenstammsatz
+CSKS,E,Cost Center Master Data
+CSKT,D,Kostenstellentexte
+CSKT,E,Cost Center Texts
+CSKU,D,Kostenartentexte
+CSKU,E,Cost Element Texts
+CSLA,D,Leistungsartenstamm
+CSLA,E,Activity master
+CSLT,D,Leistungsartentexte
+CSLT,E,Activity type texts
+CSSL,D,Kostenstelle / Leistungsart
+CSSL,E,Cost Center/Activity Type
+CUCO,D,Zusatzdaten fÃ¼r konfigurierbare Objekte
+CUCO,E,Additional Data for Configurable Objects
+CUKB,D,Verwaltungsinformationen fÃ¼r Wissenspflege
+CUKB,E,Administrative Information for Dependency Maintenance
+CUKBT,D,Texttabelle f. Verwaltungsinformationen d. Wissensplege
+CUKBT,E,Text Table for Dependency Maintenance Admin. Information
+CUKN,D,Wissensablage Varianten / Konfiguration
+CUKN,E,Dependency Storage - Variants/Configuration
+CUOB,D,Zuordnung Objekt - Wissensbausteine
+CUOB,E,Assignment of Object to Dependency
+DDFTX,E,Run-time object with Screen Painter texts
+DDFTX,D,Laufzeitobjekt mit Screen Painter-Texten
+DD04T,D,R/3-DD: Texte der Datenelemente
+DD04T,E,R/3 DD: Data element texts
+DD07L,D,R/3-DD: Werte zu den Domaenen
+DD07L,E,R/3 DD: values for the domains
+DD07T,D,DD: Texte zu DomÃ¤nenfestwerten (sprachabhÃ¤ngig)
+DD07T,E,DD: Texts for Domain Fixed Values (Language-Dependent)
+DKKOS,D,Kontenschreibung
+DKKOS,E,Balance Audit Trail
+DRAD,D,VerknÃ¼pfung Dokument-Objekt
+DRAD,E,Document-Object Link
+DRAT,D,Kurztexte fÃ¼r DokuinfosÃ¤tze
+DRAT,E,Texts for Document Info Records
+DRAW,D,Dokumentinformationssatz
+DRAW,E,Document Info Record
+DSKOS,D,Kontenschreibung
+DSKOS,E,Balance Audit Trail
+EBAN,D,Bestellanforderung
+EBAN,E,Purchase Requisition
+EBEW,D,Bewertung Kundenauftragsbestand
+EBEW,E,Sales Order Stock Valuation
+EBKN,D,Bestellanforderungs-Kontierung
+EBKN,E,Purchase Requisition Account Assignment
+EDIDC,D,Kontrollsatz (IDoc)
+EDIDC,E,Control record (IDoc)
+EDMMS,D,Zuordnung EDI-Partner zu Einkaufsorganisationsdaten und Werk
+EDMMS,E,Assignment of EDI partner to purchasing org. and plant
+EIKP,D,AuÃŸenhandel: Export/Import Kopfdaten
+EIKP,E,Foreign Trade: Export/Import Header Data
+EINA,D,Einkaufsinfosatz - allgemeine Daten
+EINA,E,Purchasing Info Record: General Data
+EINE,D,Einkaufsinfosatz - Einkaufsorganisationsdaten
+EINE,E,Purchasing Info Record: Purchasing Organization Data
+EIPA,D,Bestellpreisentwicklung Infosatz
+EIPA,E,Order Price History: Info Record
+EIPO,D,AuÃŸenhandel: Export/Import: Positionsdaten
+EIPO,E,Foreign Trade: Export/Import: Item Data
+EKBE,D,Historie zum Einkaufsbeleg
+EKBE,E,History per Purchasing Document
+EKBZ,D,Historie zum Einkaufsbeleg - Bezugsnebenkosten
+EKBZ,E,History per Purchasing Document: Delivery Costs
+EKET,D,Lieferplaneinteilungen
+EKET,E,Scheduling Agreement Schedule Lines
+EKKN,D,Kontierung im Einkaufsbeleg
+EKKN,E,Account Assignment in Purchasing Document
+EKKO,D,Einkaufsbelegkopf
+EKKO,E,Purchasing Document Header
+EKPO,D,Einkaufsbelegposition
+EKPO,E,Purchasing Document Item
+EORD,D,Einkaufs-Orderbuch
+EORD,E,Purchasing Source List
+EQKT,D,Equipmentkurztexte
+EQKT,E,Equipment Short Texts
+EQUI,D,Equipment Stammdaten
+EQUI,E,Equipment master data
+EQUZ,D,Equipment Zeitsegment
+EQUZ,E,Equipment time segment
+ESLL,E,Lines of Service Package
+ESSR,E,Service Entry Sheet Header Data
+EVOP,D,Objektparameter
+EVOP,E,Object parameters
+FAGLFLEXT,D,Ledgergruppentexte
+FAGLFLEXT,E,Ledger Group Texts
+FAGL_011QT,D,Hauptbuch: Summen
+FAGL_011QT,E,General Ledger: Totals
+FAGL_011ZC,D,Bil/GuV-Struktur: Texte zu Bil/GuV-Positionen
+FAGL_011ZC,E,Fin. Statement Structure: Text for Fin. Statement Items
+FAGL_ACTIVEC,D,Bil/GuV-Struktur: Zuordnung Bil/GuV-Pos. - Hauptbuchkonten
+FAGL_ACTIVEC,E,Fin. Statement Structure: Assignment FS Items - G/L Account
+FAGL_TLDGRP,D,Aktivierung FlexGL
+FAGL_TLDGRP,E,Activation of New General Ledger
+FAGL_TLDGRPT,D,Ledgergruppe
+FAGL_TLDGRPT,E,Ledger Group
+FEBEP,D,Einzelposten des Elektronischen Kontoauszugs
+FEBEP,E,Electronic Bank Statement Line Items
+FEBKO,D,KopfsÃ¤tze des Elektronischen Kontoauszugs
+FEBKO,E,Electronic Bank Statement Header Records
+FI0001,D,Sachkontenverzeichnis 
+FI0001,E,index of G/L accounts 
+FI0002,D,Debitor Salden Sonderhauptbuch 
+FI0002,E,Cust. balances special general ledger 
+FIAA0001,D,Kontenfindung / Kontengruppen 
+FIAA0001,E,Account determination / Accountgroup description 
+FIAA0002,D,Bewegungsarten der Anlagenbuchhaltung 
+FIAA0002,E,Asset transaction types 
+FIAA0003,D,Bewertungsbereiche echt und abgeleitet 
+FIAA0003,E,Depreciation Areas 
+FIAA0004,D,Bewertungsplan Beschreibung 
+FIAA0004,E,Chart of depreciation 
+FIAA0005,D,Externe Abschreibungsschluessel 
+FIAA0005,E,External Depreciation Key 
+FIAA0006,D,Anlagen Einzelposten 
+FIAA0006,E,Asset documents line items 
+FIAA_AB03,D,Anlagenbuchungen Kopf und Positionen [AB03]
+FIAA_AB03,E,Asset Header and Position Documents [AB03]
+FIAA_ANEP,D,Anlagenbewegungen 
+FIAA_ANEP,E,Asset Transactions 
+FIAA_ANKT,D,Text: Anlagenklasse 
+FIAA_ANKT,E,Text: Asset class description 
+FIAA_ANKT_2,D,Anl. Klassen Beschr. 
+FIAA_ANKT_2,E,asset class descr. 
+FIAA_ANLA,D,Anl. Stamm 
+FIAA_ANLA,E,assets master 
+FIAA_ANLB,D,Anl. Abschreibungsparameter 
+FIAA_ANLB,E,asset depreciation parameters 
+FIAA_ANLC_1,D,Anlagenwertfelder 
+FIAA_ANLC_1,E,Asset value fields 
+FIAA_ANLC_2,D,Anl. Wertfelder 
+FIAA_ANLC_2,E,asset value fields 
+FIAA_ANLT,D,Text: Anlagen 
+FIAA_ANLT,E,Text: Assets 
+FIAA_ANLZ,D,Anl. Valutierte Zuordnungen 
+FIAA_ANLZ,E,asset valued assignments 
+FIAA_AS03,D,Anlagen-Stammdaten [AS03/ S_ALR_87010139]
+FIAA_AS03,E,Assets master data [AS03 / S_ALR_87010139]
+FIAA_AW01N,D,Anlagen Stamm- und Bewegungsdaten [AW01N/ S_ALR_87010139]
+FIAA_AW01N,E,Assets master- and transaction data [AW01N / S_ALR_87010139]
+FIAA_OAV9,D,Sicht Anlagengittergruppe und -bezeichnung [OAV9]
+FIAA_OAV9,E,Asset History Sheet Group and Name [OAV9]
+FIAA_OITA,D,Investitionsprofil anzeigen [OITA]
+FIAA_OITA,E,Investment profil display [OITA]
+FIAA_S_ALR_87011963,D,Anlagenbestand [S_ALR_87011963]
+FIAA_S_ALR_87011963,E,Assets master- and transaction data [S_ALR_87011963]
+FIAA_S_ALR_87012011,D,Anlagen Zuschreibungen [S_ALR_87012011]
+FIAA_S_ALR_87012011,E,Asset Write-Up [S_ALR_87012011]
+FIAA_S_ALR_87012037,D,Anlagenstamm Aenderungsbelege [S_ALR_87012037]
+FIAA_S_ALR_87012037,E,Asset Account Changes [S_ALR_87012037]
+FIAA_S_ALR_87012039,D,Anlagenbewegungen per Kostenbereich [S_ALR_87012039/ S_ALR_87012048]
+FIAA_S_ALR_87012039,E,Asset Transactions per Costcenter [S_ALR_87012039 / S_ALR_87012048]
+FIAA_S_ALR_87012048,D,Anlagenbewegungen [S_ALR_87012048]
+FIAA_S_ALR_87012048,E,Asset transactions [S_ALR_87012048]
+FIAA_S_ALR_87012050,D,Anlagen Zukaeufe [S_ALR_87012050]
+FIAA_S_ALR_87012050,E,Asset acquisitions [S_ALR_87012050]
+FIAA_S_ALR_87012050_1,D,Anlagenzugaenge [S_ALR_87012050]
+FIAA_S_ALR_87012050_1,E,Asset acquisitions [S_ALR_87012050]
+FIAA_S_ALR_87012052,D,Anlagenabgaenge [S_ALR_87012052/ AR06]
+FIAA_S_ALR_87012052,E,Asset retirements [S_ALR_87012052 / AR06]
+FIAA_S_ALR_87012054,D,Anlagenumbuchungen [S_ALR_87012054]
+FIAA_S_ALR_87012054,E,Asset transfers [S_ALR_87012054]
+FIAA_S_ALR_87012056,D,Verzeichniss unbebuchter Anlagen [S_ALR_87012056]
+FIAA_S_ALR_87012056,E,Directory of unposted Assets [S_ALR_87012056]
+FIAA_S_ALR_87012058,D,Herkunftsnachweis von Anlagenbelastungen/ Abgangserloesanalyse [S_ALR_87012058/ S_ALR_87012066]
+FIAA_S_ALR_87012058,E,List of Origins of Asset Charges / Analysis of Retirement Revenue [S_ALR_87012058 / S_ALR_87012066]
+FIAA_S_ALR_87012930,D,Herkunftsnachweis Anlagenbelastungen [S_ALR_87012930]
+FIAA_S_ALR_87012930,E,Guarantee of origin Asset encumbrances [S_ALR_87012930]
+FIAA_S_ALR_87101171,D,Anlagenklasse Aenderungsbelege [S_ALR_87101171]
+FIAA_S_ALR_87101171,E,Asset Class Changes [S_ALR_87101171]
+FIAA_S_P99_41000192,D,Gebuchte Abschreibungen pro Anlage und Periode [S_P99_41000192/ S_ALR_87010175]
+FIAA_S_P99_41000192,E,Booked Depriciation per Assest and Periode [S_P99_41000192 / S_ALR_87010175]
+FIAP0001,D,Kreditor Sonder-Hauptbuch-Salden 
+FIAP0001,E,Vend. special general ledger balances 
+FIAP_FBL1N_1,D,Kreditor offene Posten [XK03/ FBL1N/ S_ALR_87012083/ S_ALR_87101124]
+FIAP_FBL1N_1,E,Vend. open items [XK03 / FBL1N / S_ALR_87012083 / S_ALR_87101124]
+FIAP_FBL1N_2,D,Kreditor ausgeglichene Posten [FBL1N]
+FIAP_FBL1N_2,E,Vendor cleared items [FBL1N]
+FIAP_FBL1N_3,D,Kreditor Einzelposten [S_ALR_87012103/ FBL1N/ S_ALR_87101124/ S_ALR_87101124]
+FIAP_FBL1N_3,E,Vend. line items [S_ALR_87012103 / FBL1N / S_ALR_87101124 / S_ALR_87101124]
+FIAP_FK04,D,Kreditoren-Stammdaten Aenderungen [FK04/ S_ALR_87101123]
+FIAP_FK04,E,Vendor-Masterdata Changes [FK04 / S_ALR_87101123]
+FIAP_FK10N,D,Kreditor Salden [FK10N/ S_ALR_87012082/ S_ALR_87010032/ S_ALR_87101142/ S_ALR_87101143]
+FIAP_FK10N,E,Vend. balances [FK10N / S_ALR_87012082 / S_ALR_87010032 / S_ALR_87101142 / S_ALR_87101143]
+FIAP_MKVZ,D,Text: Einkaufsbelegart [MKVZ ]
+FIAP_MKVZ,E,Text: Purchasing document types [MKVZ ]
+FIAP_S_ALR_87012093_1,D,Kred. Umsaetze [S_ALR_87012093]
+FIAP_S_ALR_87012093_1,E,vend. revenues [S_ALR_87012093]
+FIAP_S_ALR_87012093_2,D,Kreditoren Umsaetze [S_ALR_87012093]
+FIAP_S_ALR_87012093_2,E,vend. revenues [S_ALR_87012093]
+FIAP_T052U,D,Text: Zahlungsbedingungen 
+FIAP_T052U,E,Text: Payment Conditions 
+FIAP_TINCT,D,Text: Debitor Incoterms 
+FIAP_TINCT,E,Text: Customers incoterms 
+FIAP_XK03_1,D,Kreditor-Lieferanten-Stamm [ FK03/ XK03/ S_ALR_87012086/ S_ALR_87101118/ S_ALR_87010036/ S_ALR_87101119/ S_ALR_87101120]
+FIAP_XK03_1,E,Vendor master [ FK03 / XK03 / S_ALR_87012086 / S_ALR_87101118 / S_ALR_87010036 / S_ALR_87101119 / S_ALR_87101120]
+FIAP_XK03_10,D,Kred. Umsaetze [XK03/ S_ALR_87012093 ]
+FIAP_XK03_10,E,Vend. revenues [XK03 / S_ALR_87012093 ]
+FIAP_XK03_2,D,Kred. Buchungskreise [XK03]
+FIAP_XK03_2,E,Vendor master (company code) [XK03]
+FIAP_XK03_3,D,Kreditor EG-Steuernummern [XK03]
+FIAP_XK03_3,E,Vendor master (VAT registration numbers general section) [XK03]
+FIAP_XK03_4,D,Kreditor Mahndaten [XK03]
+FIAP_XK03_4,E,Vendor master (dunning data) [XK03]
+FIAP_XK03_5,D,Kreditor Bankverbindungen [XK03]
+FIAP_XK03_5,E,Vendor master (bank details) [XK03]
+FIAP_XK03_6,D,Bankenstamm [XK03]
+FIAP_XK03_6,E,Bank master record [XK03]
+FIAP_XK03_7,D,Organisationsdaten [XK03]
+FIAP_XK03_7,E,Vendor master record purchasing organization data [XK03]
+FIAP_XK03_8,D,Kred. Einkaufsdaten [XK03]
+FIAP_XK03_8,E,Vendor Master Record: Purchasing Data [XK03]
+FIAP_XK03_9,D,Quellensteuertypen [XK03]
+FIAP_XK03_9,E,Withholding tax types [XK03]
+FIAR0001,D,Deb. Umsaetze 
+FIAR0001,E,Cust. revenues 
+FIAR0002,D,Debitor Mahnliste 
+FIAR0002,E,Cust. dunning list 
+FIAR0003,D,Fakturapositionen 
+FIAR0003,E,Invoice item 
+FIAR_FBL5N,D,Debitor offene Posten [FBL5N/ S_ALR_87012173/ S_ALR_87101067]
+FIAR_FBL5N,E,Cust. open items [FBL5N / S_ALR_87012173 / S_ALR_87101067]
+FIAR_FBL5N_1,D,Debitoren ausgeglichene Posten [FBL5N]
+FIAR_FBL5N_1,E,Customer: Cleared items [FBL5N]
+FIAR_FD04,D,Debitoren-Stammdaten Aenderungen [FD04/ S_ALR_87101066]
+FIAR_FD04,E,Debitor- Masteradata Change [FD04 / S_ALR_87101066]
+FIAR_S_AL0_96000490,D,Faktura [S_AL0_96000490]
+FIAR_S_AL0_96000490,E,Billing document: Header data [S_AL0_96000490]
+FIAR_XD03_10,D,Debitor Steuerindikatoren [XD03]
+FIAR_XD03_10,E,Customer master tax indicator [XD03]
+FIAR_XD03_11,D,Debitor Partnerollen [XD03]
+FIAR_XD03_11,E,Customer Master Partner Functions [XD03]
+FIAR_XD03_12,D,Debitor Vertriebsdaten [XD03]
+FIAR_XD03_12,E,Customer Master Sales Data [XD03]
+FIAR_XD03_13,D,Debitor-Kunden-Stammdaten Vetriebsbereiche [XD03]
+FIAR_XD03_13,E,Cust. master data [XD03]
+FIAR_XD03_3,D,Debitor Mahndaten [XD03]
+FIAR_XD03_3,E,Cust. dunning data [XD03]
+FIAR_XD03_4,D,Debitor Bankdaten [XD03]
+FIAR_XD03_4,E,Cust. bank data [XD03]
+FIAR_XD03_5,D,Debitor Kreditmanagement: Zentraldaten [XD03/ FDK43]
+FIAR_XD03_5,E,Credit management: Central data [XD03 / FDK43]
+FIAR_XD03_6,D,Debitor Quellensteuertypen [XD03]
+FIAR_XD03_6,E,Cust. withholding tax types [XD03]
+FIAR_XD03_7,D,Debitor EG-Steuernummern [XD03]
+FIAR_XD03_7,E,Cust. EG tax numbers [XD03]
+FIAR_XD03_8,D,Debitor Kreditmanagement [XD03/ S_ALR_87012218]
+FIAR_XD03_8,E,Cust. credit management [XD03 / S_ALR_87012218]
+FIAR_XD03_9,D,Debitor Zahlungskarten [XD03]
+FIAR_XD03_9,E,Cust. payment cards [XD03]
+FICA0001,D,Hauptbuchhaltung Ledger [SM30_V_FAGL_T881]
+FICA0001,E,General Accounting Ledger [SM30_V_FAGL_T881]
+FICA0002,D,Hauptbuchhaltung nicht fuehrendes Ledger [SM30_V_FAGL_T882G]
+FICA0002,E,General Accounting non-leading Ledger [SM30_V_FAGL_T882G]
+FICA0003,D,Ledgergruppe anzeigen 
+FICA0003,E,Display Ledger Group 
+FICA0004,D,Alle Belege zu Deb. Kred. Hauptbuch 
+FICA0004,E,All documents for cust. vend. general ledger 
+FICA0005,D,Belegsegment 
+FICA0005,E,document segment 
+FICA0006,D,Sachkonto-Text 
+FICA0006,E,G/L account text 
+FICA0007,D,Buchungskreis zusaetzliche Hauswaehrungen [SM30_V_T001A]
+FICA0007,E,Company code additional Currency [SM30_V_T001A]
+FICA0008,D,Text: Debitoren Kundenklassifizierung 
+FICA0008,E,Text: Customer classification 
+FICA0009,D,Text: Sachkontenstamm 
+FICA0009,E,Text: G/L account 
+FICA0010,D,Text: Geschaeftsbereich 
+FICA0010,E,Text: Business area 
+FICA0011,D,Text: Provinz 
+FICA0011,E,Text: Region 
+FICA0012,D,Text: Branchenbezeichnungen 
+FICA0012,E,Text: Industry names 
+FICA0013,D,Text: Sonderhauptbuchkennzeichen 
+FICA0013,E,Text: Special G/L Indicator Names 
+FICA_CXN5,D,Zuordnung Buchungskreise/Geschaeftsbereiche [CXN5]
+FICA_CXN5,E,Assignment Company Codes / Business Areas [CXN5]
+FICA_FAGL_ACTIVATION,D,Aktivierung Neue Hauptbuchhaltung [FAGL_ACTIVATION]
+FICA_FAGL_ACTIVATION,E,Activation Flag new General Ledger [FAGL_ACTIVATION]
+FICA_FB03,D,Belege Deb Kred Sako [FB03]
+FICA_FB03,E,documents cust. vend. G/L acc. [FB03]
+FICA_FB03L,D,Buchungsbeleg Detail [FB03L/ S_ALR_87009850 ]
+FICA_FB03L,E,FI documents details [FB03L / S_ALR_87009850 ]
+FICA_FBN1,D,Nummernkreisintervalle FI [FBN1]
+FICA_FBN1,E,Number Ranges for FI [FBN1]
+FICA_FSE3_1,D,Bilanzstruktur anzeigen [FSE3]
+FICA_FSE3_1,E,Balance Version display [FSE3]
+FICA_FSE3_2,D,Bilanzstruktur anzeigen [FSE3]
+FICA_FSE3_2,E,Balance Version display [FSE3]
+FICA_FTXA,D,Text: Steuerkennzeichen [FTXA/ S_ALR_87012365]
+FICA_FTXA,E,Text: Tax code [FTXA / S_ALR_87012365]
+FICA_OB13,D,Text: Kontenplan [OB13]
+FICA_OB13,E,Text: Chart of account [OB13]
+FICA_OB41,D,Text: Buchungsschluessel [OB41]
+FICA_OB41,E,Text: Posting Key [OB41]
+FICA_OB58_2,D,Text: Bilanzversion [OB58]
+FICA_OB58_2,E,Text Balance Version Display [OB58]
+FICA_OB58_3,D,Text Bilanzversion [OB58]
+FICA_OB58_3,E,Text Balance Version Display [OB58]
+FICA_OBA7,D,Text: FI Belegarten [OBA7]
+FICA_OBA7,E,Text: FI document type [OBA7]
+FICA_OBY6,D,Text: Buchungskreis [OBY6]
+FICA_OBY6,E,Text: Company code [OBY6]
+FICA_S_ALR_87009853,D,Kontenniederschrift aus kumulierter klassischer Kontenschreibung [S_ALR_87009853]
+FICA_S_ALR_87009853,E,Account Details from Historical Accu. Balance Audit Trail [S_ALR_87009853]
+FICA_S_ALR_87012365,D,Steuerinformationen Land Details [S_ALR_87012365]
+FICA_S_ALR_87012365,E,Tax Information Country Details [S_ALR_87012365]
+FICA_WVM7,D,Zuordnung EKOrgdaten zu Lieferant [WVM7]
+FICA_WVM7,E,Assignment of_POrg. Data and Plant [WVM7]
+FIGL0001,D,Kostenstelle anzeigen 
+FIGL0001,E,Display cost center 
+FIGL0002,D,Kostenarten anzeigen 
+FIGL0002,E,Display cost element 
+FIGL0004,D,General evaluations 
+FIGL0004,E,General evaluations 
+FIGL_FAGLB03,D,Sachkontobuchungen/ n.ausgegl. [F.01/FAGLB03/S_ALR_87012277]
+FIGL_FAGLB03,E,G/L account postings / n.cleared [F.01 /FAGLB03 /S_ALR_87012277]
+FIGL_FAGLB03_1,D,Hauptbuchkonten Verkehrszahlen NewGL [FAGLB03/ S_ALR_87100988/ S_ALR_87101168/ S_ALR_87100987/ S_ALR_87100990/ S_ALR_87012277 ]
+FIGL_FAGLB03_1,E,G/L account balances NewGL [FAGLB03 / S_ALR_87100988 / S_ALR_87101168 / S_ALR_87100987 / S_ALR_87100990 / S_ALR_87012277 ]
+FIGL_FAGLB03_2,D,Strukturierte Saldenliste [FAGLB03/ S_ALR_87100988/ S_ALR_87100987/ S_ALR_87100990]
+FIGL_FAGLB03_2,E,Structured Account Balances [FAGLB03 / S_ALR_87100988 / S_ALR_87100987 / S_ALR_87100990]
+FIGL_FBL3N_1,D,Sachkonten Einzelposten [FBL3N/ FAGLL03/ S_ALR_87012282/ S_ALR_87101001/ F.08]
+FIGL_FBL3N_1,E,G/L account line items [FBL3N / FAGLL03 / S_ALR_87012282 / S_ALR_87101001 / F.08]
+FIGL_FBL3N_2,D,Sachkonten ausgeglichene Posten [ FBL3N/ FAGLL03/ F.08]
+FIGL_FBL3N_2,E,G/L account line item bal. [ FBL3N / FAGLL03 / F.08]
+FIGL_FBL3N_3,D,Sachkonten offene Posten [ FBL3N/ FAGLL03/ F.08]
+FIGL_FBL3N_3,E,G/L account line item open [ FBL3N / FAGLL03 / F.08]
+FIGL_FBL3N_4,D,Sachkonten ausgeglichene Posten [FBL3N/ FAGLL03]
+FIGL_FBL3N_4,E,G/L account line item balanced [FBL3N / FAGLL03]
+FIGL_FS03,D,Sachkonten-Stammdaten [FS03/ FS00/ S_ALR_87012328/ S_ALR_87009866/ S_ALR_87100991 ]
+FIGL_FS03,E,G/L account (main & company code) [FS03 / FS00 / S_ALR_87012328 / S_ALR_87009866 / S_ALR_87100991 ]
+FIGL_FS04,D,Sachkonten-Stammdaten Aenderungen [FS04]
+FIGL_FS04,E,G/L Account Changes [FS04]
+FIGL_FS10N,D,Sachkonto Verkehrszahlen [FS10N]
+FIGL_FS10N,E,G/L Account Balances [FS10N]
+FIGL_FSP0,D,Sachkontenstamm (Kontenplan) [FSP0/ S_ALR_87012326]
+FIGL_FSP0,E,G/L account master (chart of accounts) [FSP0 / S_ALR_87012326]
+FIGL_KL03,D,Leistungsarten anzeigen [KL03/ KL13]
+FIGL_KL03,E,Display activity type [KL03 / KL13]
+FIGL_ME2K_1,D,Einkaufsbeleg / Bestellungen / WE/RE Saldenliste [ME2K / MB5S / ME2M / ME2L]
+FIGL_ME2K_1,E,Purchasing doc/ account [ME2K / MB5S / ME2M / ME2L]
+FIGL_ME2K_2,D,Einkaufsbeleg zur Kontierung [ME2K]
+FIGL_ME2K_2,E,Purchasing doc/ account [ME2K]
+FIGL_ME2K_3,D,Einkaufsbeleg zur Kontierung [ME2K]
+FIGL_ME2K_3,E,Purchasing doc/ account [ME2K]
+FIGL_OB58,D,Text: Bilanzversion [OB58]
+FIGL_OB58,E,Text: Financial Statement Version [OB58]
+FIGL_S_ALR_87009815,D,Hauptbuchkonten Verkehrszahlen [S_ALR_87009815/ S_ALR_87101168]
+FIGL_S_ALR_87009815,E,G/L account balances [S_ALR_87009815 / S_ALR_87101168]
+FIGL_S_ALR_87100988,D,Strukturierte Saldenliste Summe per Bilanzposition [S_ALR_87100988/ S_ALR_87100987]
+FIGL_S_ALR_87100988,E,Structured Account Balances Sum per Balance Position [S_ALR_87100988 / S_ALR_87100987]
+FIGL_S_ALR_87100988_1,D,Strukturierte Saldenliste Summe per Geschaeftsbereich [S_ALR_87100988/ S_ALR_87100987]
+FIGL_S_ALR_87100988_1,E,Structured Account Balances Sum per Business Area [S_ALR_87100988 / S_ALR_87100987]
+FI_COBK_3,D,Kostenrechnungsbeleg 
+FI_COBK_3,E,CO document 
+FI_FB03L,D,FI Buchungsbelege [FB03L/ S_ALR_87009850 ]
+FI_FB03L,E,FI documents [FB03L / S_ALR_87009850 ]
+FI_FB04,D,FI Buchungsbelege Belegaenderungen [FB04/ S_ALR_87101008]
+FI_FB04,E,FI Documents Change History [FB04 / S_ALR_87101008]
+FI_FBCJ,D,Kassenbuch [FBCJ]
+FI_FBCJ,E,Cash Journal [FBCJ]
+FI_FBCJC0,D,Kassenbuch Journal [FBCJC0]
+FI_FBCJC0,E,Cash Journal [FBCJC0]
+FI_FBCJC2,D,Kassenbuch Transaktionsnamen [FBCJC2]
+FI_FBCJC2,E,Cash Journal Transaction Names [FBCJC2]
+FI_FBD3,D,FI Dauerbuchungsbelege [FBD3]
+FI_FBD3,E,Display recurring entry [FBD3]
+FI_FBL5N1,D,Debitor Einzelposten [FBL5N / S_ALR_87012197/ S_ALR_87101067]
+FI_FBL5N1,E,Cust. line item list [FBL5N / S_ALR_87012197 / S_ALR_87101067]
+FI_FBL5N2,D,Debitor Einzelposten TEST [FBL5N / S_ALR_87012197]
+FI_FBL5N2,E,Cust. line item list [FBL5N / S_ALR_87012197]
+FI_FBL5N3,D,Deb. Ausgleichsbuchung [FBL5N]
+FI_FBL5N3,E,Cust. clearance posting [FBL5N]
+FI_FBL5N4,D,Deb. Gegenkonto [FBL5N]
+FI_FBL5N4,E,Cust. offsetting account [FBL5N]
+FI_FD10N,D,Debitor Salden / Kontenanalyse [FD10N/ FD11/ S_ALR_87009950/ S_ALR_87100989/ S_ALR_87101077/ S_ALR_87101078/ S_ALR_87101079]
+FI_FD10N,E,Customer balances [FD10N / FD11 / S_ALR_87009950 / S_ALR_87100989 / S_ALR_87101077 / S_ALR_87101078 / S_ALR_87101079]
+FI_FF_6,D,Kontenauszug [FF_6]
+FI_FF_6,E,Account statement [FF_6]
+FI_FI03,D,Bankenverzeichnis [FI03]
+FI_FI03,E,Bank master record [FI03]
+FI_FSP0,D,Sachkontenstamm (Kontenplan) [FSP0/ S_ALR_87012326]
+FI_FSP0,E,G/L account master (chart of accounts) [FSP0 / S_ALR_87012326]
+FI_OB58,D,Bilanz GuV Struktur [OB58]
+FI_OB58,E,Financial statement version [OB58]
+FI_RFBELJ00,D,Belegkompaktjournal [RFBELJ00/ S_ALR_87009825/ S_ALR_87101002]
+FI_RFBELJ00,E,Compact document journal [RFBELJ00 / S_ALR_87009825 / S_ALR_87101002]
+FI_RFUMSV00,D,Umsatzsteuerzahlen [RFUMSV00 / S_ALR_87012357 / S_ALR_87012359]
+FI_RFUMSV00,E,Advance return for tax on sales purchases [RFUMSV00 / S_ALR_87012357 / S_ALR_87012359]
+FI_S_AL0_96000497,D,Document Relationship Browser - Buchhaltungsbeleg [S_AL0_96000497]
+FI_S_AL0_96000497,E,Document Relationship Browser - FI document [S_AL0_96000497]
+FI_S_ALR_807012357,D,Umsatzsteuerzahlen Summen [S_ALR_807012357/ S_ALR_807012359]
+FI_S_ALR_807012357,E,Tax return Sum [S_ALR_807012357 / S_ALR_807012359]
+FI_S_ALR_87012326,D,Sachkontoliste [S_ALR_87012326]
+FI_S_ALR_87012326,E,Chart of G/L accounts [S_ALR_87012326]
+FI_S_ALR_87101140,D,Belege nur CPD-Daten [S_ALR_87101140/ S_ALR_87101141 ]
+FI_S_ALR_87101140,E,Documents only CPD data [S_ALR_87101140 / S_ALR_87101141 ]
+FI_XD03_1,D,Debitor-Kunden-Stammdaten [FD03/ XD03]
+FI_XD03_1,E,Cust. master data [FD03 / XD03]
+FI_XD03_2,D,Deb. Buchungskreis [XD03]
+FI_XD03_2,E,Cust. company code [XD03]
+GLPCA,D,EC-PCA: Ist-Einzelposten
+GLPCA,E,EC-PCA: Actual Line Items
+GLPCT,D,EC-PCA: Summentabelle
+GLPCT,E,EC-PCA: Totals Table
+GLT0,D,Sachkontenstamm Verkehrszahlen
+GLT0,E,G/L account master record transaction figures
+GLU1,E,G/L user table 1
+HR0001,D,Pers./ Reiseprivilegien 
+HR0001,E,Pers. / travel privileges 
+HR0002,D,Personal Aufgabenueberwachung 
+HR0002,E,Pers. / Monitoring of Tasks 
+HR0003,D,Personal Steuerdaten PL 
+HR0003,E,Pers. / Taxdata PL 
+HR0004,D,VS-Wertarten 
+HR0004,E,PC value types 
+HR_PA0000,D,Personal Massnahmen 
+HR_PA0000,E,Pers. actions 
+HR_PA0001,D,Personal Organisatorische Zuordnung 
+HR_PA0001,E,Pers. / org. assignment 
+HR_PA0003,D,Personal Abrechnungsstatus 
+HR_PA0003,E,Pers. / payroll status 
+HR_PA0005,D,Personal Urlaubsanspruch 
+HR_PA0005,E,Pers. / vacation entitlement 
+HR_PA0006,D,Personal Anschriften 
+HR_PA0006,E,Pers. / addresses 
+HR_PA0007,D,Personal Arbeitszeit 
+HR_PA0007,E,Pers. / planned working time 
+HR_PA0008,D,Personal Basisbezuege 
+HR_PA0008,E,Pers. / basic pay 
+HR_PA0009,D,Personal Bankverbindung 
+HR_PA0009,E,Pers. / bank details 
+HR_PA0011,D,Personal Externer Transfer 
+HR_PA0011,E,Pers:_External Transfer 
+HR_PA0012,D,Personal: Steuerdaten D 
+HR_PA0012,E,Pers: Taxdata GE 
+HR_PA0014,D,Personal Wiederkehrende Be- u. Abzuege 
+HR_PA0014,E,Pers. / recur. payments/ deds. 
+HR_PA0015,D,Personal Ergaenzende Zahlung 
+HR_PA0015,E,Pers. / add. payments 
+HR_PA0016,D,Personal Vertragsbestandteile 
+HR_PA0016,E,Pers. / contract elements 
+HR_PA0017,D,Personal Reiseprivilegien 
+HR_PA0017,E,Pers. / travel privileges 
+HR_PA0021,D,Personal Familieninfo 
+HR_PA0021,E,Pers. / family data 
+HR_PA0022,D,Personal Ausbildung 
+HR_PA0022,E,Pers. / education 
+HR_PA0023,D,Personal Externe Taetigkeit 
+HR_PA0023,E,Pers. / External Employment 
+HR_PA0024,D,Personal Qualifikationen 
+HR_PA0024,E,Pers. / qualifications 
+HR_PA0031,D,Personal Referenzpersonalnummern 
+HR_PA0031,E,Pers. / reference pers. nos. 
+HR_PA0032,D,Personal Betriebsint.Vereinbarung 
+HR_PA0032,E,Pers. / internal data 
+HR_PA0034,D,Personal betriebliche Funktionen 
+HR_PA0034,E,Pers. /Operational Functions 
+HR_PA0035,D,Personal Belehrungen 
+HR_PA0035,E,Pers. /Teachings 
+HR_PA0036,D,Personal Sozialversicherung CH 
+HR_PA0036,E,Pers. / social insurance CH 
+HR_PA0037,D,Personal Versicherungen 
+HR_PA0037,E,Pers. / Insurance 
+HR_PA0038,D,Personal Steuerdaten CH 
+HR_PA0038,E,Pers. / fiscal data 
+HR_PA0040,D,Personal Leihgaben 
+HR_PA0040,E,Pers. / objects on loan 
+HR_PA0041,D,Personal Datumsangaben 
+HR_PA0041,E,Pers. / date specifications 
+HR_PA0045,D,Personal Darlehen 
+HR_PA0045,E,Pers. / Loans 
+HR_PA0050,D,Personal Zeiterfassung Info 
+HR_PA0050,E,Pers. / Time Recording Info 
+HR_PA0077,D,Personal weitere Daten 
+HR_PA0077,E,Pers.data / additionals 
+HR_PA0083,D,Personal Abgeltungen 
+HR_PA0083,E,Pers. leave compensation 
+HR_PA0105,D,Personal Kommunikation 
+HR_PA0105,E,Pers. / Communication 
+HR_PA0169,D,Personal Vermoegensbildungsplan 
+HR_PA0169,E,Pers. Savings plan 
+HR_PA0171,D,Personal Allg. ArbGebLeistInformation 
+HR_PA0171,E,Pers. / gen. benefits info 
+HR_PA0183,D,Personal Bonus 
+HR_PA0183,E,Awards (SG) 
+HR_PA0185,D,Personal Identifikation 
+HR_PA0185,E,Pers. /Identity documents 
+HR_PA0222,D,Personal Firmenwagen 
+HR_PA0222,E,Company car (GB) 
+HR_PA0278,D,Personal Pensionskasse Grunddaten 
+HR_PA0278,E,Pension fund / basic data 
+HR_PA0279,D,Personal Pensionskasse Individuelle Werte 
+HR_PA0279,E,PF. individual values 
+HR_PA0416,D,Personal Zeitkontingentabgeltung 
+HR_PA0416,E,Pers. / Time Quota Compensation 
+HR_PA0515,D,Personal SI Daten PL 
+HR_PA0515,E,Pers. / SI Data PL 
+HR_PA0516,D,Personal Zusaetzliche SI Daten PL 
+HR_PA0516,E,Pers. / Additional SI Data PL 
+HR_PA0900,D,Personal Vertriebsdaten 
+HR_PA0900,E,Pers. / sales data 
+HR_PA20,D,Personalstammdaten [PA20]
+HR_PA20,E,Personal master data [PA20]
+HR_PA2001,D,Zeiterfassung Abwesenheiten 
+HR_PA2001,E,Time rec. / absences 
+HR_PA2002,D,Zeiterfassung Anwesenheiten 
+HR_PA2002,E,Time rec. / attendance 
+HR_PA2003,D,Zeiterfassung Vertretung 
+HR_PA2003,E,Time rec. / substitution 
+HR_PA2004,D,Zeiterfassung Bereitschaft 
+HR_PA2004,E,Time rec. / availability 
+HR_PA2005,D,Zeiterfassung Mehrarbeit 
+HR_PA2005,E,Time rec. / overtime 
+HR_PA2006,D,Zeiterfassung Abwesenheitskontingente 
+HR_PA2006,E,Time rec. / absence quotas 
+HR_PA2007,D,Zeiterfassung Anwesenheitsgenehmigung 
+HR_PA2007,E,Time rec. / attendance quotas 
+HR_PA2010,D,Zeiterfassung Entgeltbelege 
+HR_PA2010,E,Time rec. / empl.remuneration info 
+HR_PA2012,D,Zeiterfassung Saldokorrekturen 
+HR_PA2012,E,Time rec / time transfer spec. 
+HR_PA2013,D,Zeiterfassung Kontingentkorr. 
+HR_PA2013,E,Time rec. / quota corr. 
+HR_PA9000,D,Variables SalÃ¤r CH 
+HR_PA9000,E,Variable Salary CH 
+HR_PA9001,D,HR Sarnia History 
+HR_PA9001,E,HR sarnia history 
+HR_PA9002,D,HR Illness/Injury Claim 
+HR_PA9002,E,HR illness/ injury claim 
+HR_PA9005,D,Personal: Freie Produkte 
+HR_PA9005,E,Pers: Free Product 
+HR_PA9100,D,Ausbildungsverpflichtung 
+HR_PA9100,E,No text for language EN available 
+HR_PCL1,D,Notes 
+HR_PCL1,E,Notes 
+HR_T001P,D,Personalbereich/-teilbereich 
+HR_T001P,E,Personal area/ subarea 
+HR_T500P,D,Personalbereiche 
+HR_T500P,E,Personal areas 
+HR_T503T,D,Text: Mitarbeiterkreis 
+HR_T503T,E,Text: Employee subgroup 
+HR_T510A,D,Tarifarten 
+HR_T510A,E,Pay scale type data 
+HR_T510G,D,Tarifgebiete/ Daten 
+HR_T510G,E,Pay scale area 
+HR_T512T,D,Text: Lohn-/Gehaltsarten 
+HR_T512T,E,Text: Wage type 
+HR_T513S,D,Text: Stelle 
+HR_T513S,E,Text: Job key 
+HR_T517T,D,Text: Schularten 
+HR_T517T,E,Text: Education type 
+HR_T517X,D,Text: Fachrichtungen 
+HR_T517X,E,Text: Branch of study 
+HR_T526,D,Sachbearbeiter 
+HR_T526,E,Official in charge 
+HR_T527X,D,Text: Org.Einheit 
+HR_T527X,E,Text: Org. unit 
+HR_T528T,D,Text: Planstelle 
+HR_T528T,E,Text: Position 
+HR_T529T,D,Text: Personalmassnahme 
+HR_T529T,E,Text: Personal measure 
+HR_T529U,D,Text: Statuswert 
+HR_T529U,E,Text: Status value 
+HR_T530E,D,Aenderungsgruende 
+HR_T530E,E,Change reasons 
+HR_T530F,D,Text: Aenderungsgrund 
+HR_T530F,E,Text: Change reason 
+HR_T530T,D,Text: Massnahmegrund 
+HR_T530T,E,Text: Reason for action 
+HR_T533T,D,Text: Urlaubsart 
+HR_T533T,E,Text: Leave type 
+HR_T538T,D,Text: Zeit-/Masseinheit 
+HR_T538T,E,Text: Time/ measurement unit 
+HR_T542T,D,Text: Anstellungsverhaeltnis 
+HR_T542T,E,Text: Employment contract 
+HR_T547S,D,Text: Vertragsart 
+HR_T547S,E,Text: Contract type 
+HR_T548T,D,Text: Datumsart 
+HR_T548T,E,Text: Date type 
+HR_T549T,D,Text: Abrechnungskreis 
+HR_T549T,E,Text: Payroll areas 
+HR_T554T,D,Text: Ab-/Anwesenheit 
+HR_T554T,E,Text: Absence type 
+HR_T555Q,D,Text: PZeit Umbuchungsart 
+HR_T555Q,E,Text: Balance rev. 
+HR_T555V,D,Text: Mitarbeiterstatus 
+HR_T555V,E,Text: Employee status 
+HR_T556,D,Vertretungsarten 
+HR_T556,E,Substitution type 
+HR_T556B,D,Text: Abwesenheitskontingenttyp 
+HR_T556B,E,Text: Absence quota type 
+HR_T574B,D,Text: Qualifikationsbez. 
+HR_T574B,E,Text: Qualification 
+HR_T591S,D,Text: Info-Subtyp 
+HR_T591S,E,Text: Subtype 
+HR_T5C1B,D,Text: AHV-Schluessel 
+HR_T5C1B,E,Text: AHV key 
+HR_T5C1O,D,Kantone/Gemeinden 
+HR_T5C1O,E,Cantons/ municipalities (CH) 
+HR_T5C2G,D,Text: Quellensteuertarif 
+HR_T5C2G,E,Text: Withholding tax scale 
+HR_T5CA3,D,Text: VS-Wertart 
+HR_T5CA3,E,Text: Value type (CH) 
+HR_T5CAQ,D,Text: MA-Attributklassen 
+HR_T5CAQ,E,Text: EE attribute classes 
+HR_T5K13,D,Stellen 
+HR_T5K13,E,Jobs 
+HR_T5UBA,D,Arbeitg.Leistungsplan 
+HR_T5UBA,E,Benefit plan 
+HR_T5UC1,D,Text: ArbgLeistung Planart 
+HR_T5UC1,E,Text: Benefit plan type 
+HR_T5UC3,D,Text: Arbeitgeberleistungsbereich 
+HR_T5UC3,E,Text: Benefit area 
+HR_T5UC4,D,Text: AGLeist. ZulaessigkeitsGrp. 
+HR_T5UC4,E,Text: Benefit eligibility grp 
+HR_T5UC9,D,Text: AG-Leist. 2. PrgGrp 
+HR_T5UC9,E,Text: Benefit 2. program grp. 
+HR_T5UCT,D,Text: AG-Leist. 1. PrgGrp 
+HR_T5UCT,E,Text: Benefit 1. program grouping 
+HR_T5UCV,D,Text: AG-Leist. Zul.-Regelung 
+HR_T5UCV,E,Text: Benefit eligibility rules 
+HR_TOAHR,D,HR Dokumente 
+HR_TOAHR,E,HR Documents 
+IFLOALT,D,Kennzeichnungssysteme fÃ¼r Technische PlÃ¤tze
+IFLOALT,E,Labeling Systems for Functional Locations
+IFLOS,D,Kennzeichnungen Technischer PlÃ¤tze
+IFLOS,E,Functional Location Labels
+IFLOT,D,Technischer Platz (Tabelle)
+IFLOT,E,Functional Location (Table)
+IFLOTX,D,Technischer Platz: Kurztexte
+IFLOTX,E,Functional Location: Short Texts
+IHPA,D,Instandhaltung: Partner
+IHPA,E,Plant Maintenance: Partners
+IHSG,D,Objektbezogene Genehmigungen in der Instandhaltung
+IHSG,E,Object-Related Permits in Plant Maintenance
+IKPF,D,Belegkopf Inventurbeleg
+IKPF,E,Header: Physical Inventory Document
+ILOA,D,Standort und Kontierung zum IH-Objekt
+ILOA,E,PM Object Location and Account Assignment
+IMPR,E,Investment Program Positions
+IMTP,E,Investment programs
+INOB,D,Zuordnung einer internen Nummer zu einem bel. Objekt
+INOB,E,Link between Internal Number and Object
+ISEG,D,Positionen des Inventurbeleges
+ISEG,E,Physical Inventory Document Items
+JEST,D,Einzelstatus pro Objekt
+JEST,E,Individual Object Status
+JSTO,D,Informationen zum Statusobjekt
+JSTO,E,Status object information
+JVSO1,E,JV LI Table with Objects for JVTO1
+JVTO1,E,JV Summary Table with Objects
+JVTO2,E,JV Billing FI-SL Summary Table
+KAKO,D,Kapazitaet Kopfsegment
+KAKO,E,Capacity Header Segment
+KAKT,D,Kapazitaet Bezeichnung
+KAKT,E,Capacity Description
+KAPA,D,KapazitÃ¤t Schichtwerte
+KAPA,E,Shift Parameters for Available Capacity
+KAPE,D,KapazitÃ¤t Basiseinheit Zuordnung
+KAPE,E,Capacity unit of measure allocation
+KAZY,D,KapazitÃ¤t Angebotsintervalle
+KAZY,E,Interval of Available Capacity
+KDST,D,Verbindung Kundenauftrag - StÃ¼ckliste
+KDST,E,Sales Order to BOM Link
+KEKO,D,Erzeugniskalkulation - Kopfinformationen
+KEKO,E,Product Costing - Header Data
+KLAH,D,Klassenkopf Daten
+KLAH,E,Class Header Data
+KLAT,D,Klassen: Langtexte
+KLAT,E,Classes: Long Texts
+KNA1,D,Kundenstamm (allgemeiner Teil)
+KNA1,E,General Data in Customer Master
+KNAS,D,Kundenstamm (allgemeiner Teil EG-Steuernummern)
+KNAS,E,Customer master (VAT registration numbers general section)
+KNB1,D,Kundenstamm (Buchungskreis)
+KNB1,E,Customer Master (Company Code)
+KNB5,D,Kundenstamm (Mahndaten)
+KNB5,E,Customer master (dunning data)
+KNBK,D,Kundenstamm (Bankverbindungen)
+KNBK,E,Customer Master (Bank Details)
+KNBW,D,Kundenstamm (Quellensteuertypen) X
+KNBW,E,Customer master record (withholding tax types) X
+KNC1,D,Kundenstamm Verkehrszahlen
+KNC1,E,Customer master (transaction figures)
+KNC3,D,Kundenstamm Verkehrszahlen SonderhauptbuchvorgÃ¤nge
+KNC3,E,Customer master (special G/L transaction figures)
+KNKA,D,Kundenstamm Kreditmanagement: Zentraldaten
+KNKA,E,Customer master credit management: Central data
+KNKK,D,Kundenstamm Kreditmanagement: Kontrollbereichsdaten
+KNKK,E,Customer master credit management: Control area data
+KNVI,D,Kundenstamm Steuerindikatoren
+KNVI,E,Customer Master Tax Indicator
+KNVP,D,Kundenstamm Partnerrollen
+KNVP,E,Customer Master Partner Functions
+KNVV,D,Kundenstamm Vertriebsdaten
+KNVV,E,Customer Master Sales Data
+KONA,D,Absprachen
+KONA,E,Agreements
+KONH,D,Konditionen (Kopf)
+KONH,E,Conditions (Header)
+KONM,D,Konditionen (Mengenstaffel 1-dimensional)
+KONM,E,Conditions (1-Dimensional Quantity Scale)
+KONP,D,Konditionen (Position)
+KONP,E,Conditions (Item)
+KONV,D,Konditionen (Vorgangsdaten)
+KONV,E,Conditions (Transaction Data)
+KONW,D,Konditionen (Wertstaffel 1-dimensional)
+KONW,E,Conditions (1-Dimensional Value Scale)
+KOTE001,D,Kunde/Material
+KOTE001,E,Customer/Material
+KSML,D,Merkmale zu  Klassen
+KSML,E,Characteristics of a Class
+KSSK,D,Zuordnungstabelle: Objekt zu Klasse
+KSSK,E,Allocation Table: Object to Class
+LAGP,D,LagerplÃ¤tze
+LAGP,E,Storage bins
+LFA1,D,Lieferantenstamm (allgemeiner Teil)
+LFA1,E,Vendor Master (General Section)
+LFAS,D,Lieferantenstamm (allgemeiner Teil EG-Steuernummern)
+LFAS,E,Vendor master (VAT registration numbers general section)
+LFB1,D,Lieferantenstamm (Buchungskreis)
+LFB1,E,Vendor Master (Company Code)
+LFB5,D,Lieferantenstamm (Mahndaten)
+LFB5,E,Vendor master (dunning data)
+LFBK,D,Lieferantenstamm (Bankverbindungen)
+LFBK,E,Vendor Master (Bank Details)
+LFBW,D,Lieferantenstamm (Quellensteuertypen) X
+LFBW,E,Vendor master record (withholding tax types) X
+LFC1,D,Lieferantenstamm Verkehrszahlen
+LFC1,E,Vendor master (transaction figures)
+LFC3,D,Lieferantenstamm Verkehrszahlen SonderhauptbuchvorgÃ¤nge
+LFC3,E,Vendor master (special G/L transaction figures)
+LFM1,D,Lieferantenstamm Einkaufsorganisationsdaten
+LFM1,E,Vendor master record purchasing organization data
+LFM2,D,Lieferantenstamm: Einkaufsdaten
+LFM2,E,Vendor Master Record: Purchasing Data
+LIKP,D,Vertriebsbeleg: Lieferung: Kopfdaten
+LIKP,E,SD Document: Delivery Header Data
+LINV,D,Inventurdaten pro Quant
+LINV,E,Inventory data per quant
+LIPS,D,Vertriebsbeleg: Lieferung: Positionsdaten
+LIPS,E,SD document: Delivery: Item data
+LQUA,D,Lagerquants
+LQUA,E,Quants
+LTAK,D,LVS Transportauftragskopf
+LTAK,E,WM transfer order header
+LTAP,D,Transportauftragsposition
+LTAP,E,Transfer order item
+MAKT,D,Materialkurztexte
+MAKT,E,Material Descriptions
+MAPL,D,Zuordnung von PlÃ¤nen zu Materialien
+MAPL,E,Assignment of Task Lists to Materials
+MARA,D,Allgemeine Materialdaten
+MARA,E,General Material Data
+MARC,D,Werksdaten zum Material
+MARC,E,Plant Data for Material
+MARD,D,Lagerortdaten zum Material
+MARD,E,Storage Location Data for Material
+MARM,D,Mengeneinheiten zum Material
+MARM,E,Units of Measure for Material
+MARV,D,Materialverwaltungssatz
+MARV,E,Material Control Record
+MAST,D,Verbindung Material - Stueckliste
+MAST,E,Material to BOM Link
+MBEW,D,Materialbewertung
+MBEW,E,Material Valuation
+MBEWH,D,Materialbewertung - Historie
+MBEWH,E,Material Valuation: History
+MCH1,D,Chargen (falls Chargenverwaltung werksÃ¼bergreifend)
+MCH1,E,Batches (if Batch Management Cross-Plant)
+MCHA,D,Chargen
+MCHA,E,Batches
+MCIPMIS,E,PMIS: Master data characteristics for PMIS before image
+MHIO,E,Call Object from Maintenance Order
+MHIS,E,Maintenance plan history
+MHND,D,Mahndaten
+MHND,E,Dunning Data
+MHNK,D,Mahndaten (Kontoeintraege)
+MHNK,E,Dunning data (account entries)
+MKPF,D,Belegkopf Materialbeleg
+MKPF,E,Header: Material Document
+MLAN,D,Steuerklassifikation zum Material
+MLAN,E,Tax Classification for Material
+MLCR,D,Material-Ledger-Beleg: WÃ¤hrungen  und Werte
+MLCR,E,Material Ledger Document: Currencies and Values
+MLCRP,D,Material-Ledger-Beleg: PreisÃ¤nderung (WÃ¤hrungen  Preise)
+MLCRP,E,Material Ledger Document: Price Changes (Currencies Prices)
+MLIT,D,Material-Ledger-Beleg: Positionen
+MLIT,E,Material Ledger Document: Items
+MLPP,D,Material-Ledger-Beleg: Buchungsperioden und Mengen
+MLPP,E,Material Ledger Document: Posting Periods and Quantities
+MLST,D,Meilenstein
+MLST,E,Milestone
+MLTX,D,Meilensteinbezeichnung
+MLTX,E,Milestone Description
+MM0001,D,Materialsegment 
+MM0001,E,Material segment 
+MM0002,D,Lagerortdaten 
+MM0002,E,storage location data 
+MM0003,D,Materialbewertung Historie 
+MM0003,E,Material valuation history 
+MM0004,D,Einkaufsbestelltext 
+MM0004,E,purchase order text 
+MM0005,D,Steuerklassifikation zum Material 
+MM0005,E,Tax classification for material 
+MM0006,D,Konditionen: Arten: Texte 
+MM0006,E,Cond. / types / texts 
+MM0007,D,Materialbestell Text 
+MM0007,E,Material PO Text 
+MM0008,D,Item Text 
+MM0008,E,Item Text 
+MM0009,D,Einkaufsinfosatz 
+MM0009,E,purchasing info record 
+MM0010,D,Bestellentwicklung/ Historie zum Einkaufsbeleg 
+MM0010,E,History of purchase order document 
+MM0011,D,Text EK Bestellpos 
+MM0011,E,Text purchase item 
+MM0018,D,Materialbewegungen 
+MM0018,E,Material movements 
+MMPT,E,Cycle definitions and MeasPoints for MaintPlan
+MM_0012,D,Rechnungen_zum Projekt 
+MM_0012,E,Invoices for project 
+MM_0013,D,Alte Rechnungen_zum Projekt 
+MM_0013,E,old invoices for project 
+MM_0014,D,Eingangsrechnung Quellensteuerdaten 
+MM_0014,E,Incoming invoice / withholding tax data 
+MM_0015,D,Text: Bewegungsarten MM 
+MM_0015,E,Text: Movement types MM 
+MM_0016,D,Einkaufsinfosatz nach EKORG 
+MM_0016,E,purchasing info record 
+MM_0017,D,Einkaufslieferantenliste 
+MM_0017,E,List of vendors: Purchasing 
+MM_BSEG_1,D,Belegsegment Buchhaltung 
+MM_BSEG_1,E,document segment accounting 
+MM_CK13N2,D,Positionen Einzelkalkulation [CK13N]
+MM_CK13N2,E,Items unit costing [CK13N]
+MM_CK13N_1,D,Einzelkalkulation (Steuerung + Summen) [CK13N]
+MM_CK13N_1,E,Unit costing (management + total) [CK13N]
+MM_CKM3,D,Materialkalkulation [CKM3/ CK13N/ CK86_99]
+MM_CKM3,E,Material Calculation [CKM3 / CK13N / CK86_99]
+MM_CKMPCD,D,Preisaenderungsbeleg anzeigen [CKMPCD]
+MM_CKMPCD,E,Price Change Document [CKMPCD]
+MM_CKMTOPPRICEDIF,D,Material mit hoechster V-Preis-Differenz [CKMTOPPRICEDIF]
+MM_CKMTOPPRICEDIF,E,Material w. Largest Difference in MAP in Current or Previous Period [CKMTOPPRICEDIF]
+MM_CKMTOPSTOCKVAL,D,Materialien mit hoechstem Bestandswert [CKMTOPSTOCKVAL]
+MM_CKMTOPSTOCKVAL,E,Material with Highest Inventory Value [CKMTOPSTOCKVAL]
+MM_CV03N,D,Dokumente Suchen [CV03N/CV04N]
+MM_CV03N,E,Allocated documents [CV03N /CV04N]
+MM_EINA,D,Einkaufsinfosatz 
+MM_EINA,E,purchasing info record 
+MM_EKET,D,Lieferplaneinteilungen 
+MM_EKET,E,Purchasing schedule 
+MM_EKKN,D,Bestellungen (EK)/ Kontierung 
+MM_EKKN,E,Purchasing document / account assignment 
+MM_J1A5,D,Lagerbestand anzeigen [J1A5]
+MM_J1A5,E,Warehouse Stock display [J1A5]
+MM_KONV_1,D,EK-Konditionen 
+MM_KONV_1,E,Purchasing conditions 
+MM_LI05,D,Inventurhistorie zum Lagerplatz [LI05/ LX36]
+MM_LI05,E,Inventory History for Storage Bin [LI05 / LX36]
+MM_LS26,D,Auswertung Quantinventur [LS26/_LI15]
+MM_LS26,E,Evaluation of Quant Inventory [LS26 /_LI15]
+MM_LT24,D,Transportauftrag [LT24]
+MM_LT24,E,WM transfer order header [LT24]
+MM_LTAP,D,Transportauftrag Positionen 
+MM_LTAP,E,Transfer items 
+MM_LX18,D,Statistik Inventurdifferenzen [LX18]
+MM_LX18,E,Statistics for Inventory Differences [LX18]
+MM_MB56,D,Chargenverwendungsnachweis anzeigen [MB56]
+MM_MB56,E,Display changes batch list [MB56]
+MM_MB59_ALL,D,Materialbeleg & Materialbewegungen [S_AL0_96000492/ MB59/ MB5B/ MB51]
+MM_MB59_ALL,E,Material document & movements [S_AL0_96000492 / MB59 / MB5B / MB51]
+MM_MB59_POS,D,Materialbeleg & Materialbewegungen S_AL0_96000492/ MB59/ MB5B/ MB51
+MM_MB59_POS,E,Material document & movements S_AL0_96000492 / MB59 / MB5B / MB51
+MM_MB5S,D,WE/RE Saldenliste [MB5S]
+MM_MB5S,E,GR/IR Balances [MB5S]
+MM_MB5W,D,Bestandswertliste [MB5W/ MB5L/ MRN9]
+MM_MB5W,E,List of Stock Values: Balances [MB5W / MB5L / MRN9]
+MM_MBBS_1,D,Bewerteten Sonderbestand anzeigen [MBBS]
+MM_MBBS_1,E,Valuated Sales Order and Project Stock [MBBS]
+MM_MBBS_2,D,Bewerteten Lohnbearbeiterbestand anzeigen [MBBS]
+MM_MBBS_2,E,Valuated Sales Order Stock [MBBS]
+MM_MBBS_3,D,Bewerteten Projektbestand anzeigen [MBBS]
+MM_MBBS_3,E,Valuated Project Stock [MBBS]
+MM_MBEW,D,Materialbewertung 
+MM_MBEW,E,material valuation 
+MM_MBGR_1,D,MatBeleg zum Grund der Bewegung [MBGR]
+MM_MBGR_1,E,Material Documts with Reason f. Mvt [MBGR]
+MM_MBGR_2,D,MatBeleg zum Grund der Bewegung Originalbestellung [MBGR]
+MM_MBGR_2,E,Material Documts with Reason f. Mvt. original order [MBGR]
+MM_MC$4_1,D,Einkauf/ Umsatz nach Lieferant/ Warengruppen- und Materialanalyse [MC$4/ MC$G/ MCE3/ MCE5/ MCE7]
+MM_MC$4_1,E,Purchasing [MC$4 / MC$G / MCE3 / MCE5 / MCE7]
+MM_ME0M,D,Orderbuch anzeigen [ME0M/ ME03]
+MM_ME0M,E,Source List display [ME0M / ME03]
+MM_ME13,D,Material/ Lieferant Einkaufsinfosatz [ME13/ ME1L/ ME1M/ ME1W/ ME1A]
+MM_ME13,E,Material/ vendor / purchasing info record [ME13 / ME1L / ME1M / ME1W / ME1A]
+MM_ME13_1,D,Einkaufsinfosatz [ME13]
+MM_ME13_1,E,purchasing info record [ME13]
+MM_ME14,D,Infosatz Aenderungen [ME14]
+MM_ME14,E,Purchasing Info Record Changes [ME14]
+MM_ME1P,D,Bestellpreisentwicklung [ME1P]
+MM_ME1P,E,Purchase Order Price History [ME1P]
+MM_ME23N2,D,Einkaufsbestellungen Positionen 
+MM_ME23N2,E,Purchase order items 
+MM_ME23N_ALL,D,Einkaufsbestellungen [ME23N/ME2C/ME2L/ME2M/ME2N/ME3M/ME80F/ ME82]
+MM_ME23N_ALL,E,Purchase orders [ME23N /ME2C /ME2L /ME2M /ME2N /ME3M /ME80F / ME82]
+MM_ME2B,D,Transportauftrag [ME2B]
+MM_ME2B,E,Transport order [ME2B]
+MM_ME2C,D,Bestellungen zur Warengruppe/Lieferwerk [ME2C/ ME2W]
+MM_ME2C,E,Purchansing Documents for Material Group [ME2C / ME2W]
+MM_ME2J,D,Einkaufsbelege zum Projekt [ME2J]
+MM_ME2J,E,Purchasing documents for project [ME2J]
+MM_ME2K,D,Einkaufsbeleg zur Kontierung [ME2K]
+MM_ME2K,E,Purchasing document for account assignment [ME2K]
+MM_ME33K,D,Kontrakte anzeigen [ME33K]
+MM_ME33K,E,Display contracts [ME33K]
+MM_ME33K_ALL,D,Kontrakt anzeigen [ME33K]
+MM_ME33K_ALL,E,Display Contract [ME33K]
+MM_ME33K_POS,D,Vertragspositionen [ME33K]
+MM_ME33K_POS,E,Contractposition [ME33K]
+MM_ME33L,D,Lieferplan anzeigen [ME33L/ ME38]
+MM_ME33L,E,Scheduling Agreement Delivery Schedule [ME33L / ME38]
+MM_ME3C,D,Rahmenvertraege zu Warengruppe/Kontierung/Lieferant/Material [ME3C/ ME3K/ ME3L/ ME3M]
+MM_ME3C,E,Purchasing Contracts to Material Group/ Vendor [ME3C / ME3K / ME3L / ME3M]
+MM_ME43,D,Anfragen [ME43]
+MM_ME43,E,Requests [ME43]
+MM_ME48,D,Angebote [ME48]
+MM_ME48,E,Offers [ME48]
+MM_ME53N_1,D,Bestellanforderung [ME53N/ME5A/ME5K]
+MM_ME53N_1,E,Purchase requisition [ME53N /ME5A /ME5K]
+MM_ME53N_2,D,Texte [ME53N]
+MM_ME53N_2,E,Texts [ME53N]
+MM_ME53N_4,D,Bestellanforderung Kontierung [ME53N/ME5A/ME5K]
+MM_ME53N_4,E,Purchase requisition account assignment [ME53N /ME5A /ME5K]
+MM_ME5J,D,Bestellanforderung zum Projekt [ME5J]
+MM_ME5J,E,Purchase requisition for the project [ME5J]
+MM_MI12,D,Inventur Aenderungsbelege [MI12]
+MM_MI12,E,Inventory Documents Changes [MI12]
+MM_MI24_1,D,Inventurliste [MI24/ MI22/ MIDO/ MI20]
+MM_MI24_1,E,Inventory list [MI24 / MI22 / MIDO / MI20]
+MM_MI24_2,D,Inventur Bestandesart [MI24]
+MM_MI24_2,E,Inventory typ [MI24]
+MM_MI24_3,D,Inventurstatus [MI24]
+MM_MI24_3,E,Inventory state [MI24]
+MM_MIR4_ALL,D,Rechnungen (Kopf) [MRA3/ MIR6/ S_AL0_96000496/ MIR4]
+MM_MIR4_ALL,E,Invoices (purchasing) [MRA3 / MIR6 / S_AL0_96000496 / MIR4]
+MM_MIR4_POS,D,Belegposition Kontierung 
+MM_MIR4_POS,E,Document item account assignment 
+MM_MKVZ,D,Lieferant Listenanzeige [MKVZ ]
+MM_MKVZ,E,Vendor list [MKVZ ]
+MM_MM03_1,D,Materialstamm [MM03/ MM06/ MM60/ MM19]
+MM_MM03_1,E,Material master [MM03 / MM06 / MM60 / MM19]
+MM_MM03_12,D,Material basic data text 
+MM_MM03_12,E,Material basic data text 
+MM_MMBE,D,Material Lagerortdaten/ Inventurdaten/ Bestandesuebersicht [MMBE/ MI23/ MB52/ J1A5]
+MM_MMBE,E,Material storage location data [MMBE / MI23 / MB52 / J1A5]
+MM_MMBE_1,D,Bestandesuebersicht/ Werkanalyse/ Lagerbestand [MMBE/ MI23/ MB52/ MC.1]
+MM_MMBE_1,E,Material storage location data [MMBE / MI23 / MB52 / MC.1]
+MM_MR11SHOW,D,Anzeige/Storno Kontenpflegebeleg [MR11SHOW]
+MM_MR11SHOW,E,Display/Cancel Account Maintenance Document [MR11SHOW]
+MM_MR33,D,Layer anzeigen [MR33]
+MM_MR33,E,Layer display [MR33]
+MM_MR35,D,Bewertungsdaten anzeigen [MR35]
+MM_MR35,E,FIFO Results display [MR35]
+MM_MR39_1,D,Bestellungen Aenderungen [MR39]
+MM_MR39_1,E,Purchase order change history [MR39]
+MM_MR39_2,D,Layer Belegaenderungen [MR39]
+MM_MR39_2,E,Layer Change History [MR39]
+MM_MR51,D,Buchaltungsbeleg zum Material [MR51]
+MM_MR51,E,Material / posting document item [MR51]
+MM_MRL7,D,Gruppenbildung anzeigen [MRL7]
+MM_MRL7,E,Display Pool Formation [MRL7]
+MM_MVKE,D,Verkaufsdaten 
+MM_MVKE,E,Sales data
+MM_NAST,D,Nachrichtenstatus
+MM_NAST,E,Message Status
+MM_RBKP_BLOCKED,D,Rg pruef: Gesperrte Rechnungen 
+MM_RBKP_BLOCKED,E,Inv. verif.: Blocked invoices 
+MM_RBMA,D,Belegposition Material 
+MM_RBMA,E,Document item: Incoming invoice for material 
+MM_RBTX,D,Steuern Eingangsrechnung 
+MM_RBTX,E,Taxes: Incoming invoice 
+MM_RBWS,D,Quellensteuer Eingangsrechnung 
+MM_RBWS,E,withholding taxes incoming invoice 
+MM_RBWT,D,Quellensteuer Eingangsrechnung 
+MM_RBWT,E,Withholding Tax Data / Incoming Invoice 
+MM_STXL_4,D,Text EK Bestellung 
+MM_STXL_4,E,Text purchase order 
+MM_S_AL0_96000496,D,Rechnung (Positionen) / Logistische Rechnungspruefung [S_AL0_96000496]
+MM_S_AL0_96000496,E,Incoming invoice (item) [S_AL0_96000496]
+MM_T024,D,Text: Einkaufsgruppen 
+MM_T024,E,Purchasing groups 
+MM_T141T,D,Text: Material Status 
+MM_T141T,E,Text: Material status 
+MM_T149T,D,Text: Bewertungstyp 
+MM_T149T,E,Text: Valuation category 
+MM_T161T,D,Text: Einkaufsbelegart 
+MM_T161T,E,Text: Purchasing document types 
+MM_T163C,D,Text: Bestellentwicklungstypen 
+MM_T163C,E,Text: PO history category 
+MM_T163I,D,Text: Kontierungstypen 
+MM_T163I,E,Text: Acc. assignment categories 
+MM_TPTMT,D,Text: PosTypenGruppe 
+MM_TPTMT,E,Text: Item cat. group 
+MM_TSKMT,D,Steuern: Materialien: Texte 
+MM_TSKMT,E,Tax classification texts 
+MM_UOM,D,MaÃŸeinheit des Materials
+MM_UOM,E,Unit of Measure of Material
+MPLA,E,Maintenance plan
+MPOS,E,Maintenance item
+MSEG,D,Belegsegment Material
+MSEG,E,Document Segment: Material
+MVKE,D,Verkaufsdaten zum Material
+MVKE,E,Sales Data for Material
+MYMFT,D,FIFO Ergebnistabelle
+MYMFT,E,FIFO Results Table
+MYML,D,LIFO Materiallayer (jÃ¤hrlich)
+MYML,E,LIFO Material Layer (Annual)
+MYMP,D,LIFO PeriodenbestÃ¤nde Einzelmaterial
+MYMP,E,LIFO Period Stocks Individual Material
+MYMS,D,LIFO-relevante Materialien
+MYMS,E,LIFO-relevant materials
+MYPL,D,LIFO Poollayer (jÃ¤hrlich)
+MYPL,E,LIFO Pool Layer (Annual)
+NAST,D,Nachrichtenstatus
+NAST,E,Message Status
+NRIV,D,Nummernkreisintervalle
+NRIV,E,Number Range Intervals
+OBEW,D,Bewerteter Lohnbearbeitungsbestand
+OBEW,E,Valuated Stock with Subcontractor
+OBJH,D,Objekt: Header
+OBJH,E,Object: Header
+OBJK,E,Plant Maintenance Object List
+OBJS,D,Objekt: StÃ¼ckliste der Objekte
+OBJS,E,Object: Object List
+ONRFS,D,Objektnummernindex Finanzstelle
+ONRFS,E,Object number index for commitment funds center
+ONRKL,D,Objektnummernindex Kostenstelle/Leistungsart
+ONRKL,E,Object Number Index Cost Center/Activity Type
+ONRKS,D,Objektnummernindex Kostenstelle
+ONRKS,E,Object Number Index Cost Center
+PA0000,D,Personal-Stammsatz Infotyp 0000 (Massnahmen)
+PA0000,E,HR Master Record: Infotype 0000 (Actions)
+PA0001,D,Personal-Stammsatz Infotyp 0001 (Org. Zuordnung)
+PA0001,E,HR Master Record: Infotype 0001 (Org. Assignment)
+PA0002,D,Personal-Stammsatz Infotyp 0002 (Daten zur Person)
+PA0002,E,HR Master Record: Infotype 0002 (Personal Data)
+PA0003,D,Personal-Stammsatz Infotyp 0003 (Abrechnungsstatus)
+PA0003,E,HR Master Record: Infotype 0003 (Payroll Status)
+PA0005,D,Personal-Stammsatz Infotyp 0005 (Urlaubsanspruch)
+PA0005,E,HR Master Record: Infotype 0005 (Leave Entitlement)
+PA0006,D,Personal-Stammsatz Infotyp 0006 (Anschriften)
+PA0006,E,HR Master Record: Infotype 0006 (Addresses)
+PA0007,D,Personal-Stammsatz Infotyp 0007 (Arbeitszeit)
+PA0007,E,HR Master Record: Infotype 0007 (Planned Working Time)
+PA0008,D,Personal-Stammsatz Infotyp 0008 (Basisbezuege)
+PA0008,E,HR Master Record: Infotype 0008 (Basic Pay)
+PA0009,D,Personal-Stammsatz Infotyp 0009 (Bankverbindung)
+PA0009,E,HR Master Record: Infotype 0009 (Bank Details)
+PA0011,D,Personal-Stammsatz Infotyp 0011 (Ext. Ãœberweisungen)
+PA0011,E,HR Master Record: Infotype 0011 (Ext.Bank Transfers)
+PA0012,D,Personal-Stammsatz Infotyp 0012 (Steuerrechtl. Daten (D))
+PA0012,E,HR Master Record: Infotype 0012 (Fiscal Data - Germany)
+PA0014,D,Personal-Stammsatz Infotyp 0014 (Wiederk. Be- u. AbzÃ¼ge)
+PA0014,E,HR Master Record: Infotype 0014 (Recur. Payments/Deds.)
+PA0015,D,Personal-Stammsatz Infotyp 0015 (ErgÃ¤nzende Zahlung)
+PA0015,E,HR Master Record: Infotype 0015 (Additional Payments)
+PA0016,D,Personal-Stammsatz Infotyp 0016 (Vertragsbestandteile)
+PA0016,E,HR Master Record: Infotype 0016 (Contract Elements)
+PA0017,D,Personal-Stammsatz Infotyp 0017 (Reiseprivilegien)
+PA0017,E,HR master record: Infotype 0017 (Travel Privileges)
+PA0019,D,Personal-Stammsatz Infotyp 0019 (Termine)
+PA0019,E,HR Master Record: Infotype 0019 (Monitoring of Dates)
+PA0021,D,Personal-Stammsatz Infotyp 0021 (Familie)
+PA0021,E,HR Master Record: Infotype 0021 (Family)
+PA0022,D,Personal-Stammsatz Infotyp 0022 (Ausbildung)
+PA0022,E,HR Master Record: Infotype 0022 (Education)
+PA0023,D,Personal Stammsatz Infotyp 0023(Taetigkeiten bei anderen AG)
+PA0023,E,HR Master Record: Infotype 0023 (Other/Previous Employers)
+PA0024,D,Personal-Stammsatz Infotyp 0024 (Qualifikationen)
+PA0024,E,HR Master Record: Infotype 0024 (Qualifications)
+PA0031,D,Personal-Stammsatz Infotyp 0031 (Referenzpersonalnummern)
+PA0031,E,HR Master Record: Infotype 0031 (Reference Pers.Nos.)
+PA0032,D,Personal-Stammsatz Infotyp 0032 (Betriebsint.Vereinb.)
+PA0032,E,HR Master Record: Infotype 0032 (Internal Data)
+PA0034,D,Personal-Stammdaten Infotyp 0034 (betriebliche Funktionen)
+PA0034,E,HR Master Record: Infotype 0034 (Corporate Functions)
+PA0035,D,Personal-Stammdaten Infotyp 0035 (Belehrungen)
+PA0035,E,HR Master Record: Infotype 0035 (Comp.Instr.)
+PA0036,D,Personal-Stammsatz Infotyp 0036 (Sozialversicherung CH)
+PA0036,E,HR Master Record: Infotype 0036 (Social Insurance CH)
+PA0037,D,Personal-Stammsatz Infotyp 0037 (Versicherung)
+PA0037,E,HR Master Record: Infotype 0037 (Insurance)
+PA0038,D,Personal-Stammsatz Infotyp 0038 (Steuer CH)
+PA0038,E,HR Master Record: Infotype 0038 (Fiscal Data CH)
+PA0040,D,Personal Stammsatz Infotyp 0040 (Leihgaben)
+PA0040,E,HR Master Record: Infotype 0040 (Objects on Loan)
+PA0041,D,Personal-Stammsatz Infotyp 0041 (Datumsangaben)
+PA0041,E,HR Master Record: Infotype 0041 (Date Specifications)
+PA0045,D,Personal-Stammsatz Infotyp 0045 (Darlehen)
+PA0045,E,HR Master Record: Infotype 0045 (Company Loans)
+PA0050,D,Personal Stammsatz Infotyp 0050(Zeiterfassung)
+PA0050,E,HR Master Record: Infotype 0050 (Time Recording)
+PA0077,D,Personal-Stammsatz Infotyp 0077 (Weitere Daten zur Person)
+PA0077,E,HR Master Record: Infotype 0077 (Additional Personal Data)
+PA0083,D,Personal-Stammsatz Infotyp 0083 (Abgeltungen)
+PA0083,E,HR Master Record: Infotype 0083 (Leave Compensation)
+PA0105,D,Personal-Stammsatz Infotyp 0105 (Kommunikationen)
+PA0105,E,HR Master Record: Infotype 0105 (Communications)
+PA0169,D,Personal-Stammsatz Infotyp 0169 (VermÃ¶gensbildungsplan)
+PA0169,E,HR Master Record: Infotype 0169 (Savings Plan)
+PA0171,D,Personal-Stammsatz Infotyp 0171 (Allg. ArbgLeistInformation)
+PA0171,E,HR Master Record: Infotype 0171 (Gen. Benefits Information)
+PA0183,E,HR Master Record: Infotype 0183 [Awards] (SG)
+PA0185,D,Personalstammsatz: Infotyp 0185 [Identifikation] (UG)
+PA0185,E,HR Master Record: Infotype 0185 [Identification] (SG)
+PA0222,D,Personal-Stammsatz Infotyp 0222 (Firmenwagen GB)
+PA0222,E,HR Master Record for Infotype 0222 (Company Cars GB)
+PA0278,D,Personal-Stammsatz Infotyp 0278 (Grunddaten PK [CH])
+PA0278,E,HR Master Record: Infotype 0278 (Basic Data PF [CH])
+PA0279,D,Personal-Stammsatz Infotyp 0279 (Indiv. Werte zur PK [CH])
+PA0279,E,HR Master Record: Infotype 0279 (Individual Values PF [CH])
+PA0416,D,Infotyp Zeitkontingentabgeltung Datenbanktabelle
+PA0416,E,Time Quota Compensation Infotype: Database Table
+PA0900,D,Personal-Stammsatz Infotyp 0900 (Vertriebsdaten)
+PA0900,E,HR Master Record: Infotype 0900 (Sales Data)
+PA2001,D,Personalzeitsatz-Infotyp 2001 (Abwesenheiten)
+PA2001,E,HR Time Record: Infotype 2001 (Absences)
+PA2002,D,Personalzeitsatz-Infotyp 2002 (Anwesenheiten)
+PA2002,E,HR Time Record: Infotype 2002 (Attendances)
+PA2003,D,Personalzeitsatz Infotyp 2003 (Vertretung)
+PA2003,E,HR Time Record: Infotype 2003 (Substitutions)
+PA2004,D,Personalzeitsatz Infotyp 2004 (Bereitschaft)
+PA2004,E,HR Time Record: Infotype 2004 (Availability)
+PA2005,D,Personalzeitsatz-Infotyp 2005 (Mehrarbeit)
+PA2005,E,HR Time Record: Infotype 2005 (Overtime)
+PA2006,D,Personalzeitsatz-Infotyp 2006 (Abwesenheitskontingente)
+PA2006,E,HR Time Record: Infotype 2006 (Absence Quotas)
+PA2007,D,Personalzeitsatz Infotyp 2007 (Anwesenheitsgenehmigung)
+PA2007,E,HR Time Record: Infotype 2007 (Attendance Quotas)
+PA2010,D,Personalzeitsatz-Infotyp 2010 (Entgeltbelege)
+PA2010,E,HR Time Record: Infotype 2010 (Employee Remuneration Info.)
+PA2012,D,Personalzeitsatz-Infotyp 2012 (Saldokorrekturen)
+PA2012,E,HR Time Record: Infotype 2012 (Time Transfer Specifications)
+PA2013,D,Personalzeitsatz-Infotyp 2013 (Kontingentkorrekturen)
+PA2013,E,HR Time Record: Infotype 2013 (Quota Corrections)
+PAYR,E,Payment Medium File
+PCL1,D,RP-Cluster 1
+PCL1,E,HR Cluster 1
+PLAB,D,Plan - Anordnungsbeziehungen
+PLAB,E,Relationships
+PLAS,D,Plan - Auswahl von Positionen
+PLAS,E,Task list - selection of operations/activities
+PLFL,D,Plan-Folgen
+PLFL,E,Task list - sequences
+PLKO,D,Plan - Kopf
+PLKO,E,Task list - header
+PLKZ,D,Plan: Zentralkopf
+PLKZ,E,Task list: main header
+PLMK,D,PrÃ¼fplanmerkmale
+PLMK,E,Inspection plan characteristics
+PLMZ,D,Zuordnungen StÃ¼cklistenpositionen zu ArbeitsvorgÃ¤ngen
+PLMZ,E,Allocation of bill of material items to operations
+PLPO,D,Plan: Vorgang
+PLPO,E,Task list - operation/activity
+PM0001,D,QM Langtext 
+PM0001,E,QM long text 
+PMCO,E,Cost structure of maintenance order
+PM_ADRC,D,Adressen 
+PM_ADRC,E,addresses 
+PM_AFIH,D,PM Auftragskopf 
+PM_AFIH,E,PM order header 
+PM_AFKO_1,D,PPS Auftragskopf 
+PM_AFKO_1,E,PPS order header 
+PM_AFPO_1,D,Auftrag - Position 
+PM_AFPO_1,E,Order - item 
+PM_AFVC_1,D,Auftrag - Arbeitsvorgang 
+PM_AFVC_1,E,Order - order process 
+PM_AUFK_2,D,Serviceauftraege 
+PM_AUFK_2,E,service orders 
+PM_DRAD,D,Equipment - Verknuefung Dokument-Objekt 
+PM_DRAD,E,equipment - link document-object 
+PM_EQKT,D,Equipment - Kurztexte 
+PM_EQKT,E,Equipment short texts 
+PM_EQUI_1,D,Equipment Stammdaten 
+PM_EQUI_1,E,Equipment master data 
+PM_EQUI_2,D,Auftrag - Equipment Stammdaten 
+PM_EQUI_2,E,Order - equipment master data 
+PM_EQUZ,D,Equipment - Info zum Statusobjekt 
+PM_EQUZ,E,Equipment info of status object 
+PM_IFLOALT,D,Kennz.system 
+PM_IFLOALT,E,Label system 
+PM_IFLOS,D,Kennzeichnungen 
+PM_IFLOS,E,Labels 
+PM_IFLOTX_1,D,Technischer Platz: Kurztexte 
+PM_IFLOTX_1,E,Functional location: Short texts 
+PM_IFLOTX_2,D,Auftrag - Technischer Platz: Kurztexte 
+PM_IFLOTX_2,E,Order functional location: Short texts 
+PM_IFLOT_1,D,Technischer Platz 
+PM_IFLOT_1,E,Functional location 
+PM_IFLOT_2,D,Auftrag Techn. Platz 
+PM_IFLOT_2,E,order functional location 
+PM_IHPA_1,D,Instandhaltung: Partner 
+PM_IHPA_1,E,Plant Maintenance: Partner 
+PM_IHPA_2,D,Equipment - Instandhaltung: Partner 
+PM_IHPA_2,E,equipment - maintenance: partner 
+PM_IHPA_3,D,PM Inst.-Partner 
+PM_IHPA_3,E,PM maint. partner 
+PM_IHPA_4,D,Partner 
+PM_IHPA_4,E,Partner 
+PM_IHSG,D,Genehmigungen 
+PM_IHSG,E,Approvals 
+PM_ILOA_1,D,Standort und Kontierung 
+PM_ILOA_1,E,location and account assignment 
+PM_ILOA_2,D,Standort und Kontierung zum IH-Objekt 
+PM_ILOA_2,E,location and account assignment to IH object 
+PM_ILOA_3,D,Auftrag - Standort und Kontierung zum IH-Objekt 
+PM_ILOA_3,E,order - location and account assignmentllocaa ion to IH-object 
+PM_ILOA_4,D,Standort und Kontierung 
+PM_ILOA_4,E,Location and account assignment 
+PM_IP16,D,Wartungsplan anzeigen
+PM_IP16,E,Display Maintenance Plan
+PM_IW29,D,Meldungen anzeigen
+PM_IW29,E,Display Notifications
+PM_IW39,D,IH-Aufträge anzeigen
+PM_IW39,E,Display PM orders
+PM_KNA1,D,Auftrag - Kundenstamm (allgemeiner Teil) 
+PM_KNA1,E,Order - customer master (general part) 
+PM_MARA_1,D,Allgemeine Materialdaten 
+PM_MARA_1,E,General material data 
+PM_MARA_2,D,Allg. Mat. Daten Auftragskopf 
+PM_MARA_2,E,gen. mat. data order header 
+PM_MKVZ,D,Equipment - Lieferantenstamm [MKVZ]
+PM_MKVZ,E,Equipment - vendor master [MKVZ]
+PM_PRPS_1,D,PSP-Element 
+PM_PRPS_1,E,PSP element 
+PM_QM11,D,Servicemeldung [QM11]
+PM_QM11,E,Service notification [QM11]
+PM_QMEL_1,D,Auftrag - Qualitaetsmeldung 
+PM_QMEL_1,E,Order - quality notification 
+PM_QMFE,D,Qualitaetsmeldung - Positionen 
+PM_QMFE,E,Quality notification items 
+PM_QMIH,D,Instandhaltungsdaten 
+PM_QMIH,E,maintenance data 
+PM_QMMA,D,Qualitaetsmeldung - Aktionen 
+PM_QMMA,E,Quality notification actions 
+PM_QMSM,D,QM - Massnahmen 
+PM_QMSM,E,QM tasks 
+PM_QMUR,D,Qualitaetsmeldung - Ursachen 
+PM_QMUR,E,Quality notification causes 
+PM_QPCT,D,Massnahmentext 
+PM_QPCT,E,Task text 
+PM_QPGR,D,Codegruppen 
+PM_QPGR,E,Code groups 
+PM_TQ80_T,D,Meldungstext 
+PM_TQ80_T,E,Notification text 
+VOBJK,E,PM_VOBJK
+PP0001,D,Auftragsposition 
+PP0001,E,Order item 
+PP0002,D,Materialverwendung 
+PP0002,E,Where used list 
+PP0003,D,Stueckliste Kopfdaten 
+PP0003,E,Bill of materials header data 
+PP0004,D,Stueckliste Positionsdaten 
+PP0004,E,Bill of materials item data 
+PP0005,D,Bill of materials item level 
+PP0005,E,Bill of materials item level 
+PP0006,D,Stueckliste Positionsdaten 
+PP0006,E,Bill of materials item data 
+PP0007,D,Zuordnung Positionen zu Vorgang 
+PP0007,E,Allocation items to process 
+PP0008,D,Arbeitsplan Kopf 
+PP0008,E,Routing header 
+PP0009,D,Langtext anzeige 
+PP0009,E,Display long text 
+PP0010,D,Kapazitaet/ Kopfdaten 
+PP0010,E,Capacity / header data 
+PP_CA03,D,Arbeitsplan [CA03]
+PP_CA03,E,Routing [CA03]
+PP_CM0,D,Arbeitsplatz [CM0/CR03/CR13 ]
+PP_CM0,E,Work center [CM0 /CR03 /CR13 ]
+PP_CO03,D,Produktionsauftrag [CO03/CO14 ]
+PP_CO03,E,Production order [CO03 /CO14 ]
+PP_CO14,D,Rueckmeldung [CO14]
+PP_CO14,E,Confirmation [CO14]
+PP_CRCA,D,Arbeitsplatz Kapazitaetszuordnung 
+PP_CRCA,E,Work center capacity allocation 
+PP_CRCO,D,Arbeitsplatz Kostenstellenzuordnung 
+PP_CRCO,E,Work center cost center allocation 
+PP_CRID,D,Einsatzmittel Objektidentifikation 
+PP_CRID,E,Operating resources object identification 
+PP_CRTX,D,Arbeitsplatz Kurzbezeichnung 
+PP_CRTX,E,Work center short description 
+PP_CS03,D,Materialstueckliste CS03]
+PP_CS03,E,Bill of materials CS03]
+PP_CS15,D,Materialverwendung [CS15]
+PP_CS15,E,Use of materials [CS15]
+PP_CS63,D,Auftragsstueckliste anzeigen [CS63]
+PP_CS63,E,Display order BOM [CS63]
+PP_CS73,D,Projektstueckliste [CS73]
+PP_CS73,E,Project Material List (BOM) [CS73]
+PP_KAKO,D,Kapazitaet Kopfsegment 
+PP_KAKO,E,capacity head segment 
+PP_KAKT,D,Kapazitaet Bezeichnung 
+PP_KAKT,E,Capacity description 
+PP_KAPA,D,Kapazitaet Schichtwerte 
+PP_KAPA,E,Capacity shift values 
+PP_KAPE,D,Kapazitaet Basiseinheit Zuordnung 
+PP_KAPE,E,capacity base unit allocation 
+PP_KAZY,D,Kapazitaet Angebotsintervalle 
+PP_KAZY,E,Interval of available capacity 
+PP_PLKO,D,Routing Overview 
+PP_PLKO,E,Routing Overview 
+PP_T024D,D,Materialdisponenten 
+PP_T024D,E,MRP controllers 
+PP_T416T,D,Texte zur Stuecklistenverwendung 
+PP_T416T,E,Texts to bill of materials usage 
+PRHI,D,Projektstrukturplan Kanten (Hierarchiezeiger)
+PRHI,E,Work Breakdown Structure Edges (Hierarchy Pointer)
+PROJ,D,Projektdefinition
+PROJ,E,Project definition
+PROJS,D,Standardprojektdefinition
+PROJS,E,Standard project definition
+PRPS,D,PSP-Element (Projektstrukturplanelement) Stammdaten
+PRPS,E,WBS (Work Breakdown Structure) Element Master Data
+PRST,D,Verbindung Projekt - StÃ¼ckliste
+PRST,E,Project - BOM link
+PRTE,E,Scheduling Data for Project Item
+PS0001,D,PS System-Status 
+PS0001,E,PS system status 
+PS0002,D,PS Anw.-Status 
+PS0002,E,PS Anw.-status 
+PS0003,D,L-Text_PSP Element 
+PS0003,E,L-Text_PSP element 
+PS0004,D,L-Text Projekt 
+PS0004,E,L-text project 
+PS0005,D,L-Text AUFK 
+PS0005,E,L-text AUFK 
+PS0006,D,L-Text AVO 
+PS0006,E,L-text AVO 
+PS0007,D,Basis Detail 
+PS0007,E,Base Detail 
+PS0008,D,Entlastung Details 
+PS0008,E,Relief Details 
+PS0009,D,Zuschlag Details 
+PS0009,E,Surcharge Details 
+PS0010,D,Zuschlag Konditionen anzeigen 
+PS0010,E,Show surcharge conditions 
+PS_0001,D,KompNetzVorg 
+PS_0001,E,Comp net proc 
+PS_AFAB,D,Netzplananordnungsbeziehungen 
+PS_AFAB,E,Network assignment relations 
+PS_AFKO_2,D,Netzplaene 
+PS_AFKO_2,E,Networks 
+PS_AFPO_2,D,Auftragspositionen 
+PS_AFPO_2,E,Order items 
+PS_AFPO_3,D,PS Netz-Pos 
+PS_AFPO_3,E,PS net item 
+PS_AFVC_2,D,Auftrag Vorgaenge 
+PS_AFVC_2,E,Order processes 
+PS_AFVC_3,D,PS Netzplan-AVO 
+PS_AFVC_3,E,PS network AVO 
+PS_AFVU,D,Netz AVO-User-Felder 
+PS_AFVU,E,Net AVO-user-fields 
+PS_AFVV,D,Netz AVO-Mengen 
+PS_AFVV,E,Net AVO-quantities 
+PS_BSEG_2,D,Belegsegment Buchhaltung 
+PS_BSEG_2,E,document segment accounting 
+PS_CJI3,D,Projekt Einzelposten Istkosten [CJI3/ S_ALR_87013531]
+PS_CJI3,E,Project Line items Actual costs [CJI3 / S_ALR_87013531]
+PS_CJI5_1,D,Projekt Einzelposten Obligo [CJI5]
+PS_CJI5_1,E,Project Line Item Commitment [CJI5]
+PS_CN41,D,Projektinformationssystem [CN41]
+PS_CN41,E,Project Information System [CN41]
+PS_CN42N,D,Projektdefinition [CN42N/ CJ08/ CJ20N]
+PS_CN42N,E,Project definition [CN42N / CJ08 / CJ20N]
+PS_CN43N,D,PSP-Element Stammdaten [CN43N]
+PS_CN43N,E,PSP element master data [CN43N]
+PS_COBK_2,D,CO-Belege Kopfdaten 
+PS_COBK_2,E,CO-documents header data 
+PS_COBRA_2,D,Abrechnungsvorschrift anzeigen 
+PS_COBRA_2,E,Display accounting rule 
+PS_COEP_2,D,Einzelposten periodenbezogen 
+PS_COEP_2,E,line item according to period 
+PS_COSPP_1,D,Uebernahme der COSP-Tabelle Auftrag auf Projekt 
+PS_COSPP_1,E,Transfer of COSP-chart order on project 
+PS_COSP_1,D,Summen Kosten - externe Buchnungen 
+PS_COSP_1,E,total costs - external postings 
+PS_COSS_3,D,Summen Kosten - interne Buchungen 
+PS_COSS_3,E,total costs - internal postings 
+PS_EVOP,D,Netz AVO-Parameter 
+PS_EVOP,E,Net AVO parameters 
+PS_MLST,D,Meilenstein 
+PS_MLST,E,Milestone 
+PS_MLTX,D,Meilensteinbezeichnung 
+PS_MLTX,E,Milestone description 
+PS_PLAB,D,Arbeitsplan Anordnungsbeziehungen 
+PS_PLAB,E,Task list / relationships 
+PS_PROJS,D,Standard Projektdefinition 
+PS_PROJS,E,PSP elements 
+PS_PRPS_2,D,PSP Element 
+PS_PRPS_2,E,PSP element 
+PS_PRPS_3,D,PSP-Element 
+PS_PRPS_3,E,PSP element 
+PS_PRPS_4,D,PSP-Element 
+PS_PRPS_4,E,PSP element 
+PS_QMEL_2,D,QualitÃ¤tsmeldung 
+PS_QMEL_2,E,Quality notificatin 
+PS_S_ALR_87005104,D,Kalkulationsschema anzeigen [S_ALR_87005104/ KZS2]
+PS_S_ALR_87005104,E,Calculation scheme display [S_ALR_87005104 / KZS2]
+PS_TCN01,D,Schlagworte 
+PS_TCN01,E,Key words 
+QALS,D,PrÃ¼flossatz
+QALS,E,Inspection lot record
+QALT,D,Teillos
+QALT,E,Partial lot
+QAMB,D,QM: Link zw. PrÃ¼flos und Materialbelegen
+QAMB,E,QM: Link Between Inspection Lot and Material Document
+QAVE,D,PrÃ¼fabwicklung : Verwendungsentscheid
+QAVE,E,Inspection processing: Usage decision
+QBEW,D,Bewertung Projektbestand
+QBEW,E,Project Stock Valuation
+QDDR,D,Dynamisierungsregel (Kopf)
+QDDR,E,Dynamic modification rule (header)
+QDPS,D,PrÃ¼fstufen zu einer Dynamisierungsregel
+QDPS,E,Inspection stages for a dynamic modification rule
+QDPST,D,PrÃ¼fstufen: Texte
+QDPST,E,Inspection Stages: Texts
+QDQL,D,QualitÃ¤tslage
+QDQL,E,Quality level
+QINF,D,QM-Informationssatz zu Material und Lieferant
+QINF,E,QM-info record for material and vendor
+QMEL,D,QualitÃ¤tsmeldunq
+QMEL,E,Quality Notification
+QMFE,D,Qualitaetsmeldung - Positionen
+QMFE,E,Quality notification - items
+QMIH,D,Qualitaetsmeldung - Abschnitt Instandhaltungsdaten
+QMIH,E,Quality message - maintenance data excerpt
+QMMA,D,Qualitaetsmeldung - Aktionen
+QMMA,E,Quality notification - activities
+QMSM,D,Qualitaetsmeldung - MaÃŸnahmen
+QMSM,E,Quality notification - tasks
+QMUR,D,Qualitaetsmeldung - Ursachen
+QMUR,E,Quality notification - causes
+QM_QA33_1,D,Prueflossatz [QA33]
+QM_QA33_1,E,Inspection lot [QA33]
+QM_QA33_2,D,Teillos [QA33]
+QM_QA33_2,E,Partial lot [QA33]
+QM_QA33_3,D,Link Prueflos und Materialbelegen [QA33]
+QM_QA33_3,E,Inspection lot/ material doc [QA33]
+QM_QA33_4,D,Verwendungsentscheid [QA33]
+QM_QA33_4,E,Usage decision [QA33]
+QM_QDL3,D,Qualitaetslage anzeigen [QDL3]
+QM_QDL3,E,Quality level [QDL3]
+QM_QDR3_1,D,Dynamisierungsregel [QDR3]
+QM_QDR3_1,E,Dynamic modification rule [QDR3]
+QM_QDR3_2,D,Pruefstufen [QDR3]
+QM_QDR3_2,E,Inspection stages [QDR3]
+QM_QDR3_4,D,Text: PrÃ¼fstufen [QDR3]
+QM_QDR3_4,E,Text: Inspection stages [QDR3]
+QM_QI03,D,Q-Infosatz anzeigen [QI03]
+QM_QI03,E,Q info record [QI03]
+QM_QM03,D,Meldungen [QM03]
+QM_QM03,E,Display notification [QM03]
+QM_QPGT,D,Text: Codegruppe 
+QM_QPGT,E,Text: Code group 
+QPCT,D,Code-Texte
+QPCT,E,Code texts
+QPGR,D,PrÃ¼fkatalog Codegruppen
+QPGR,E,Inspection catalog code groups
+QPGT,D,Codegruppen-Texte
+QPGT,E,Code group texts
+RBCO,D,Belegposition Eingangsrechnung Kontierung
+RBCO,E,Document Item Incoming Invoice Account Assignment
+RBKP,D,Belegkopf Eingangsrechnung
+RBKP,E,Document Header: Invoice Receipt
+RBKP_BLOCKED,D,Logistik-RechnungsprÃ¼fung: Gesperrte Rechnungen
+RBKP_BLOCKED,E,Logistics Invoice Verification: Blocked Invoices
+RBMA,D,Belegposition Eingangsrechnung Material
+RBMA,E,Document Item: Incoming Invoice for Material
+RBTX,D,Steuern Eingangsrechnung
+RBTX,E,Taxes: Incoming Invoice
+RBWS,D,Quellensteuerdaten Eingangsrechnung
+RBWS,E,Withholding Tax Data Incoming Invoice
+RBWT,D,Quellensteuerdaten Eingangsrechnung
+RBWT,E,Withholding Tax Data Incoming Invoice
+REGUH,E,Settlement data from payment program
+REGUP,E,Processed items from payment program
+RESB,D,Reservierung/SekundÃ¤rbedarf
+RESB,E,Reservation/dependent requirements
+RPSCO,E,Project info database: Costs revenues finances
+RSEG,D,Belegposition Eingangsrechnung
+RSEG,E,Document Item: Incoming Invoice
+S001,D,VIS: Kundenstatistik
+S001,E,SIS: Customer Statistics
+S002,D,VIS: VerkaufsbÃ¼rostatistik
+S002,E,SIS: Sales Office Statistics
+S004,D,VIS: Produkt/Verkaufsorganisation/Vertriebsweg
+S004,E,SIS: Product/Sales Organization/Distribution Channel
+S005,D,VIS: Versandstelle/Route/Spediteur/Land des EmpfÃ¤ngers
+S005,E,SIS: Shipping Point/Route/Forwarding Agent/Receiving Country
+S012,D,Einkauf
+S012,E,Purchasing
+SD0001,D,Verkaufsbelege nach Partner 
+SD0001,E,Sales document partner 
+SD0002,D,kaufmaennische Daten 
+SD0002,E,Sales document: business data 
+SD0003,D,Auftragspositionssuche 
+SD0003,E,Order item search 
+SD0004,D,KA Kopftext 
+SD0004,E,SO header text 
+SD0005,D,KA Positionstext 
+SD0005,E,SO item text 
+SD0006,D,Konditionsarten 
+SD0006,E,condition types 
+SD0007,D,Billing Document List 
+SD0007,E,Billing Document List 
+SD0008,D,CO-PA Ergebnisbericht 
+SD0008,E,CO-PA profitability report 
+SD0009,D,Kopftext 
+SD0009,E,Headertext 
+SD0010,D,Einzelposten Teex 
+SD0010,E,Item Text 
+SD0011,D,Aussenhandel 
+SD0011,E,Foreign Trade 
+SD0012,D,Kunden Vertriebsdaten & Partnerrollen 
+SD0012,E,Customer / sales data & partner func. 
+SD0013,D,Text: Fakturaart 
+SD0013,E,Text: Invoice Type SD 
+SD0014,D,Konditionen 
+SD0014,E,conditions 
+SD_A004,D,Materialkonditionen 
+SD_A004,E,material conditions 
+SD_CE1ER01,D,CO-PA Einzelposten anzeigen 
+SD_CE1ER01,E,CO-PA display line item 
+SD_COSPP_2,D,Uebernahme der COSP-Tabelle Auftrag zum Projekt 
+SD_COSPP_2,E,transfer of COSP-table order to project 
+SD_COSP_2,D,Summen Kosten - externe Buchungen 
+SD_COSP_2,E,total costs - external entries 
+SD_COSS_2,D,Summen Kosten - interne Buchungen 
+SD_COSS_2,E,total costs - internal entries 
+SD_DD07T_1,D,DD: Texte zu Domaenenfestwerten 
+SD_DD07T_1,E,DD: Texts for Domain Fixed Values (Language-Dependent) 
+SD_DD07T_2,D,Verkaufsauftrag Statustyp 
+SD_DD07T_2,E,sales order status type 
+SD_DD07T_3,D,Text: Fakturakopftext 
+SD_DD07T_3,E,Text: Outgoing Invoice Header 
+SD_KONH,D,Konditionsstamm 
+SD_KONH,E,Conditions master 
+SD_KONM,D,Konditionen Mengenstaffel 
+SD_KONM,E,Conditions quantity scale 
+SD_KONP,D,Konditionen Positionen 
+SD_KONP,E,Conditions items 
+SD_KONV,D,KA Konditionen (Vorgangsdaten) 
+SD_KONV,E,KA conditions (transaction data) 
+SD_KONW,D,Konditionen Wertstaffel 
+SD_KONW,E,Conditions value scale 
+SD_MCTC,D,VIS Materialanalyse [MCTC]
+SD_MCTC,E,VIS material analysis [MCTC]
+SD_MCTE,D,VIS VkOrg-Analyse [MCTE]
+SD_MCTE,E,VIS Sales Organisation analysis [MCTE]
+SD_MCTK,D,VIS Versandstelle-Analyse [MCTK]
+SD_MCTK,E,VIS Delivery Plant analysis [MCTK]
+SD_S001,D,VIS Auswertung 
+SD_S001,E,VIS analysis 
+SD_S002_1,D,VIS Verkaufsbueraustatistik 
+SD_S002_1,E,VIS sales office statistics 
+SD_S002_2,D,VIS Verkaufsbueraustatistik 
+SD_S002_2,E,VIS sales office statistics 
+SD_SDBLBDDL,D,Liste gesperrte Fakturen [SDBLBDDL]
+SD_SDBLBDDL,E,List of blocked invoices [SDBLBDDL]
+SD_SDD1,D,Doppelte Verkaufsbelege im Zeitraum [SDD1]
+SD_SDD1,E,Duplicate Sales Documents in Period [SDD1]
+SD_T685T,D,Konditionstyp 
+SD_T685T,E,Condition type 
+SD_TPART,D,Text: Partnerrolle 
+SD_TPART,E,Text: Partner Function 
+SD_TSPAT,D,Text: Vertriebssparte 
+SD_TSPAT,E,Text: Sales divisions 
+SD_TVAGT,D,Absagegrund Text 
+SD_TVAGT,E,Rejection reason 
+SD_TVAKT,D,Text: Verkaufsbelegarten SD 
+SD_TVAKT,E,Text: Salesdocument Type SD 
+SD_TVBST,D,Text: Fakturasperre Lieferstatus 
+SD_TVBST,E,Text: SD Documents Processing Status 
+SD_TVFST,D,Text: Fakturasperre Grund 
+SD_TVFST,E,Text: Billing blocking Reason 
+SD_TVGRT,D,Text: Verkaeufergruppe 
+SD_TVGRT,E,Text: Sales groups 
+SD_TVKBT,D,Text: Verkaufsbuero 
+SD_TVKBT,E,Text: Sales office 
+SD_TVKOT,D,Text: Verkaufsorganisation 
+SD_TVKOT,E,Text: Sales organisation 
+SD_TVROT,D,Text: Route 
+SD_TVROT,E,Text: Routes 
+SD_TVSTT,D,Text: Versandstellen 
+SD_TVSTT,E,Text: Shipping Point 
+SD_TVTWT,D,Text: Vertriebsweg 
+SD_TVTWT,E,Text: Sales Point 
+SD_VA03,D,Kundenauftrag anzeigen [VA03]
+SD_VA03,E,Sales Order display [VA03]
+SD_VA05_1,D,Kundenauftraege [S_ALR_87012995/VA05]
+SD_VA05_1,E,customer orders [S_ALR_87012995 /VA05]
+SD_VA05_2,D,Verkaufsbeleg Liste Positionen [VA05/ S_AL0_96000488]
+SD_VA05_2,E,Order item search [VA05 / S_AL0_96000488]
+SD_VA23,D,Angebote / Angebotsliste anzeigen [VA23/ VA25]
+SD_VA23,E,Quotations display [VA23 / VA25]
+SD_VA33_1,D,Lieferplan / Lieferplanliste anzeigen SD [VA33/ VA35]
+SD_VA33_1,E,Scheduling Agreement SD display [VA33 / VA35]
+SD_VA43_1,D,Kontrakt / Kontraktliste anzeigen SD [VA43/ VA45]
+SD_VA43_1,E,Contract SD display [VA43 / VA45]
+SD_VB8,D,Liste Bonusabsprachen [VB(8]
+SD_VB8,E,List of Rebate Agreements [VB(8]
+SD_VBAK_1,D,Kundenangebot 
+SD_VBAK_1,E,Customer quotation 
+SD_VBAK_2,D,Ist/Plan/KdU kumuliert IPN 
+SD_VBAK_2,E,Actual/target/KdU cumulative IPN 
+SD_VBAK_3,D,Kundenkontrakt 
+SD_VBAK_3,E,Customer Contract 
+SD_VBAP_1,D,Kundenauftrag Positionen 
+SD_VBAP_1,E,Customer order items 
+SD_VBAP_2,D,Kundenangebot Positionsdaten 
+SD_VBAP_2,E,customer quotation item data 
+SD_VBAP_3,D,Verkaufsbeleg Positionsdaten 
+SD_VBAP_3,E,sales document item data 
+SD_VBAP_4,D,Kundenauftraerge Positionsdaten 
+SD_VBAP_4,E,customer orders item data 
+SD_VBAP_5,D,Vertriebsbeleg/ Positionen 
+SD_VBAP_5,E,Sales doc. / items 
+SD_VBEP_1,D,Verkaufsauftrag Einplanung 
+SD_VBEP_1,E,sales order planning 
+SD_VBEP_2,D,Kundenangebot Einteilungsdaten 
+SD_VBEP_2,E,Customer quotation schedule line data 
+SD_VBFA,D,Vertriebsbeleg Belegfluss 
+SD_VBFA,E,Sales doc. / document flow 
+SD_VBKD_1,D,Kundenangebot 
+SD_VBKD_1,E,customer quotation 
+SD_VBKD_2,D,Bestelldaten 
+SD_VBKD_2,E,order data 
+SD_VBPA,D,Kundenangebot Partner 
+SD_VBPA,E,customer quotation partner 
+SD_VBRP,D,Faktura/ Positionen 
+SD_VBRP,E,SD Invoice / items 
+SD_VBUK,D,Kundenauftrag Status 
+SD_VBUK,E,Sales order status 
+SD_VD03,D,Debitor-Kunden-Stammdaten Vetriebsbereiche [VD03]
+SD_VD03,E,Debtor-customer master data Sales area [VD03]
+SD_VEDA,D,Kundenangebot Vertragsdaten 
+SD_VEDA,E,Customer quotation contract data 
+SD_VF03_1,D,SD-Fakturen [VF03]
+SD_VF03_1,E,SD invoices [VF03]
+SD_VF05_3,D,Fakturen Liste [VF05]
+SD_VF05_3,E,Billing document list [VF05]
+SD_VL03N_1,D,Lieferungen SD [S_AL0_96000489/ VL03N]
+SD_VL03N_1,E,Delivery SD [S_AL0_96000489 / VL03N]
+SD_VL03N_2,D,Lieferung Positionsdaten SD [VL03N]
+SD_VL03N_2,E,Delivery / item data SD [VL03N]
+SD_VTTK,D,Transport anzeigen 
+SD_VTTK,E,Display shipment 
+SD_V_23,D,Zur Faktura gesperrte Verkaufsbelege [V.23]
+SD_V_23,E,Release Sales Orders for Billing [V.23]
+SD_V_26,D,Liste Verkaufsbelege nach Objektstatus [V.26]
+SD_V_26,E,List of sales documents by object status [V.26]
+SEATLEAF,E,
+SETHEADER,D,Setkopf und Setverzeichnis
+SETHEADER,E,Set Header and Directory
+SETHEADERT,D,Kurzbeschreibung zu Sets
+SETHEADERT,E,Short Description of Sets
+SETLEAF,D,Werte in Sets
+SETLEAF,E,Values in Sets
+SETNODE,D,Untergeordnete Sets in Sets
+SETNODE,E,Lower-level sets in sets
+SKA1,D,Sachkontenstamm (Kontenplan)
+SKA1,E,G/L Account Master (Chart of Accounts)
+SKAT,D,Sachkontenstamm (Kontenplan: Bezeichnung)
+SKAT,E,G/L Account Master Record (Chart of Accounts: Description)
+SKB1,D,Sachkontenstamm (Buchungskreis)
+SKB1,E,G/L account master (company code)
+STAS,D,StÃ¼cklisten - Auswahl von Positionen
+STAS,E,BOMs - Item Selection
+STKO,D,StÃ¼cklistenkopf
+STKO,E,BOM Header
+STPO,D,StÃ¼cklistenposition
+STPO,E,BOM item
+STXH,D,STXD SAPscript Text-Datei Header
+STXH,E,STXD SAPscript text file header
+STXL,D,STXD SAPscript Text-Datei Lines
+STXL,E,STXD SAPscript text file lines
+STZU,D,ZeitunabhÃ¤ngige StÃ¼cklistendaten
+STZU,E,Permanent BOM data
+SWOR,D,Klassifizierungssytem: SchlagwÃ¶rter
+SWOR,E,Classification System: Keywords
+SYS0006,D,Tabellen mit Daten
+SYS0006,E,Tables with data
+T000,D,Mandanten
+T000,E,Clients
+T001,D,Buchungskreise
+T001,E,Company Codes
+T001A,D,Steuerung der zusÃ¤tzlichen HauswÃ¤hrungen zum Buchungskreis
+T001A,E,Additional Local Currencies Control for Company Code
+T001K,D,Bewertungskreis
+T001K,E,Valuation area
+T001L,D,Lagerorte
+T001L,E,Storage Locations
+T001P,D,Personalbereich/-teilbereich
+T001P,E,Personnel Area/Subarea
+T001W,D,Werke/Niederlassungen
+T001W,E,Plants/Branches
+T003,D,Belegarten
+T003,E,Document Types
+T003O,D,Auftragsarten
+T003O,E,Order Types
+T003P,D,Auftragsarten-Texte
+T003P,E,Order Type Descriptions
+T003T,D,Belegartentexte
+T003T,E,Document Type Texts
+T004T,D,Bezeichnung der KontenplÃ¤ne
+T004T,E,Chart of Account Names
+T005,D,LÃ¤nder
+T005,E,Countries
+T005T,D,Bezeichnung der LÃ¤nder
+T005T,E,Country Names
+T005U,D,Steuern: ProvinzschlÃ¼ssel: Texte
+T005U,E,Taxes: Region Key: Texts
+T006,D,MaÃŸeinheiten
+T006,E,Units of Measurement
+T006A,D,Zuordnung interne - sprachabhÃ¤ngige MaÃŸeinheit
+T006A,E,Assign Internal to Language-Dependent Unit
+T007A,D,SteuerschlÃ¼ssel
+T007A,E,Tax Keys
+T007S,D,Bezeichnung der Steuerkennzeichen
+T007S,E,Tax Code Names
+T011,D,Bilanz/GuV-Strukturen
+T011,E,Financial Statement Versions
+T011T,D,Bezeichnung der Ergebnisrechnungsversion
+T011T,E,Financial statement version names
+T012K,D,Konten bei Hausbanken
+T012K,E,House Bank Accounts
+T014,D,Kreditkontrollbereiche
+T014,E,Credit control areas
+T016T,D,Bezeichnung der Branchen
+T016T,E,Industry Names
+T023T,D,Bezeichnungen zu Warengruppen
+T023T,E,Material Group Descriptions
+T024,D,Einkaufsgruppen
+T024,E,Purchasing Groups
+T024A,D,Planergruppe
+T024A,E,Planner group
+T024D,D,Materialdisponenten
+T024D,E,MRP controllers
+T024E,D,Einkaufsorganisationen
+T024E,E,Purchasing Organizations
+T024F,D,Fertigungssteuerer
+T024F,E,Production scheduler
+T024X,D,Texte zu Labor/BÃ¼ro
+T024X,E,Laboratory/Office Texts
+T025T,E,Valuation Class Descriptions
+T030,D,Fixkontentabelle
+T030,E,Standard Accounts Table
+T052U,D,Eigene ErlÃ¤uterungen zu Zahlungsbedingungen
+T052U,E,Own Explanations for Terms of Payment
+T064B,D,Bestandarten und -texte fÃ¼r die Inventur
+T064B,E,Stock Types and Texts for Physical Inventory
+T064T,D,Texte zur Inventur
+T064T,E,Physical Inventory: Texts
+T074T,D,Bezeichnung der Sonderhauptbuchkennzeichen
+T074T,E,Special G/L Indicator Names
+T090C,D,Externe AbschreibungsschlÃ¼ssel
+T090C,E,External depreciation keys
+T090T,D,Bezeichnung externe AbschreibungsschlÃ¼ssel
+T090T,E,Names For External Depreciation Keys
+T093,D,Bewertungsbereiche echt und abgeleitet
+T093,E,Real and derived depreciation areas
+T093B,D,Buchungskreisbezogene Bewertungsbereichsangaben
+T093B,E,Company code-related depreciation area specifications
+T093T,D,Bezeichnung echter und abgeleiteter Bewertungsbereiche
+T093T,E,Names for real and derived depreciation areas
+T095,D,Bestandskonten der Bewertungsbereiche
+T095,E,Balance sheet accounts for depreciation areas
+T095T,D,Bezeichnung Kontengruppen
+T095T,E,Name for account groups
+T096,D,BewertungsplÃ¤ne
+T096,E,Chart of depreciation
+T096T,D,Texte der BewertungsplÃ¤ne
+T096T,E,Chart of depreciation texts
+T141T,D,Bezeichnungen Materialstatus aus Mat-/PPS-Sicht
+T141T,E,Descriptions of Material Status from MM/PP View
+T148T,D,Sonderbestandsbezeichnungen
+T148T,E,Special Stock Descriptions
+T149T,D,Bezeichnungen globaler Bewertungstypen
+T149T,E,Global Valuation Category Descriptions
+T156,D,Bewegungsart
+T156,E,Movement Type
+T156T,D,Bewegungsart Text
+T156T,E,Movement Type Text
+T157E,D,Texttabelle: Grund der Bewegung
+T157E,E,Text Table: Reason for Movement
+T161T,D,Texte zu Einkaufsbelegarten
+T161T,E,Texts for Purchasing Document Types
+T163C,D,Texte zu Bestellentwicklungstypen
+T163C,E,Texts for Purchase Order History Categories
+T163I,D,Texte zu Kontierungstypen
+T163I,E,Texts for Account Assignment Categories
+T300T,D,Lagernummerbezeichnungen
+T300T,E,Warehouse Number Descriptions
+T301T,D,Lagertypbezeichnungen
+T301T,E,Storage Type Descriptions
+T416,D,StÃ¼cklistenverwendung - Positionsstatus
+T416,E,BOM Usage - Item Statuses
+T416T,D,Texte zur StÃ¼cklistenverwendung
+T416T,E,BOM Usage Texts
+T499S,D,Standort
+T499S,E,Location
+T500C,D,WÃ¤hrung des Ã–ffentlichen Sektors
+T500C,E,Currency for Public Service Sector
+T500P,D,Personalbereiche
+T500P,E,Personnel Areas
+T503T,D,Mitarbeiterkreis-Bezeichnungen
+T503T,E,Employee Subgroup Names
+T510A,D,Tarifarten
+T510A,E,Pay Scale Types
+T510G,D,Tarifgebiete
+T510G,E,Pay Scale Areas
+T512T,D,Lohn-Gehaltsarten-Text
+T512T,E,Wage Type Texts
+T513S,D,Stellenbezeichnung
+T513S,E,Job Titles
+T517T,D,Schularten-Bezeichnungen
+T517T,E,Educational Establishment Type Designations
+T517X,D,Fachrichtungen
+T517X,E,Branches of Study
+T526,D,Sachbearbeiter
+T526,E,Administrators
+T527X,D,Organisationseinheiten
+T527X,E,Organizational Units
+T528T,D,Planstellentexte
+T528T,E,Position Texts
+T529T,D,Personalmassnahmen-Texte
+T529T,E,Personnel Action Texts
+T529U,D,Statuswerte
+T529U,E,Status Values
+T530E,D,Ã„nderungsgrÃ¼nde
+T530E,E,Reasons for Changes
+T530F,D,Ã„nderungsgrÃ¼nde
+T530F,E,Reasons for Changes
+T530T,D,Texte zu Massnahmengruenden
+T530T,E,Reason for Action Texts
+T533T,D,Urlaubsarten Texte
+T533T,E,Leave Type Texts
+T538T,D,Zeit-/Masseinheiten-Texte
+T538T,E,Units of Time/Measurement Texts
+T542T,D,AnstellungsverhÃ¤ltnisse
+T542T,E,Employment Contracts
+T547S,D,Vertragsarten - Texte
+T547S,E,Contract Type Texts
+T548T,D,Datumsarten
+T548T,E,Date Types
+T549T,D,Abrechnungskreise
+T549T,E,Payroll areas
+T554T,D,Ab- und Anwesenheitstexte
+T554T,E,Absence and Attendance Texts
+T555Q,D,Texte fÃ¼r Personalzeitumbuchungsart
+T555Q,E,Texts for Time Transfer Type
+T555V,D,Mitarbeiterstatus fÃ¼r Personalzeitwirtschaft - Texte
+T555V,E,Employee Status for Time Management: Texts
+T556,D,Vertretungsarten
+T556,E,Substitution Types
+T556B,D,Abwesenheitskontingenttyp Texte
+T556B,E,Absence Quota Type Texts
+T574B,D,Qualifikationsbezeichnungen
+T574B,E,Qualification Names
+T591S,D,Texte zu Info-Subtypen
+T591S,E,Subtype Texts
+T5C1B,D,Texte zu AHV-SchlÃ¼sseln
+T5C1B,E,Texts for AHV Keys
+T5C1O,D,Kantone/Gemeinden
+T5C1O,E,Cantons/Municipalities (CH)
+T5C2G,D,Texte zur Quellensteuer
+T5C2G,E,Texts for Withholding Tax
+T5CA2,D,VS-Wertarten
+T5CA2,E,PC Value Types
+T5CA3,D,HR-CH: Wertartbezeichnungen
+T5CA3,E,HR-CH: Value type descriptions
+T5CAQ,D,Bezeichnungen zu MA-Attributklassen
+T5CAQ,E,HR-CH: Identification of EE attribute classes
+T5K13,D,Stellen
+T5K13,E,Jobs
+T5UBA,D,Arbeitgeberleistungsplan
+T5UBA,E,Benefit plan
+T5UC1,D,ArbgLeistung Planart Texte
+T5UC1,E,Benefit plan type texts
+T5UC3,D,Arbeitgeberleistungsbereich Texte
+T5UC3,E,Benefit area texts
+T5UC4,D,ArbgLeistung ZulÃ¤ssigkeitsgruppierung Texte
+T5UC4,E,Benefit eligibility grouping texts
+T5UC9,D,ArbgLeistung Zweite Programmgruppierung Texte
+T5UC9,E,Benefit Second Program Grouping Texts
+T5UCT,D,ArbgLeistung Erste Programmgruppierung Texte
+T5UCT,E,Benefit first program grouping texts
+T5UCV,D,ArbgLeistung ZulÃ¤ssigkeitsregelung Texte
+T5UCV,E,Benefit eligibility rules texts
+T682,D,Konditionen: Zugriffsfolgen
+T682,E,Conditions: Access Sequences
+T682T,D,Konditionen: Zugriffsfolgen: Texte
+T682T,E,Conditions: Access Sequences: Texts
+T683,D,Kalkulationsschemata
+T683,E,Pricing procedures
+T683S,D,Kalkulationsschemata: Daten
+T683S,E,Pricing Procedure: Data
+T683T,D,Kalkulationsschemata: Texte
+T683T,E,Pricing Procedures: Texts
+T683U,D,Konditionen: Schema (Text)
+T683U,E,Conditions: Procedure (Text)
+T685,D,Konditionen: Arten
+T685,E,Conditions: Types
+T685A,D,Konditionen: Arten: Zusatzdaten Preiselemente
+T685A,E,Conditions: Types: Additional Price Element Data
+T685T,D,Konditionen: Arten: Texte
+T685T,E,Conditions: Types: Texts
+T687T,D,Kontenfindung: KontoschlÃ¼ssel: Texte
+T687T,E,Account Determination: Account Key Texts
+T800S,D,FI-SL-Settabelle (vor Release 4.0)
+T800S,E,FI-SL Set Table (before Release 4.0)
+T811C,E,Allocations: Cycles
+T811F,E,Allocations: Element Table
+T811K,E,Allocations: Key Fields
+T811L,E,Assessments/Distributions: Long Text
+T811S,E,Allocations: Segments
+T856,E,Transaction Types
+T881,D,Ledger-Stamm
+T881,E,Ledger Master
+T881T,D,FI-SL-Ledgertext
+T881T,E,FI-SL Ledger text
+T882,D,Zuordnung Buchungskreis - Ledger
+T882,E,Company Code/Ledger Assignment
+T882G,D,Zuordnung Buchungskreis - Ledger
+T882G,E,Company code - ledger assignment
+T8J9A,E,Equity Group - JOA level
+T8J9C,E,Joint operating agreement partner shares
+T8JG,E,Valid Investment Group
+T8JO,E,Partner
+T8JQ,E,Joint Venture Owner Equity
+T8JU,E,Joint Operating Agreement
+T8JV,E,Joint Venture
+T8JVT,E,Joint Venture Description
+TABW,D,Bewegungsarten der Anlagenbuchhaltung
+TABW,E,Asset transaction types
+TABWH,D,Bezeichnung Anlagenbewegungsarten-Gruppen
+TABWH,E,Name for asset transaction type groups
+TABWQ,D,Anlagengittergruppe
+TABWQ,E,Asset hist. sheet group
+TABWR,D,Bezeichnung der Anlagengittergruppe
+TABWR,E,Name of asset hist. sheet group
+TABWT,D,Bewegungsartentexte der Anlagenbuchhaltung
+TABWT,E,Asset transaction types texts
+TAPRF,D,InvestitionsmaÃŸnahmenprofil fÃ¼r AIB und AfA-Simulation
+TAPRF,E,Cap. inv. measure profile for AuC and dep. simulation
+TAPRFT,D,Texttab. zu Investitionsprofil
+TAPRFT,E,Text tab. for investment profile
+TBO01,E,Language-specific values for object type
+TBO02,E,Language-dependent values for the object class
+TBSL,D,BuchungsschlÃ¼ssel
+TBSL,E,Posting Key
+TBSLT,D,Bezeichnung der BuchungsschlÃ¼ssel
+TBSLT,E,Posting Key Names
+TC24,D,Arbeitsplatz-Verantwortlicher
+TC24,E,Person responsible for the work center
+TC26T,D,Text KapazitÃ¤tsart
+TC26T,E,Description of the capacity category
+TC30T,D,Bezeichnung Arbeitsplatzart
+TC30T,E,Text for the work center category
+TCJ_CJ_NAMES,D,Kassenbuchbezeichnungen
+TCJ_CJ_NAMES,E,Cash Journal Names
+TCJ_C_JOURNALS,D,KassenbÃ¼cher
+TCJ_C_JOURNALS,E,Cash Journals
+TCJ_POSITIONS,D,Positionen der Kassenbuchbelege
+TCJ_POSITIONS,E,Cash Journal Document Items
+TCJ_TRANSACTIONS,D,Bezeichnung GeschÃ¤ftsvorfÃ¤lle Kassenbuch
+TCJ_TRANSACTIONS,E,Cash Journal Business Transaction Names
+TCJ_TRANS_NAMES,D,GeschÃ¤ftsvorfÃ¤lle Kassenbuch
+TCJ_TRANS_NAMES,E,Cash Journal Business Transactions
+TCK04,D,Kalkulationsvarianten - Texte
+TCK04,E,Costing Variants - Texts
+TCLAT,D,Klassenarten Texte
+TCLAT,E,Class Type Texts
+TCN01,D,SchlÃ¼sselworttexte zu PS-Userfelder
+TCN01,E,Key Word Text for PS User Fields
+TCUGT,D,Beziehungsgruppen - Texte
+TCUGT,E,Dependency Groups - Texts
+TCURT,D,Bezeichnung der Waehrungscodes
+TCURT,E,Currency Code Names
+TCUXT,D,Beziehungspflegestatus - Texte
+TCUXT,E,Dependency Maintenance Statuses - Texts
+TFIN020,D,Zuordnung GeschÃ¤ftsbereiche zu Buchungskreisen
+TFIN020,E,Assignment of Business Areas to Company Codes
+TFKBT,D,Bezeichnung der Funktionsbereiche
+TFKBT,E,Name of the functional areas
+TGSB,D,GeschÃ¤ftsbereiche
+TGSB,E,Business Areas
+TGSBT,D,Bezeichnung der GeschÃ¤ftsbereiche
+TGSBT,E,Business Area Names
+TINCT,D,Debitoren: Incoterms: Texte
+TINCT,E,Customers: Incoterms: Texts
+TJ01,D,Betriebswirtschaftliche VorgÃ¤nge
+TJ01,E,Business Transactions
+TJ01T,D,Texte zu betriebswirtschaftlichen VorgÃ¤ngen
+TJ01T,E,Business Transaction Texts
+TJ02,D,Systemstatus
+TJ02,E,System status
+TJ02T,D,Texte zu Systemstatus
+TJ02T,E,System status texts
+TJ30,D,Anwenderstatus
+TJ30,E,User Status
+TJ30T,D,Texte zu Anwenderstatus
+TJ30T,E,Texts for User Status
+TKA01,D,Kostenrechnungskreise .
+TKA01,E,Controlling Areas
+TKA02,D,Kostenrechnungskreisfindung
+TKA02,E,Controlling area assignment
+TKA03,D,Statistische Kennzahlen
+TKA03,E,Statistical key figures
+TKA05,D,Kostenstellentypen
+TKA05,E,Cost Center Types
+TKB8A,E,Language-Dependent Values for Settlement Type
+TKT03,D,Texte Statistische GrÃ¶ÃŸen
+TKT03,E,Stat. key figure texts
+TKT05,D,Kostenstellentypen - Texte
+TKT05,E,Cost center type texts
+TKUKT,D,Debitoren: Kundenklassifizierung: Texte
+TKUKT,E,Customers: Customer classification: Texts
+TKV01,D,AbweichungsschlÃ¼ssel Kostenstellen/Kalkulation
+TKV01,E,Variance Keys: Cost Centers/Costing
+TKV02,D,Bezeichnung AbweichungsschlÃ¼ssel
+TKV02,E,Variance Key Name
+TKZU1,D,Zuschlagsbasis-Kostenarten
+TKZU1,E,Overhead Base Cost Elements
+TKZU2,D,Zuschlagsbasis-Herkunft
+TKZU2,E,Overhead Base Origin
+TKZU3,D,Zuschlags-Entlastung
+TKZU3,E,Overhead Credit
+TKZU9,D,Entlastungsobjekte zu Soll=Ist-Kostenarten
+TKZU9,E,Credit objects for target/actual cost elements
+TKZX9,D,Entlastungsobjekte zu Soll=Ist-Kostenarten je BUKRS/GSBER
+TKZX9,E,Credit objects for tgt=act. cost elements per BUKRS/GSBER
+TMKM1T,D,Steuern: Materialien  (Einkauf)
+TMKM1T,E,Taxes: Materials (Purchasing)
+TOA01,D,VerknÃ¼pfungstabelle 1
+TOA01,E,Link table 1
+TPAR,D,GeschÃ¤ftspartner: Rollen
+TPAR,E,Business Partner: Functions
+TPART,D,GeschÃ¤ftspartner: Rollen: Texte
+TPART,E,Business Partner Functions: Texts
+TPCPROG,D,Programme fÃ¼r BerechtigungsprÃ¼fung
+TPCPROG,E,Programs for Authorization Check
+TPTMT,D,Materialien: Positionstypengruppen im Materialstamm: Texte
+TPTMT,E,Materials: Item Category Groups in Mat.Master: Texts
+TQ30,D,PrÃ¼farten
+TQ30,E,Inspection types
+TQ30T,D,Texte zu den PrÃ¼farten
+TQ30T,E,Texts for inspection types
+TQ31T,D,Bezeichnungen der PrÃ¼flosherkÃ¼nfte
+TQ31T,E,Descriptions of Inspection Lot Origins
+TQ80_T,D,Texte fÃ¼r Meldungsarten
+TQ80_T,E,Notification type texts
+TSKMT,D,Steuern: Materialien: Texte
+TSKMT,E,Taxes: Materials: Texts
+TSPAT,D,Org.-Einheit: Vertriebssparten: Texte
+TSPAT,E,Organizational Unit: Sales Divisions: Texts
+TSTL,D,Steuern: GÃ¼ltige Steuertypen je Land
+TSTL,E,Taxes: Valid Tax Categories for Each Country
+TTXIT,D,Texte zu Text-Id's
+TTXIT,E,Texts for Text IDs
+TVAGT,D,Verkaufsbelege: AbsagegrÃ¼nde: Texte
+TVAGT,E,Rejection Reasons for Sales Documents: Texts
+TVAKT,D,Verkaufsbelege: Arten: Texte
+TVAKT,E,Sales Document Types: Texts
+TVBST,D,Vertriebsbelege: Bearbeitungsstatus: Texte
+TVBST,E,SD Documents: Processing Status: Texts
+TVFK,D,Faktura: Belegarten
+TVFK,E,Billing: Document Types
+TVFKT,D,Faktura: Belegarten: Texte
+TVFKT,E,Billing: Document Types: Texts
+TVFST,D,Faktura: SperrgrÃ¼nde: Texte
+TVFST,E,Billing : Blocking Reason Texts
+TVGRT,D,Org.-Einheit: VerkÃ¤ufergruppen: Texte
+TVGRT,E,Organizational Unit: Sales Groups: Texts
+TVKBT,D,Org.-Einheit: VerkaufsbÃ¼ros: Texte
+TVKBT,E,Organizational Unit: Sales Offices: Texts
+TVKOT,D,Org.-Einheit: Verkaufsorganisationen: Texte
+TVKOT,E,Organizational Unit: Sales Organizations: Texts
+TVROT,D,Routen: Texte
+TVROT,E,Routes: Texts
+TVSTT,D,Org.-Einheit: Versandstellen: Texte
+TVSTT,E,Organizational Unit: Shipping Points: Texts
+TVTWT,D,Org.-Einheit: Vertriebswege: Texte
+TVTWT,E,Organizational Unit: Distribution Channels: Texts
+USR04,D,Benutzerstamm Berechtigungen
+USR04,E,User master authorizations
+USR21,D,Zuordnung Benutzername AdressschlÃ¼ssel
+USR21,E,User Name/Address Key Assignment
+VBAK,D,Verkaufsbeleg: Kopfdaten
+VBAK,E,Sales Document: Header Data
+VBAP,D,Verkaufsbeleg: Positionsdaten
+VBAP,E,Sales Document: Item Data
+VBEP,D,Verkaufsbeleg: Einteilungsdaten
+VBEP,E,Sales Document: Schedule Line Data
+VBFA,D,VertriebsbelegfluÃŸ
+VBFA,E,Sales Document Flow
+VBKD,D,Verkaufsbeleg: KaufmÃ¤nnische Daten
+VBKD,E,Sales Document: Business Data
+VBPA,D,Vertriebsbeleg: Partner
+VBPA,E,Sales Document: Partner
+VBRK,D,Faktura: Kopfdaten
+VBRK,E,Billing Document: Header Data
+VBRP,D,Faktura: Positionsdaten
+VBRP,E,Billing Document: Item Data
+VBUK,D,Vertriebsbeleg: Kopfstatus und Verwaltungsdaten
+VBUK,E,Sales Document: Header Status and Administrative Data
+VBUP,D,Vertriebsbeleg: Positionsstatus
+VBUP,E,Sales Document: Item Status
+VCKUN,D,Zuordnung Kunde-Kreditkarte
+VCKUN,E,Assign customer-credit card
+VCNUM,D,Kreditkartenstamm
+VCNUM,E,Credit card master
+VEDA,D,Vertragsdaten
+VEDA,E,Contract Data
+VEIAV,D,INTRASTAT Eingang/Versendung
+VEIAV,E,INTRASTAT Receipt/Dispatch
+VTTK,D,Transportkopf
+VTTK,E,Shipment Header
+WLP00,E,
+ZSPLA,E,Actual line item table
+ZSPLT,E,Summary table
+ZZGSAPGL,E,Transaction table for Luminon records
+ZZPART_PCGSAPKST,E,Lum Partner Profit Center To GSAP Cost Element Mapping
+ZZSKA1GSAP,E,Account Mapping Table Lum To GSAP
+ZZT001GSAP,E,Company code Profit Center Mapping from Lum To GSAP

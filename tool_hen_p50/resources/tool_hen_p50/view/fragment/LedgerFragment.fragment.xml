@@ -1,0 +1,46 @@
+<core:FragmentDefinition
+	xmlns="sap.ui.comp.valuehelpdialog"
+	xmlns:m="sap.m"
+	xmlns:fb="sap.ui.comp.filterbar"
+	xmlns:core="sap.ui.core">
+	<ValueHelpDialog
+		title="{i18n>ledger}"
+		ok=".onValueHelpOkPressLedger"
+		cancel=".onValueHelpCancelPressLedger"
+		afterClose=".onValueHelpAfterCloseLedger"
+		supportRanges="true"
+		key="RLDNR"
+		descriptionKey="RLDNR"
+			supportMultiselect="false"
+	>
+		<filterBar>
+			<fb:FilterBar advancedMode="true" search="onFilterBarSearchLedger">
+				<fb:filterGroupItems>
+					
+					<fb:FilterGroupItem
+						groupName="__$INTERNAL$"
+						name="MANDT"
+						label="{i18n>client}"
+						visibleInFilterBar="true"
+					>
+						<fb:control>
+							<m:Input name="MANDT" />
+						</fb:control>
+					</fb:FilterGroupItem>
+					
+						<fb:FilterGroupItem
+						groupName="__$INTERNAL$"
+						name="RLDNR"
+						label="{i18n>ledger}"
+						visibleInFilterBar="true"
+					>
+						<fb:control>
+							<m:Input name="RLDNR" />
+						</fb:control>
+					</fb:FilterGroupItem>
+
+				</fb:filterGroupItems>
+			</fb:FilterBar>
+		</filterBar>
+	</ValueHelpDialog>
+</core:FragmentDefinition>

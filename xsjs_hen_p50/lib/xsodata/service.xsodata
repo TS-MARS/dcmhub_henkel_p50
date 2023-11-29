@@ -1,0 +1,72 @@
+service{
+
+//Check tables
+"core.models::T000" as "columns" keys generate local "GENID";//Dummy
+
+//joined and 1:1 views
+"core.models::FIAP_FBL1N_1" as "fiap_fbl1n_1" keys generate local "GENID";
+"core.models::FIAP_FBL1N_2" as "fiap_fbl1n_2" keys generate local "GENID";
+"core.models::FIAP_FBL1N_3" as "fiap_fbl1n_3" keys generate local "GENID";
+"core.models::FIAR_FBL5N" as "fiar_fbl5n" keys generate local "GENID";
+"core.models::FIAR_FBL5N_1" as "fiar_fbl5n_1" keys generate local "GENID";
+"core.models::FIAR_XD03_10" as "fiar_xd03_10" keys generate local "GENID";
+"core.models::FIAR_XD03_11" as "fiar_xd03_11" keys generate local "GENID";
+"core.models::FIAR_XD03_12" as "fiar_xd03_12" keys generate local "GENID";
+"core.models::FIAR_XD03_13" as "fiar_xd03_13" keys generate local "GENID";
+"core.models::FIAR_XD03_3" as "fiar_xd03_3" keys generate local "GENID";
+"core.models::FIAR_XD03_4" as "fiar_xd03_4" keys generate local "GENID";
+"core.models::FIAR_XD03_5" as "fiar_xd03_5" keys generate local "GENID";
+"core.models::FIAR_XD03_6" as "fiar_xd03_6" keys generate local "GENID";
+"core.models::FIAR_XD03_7" as "fiar_xd03_7" keys generate local "GENID";
+"core.models::FIAR_XD03_8" as "fiar_xd03_8" keys generate local "GENID";
+"core.models::FICA_FB03" as "fica_fb03" keys generate local "GENID";
+"core.models::FICA_FB03L" as "fica_fb03l" keys generate local "GENID";
+"core.models::CA0006" as "ca0006" keys generate local "GENID";
+"core.models::FI_FB03L" as "fi_fb03l" keys generate local "GENID";
+"core.models::FI_FBL5N1" as "fi_fbl5n1" keys generate local "GENID";
+"core.models::FI_FBL5N2" as "fi_fbl5n2" keys generate local "GENID";
+"core.models::FI_FBL5N3" as "fi_fbl5n3" keys generate local "GENID";
+"core.models::FI_FBL5N4" as "fi_fbl5n4" keys generate local "GENID";
+"core.models::FI_XD03_1" as "fi_xd03_1" keys generate local "GENID";
+"core.models::FI_XD03_2" as "fi_xd03_2" keys generate local "GENID";
+"core.models::FIGL_FS10N" as "figl_fs10n" keys generate local "GENID";
+"core.models::MM0004" as "mm0004" keys generate local "GENID";
+"core.models::MM0007" as "mm0007" keys generate local "GENID";
+"core.models::MM0008" as "mm0008" keys generate local "GENID";
+"core.models::MM0011" as "mm0011" keys generate local "GENID";
+"core.models::MM_MB59_ALL" as "mm_mb59_all" keys generate local "GENID";
+"core.models::MM_MB59_POS" as "mm_mb59_pos" keys generate local "GENID";
+"core.models::MM_ME23N2" as "mm_me23n2" keys generate local "GENID";
+"core.models::MM_ME23N_ALL" as "mm_me23n_all" keys generate local "GENID";
+"core.models::MM_ME53N_2" as "mm_me53n_2" keys generate local "GENID";
+"core.models::MM_MIR4_ALL" as "mm_mir4_all" keys generate local "GENID";
+"core.models::MM_MIR4_POS" as "mm_mir4_pos" keys generate local "GENID";
+"core.models::MM_MM03_12" as "mm_mm03_12" keys generate local "GENID";
+"core.models::MM_MMBE" as "mm_mmbe" keys generate local "GENID";
+"core.models::MM_MMBE_1" as "mm_mmbe_1" keys generate local "GENID";
+"core.models::MM_STXL_4" as "mm_stxl_4" keys generate local "GENID";
+"core.models::PM0001" as "pm0001" keys generate local "GENID";
+"core.models::PP0009" as "pp0009" keys generate local "GENID";
+"core.models::PP_CS15" as "pp_cs15" keys generate local "GENID";
+"core.models::PS0005" as "ps0005" keys generate local "GENID";
+"core.models::QM_QA33_1" as "qm_qa33_1" keys generate local "GENID";
+"core.models::QM_QA33_2" as "qm_qa33_2" keys generate local "GENID";
+"core.models::QM_QA33_3" as "qm_qa33_3" keys generate local "GENID";
+"core.models::QM_QA33_4" as "qm_qa33_4" keys generate local "GENID";
+"core.models::SD0004" as "sd0004" keys generate local "GENID";
+"core.models::SD0005" as "sd0005" keys generate local "GENID";
+"core.models::SD0009" as "sd0009" keys generate local "GENID";
+"core.models::SD0010" as "sd0010" keys generate local "GENID";
+"core.models::SD_VD03" as "sd_vd03" keys generate local "GENID";
+"core.models::SD_VF03_1" as "sd_vf03_1" keys generate local "GENID";
+"core.models::SD_VF05_3" as "sd_vf05_3" keys generate local "GENID";
+
+}
+settings {  
+  support null;
+  content cache-control "max-age=1604800,must-revalidate";  
+  metadata cache-control "max-age=1604800,must-revalidate";   
+  limits 
+      max_records = 1000000,
+      max_expanded_records = 1000000;
+}

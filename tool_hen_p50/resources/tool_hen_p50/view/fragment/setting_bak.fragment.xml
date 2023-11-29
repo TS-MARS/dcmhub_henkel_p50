@@ -1,0 +1,44 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout">
+	<Dialog title="{i18n>viewsetting}">
+		<content>
+			<l:VerticalLayout>			
+			<Table inset="false" items="{tables>/columns}">
+				<columns>
+					<Column>
+						<Text text="{i18n>name}"/>
+					</Column>
+					<Column>
+						<Text text="{i18n>hidefields}"/>
+					</Column>
+					<Column>
+						<Text text="{i18n>sort}"/>
+					</Column>					
+					<Column>
+						<Text text="{i18n>filterfrom}"/>
+					</Column>	
+					<Column>
+						<Text text="{i18n>filterto}"/>
+					</Column>					
+				</columns>
+				<items>
+					<ColumnListItem>
+						<cells>
+							<Text text="{tables>column_name}"/>
+                            <CheckBox selected="{tables>column_visible}" enabled="true"/>	
+                             <CheckBox selected="{tables>column_sort}"/>                          
+						    <Input value="{tables>column_filter}"></Input>
+						    <Input value="{tables>column_filterto}"></Input>
+						</cells>
+					</ColumnListItem>
+				</items>
+			</Table>
+			</l:VerticalLayout>			
+		</content>
+		<beginButton>
+			<Button text="OK" press="onPressOk"></Button>
+		</beginButton>
+		<endButton>
+			<Button text="Close" press="onPressClose"></Button>
+		</endButton>
+	</Dialog>
+</core:FragmentDefinition>

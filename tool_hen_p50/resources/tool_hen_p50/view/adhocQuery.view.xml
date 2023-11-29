@@ -1,0 +1,35 @@
+<mvc:View xmlns:m="sap.m" xmlns="sap.uxap" xmlns:mvc="sap.ui.core.mvc" xmlns:table="sap.ui.table" xmlns:core="sap.ui.core"
+	xmlns:l="sap.ui.layout" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:v="sap.ui.comp.variants" xmlns:layout="sap.ui.layout" 
+	controllerName="tool_hen_p50.controller.adhocQuery" height="100%">
+	<m:Page showNavButton="true" title="{i18n>adhocQuery}" navButtonPress="onNavButtonPressMain">
+		<!-- use this to make the table occupy the available screen height -->
+		<m:content>
+		<v:VariantManagement editable="false" defaultVariantKey="*standard*" save="onSaveVariant" select="onChange" manage="onManage"
+			variantItems="{variants>/}" class="sapUiSmallMargin">
+			<v:variantItems>
+				<v:VariantItem key="{variants>}" text="{variants>}"></v:VariantItem>
+			</v:variantItems>
+		</v:VariantManagement>			
+			<m:Panel id="help" expandable="true" headerText="{i18n>SQLHelp}" width="auto" height="auto">
+				<l:VerticalLayout width="100%">
+				<m:Text text="Schema: P50"/>
+				<m:Text text="Example: SELECT * FROM P50_T001"/>
+				</l:VerticalLayout>
+			</m:Panel>			
+			<m:TextArea id="query" placeholder="Enter Query" growing="true" growingMaxLines="1000" width="90%" class="sapUiMediumMarginBegin" rows="10"/>
+			
+			<m:Button text="Execute" press="onExecute" type="Emphasized" class="sapUiMediumMarginBegin"/>
+			<m:Panel id="tableSmart" width="auto" height="auto">
+							<!--<content>-->
+							<!--	<core:Fragment fragmentName="tool_p58.view.TableData" type="XML"/>							-->
+							<!--</content>-->
+						</m:Panel>
+		</m:content>
+		<!--<m:footer>
+			<m:Toolbar>
+				<m:ToolbarSpacer/>
+				<m:Button id="nextButtonId" type="Emphasized" text="{i18n>next}" press="onPressNext"/>
+			</m:Toolbar>
+		</m:footer>-->
+	</m:Page>
+</mvc:View>

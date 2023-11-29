@@ -1,0 +1,56 @@
+{
+	"roles": {
+		"Everyone": {
+			"_version": "1.0",
+			"identification": {
+				"id": "Everyone",
+				"namespace": "",
+				"entityType": "role"
+			},
+			"payload": {
+				"catalogs": [],
+				"groups": [{
+					"id": "tool_hen_p50_GroupId"
+				}]
+			}
+		}
+	},
+	"applications": {
+	},
+	"groups": {
+		"tool_hen_p50_GroupId": {
+			"identification": {
+				"id": "tool_hen_p50_GroupId",
+				"i18n": "i18n/i18n.properties",
+				"namespace": "",
+				"title": "HENKEL-P50"
+			},
+			"payload": {
+				"tiles": [{
+					"id": "tool_hen_p50_tile",
+					"title": "HENKEL-P50",
+					"subTitle": "Launchpad",
+					"icon": "sap-icon://share-2",
+					"appId": "tool_hen_p50",
+					"target": {
+						"semanticObject": "tool_hen_p50",
+						"action": "show",
+						"parameters": []
+					}
+				}]
+			}
+		}
+	},
+	"siteThemes": {
+		"sap_belize_plus": {
+			"description": "SAP Belize Plus",
+			"name": "sap_belize_plus",
+			"path": "sap_belize_plus"
+		},
+		"sap_belize": {
+			"description": "SAP Belize",
+			"name": "sap_belize",
+			"path": "sap_belize"
+		}
+	}
+}

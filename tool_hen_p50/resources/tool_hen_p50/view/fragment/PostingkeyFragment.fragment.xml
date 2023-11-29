@@ -1,0 +1,44 @@
+<core:FragmentDefinition
+	xmlns="sap.ui.comp.valuehelpdialog"
+	xmlns:m="sap.m"
+	xmlns:fb="sap.ui.comp.filterbar"
+	xmlns:core="sap.ui.core">
+	<ValueHelpDialog
+		title="{i18n>postingkey}"
+		ok=".onValueHelpOkPressPostingkey"
+		cancel=".onValueHelpCancelPressPostingkey"
+		afterClose=".onValueHelpAfterClosePostingkey"
+		supportRanges="true"
+		key="BSCHL"
+		descriptionKey="BSCHL"
+		supportMultiselect="true"
+	>
+		<filterBar>
+			<fb:FilterBar advancedMode="true" search="onFilterBarSearchPostingkey">
+				<fb:filterGroupItems>
+					<fb:FilterGroupItem
+						groupName="__$INTERNAL$"
+						name="MANDT"
+						label="{i18n>client}"
+						visibleInFilterBar="true"
+					>
+						<fb:control>
+							<m:Input name="MANDT" />
+						</fb:control>
+					</fb:FilterGroupItem>
+					<fb:FilterGroupItem
+						groupName="__$INTERNAL$"
+						name="BSCHL"
+						label="{i18n>postingkey}"
+						visibleInFilterBar="true"
+					>
+						<fb:control>
+							<m:Input name="BSCHL" />
+						</fb:control>
+					</fb:FilterGroupItem>
+
+				</fb:filterGroupItems>
+			</fb:FilterBar>
+		</filterBar>
+	</ValueHelpDialog>
+</core:FragmentDefinition>

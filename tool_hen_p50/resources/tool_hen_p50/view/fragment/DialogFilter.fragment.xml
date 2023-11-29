@@ -1,0 +1,16 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<ViewSettingsDialog
+		confirm="handleConfirm" filterItems="{ path: '/'}">
+		<filterItems>
+			<ViewSettingsFilterItem key="Key" text="{columns/0/column_tab}" items="{ path: 'columns'}">
+				<items>
+					<ViewSettingsItem 
+					text="{column_tab}-{column_name}"
+					key="{column_property}"/>
+				</items>
+			</ViewSettingsFilterItem>
+		</filterItems>
+	</ViewSettingsDialog>
+</core:FragmentDefinition>

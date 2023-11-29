@@ -1,0 +1,24 @@
+<mvc:View controllerName="tool_hen_p50.controller.launchpad" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<!--<Shell id="shell">-->
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{i18n>appDescription}" subheader="Analysis" mode="HeaderMode"
+							press="onPressReporting">
+							<TileContent>
+								<ImageContent src="sap-icon://filter"/>
+							</TileContent>
+						</GenericTile>
+						<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{i18n>adhocQuery}" subheader="Analysis" mode="HeaderMode"
+							press="onPressAdhocQuery">
+							<TileContent>
+								<ImageContent src="sap-icon://filter"/>
+							</TileContent>
+						</GenericTile>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	<!--</Shell>-->
+</mvc:View>

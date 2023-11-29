@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::QM_QA33_2" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table CV_QM_QA33_2"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="P50_CV_QM_QA33_2">
+    <resourceUri>P50_CV_QM_QA33_2</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="P50_CV_QM_QA33_2">
+  <attributes>
+    <attribute id="MANDANT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDANT"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_2" columnName="MANDANT"/>
+    </attribute>
+    <attribute id="PRUEFLOS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRUEFLOS"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_2" columnName="PRUEFLOS"/>
+    </attribute>
+    <attribute id="TEILLOS" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TEILLOS"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_2" columnName="TEILLOS"/>
+    </attribute>
+    <attribute id="OBJNR" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OBJNR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_2" columnName="OBJNR"/>
+    </attribute>
+    <attribute id="LS_POSNR" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LS_POSNR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_2" columnName="LS_POSNR"/>
+    </attribute>
+    <attribute id="MATNR" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MATNR"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_2" columnName="MATNR"/>
+    </attribute>
+    <attribute id="CHARG" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CHARG"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_2" columnName="CHARG"/>
+    </attribute>
+    <attribute id="LAGORTCHRG" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LAGORTCHRG"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_2" columnName="LAGORTCHRG"/>
+    </attribute>
+    <attribute id="MENGENEINH" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MENGENEINH"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_2" columnName="MENGENEINH"/>
+    </attribute>
+    <attribute id="MENGE" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MENGE"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_2" columnName="MENGE"/>
+    </attribute>
+    <attribute id="MENGEIST" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MENGEIST"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_2" columnName="MENGEIST"/>
+    </attribute>
+    <attribute id="KTEXTTLOS" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTEXTTLOS"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_2" columnName="KTEXTTLOS"/>
+    </attribute>
+    <attribute id="LTEXTKZ" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LTEXTKZ"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_2" columnName="LTEXTKZ"/>
+    </attribute>
+    <attribute id="PRUEFER" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRUEFER"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_2" columnName="PRUEFER"/>
+    </attribute>
+    <attribute id="ENSTEHDAT" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ENSTEHDAT"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_2" columnName="ENSTEHDAT"/>
+    </attribute>
+    <attribute id="ENSTEHZEIT" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ENSTEHZEIT"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_2" columnName="ENSTEHZEIT"/>
+    </attribute>
+    <attribute id="ERSTELLER" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERSTELLER"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_2" columnName="ERSTELLER"/>
+    </attribute>
+    <attribute id="ERSTELDAT" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERSTELDAT"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_2" columnName="ERSTELDAT"/>
+    </attribute>
+    <attribute id="ERSTELZEIT" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ERSTELZEIT"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_2" columnName="ERSTELZEIT"/>
+    </attribute>
+    <attribute id="AENDERER" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENDERER"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_2" columnName="AENDERER"/>
+    </attribute>
+    <attribute id="AENDERDAT" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENDERDAT"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_2" columnName="AENDERDAT"/>
+    </attribute>
+    <attribute id="AENDERZEIT" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AENDERZEIT"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_2" columnName="AENDERZEIT"/>
+    </attribute>
+    <attribute id="NO_INSPPOINT" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NO_INSPPOINT"/>
+      <keyMapping columnObjectName="P50_CV_QM_QA33_2" columnName="NO_INSPPOINT"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

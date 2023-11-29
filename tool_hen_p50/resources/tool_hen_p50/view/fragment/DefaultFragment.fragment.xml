@@ -1,0 +1,19 @@
+<core:FragmentDefinition
+	xmlns="sap.ui.comp.valuehelpdialog"
+	xmlns:m="sap.m"
+	xmlns:fb="sap.ui.comp.filterbar"
+	xmlns:core="sap.ui.core">
+	<ValueHelpDialog
+		title="{i18n>default}"
+		ok=".onValueHelpOkPressDefault"
+		cancel=".onValueHelpCancelPressDefault"
+		afterClose=".onValueHelpAfterCloseDefault"
+		supportRanges="true"
+		key="DOMVALUE_L"
+		descriptionKey="DOMVALUE_L"
+		supportMultiselect="true"
+		supportRangesOnly="true"
+	>
+	
+	</ValueHelpDialog>
+</core:FragmentDefinition>
