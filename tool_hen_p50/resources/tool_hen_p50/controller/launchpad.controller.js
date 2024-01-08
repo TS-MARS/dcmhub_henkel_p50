@@ -14,6 +14,10 @@ sap.ui.define([
 		onPressAdhocQuery: function () {
 			this._router = sap.ui.core.UIComponent.getRouterFor(this);
 			this._router.navTo("adhocQuery");
-		}
+		},
+		onPressAsset: function () {
+			this._router = sap.ui.core.UIComponent.getRouterFor(this);
+			this._router.navTo("asset");
+		}		
 	});
 });

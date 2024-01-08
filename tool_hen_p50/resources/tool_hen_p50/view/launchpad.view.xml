@@ -16,6 +16,12 @@
 								<ImageContent src="sap-icon://filter"/>
 							</TileContent>
 						</GenericTile>
+						<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{i18n>assethistory}" subheader="Analysis" mode="HeaderMode"
+							press="onPressAsset">
+							<TileContent>
+								<ImageContent src="sap-icon://filter"/>
+							</TileContent>
+						</GenericTile>
 					</content>
 				</Page>
 			</pages>

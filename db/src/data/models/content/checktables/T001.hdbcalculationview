@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::T001" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table T001"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="P50_T001">
+    <resourceUri>P50_T001</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="P50_T001">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="P50_T001" columnName="MANDT"/>
+    </attribute>
+    <attribute id="BUKRS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="P50_T001" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="BUTXT" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUTXT"/>
+      <keyMapping columnObjectName="P50_T001" columnName="BUTXT"/>
+    </attribute>
+    <attribute id="ORT01" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ORT01"/>
+      <keyMapping columnObjectName="P50_T001" columnName="ORT01"/>
+    </attribute>
+    <attribute id="LAND1" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LAND1"/>
+      <keyMapping columnObjectName="P50_T001" columnName="LAND1"/>
+    </attribute>
+    <attribute id="WAERS" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WAERS"/>
+      <keyMapping columnObjectName="P50_T001" columnName="WAERS"/>
+    </attribute>
+    <attribute id="SPRAS" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SPRAS"/>
+      <keyMapping columnObjectName="P50_T001" columnName="SPRAS"/>
+    </attribute>
+    <attribute id="KTOPL" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTOPL"/>
+      <keyMapping columnObjectName="P50_T001" columnName="KTOPL"/>
+    </attribute>
+    <attribute id="WAABW" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WAABW"/>
+      <keyMapping columnObjectName="P50_T001" columnName="WAABW"/>
+    </attribute>
+    <attribute id="PERIV" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PERIV"/>
+      <keyMapping columnObjectName="P50_T001" columnName="PERIV"/>
+    </attribute>
+    <attribute id="KOKFI" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOKFI"/>
+      <keyMapping columnObjectName="P50_T001" columnName="KOKFI"/>
+    </attribute>
+    <attribute id="RCOMP" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="RCOMP"/>
+      <keyMapping columnObjectName="P50_T001" columnName="RCOMP"/>
+    </attribute>
+    <attribute id="ADRNR" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADRNR"/>
+      <keyMapping columnObjectName="P50_T001" columnName="ADRNR"/>
+    </attribute>
+    <attribute id="STCEG" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STCEG"/>
+      <keyMapping columnObjectName="P50_T001" columnName="STCEG"/>
+    </attribute>
+    <attribute id="FIKRS" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FIKRS"/>
+      <keyMapping columnObjectName="P50_T001" columnName="FIKRS"/>
+    </attribute>
+    <attribute id="XFMCO" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XFMCO"/>
+      <keyMapping columnObjectName="P50_T001" columnName="XFMCO"/>
+    </attribute>
+    <attribute id="XFMCB" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XFMCB"/>
+      <keyMapping columnObjectName="P50_T001" columnName="XFMCB"/>
+    </attribute>
+    <attribute id="XFMCA" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XFMCA"/>
+      <keyMapping columnObjectName="P50_T001" columnName="XFMCA"/>
+    </attribute>
+    <attribute id="TXJCD" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXJCD"/>
+      <keyMapping columnObjectName="P50_T001" columnName="TXJCD"/>
+    </attribute>
+    <attribute id="FMHRDATE" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FMHRDATE"/>
+      <keyMapping columnObjectName="P50_T001" columnName="FMHRDATE"/>
+    </attribute>
+    <attribute id="BUVAR" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUVAR"/>
+      <keyMapping columnObjectName="P50_T001" columnName="BUVAR"/>
+    </attribute>
+    <attribute id="FDBUK" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FDBUK"/>
+      <keyMapping columnObjectName="P50_T001" columnName="FDBUK"/>
+    </attribute>
+    <attribute id="XFDIS" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XFDIS"/>
+      <keyMapping columnObjectName="P50_T001" columnName="XFDIS"/>
+    </attribute>
+    <attribute id="XVALV" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XVALV"/>
+      <keyMapping columnObjectName="P50_T001" columnName="XVALV"/>
+    </attribute>
+    <attribute id="XSKFN" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSKFN"/>
+      <keyMapping columnObjectName="P50_T001" columnName="XSKFN"/>
+    </attribute>
+    <attribute id="KKBER" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KKBER"/>
+      <keyMapping columnObjectName="P50_T001" columnName="KKBER"/>
+    </attribute>
+    <attribute id="XMWSN" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XMWSN"/>
+      <keyMapping columnObjectName="P50_T001" columnName="XMWSN"/>
+    </attribute>
+    <attribute id="MREGL" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MREGL"/>
+      <keyMapping columnObjectName="P50_T001" columnName="MREGL"/>
+    </attribute>
+    <attribute id="XGSBE" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XGSBE"/>
+      <keyMapping columnObjectName="P50_T001" columnName="XGSBE"/>
+    </attribute>
+    <attribute id="XGJRV" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XGJRV"/>
+      <keyMapping columnObjectName="P50_T001" columnName="XGJRV"/>
+    </attribute>
+    <attribute id="XKDFT" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XKDFT"/>
+      <keyMapping columnObjectName="P50_T001" columnName="XKDFT"/>
+    </attribute>
+    <attribute id="XPROD" order="32" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XPROD"/>
+      <keyMapping columnObjectName="P50_T001" columnName="XPROD"/>
+    </attribute>
+    <attribute id="XEINK" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XEINK"/>
+      <keyMapping columnObjectName="P50_T001" columnName="XEINK"/>
+    </attribute>
+    <attribute id="XJVAA" order="34" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XJVAA"/>
+      <keyMapping columnObjectName="P50_T001" columnName="XJVAA"/>
+    </attribute>
+    <attribute id="XVVWA" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XVVWA"/>
+      <keyMapping columnObjectName="P50_T001" columnName="XVVWA"/>
+    </attribute>
+    <attribute id="XSLTA" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSLTA"/>
+      <keyMapping columnObjectName="P50_T001" columnName="XSLTA"/>
+    </attribute>
+    <attribute id="XFDMM" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XFDMM"/>
+      <keyMapping columnObjectName="P50_T001" columnName="XFDMM"/>
+    </attribute>
+    <attribute id="XFDSD" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XFDSD"/>
+      <keyMapping columnObjectName="P50_T001" columnName="XFDSD"/>
+    </attribute>
+    <attribute id="XEXTB" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XEXTB"/>
+      <keyMapping columnObjectName="P50_T001" columnName="XEXTB"/>
+    </attribute>
+    <attribute id="EBUKR" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EBUKR"/>
+      <keyMapping columnObjectName="P50_T001" columnName="EBUKR"/>
+    </attribute>
+    <attribute id="KTOP2" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KTOP2"/>
+      <keyMapping columnObjectName="P50_T001" columnName="KTOP2"/>
+    </attribute>
+    <attribute id="UMKRS" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UMKRS"/>
+      <keyMapping columnObjectName="P50_T001" columnName="UMKRS"/>
+    </attribute>
+    <attribute id="BUKRS_GLOB" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS_GLOB"/>
+      <keyMapping columnObjectName="P50_T001" columnName="BUKRS_GLOB"/>
+    </attribute>
+    <attribute id="FSTVA" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FSTVA"/>
+      <keyMapping columnObjectName="P50_T001" columnName="FSTVA"/>
+    </attribute>
+    <attribute id="OPVAR" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OPVAR"/>
+      <keyMapping columnObjectName="P50_T001" columnName="OPVAR"/>
+    </attribute>
+    <attribute id="XCOVR" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XCOVR"/>
+      <keyMapping columnObjectName="P50_T001" columnName="XCOVR"/>
+    </attribute>
+    <attribute id="TXKRS" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TXKRS"/>
+      <keyMapping columnObjectName="P50_T001" columnName="TXKRS"/>
+    </attribute>
+    <attribute id="WFVAR" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WFVAR"/>
+      <keyMapping columnObjectName="P50_T001" columnName="WFVAR"/>
+    </attribute>
+    <attribute id="XBBBF" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBBBF"/>
+      <keyMapping columnObjectName="P50_T001" columnName="XBBBF"/>
+    </attribute>
+    <attribute id="XBBBE" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBBBE"/>
+      <keyMapping columnObjectName="P50_T001" columnName="XBBBE"/>
+    </attribute>
+    <attribute id="XBBBA" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBBBA"/>
+      <keyMapping columnObjectName="P50_T001" columnName="XBBBA"/>
+    </attribute>
+    <attribute id="XBBKO" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBBKO"/>
+      <keyMapping columnObjectName="P50_T001" columnName="XBBKO"/>
+    </attribute>
+    <attribute id="XSTDT" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSTDT"/>
+      <keyMapping columnObjectName="P50_T001" columnName="XSTDT"/>
+    </attribute>
+    <attribute id="MWSKV" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSKV"/>
+      <keyMapping columnObjectName="P50_T001" columnName="MWSKV"/>
+    </attribute>
+    <attribute id="MWSKA" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWSKA"/>
+      <keyMapping columnObjectName="P50_T001" columnName="MWSKA"/>
+    </attribute>
+    <attribute id="IMPDA" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="IMPDA"/>
+      <keyMapping columnObjectName="P50_T001" columnName="IMPDA"/>
+    </attribute>
+    <attribute id="XNEGP" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XNEGP"/>
+      <keyMapping columnObjectName="P50_T001" columnName="XNEGP"/>
+    </attribute>
+    <attribute id="XKKBI" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XKKBI"/>
+      <keyMapping columnObjectName="P50_T001" columnName="XKKBI"/>
+    </attribute>
+    <attribute id="WT_NEWWT" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="WT_NEWWT"/>
+      <keyMapping columnObjectName="P50_T001" columnName="WT_NEWWT"/>
+    </attribute>
+    <attribute id="PP_PDATE" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PP_PDATE"/>
+      <keyMapping columnObjectName="P50_T001" columnName="PP_PDATE"/>
+    </attribute>
+    <attribute id="INFMT" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INFMT"/>
+      <keyMapping columnObjectName="P50_T001" columnName="INFMT"/>
+    </attribute>
+    <attribute id="FSTVARE" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FSTVARE"/>
+      <keyMapping columnObjectName="P50_T001" columnName="FSTVARE"/>
+    </attribute>
+    <attribute id="KOPIM" order="63" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KOPIM"/>
+      <keyMapping columnObjectName="P50_T001" columnName="KOPIM"/>
+    </attribute>
+    <attribute id="DKWEG" order="64" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DKWEG"/>
+      <keyMapping columnObjectName="P50_T001" columnName="DKWEG"/>
+    </attribute>
+    <attribute id="OFFSACCT" order="65" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OFFSACCT"/>
+      <keyMapping columnObjectName="P50_T001" columnName="OFFSACCT"/>
+    </attribute>
+    <attribute id="BAPOVAR" order="66" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BAPOVAR"/>
+      <keyMapping columnObjectName="P50_T001" columnName="BAPOVAR"/>
+    </attribute>
+    <attribute id="XCOS" order="67" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XCOS"/>
+      <keyMapping columnObjectName="P50_T001" columnName="XCOS"/>
+    </attribute>
+    <attribute id="XCESSION" order="68" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XCESSION"/>
+      <keyMapping columnObjectName="P50_T001" columnName="XCESSION"/>
+    </attribute>
+    <attribute id="XSPLT" order="69" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XSPLT"/>
+      <keyMapping columnObjectName="P50_T001" columnName="XSPLT"/>
+    </attribute>
+    <attribute id="SURCCM" order="70" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SURCCM"/>
+      <keyMapping columnObjectName="P50_T001" columnName="SURCCM"/>
+    </attribute>
+    <attribute id="DTPROV" order="71" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DTPROV"/>
+      <keyMapping columnObjectName="P50_T001" columnName="DTPROV"/>
+    </attribute>
+    <attribute id="DTAMTC" order="72" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DTAMTC"/>
+      <keyMapping columnObjectName="P50_T001" columnName="DTAMTC"/>
+    </attribute>
+    <attribute id="DTTAXC" order="73" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DTTAXC"/>
+      <keyMapping columnObjectName="P50_T001" columnName="DTTAXC"/>
+    </attribute>
+    <attribute id="DTTDSP" order="74" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DTTDSP"/>
+      <keyMapping columnObjectName="P50_T001" columnName="DTTDSP"/>
+    </attribute>
+    <attribute id="DTAXR" order="75" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="DTAXR"/>
+      <keyMapping columnObjectName="P50_T001" columnName="DTAXR"/>
+    </attribute>
+    <attribute id="XVATDATE" order="76" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XVATDATE"/>
+      <keyMapping columnObjectName="P50_T001" columnName="XVATDATE"/>
+    </attribute>
+    <attribute id="PST_PER_VAR" order="77" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PST_PER_VAR"/>
+      <keyMapping columnObjectName="P50_T001" columnName="PST_PER_VAR"/>
+    </attribute>
+    <attribute id="XBBSC" order="78" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="XBBSC"/>
+      <keyMapping columnObjectName="P50_T001" columnName="XBBSC"/>
+    </attribute>
+    <attribute id="F_OBSOLETE" order="79" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="F_OBSOLETE"/>
+      <keyMapping columnObjectName="P50_T001" columnName="F_OBSOLETE"/>
+    </attribute>
+    <attribute id="FM_DERIVE_ACC" order="80" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FM_DERIVE_ACC"/>
+      <keyMapping columnObjectName="P50_T001" columnName="FM_DERIVE_ACC"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

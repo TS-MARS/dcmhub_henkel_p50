@@ -1,0 +1,281 @@
+<mvc:View xmlns:m="sap.m" xmlns="sap.uxap" xmlns:mvc="sap.ui.core.mvc" xmlns:table="sap.ui.table" xmlns:core="sap.ui.core"
+	xmlns:l="sap.ui.layout" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:v="sap.ui.comp.variants" xmlns:layout="sap.ui.layout"
+	controllerName="tool_hen_p50.controller.asset" height="100%">
+	<m:Page showNavButton="true" title="{i18n>assethistory}" navButtonPress="onNavButtonPressMain">
+		<!-- use this to make the table occupy the available screen height -->
+		<m:content>
+			<m:NavContainer id="pageContainer" initialPage="page1">
+				<m:pages>
+					<m:Page id="page1" title="{i18n>assethistory}">
+						<m:content>
+							<l:VerticalLayout width="100%">
+								<v:VariantManagement editable="false" defaultVariantKey="*standard*" save="onSaveVariant" select="onChange" manage="onManage"
+									variantItems="{variants>/}" class="sapUiSmallMargin">
+									<v:variantItems>
+										<v:VariantItem key="{variants>}" text="{variants>}"></v:VariantItem>
+									</v:variantItems>
+								</v:VariantManagement>
+								<l:Grid containerQuery="true" defaultSpan="XL6 L6" width="100%" class="sapUiSmallMargin" vSpacing="0">
+									<m:Label text="{i18n>client}" textAlign="Right" labelFor="client"/>
+									<m:ComboBox required="true" id="client" placeholder="{i18n>client}" items="{ path: '/t000'}" selectionChange="resetFields">
+										<core:Item key="{MANDT}" text="{MANDT}"/>
+									</m:ComboBox>
+									
+									<m:Label text="{i18n>companycode}" textAlign="Right" labelFor="companycode"/>
+									<m:MultiInput value="" placeholder="{i18n>companycode}" valueHelpOnly="true" showValueHelp="true" valueHelpRequest="showCompanyCode"
+										required="true" id="companycode"/>
+											
+									<m:Label text="{i18n>assetno}" textAlign="Right" labelFor="assetno"/>
+										<m:MultiInput value="" placeholder="{i18n>assetno}" valueHelpOnly="true" showValueHelp="true" valueHelpRequest="showAssetNo"
+										 id="assetno"/>
+											
+									<m:Label text="{i18n>subnumber}" textAlign="Right" labelFor="subnumber"/>
+									<m:Input value="" placeholder="{i18n>subnumber}" id="subnumber" />
+									
+									<m:Label text="{i18n>assetclass}" textAlign="Right" labelFor="assetclass"/>
+										<m:MultiInput value="" placeholder="{i18n>assetclass}" valueHelpOnly="true" showValueHelp="true" valueHelpRequest="showAssetClass"
+										 id="assetclass"/>
+									
+									<m:Label text="{i18n>busarea}" textAlign="Right" labelFor="busarea"/>
+									<m:Input value="" placeholder="{i18n>busarea}" id="busarea" />
+										
+									<m:Label text="{i18n>year}" textAlign="Right" labelFor="year"/>
+									<m:Input value="" placeholder="{i18n>year}" id="year" required="true"/>
+									
+									<m:Label text="{i18n>list}" textAlign="Right" labelFor="list"/>
+									<m:ComboBox selectedKey="listassets" required="true" id="lineitems" placeholder="{i18n>list}" >
+											<core:Item key="listassets" text="{i18n>listassets}" />
+											<core:Item key="grouptotals" text="{i18n>grouptotals}" />
+									</m:ComboBox>
+									
+									<m:Label text="{i18n>deparea}" textAlign="Right" labelFor="deparea"/>
+									<m:Input value="" placeholder="{i18n>deparea}" id="deparea" required="true"/>
+									
+									<m:Label text="{i18n>historysheetversion}" textAlign="Right" labelFor="version"/>
+									<m:Input value="0001" enabled="false" placeholder="{i18n>historysheetversion}" id="version" required="true"/>
+								</l:Grid>
+							</l:VerticalLayout>
+						</m:content>
+					</m:Page>
+					<m:Page id="page2" showNavButton="true" navButtonPress="onNavButtonPress">
+							<m:Panel>
+							<m:content >
+								<m:VBox class="sapUiSmallMargin" justifyContent="SpaceBetween">
+									<m:Title level="H1" text="Asset History Sheet" design="Bold"/>
+									<m:Label text="{i18n>client} : {path: 'oInputModel>/0/oClient'}" design="Bold"/>
+									<m:Label text="{i18n>companycode} : {path: 'oInputModel>/0/oCCode'}" design="Bold"/>
+									<m:Label text="{i18n>assetno} : {path: 'oInputModel>/0/oAssetNo'}" design="Bold"/>
+									<m:Label text="{i18n>subnumber} : {path: 'oInputModel>/0/oSubNumber'}" design="Bold"/>
+									<m:Label text="{i18n>assetclass} : {path: 'oInputModel>/0/oAssetClass'}" design="Bold"/>
+									<m:Label text="{i18n>busarea} : {path: 'oInputModel>/0/oBusArea'}" design="Bold"/>
+									<m:Label text="{i18n>year} : {path: 'oInputModel>/0/oYear'}" design="Bold"/>
+									<m:Label text="{i18n>deparea} : {path: 'oInputModel>/0/oDepArea'}" design="Bold"/>
+									<m:Label text="{i18n>historysheetversion} : {path: 'oInputModel>/0/oVersion'}" design="Bold"/>
+								
+								</m:VBox>
+							</m:content>
+						</m:Panel>
+						<m:Panel class="sapUiResponsiveMargin" width="auto">
+							<m:content>
+								<table:Table id="tableId" rows="{data>/}" visibleRowCount="10" selectionMode="Single" alternateRowColors="true">
+										<table:rowSettingsTemplate>
+										<table:RowSettings highlight="{= ${data>TXTYP} === 'T' ? 'Success' : 'None'}"/>
+									</table:rowSettingsTemplate>
+									<table:columns>
+										<table:Column width="10em">
+											<m:Label text="{i18n>companycode}"/>
+											<table:template>
+												<m:Text text="{data>companycode}" wrapping="false"/>
+											</table:template>
+										</table:Column>
+										<table:Column width="10em">
+											<m:Label text="{i18n>busarea}"/>
+											<table:template>
+												<m:Text text="{data>busarea}" wrapping="false"/>
+											</table:template>
+										</table:Column>
+										<table:Column width="10em">
+											<m:Label text="{i18n>assetclass}"/>
+											<table:template>
+												<m:Text text="{data>assetclass}" wrapping="false"/>
+											</table:template>
+										</table:Column>
+										<table:Column width="15em">
+											<m:Label text="{i18n>assetno}"/>
+											<table:template>
+												<m:Text text="{data>assetno}" wrapping="false"/>
+											</table:template>
+										</table:Column>
+										<!--	<table:Column width="15em">
+											<m:Label text="{i18n>grouping}"/>
+											<table:template>
+												<m:Text text="{data>grouping}" wrapping="false"/>
+											</table:template>
+										</table:Column>-->
+										<table:Column width="15em">
+											<m:Label text="{i18n>description}"/>
+											<table:template>
+												<m:Text text="{data>desc}" wrapping="false"/>
+											</table:template>
+										</table:Column>
+												          
+										<table:Column width="10em" hAlign="Left">
+											<m:Label text="{i18n>apcfystart}"/>
+											<table:template>
+												<m:ObjectNumber
+													number="{ path: 'data>apcfystart', type: 'sap.ui.model.type.Float', textAlign: 'Right', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }"
+													state="{= ${data>apcfystart} >= 0 ? 'None' : 'Error' }"/>
+											</table:template>
+										</table:Column>
+										<table:Column hAlign="Left" width="10em">
+											<m:Label text="{i18n>currentapc}"/>
+											<table:template>
+												<m:ObjectNumber
+													number="{ path: 'data>currentapc', type: 'sap.ui.model.type.Float', textAlign: 'Right', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }"
+													state="{= ${data>currentapc} >= 0 ? 'None' : 'Error' }"/>
+											</table:template>
+										</table:Column>
+										<table:Column hAlign="Right" width="10em">
+											<m:Label text="{i18n>depfystart}"/>
+											<table:template>
+												<m:ObjectNumber
+													number="{ path: 'data>depfystart', type: 'sap.ui.model.type.Float', textAlign: 'Right', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }"
+													state="{= ${data>depfystart} >= 0 ? 'None' : 'Error' }"/>
+											</table:template>
+										</table:Column>
+										
+										<table:Column hAlign="Right" width="10em">
+											<m:Label text="{i18n>depforyear}"/>
+											<table:template>
+												<m:ObjectNumber
+													number="{ path: 'data>depforyear', type: 'sap.ui.model.type.Float', textAlign: 'Right', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }"
+													state="{= ${data>depforyear} >= 0 ? 'None' : 'Error' }"/>
+											</table:template>
+										</table:Column>
+											<table:Column hAlign="Right" width="10em">
+											<m:Label text="{i18n>accumuldep}"/>
+											<table:template>
+												<m:ObjectNumber
+													number="{ path: 'data>accumuldep', type: 'sap.ui.model.type.Float', textAlign: 'Right', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }"
+													state="{= ${data>accumuldep} >= 0 ? 'None' : 'Error' }"/>
+											</table:template>
+										</table:Column>
+										
+										<table:Column hAlign="Right" width="10em">
+											<m:Label text="{i18n>bkvalfystart}"/>
+											<table:template>
+												<m:ObjectNumber
+													number="{ path: 'data>bkvalfystart', type: 'sap.ui.model.type.Float', textAlign: 'Right', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }"
+													state="{= ${data>bkvalfystart} >= 0 ? 'None' : 'Error' }"/>
+											</table:template>
+										</table:Column>
+										<table:Column hAlign="Right" width="10em">
+											<m:Label text="{i18n>currbkval}"/>
+											<table:template>
+												<m:ObjectNumber
+													number="{ path: 'data>currbkval', type: 'sap.ui.model.type.Float', textAlign: 'Right', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }"
+													state="{= ${data>currbkval} >= 0 ? 'None' : 'Error' }"/>
+											</table:template>
+										</table:Column>
+									</table:columns>
+								</table:Table>
+								<table:Table id="tableId1" rows="{data>/}" visibleRowCount="10" selectionMode="Single" alternateRowColors="true">
+										<table:rowSettingsTemplate>
+										<table:RowSettings highlight="{= ${data>TXTYP} === 'T' ? 'Success' : 'None'}"/>
+									</table:rowSettingsTemplate>
+										<table:columns>
+										<table:Column width="10em">
+											<m:Label text="{i18n>companycode}"/>
+											<table:template>
+												<m:Text text="{data>companycode}" wrapping="false"/>
+											</table:template>
+										</table:Column>
+									
+										<table:Column width="10em">
+											<m:Label text="{i18n>busarea}"/>
+											<table:template>
+												<m:Text text="{data>busarea}" wrapping="false"/>
+											</table:template>
+										</table:Column>
+										<table:Column width="10em">
+											<m:Label text="{i18n>assetclass}"/>
+											<table:template>
+												<m:Text text="{data>assetclass}" wrapping="false"/>
+											</table:template>
+										</table:Column>
+										
+												          
+										<table:Column width="10em" hAlign="Left">
+											<m:Label text="{i18n>apcfystart}"/>
+											<table:template>
+												<m:ObjectNumber
+													number="{ path: 'data>apcfystart', type: 'sap.ui.model.type.Float', textAlign: 'Right', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }"
+													state="{= ${data>apcfystart} >= 0 ? 'None' : 'Error' }"/>
+											</table:template>
+										</table:Column>
+										<table:Column hAlign="Left" width="10em">
+											<m:Label text="{i18n>currentapc}"/>
+											<table:template>
+												<m:ObjectNumber
+													number="{ path: 'data>currentapc', type: 'sap.ui.model.type.Float', textAlign: 'Right', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }"
+													state="{= ${data>currentapc} >= 0 ? 'None' : 'Error' }"/>
+											</table:template>
+										</table:Column>
+										<table:Column hAlign="Right" width="10em">
+											<m:Label text="{i18n>depfystart}"/>
+											<table:template>
+												<m:ObjectNumber
+													number="{ path: 'data>depfystart', type: 'sap.ui.model.type.Float', textAlign: 'Right', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }"
+													state="{= ${data>depfystart} >= 0 ? 'None' : 'Error' }"/>
+											</table:template>
+										</table:Column>
+										
+										<table:Column hAlign="Right" width="10em">
+											<m:Label text="{i18n>depforyear}"/>
+											<table:template>
+												<m:ObjectNumber
+													number="{ path: 'data>depforyear', type: 'sap.ui.model.type.Float', textAlign: 'Right', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }"
+													state="{= ${data>depforyear} >= 0 ? 'None' : 'Error' }"/>
+											</table:template>
+										</table:Column>
+											<table:Column hAlign="Right" width="10em">
+											<m:Label text="{i18n>accumuldep}"/>
+											<table:template>
+												<m:ObjectNumber
+													number="{ path: 'data>accumuldep', type: 'sap.ui.model.type.Float', textAlign: 'Right', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }"
+													state="{= ${data>accumuldep} >= 0 ? 'None' : 'Error' }"/>
+											</table:template>
+										</table:Column>
+										
+										<table:Column hAlign="Right" width="10em">
+											<m:Label text="{i18n>bkvalfystart}"/>
+											<table:template>
+												<m:ObjectNumber
+													number="{ path: 'data>bkvalfystart', type: 'sap.ui.model.type.Float', textAlign: 'Right', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }"
+													state="{= ${data>bkvalfystart} >= 0 ? 'None' : 'Error' }"/>
+											</table:template>
+										</table:Column>
+										<table:Column hAlign="Right" width="10em">
+											<m:Label text="{i18n>currbkval}"/>
+											<table:template>
+												<m:ObjectNumber
+													number="{ path: 'data>currbkval', type: 'sap.ui.model.type.Float', textAlign: 'Right', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }"
+													state="{= ${data>currbkval} >= 0 ? 'None' : 'Error' }"/>
+											</table:template>
+										</table:Column>
+									</table:columns>
+								</table:Table>
+							</m:content>
+						</m:Panel>
+					</m:Page>
+				</m:pages>
+			</m:NavContainer>
+		</m:content>
+		<m:footer>
+			<m:Toolbar>
+				<m:ToolbarSpacer/>
+				<m:Button id="nextButtonId" type="Emphasized" text="{i18n>next}" press="onPressNext"/>
+			</m:Toolbar>
+		</m:footer>
+	</m:Page>
+</mvc:View>

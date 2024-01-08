@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::assetHistorySheet" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="assetHistorySheet"/>
+<localVariables>
+  <variable id="IP_MANDT" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="VARCHAR" length="13" scale="NaN" mandatory="false">
+      <valueDomain type="empty"/>
+      <selection multiLine="false" type="Single"/>
+      <defaultRange lowValue="*" operator="EQ" including="true"/>
+    </variableProperties>
+  </variable>
+  <variable id="IP_BUKRS" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="VARCHAR" length="13" scale="NaN" mandatory="false">
+      <valueDomain type="empty"/>
+      <selection multiLine="false" type="Single"/>
+      <defaultRange lowValue="*" operator="EQ" including="true"/>
+    </variableProperties>
+  </variable>
+  <variable id="IP_ANLN1" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="NVARCHAR" length="36" scale="NaN" mandatory="false">
+      <valueDomain type="AttributeValue">
+        <attribute name="ANLN1"/>
+      </valueDomain>
+      <selection multiLine="false" type="Single"/>
+      <defaultRange lowValue="*" operator="EQ" including="true"/>
+    </variableProperties>
+  </variable>
+  <variable id="IP_ANLKL" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="NVARCHAR" length="24" scale="NaN" mandatory="false">
+      <valueDomain type="AttributeValue">
+        <attribute name="ANLKL"/>
+      </valueDomain>
+      <selection multiLine="false" type="Single"/>
+      <defaultRange lowValue="*" operator="EQ" including="true"/>
+    </variableProperties>
+  </variable>
+  <variable id="IP_GJAHR" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="VARCHAR" length="13" scale="NaN" mandatory="false">
+      <valueDomain type="empty"/>
+      <selection multiLine="false" type="Single"/>
+      <defaultRange lowValue="*" operator="EQ" including="true"/>
+    </variableProperties>
+  </variable>
+  <variable id="IP_AFABE" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="NVARCHAR" length="6" scale="NaN" mandatory="false">
+      <valueDomain type="AttributeValue">
+        <attribute name="AFABE"/>
+      </valueDomain>
+      <selection multiLine="false" type="Single"/>
+      <defaultRange lowValue="*" operator="EQ" including="true"/>
+    </variableProperties>
+  </variable>
+
+  <variable id="IP_GSBER" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="NVARCHAR" length="12" scale="NaN" mandatory="false">
+      <valueDomain type="AttributeValue">
+        <attribute name="GSBER"/>
+      </valueDomain>
+      <selection multiLine="false" type="Single"/>
+      <defaultRange lowValue="*"/>
+    </variableProperties>
+  </variable>
+
+  <variable id="IP_ANLN2" parameter="true">
+    <descriptions defaultDescription=""/>
+    <variableProperties datatype="NVARCHAR" length="12" scale="NaN" mandatory="false">
+      <valueDomain type="AttributeValue">
+        <attribute name="ANLN2"/>
+      </valueDomain>
+      <selection multiLine="false" type="Single"/>
+      <defaultRange lowValue="*"/>
+    </variableProperties>
+  </variable>
+</localVariables>
+<variableMappings/>
+<dataSources>
+  <DataSource id="SDA_ANLA">
+    <resourceUri>SDA_ANLA</resourceUri>
+  </DataSource>
+  <DataSource id="SDA_ANLB">
+    <resourceUri>SDA_ANLB</resourceUri>
+  </DataSource>
+  <DataSource id="SDA_ANLC">
+    <resourceUri>SDA_ANLC</resourceUri>
+  </DataSource>
+  <DataSource id="SDA_ANLZ">
+    <resourceUri>SDA_ANLZ</resourceUri>
+  </DataSource>
+  <DataSource id="SDA_ANLH">
+    <resourceUri>SDA_ANLH</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews>
+  <calculationView xsi:type="Calculation:ProjectionView" id="ANLA" filterExpressionLanguage="COLUMN_ENGINE">
+    <viewAttributes>
+      <viewAttribute id="MANDT"/>
+      <viewAttribute id="BUKRS"/>
+      <viewAttribute id="ANLN1"/>
+      <viewAttribute id="ANLN2"/>
+      <viewAttribute id="ANLKL"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="SDA_ANLA"/>
+    <filter>&quot;MANDT&quot;='$$IP_MANDT$$'and
+&quot;BUKRS&quot;='$$IP_BUKRS$$' and
+(in(&quot;ANLN1&quot;,'$$IP_ANLN1$$') or match (&quot;ANLN1&quot;,'$$IP_ANLN1$$')) and
+(in(&quot;ANLN2&quot;,'$$IP_ANLN2$$') or match (&quot;ANLN2&quot;,'$$IP_ANLN2$$')) and
+(in(&quot;ANLKL&quot;,'$$IP_ANLKL$$') or match (&quot;ANLKL&quot;,'$$IP_ANLKL$$'))</filter>
+  </calculationView>
+  <calculationView xsi:type="Calculation:ProjectionView" id="ANLB" filterExpressionLanguage="COLUMN_ENGINE">
+    <viewAttributes>
+      <viewAttribute id="MANDT"/>
+      <viewAttribute id="BUKRS"/>
+      <viewAttribute id="ANLN1"/>
+      <viewAttribute id="ANLN2"/>
+      <viewAttribute id="AFABE"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="SDA_ANLB"/>
+    <filter>&quot;MANDT&quot;='$$IP_MANDT$$'and
+&quot;BUKRS&quot;='$$IP_BUKRS$$' and
+(in(&quot;ANLN1&quot;,'$$IP_ANLN1$$') or match (&quot;ANLN1&quot;,'$$IP_ANLN1$$')) and
+(in(&quot;ANLN2&quot;,'$$IP_ANLN2$$') or match (&quot;ANLN2&quot;,'$$IP_ANLN2$$')) and
+(in(&quot;AFABE&quot;,'$$IP_AFABE$$') or match (&quot;AFABE&quot;,'$$IP_AFABE$$')) </filter>
+  </calculationView>
+  <calculationView xsi:type="Calculation:ProjectionView" id="ANLC" filterExpressionLanguage="COLUMN_ENGINE">
+    <viewAttributes>
+      <viewAttribute id="GJAHR"/>
+      <viewAttribute id="AFABE"/>
+      <viewAttribute id="KANSW"/>
+      <viewAttribute id="KNAFA"/>
+      <viewAttribute id="NAFAP"/>
+      <viewAttribute id="ANSWL"/>
+      <viewAttribute id="NAFAV"/>
+      <viewAttribute id="MANDT"/>
+      <viewAttribute id="BUKRS"/>
+      <viewAttribute id="ANLN1"/>
+      <viewAttribute id="ANLN2"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="SDA_ANLC"/>
+    <filter>&quot;GJAHR&quot;='$$IP_GJAHR$$'and
+&quot;MANDT&quot;='$$IP_MANDT$$'and
+&quot;BUKRS&quot;='$$IP_BUKRS$$' and
+(in(&quot;ANLN1&quot;,'$$IP_ANLN1$$') or match (&quot;ANLN1&quot;,'$$IP_ANLN1$$')) and
+(in(&quot;ANLN2&quot;,'$$IP_ANLN2$$') or match (&quot;ANLN2&quot;,'$$IP_ANLN2$$')) and
+(in(&quot;AFABE&quot;,'$$IP_AFABE$$') or match (&quot;AFABE&quot;,'$$IP_AFABE$$'))</filter>
+  </calculationView>
+  <calculationView xsi:type="Calculation:JoinView" id="Join_2" cardinality="C1_N" joinType="inner" filterExpressionLanguage="COLUMN_ENGINE">
+    <viewAttributes>
+      <viewAttribute id="MANDT"/>
+      <viewAttribute id="BUKRS"/>
+      <viewAttribute id="ANLN1"/>
+      <viewAttribute id="ANLN2"/>
+      <viewAttribute id="ANLKL"/>
+      <viewAttribute id="AFABE"/>
+      <viewAttribute id="GJAHR"/>
+      <viewAttribute id="KANSW"/>
+      <viewAttribute id="KNAFA"/>
+      <viewAttribute id="NAFAP"/>
+      <viewAttribute id="ANSWL"/>
+      <viewAttribute id="NAFAV"/>
+      <viewAttribute id="GSBER"/>
+      <viewAttribute id="GSBER_1"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="Join_1_2">
+      <mapping xsi:type="Calculation:AttributeMapping" target="MANDT" source="MANDT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="BUKRS" source="BUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ANLN1" source="ANLN1"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ANLN2" source="ANLN2"/>
+    
+      <mapping xsi:type="Calculation:AttributeMapping" target="ANLKL" source="ANLKL"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="AFABE" source="AFABE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="GJAHR" source="GJAHR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KANSW" source="KANSW"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KNAFA" source="KNAFA"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="NAFAP" source="NAFAP"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ANSWL" source="ANSWL"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="NAFAV" source="NAFAV"/>
+    </input>
+    <input node="SDA_ANLZ">
+      <mapping xsi:type="Calculation:AttributeMapping" target="GSBER_1" source="GSBER"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="GSBER" source="GSBER"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="MANDT" source="MANDT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="BUKRS" source="BUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ANLN1" source="ANLN1"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ANLN2" source="ANLN2"/>
+    </input>
+    <filter>(in(&quot;GSBER&quot;,'$$IP_GSBER$$') or match (&quot;GSBER&quot;,'$$IP_GSBER$$'))</filter>
+    <joinAttribute name="MANDT"/>
+    <joinAttribute name="BUKRS"/>
+    <joinAttribute name="ANLN1"/>
+    <joinAttribute name="ANLN2"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:JoinView" id="Join_3" cardinality="C1_N" joinType="inner">
+    <viewAttributes>
+      <viewAttribute id="MANDT"/>
+      <viewAttribute id="BUKRS"/>
+      <viewAttribute id="ANLN1"/>
+      <viewAttribute id="ANLN2"/>
+      <viewAttribute id="ANLKL"/>
+      <viewAttribute id="AFABE"/>
+      <viewAttribute id="GJAHR"/>
+      <viewAttribute id="KANSW"/>
+      <viewAttribute id="KNAFA"/>
+      <viewAttribute id="NAFAP"/>
+      <viewAttribute id="ANSWL"/>
+      <viewAttribute id="NAFAV"/>
+      <viewAttribute id="GSBER"/>
+      <viewAttribute id="GSBER_1"/>
+      <viewAttribute id="ANLHTXT"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="Join_2">
+      <mapping xsi:type="Calculation:AttributeMapping" target="MANDT" source="MANDT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="BUKRS" source="BUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ANLN1" source="ANLN1"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ANLN2" source="ANLN2"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ANLKL" source="ANLKL"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="AFABE" source="AFABE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="GJAHR" source="GJAHR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KANSW" source="KANSW"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KNAFA" source="KNAFA"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="NAFAP" source="NAFAP"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ANSWL" source="ANSWL"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="NAFAV" source="NAFAV"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="GSBER" source="GSBER"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="GSBER_1" source="GSBER_1"/>
+    </input>
+    <input node="SDA_ANLH">
+      <mapping xsi:type="Calculation:AttributeMapping" target="ANLHTXT" source="ANLHTXT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="MANDT" source="MANDT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="BUKRS" source="BUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ANLN1" source="ANLN1"/>
+    </input>
+    <joinAttribute name="MANDT"/>
+    <joinAttribute name="BUKRS"/>
+    <joinAttribute name="ANLN1"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:JoinView" id="Join_1_1" cardinality="C1_N" joinType="inner" multiJoinNode="Join_1" multiJoinCentralTable="ANLA" multiJoinOrder="Outside In">
+    <viewAttributes>
+      <viewAttribute id="MANDT"/>
+      <viewAttribute id="BUKRS"/>
+      <viewAttribute id="ANLN1"/>
+      <viewAttribute id="ANLN2"/>
+      <viewAttribute id="AFABE"/>
+      <viewAttribute id="GJAHR"/>
+      <viewAttribute id="KANSW"/>
+      <viewAttribute id="KNAFA"/>
+      <viewAttribute id="NAFAP"/>
+      <viewAttribute id="ANSWL"/>
+      <viewAttribute id="NAFAV"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="ANLB">
+      <mapping xsi:type="Calculation:AttributeMapping" target="AFABE" source="AFABE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="MANDT" source="MANDT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="BUKRS" source="BUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ANLN1" source="ANLN1"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ANLN2" source="ANLN2"/>
+    </input>
+    <input node="ANLC">
+      <mapping xsi:type="Calculation:AttributeMapping" target="GJAHR" source="GJAHR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KANSW" source="KANSW"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KNAFA" source="KNAFA"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="NAFAP" source="NAFAP"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ANSWL" source="ANSWL"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="NAFAV" source="NAFAV"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="MANDT" source="MANDT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="BUKRS" source="BUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ANLN1" source="ANLN1"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ANLN2" source="ANLN2"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="AFABE" source="AFABE"/>
+    </input>
+    <joinAttribute name="MANDT"/>
+    <joinAttribute name="BUKRS"/>
+    <joinAttribute name="ANLN1"/>
+    <joinAttribute name="ANLN2"/>
+    <joinAttribute name="AFABE"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:JoinView" id="Join_1_2" cardinality="C1_N" joinType="inner" multiJoinNode="Join_1" multiJoinCentralTable="ANLA" multiJoinOrder="Outside In">
+    <viewAttributes>
+      <viewAttribute id="MANDT"/>
+      <viewAttribute id="BUKRS"/>
+      <viewAttribute id="ANLN1"/>
+      <viewAttribute id="ANLN2"/>
+      <viewAttribute id="ANLKL"/>
+      <viewAttribute id="AFABE"/>
+      <viewAttribute id="GJAHR"/>
+      <viewAttribute id="KANSW"/>
+      <viewAttribute id="KNAFA"/>
+      <viewAttribute id="NAFAP"/>
+      <viewAttribute id="ANSWL"/>
+      <viewAttribute id="NAFAV"/>
+      <viewAttribute hidden="true" id="JOIN$MANDT$MANDT"/>
+      <viewAttribute hidden="true" id="JOIN$BUKRS$BUKRS"/>
+      <viewAttribute hidden="true" id="JOIN$ANLN1$ANLN1"/>
+      <viewAttribute hidden="true" id="JOIN$ANLN2$ANLN2"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <input node="ANLA">
+      <mapping xsi:type="Calculation:AttributeMapping" target="ANLKL" source="ANLKL"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="JOIN$MANDT$MANDT" source="MANDT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="JOIN$BUKRS$BUKRS" source="BUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="JOIN$ANLN1$ANLN1" source="ANLN1"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="JOIN$ANLN2$ANLN2" source="ANLN2"/>
+    </input>
+    <input node="Join_1_1">
+      <mapping xsi:type="Calculation:AttributeMapping" target="MANDT" source="MANDT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="BUKRS" source="BUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ANLN1" source="ANLN1"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ANLN2" source="ANLN2"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="AFABE" source="AFABE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="GJAHR" source="GJAHR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KANSW" source="KANSW"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KNAFA" source="KNAFA"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="NAFAP" source="NAFAP"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ANSWL" source="ANSWL"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="NAFAV" source="NAFAV"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="JOIN$MANDT$MANDT" source="MANDT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="JOIN$BUKRS$BUKRS" source="BUKRS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="JOIN$ANLN1$ANLN1" source="ANLN1"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="JOIN$ANLN2$ANLN2" source="ANLN2"/>
+    </input>
+    <joinAttribute name="JOIN$MANDT$MANDT"/>
+    <joinAttribute name="JOIN$BUKRS$BUKRS"/>
+    <joinAttribute name="JOIN$ANLN1$ANLN1"/>
+    <joinAttribute name="JOIN$ANLN2$ANLN2"/>
+  </calculationView>
+</calculationViews>
+<logicalModel id="Join_3">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="Join_3" columnName="MANDT"/>
+    </attribute>
+    <attribute id="BUKRS" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="BUKRS"/>
+      <keyMapping columnObjectName="Join_3" columnName="BUKRS"/>
+    </attribute>
+    <attribute id="ANLN1" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLN1"/>
+      <keyMapping columnObjectName="Join_3" columnName="ANLN1"/>
+    </attribute>
+    <attribute id="ANLN2" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLN2"/>
+      <keyMapping columnObjectName="Join_3" columnName="ANLN2"/>
+    </attribute>
+    <attribute id="ANLKL" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLKL"/>
+      <keyMapping columnObjectName="Join_3" columnName="ANLKL"/>
+    </attribute>
+    <attribute id="AFABE" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AFABE"/>
+      <keyMapping columnObjectName="Join_3" columnName="AFABE"/>
+    </attribute>
+    <attribute id="GJAHR" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GJAHR"/>
+      <keyMapping columnObjectName="Join_3" columnName="GJAHR"/>
+    </attribute>
+    <attribute id="GSBER" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GSBER"/>
+      <keyMapping columnObjectName="Join_3" columnName="GSBER"/>
+    </attribute>
+    <attribute id="KANSW" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KANSW"/>
+      <keyMapping columnObjectName="Join_3" columnName="KANSW"/>
+    </attribute>
+    <attribute id="KNAFA" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNAFA"/>
+      <keyMapping columnObjectName="Join_3" columnName="KNAFA"/>
+    </attribute>
+    <attribute id="NAFAP" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAFAP"/>
+      <keyMapping columnObjectName="Join_3" columnName="NAFAP"/>
+    </attribute>
+    <attribute id="ANSWL" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANSWL"/>
+      <keyMapping columnObjectName="Join_3" columnName="ANSWL"/>
+    </attribute>
+    <attribute id="NAFAV" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAFAV"/>
+      <keyMapping columnObjectName="Join_3" columnName="NAFAV"/>
+    </attribute>
+    <attribute id="GSBER_1" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GSBER_1"/>
+      <keyMapping columnObjectName="Join_3" columnName="GSBER_1"/>
+    </attribute>
+  
+    <attribute id="ANLHTXT" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ANLHTXT"/>
+  
+      <keyMapping columnObjectName="Join_3" columnName="ANLHTXT"/>
+  
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="398" y="112"/>
+    
+      <rectangleSize width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="ANLA" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="92" y="656"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="ANLB" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="512" y="656"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="ANLC" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="302" y="656"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="Join_2" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="380" y="341"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape modelObjectName="Join_1_2" modelObjectNameSpace="Join_2" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="20" y="30"/>
+      <rectangleSize width="250"/>
+    </shape><shape><upperLeftCorner/><rectangleSize/></shape><shape><upperLeftCorner/><rectangleSize/></shape><shape><upperLeftCorner/><rectangleSize/></shape><shape><upperLeftCorner/><rectangleSize/></shape><shape><upperLeftCorner/><rectangleSize/></shape><shape><upperLeftCorner/><rectangleSize/></shape>
+    <shape modelObjectName="SDA_ANLZ" modelObjectNameSpace="Join_2" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="320" y="30"/>
+      <rectangleSize width="126"/>
+    </shape>
+    <shape expanded="true" modelObjectName="Join_3" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="380" y="236"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape modelObjectName="Join_2" modelObjectNameSpace="Join_3" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="20" y="30"/>
+      <rectangleSize width="250"/>
+    </shape>
+    <shape modelObjectName="SDA_ANLH" modelObjectNameSpace="Join_3" modelObjectType="JoinNodeInput">
+      <upperLeftCorner x="320" y="30"/>
+      <rectangleSize width="150"/>
+    </shape>
+  
+  
+    <shape expanded="true" modelObjectName="Join_1" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="302" y="501"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape modelObjectName="ANLB" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput" multiJoinViewNodeName="Join_1">
+      <upperLeftCorner x="320" y="30"/>
+      <rectangleSize width="136"/>
+    </shape>
+    <shape modelObjectName="ANLC" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput" multiJoinViewNodeName="Join_1">
+      <upperLeftCorner x="620" y="30"/>
+      <rectangleSize width="136"/>
+    </shape>
+    <shape modelObjectName="ANLA" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput" multiJoinViewNodeName="Join_1">
+      <upperLeftCorner x="20" y="30"/>
+      <rectangleSize width="136"/>
+    </shape></shapes>
+</layout>
+</Calculation:scenario>

@@ -1,0 +1,11 @@
+service {
+
+"core.models::assetClass" as "assetClass"
+with ("ANLKL")
+key ("ANLKL")
+parameters via entity;
+}
+
+annotations {
+   enable OData4SAP;
+}

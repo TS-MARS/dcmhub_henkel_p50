@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="core.models::T000" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="true">
+<descriptions defaultDescription="1 to 1 View for table T000"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="P50_T000">
+    <resourceUri>P50_T000</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="P50_T000">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="P50_T000" columnName="MANDT"/>
+    </attribute>
+    <attribute id="MTEXT" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MTEXT"/>
+      <keyMapping columnObjectName="P50_T000" columnName="MTEXT"/>
+    </attribute>
+    <attribute id="ORT01" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ORT01"/>
+      <keyMapping columnObjectName="P50_T000" columnName="ORT01"/>
+    </attribute>
+    <attribute id="MWAER" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MWAER"/>
+      <keyMapping columnObjectName="P50_T000" columnName="MWAER"/>
+    </attribute>
+    <attribute id="ADRNR" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ADRNR"/>
+      <keyMapping columnObjectName="P50_T000" columnName="ADRNR"/>
+    </attribute>
+    <attribute id="CCCATEGORY" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CCCATEGORY"/>
+      <keyMapping columnObjectName="P50_T000" columnName="CCCATEGORY"/>
+    </attribute>
+    <attribute id="CCCORACTIV" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CCCORACTIV"/>
+      <keyMapping columnObjectName="P50_T000" columnName="CCCORACTIV"/>
+    </attribute>
+    <attribute id="CCNOCLIIND" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CCNOCLIIND"/>
+      <keyMapping columnObjectName="P50_T000" columnName="CCNOCLIIND"/>
+    </attribute>
+    <attribute id="CCCOPYLOCK" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CCCOPYLOCK"/>
+      <keyMapping columnObjectName="P50_T000" columnName="CCCOPYLOCK"/>
+    </attribute>
+    <attribute id="CCNOCASCAD" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CCNOCASCAD"/>
+      <keyMapping columnObjectName="P50_T000" columnName="CCNOCASCAD"/>
+    </attribute>
+    <attribute id="CCSOFTLOCK" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CCSOFTLOCK"/>
+      <keyMapping columnObjectName="P50_T000" columnName="CCSOFTLOCK"/>
+    </attribute>
+    <attribute id="CCORIGCONT" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CCORIGCONT"/>
+      <keyMapping columnObjectName="P50_T000" columnName="CCORIGCONT"/>
+    </attribute>
+    <attribute id="CCIMAILDIS" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CCIMAILDIS"/>
+      <keyMapping columnObjectName="P50_T000" columnName="CCIMAILDIS"/>
+    </attribute>
+    <attribute id="CCTEMPLOCK" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CCTEMPLOCK"/>
+      <keyMapping columnObjectName="P50_T000" columnName="CCTEMPLOCK"/>
+    </attribute>
+    <attribute id="CHANGEUSER" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CHANGEUSER"/>
+      <keyMapping columnObjectName="P50_T000" columnName="CHANGEUSER"/>
+    </attribute>
+    <attribute id="CHANGEDATE" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CHANGEDATE"/>
+      <keyMapping columnObjectName="P50_T000" columnName="CHANGEDATE"/>
+    </attribute>
+    <attribute id="LOGSYS" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="LOGSYS"/>
+      <keyMapping columnObjectName="P50_T000" columnName="LOGSYS"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

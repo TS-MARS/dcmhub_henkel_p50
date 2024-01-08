@@ -47,7 +47,23 @@
 					"localUri": "localService/metadata.xml"
 				}
 			},
-				"personalization": {
+			"F10": {
+				"uri": "../xsodata/FD10N.xsodata/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/metadata.xml"
+				}
+			},			
+			"assetHistorySheet": {
+				"uri": "../xsodata/assetHistorySheet.xsodata/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/metadata.xml"
+				}
+			},
+			"personalization": {
 				"uri": "../xsodata/fav.xsodata/",
 				"type": "OData",
 				"settings": {
@@ -55,7 +71,7 @@
 					"localUri": "localService/metadata.xml"
 				}
 			},
-				"searchhelp": {
+			"searchhelp": {
 				"uri": "../xsodata/searchhelp.xsodata/",
 				"type": "OData",
 				"settings": {
@@ -117,6 +133,12 @@
 				"dataSource": "toolTableService",
 				"defaultBindingMode": "TwoWay",
 				"preload": true
+			},
+			"F10Set": {
+				"type" : "sap.ui.model.odata.v2.ODataModel",				
+				"dataSource": "F10",
+				"defaultBindingMode": "TwoWay",
+				"preload": true
 			},				
 			"i18n": {
 				"type": "sap.ui.model.resource.ResourceModel",
@@ -128,6 +150,12 @@
 				"type": "sap.ui.model.resource.ResourceModel",
 				"uri": "i18n/i18n.properties"
 			},
+			"assetHistorySheetSet": {
+				"type" : "sap.ui.model.odata.v2.ODataModel",				
+				"dataSource": "assetHistorySheet",
+				"defaultBindingMode": "TwoWay",
+				"preload": true
+			},			
 			"persModel": {
 				"type" : "sap.ui.model.odata.v2.ODataModel",				
 				"dataSource": "personalization",
@@ -193,7 +221,14 @@
 					"target": [
 						"adhocQuery"
 					]
-				}
+				},
+				{
+					"name": "asset",
+					"pattern": "asset",
+					"target": [
+						"asset"
+					]
+				}				
 			],
 			"targets": {
 				"launchpad": {
@@ -216,6 +251,13 @@
 					"clearControlAggregation": false,
 					"viewId": "adhocQuery",
 					"viewName": "adhocQuery"
+				},
+				"asset": {
+					"viewType": "XML",
+					"transition": "fade",
+					"clearControlAggregation": false,
+					"viewId": "asset",
+					"viewName": "Asset"
 				}
 			}
 		},

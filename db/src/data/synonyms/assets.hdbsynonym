@@ -1,0 +1,32 @@
+{
+  "SDA_ANLA": {
+    "target": {
+      "object": "P50_ANLA",
+      "schema": "SDA_HEN_P50"
+    }
+  },
+  "SDA_ANLB": {
+    "target": {
+      "object": "P50_ANLB",
+      "schema": "SDA_HEN_P50"
+    }
+  },
+  "SDA_ANLC": {
+    "target": {
+      "object": "P50_ANLC",
+      "schema": "SDA_HEN_P50"
+    }
+  },
+  "SDA_ANLZ": {
+    "target": {
+      "object": "P50_ANLZ",
+      "schema": "SDA_HEN_P50"
+    }
+  },
+  "SDA_ANLH": {
+    "target": {
+      "object": "P50_ANLH",
+      "schema": "SDA_HEN_P50"
+    }
+  }            
+}
